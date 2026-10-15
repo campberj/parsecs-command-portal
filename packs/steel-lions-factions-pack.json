@@ -1,0 +1,4755 @@
+{
+ "kind": "pcp-bundle",
+ "v": 1,
+ "app": "Parsecs Command 1.0.2",
+ "exported": "2026-10-14T20:51:54.132Z",
+ "from": "Steel Lions project documents",
+ "weapons": [
+  {
+   "id": "w-bpre-spg-carbine",
+   "name": "SPG Carbine",
+   "base": "BPRE custom",
+   "range": 24,
+   "shots": 2,
+   "dmg": "1",
+   "traits": [
+    "Suppressed",
+    "Snap Shot"
+   ],
+   "pts": 8,
+   "cat": "Rifle"
+  },
+  {
+   "id": "w-bpre-spg-carbine-viper",
+   "name": "SPG Carbine (custom)",
+   "base": "BPRE custom",
+   "range": 24,
+   "shots": 2,
+   "dmg": "1",
+   "traits": [
+    "Suppressed",
+    "Snap Shot",
+    "Critical"
+   ],
+   "pts": 10,
+   "cat": "Rifle"
+  },
+  {
+   "id": "w-bpre-spg-ar",
+   "name": "SPG Automatic Rifle",
+   "base": "BPRE custom",
+   "range": 30,
+   "shots": 4,
+   "dmg": "1",
+   "traits": [
+    "Heavy",
+    "Suppressed"
+   ],
+   "pts": 14,
+   "cat": "Team"
+  },
+  {
+   "id": "w-bpre-assault-carbine",
+   "name": "Assault carbine",
+   "base": "BPRE custom",
+   "range": 22,
+   "shots": 2,
+   "dmg": "0",
+   "traits": [
+    "Assault"
+   ],
+   "pts": 5,
+   "cat": "Rifle"
+  },
+  {
+   "id": "w-bpre-ak",
+   "name": "Kalashnikov rifle",
+   "base": "BPRE custom",
+   "range": 22,
+   "shots": 1,
+   "dmg": "0",
+   "traits": [
+    "Assault"
+   ],
+   "pts": 3,
+   "cat": "Rifle"
+  },
+  {
+   "id": "w-bpre-assault-rifle",
+   "name": "Assault rifle",
+   "base": "Military rifle",
+   "range": 24,
+   "shots": 1,
+   "dmg": "0",
+   "traits": [],
+   "pts": 3,
+   "cat": "Rifle"
+  },
+  {
+   "id": "w-bpre-hb-carbine",
+   "name": "SPG-type carbine",
+   "base": "BPRE custom",
+   "range": 24,
+   "shots": 2,
+   "dmg": "1",
+   "traits": [
+    "Snap Shot"
+   ],
+   "pts": 7,
+   "cat": "Rifle"
+  },
+  {
+   "id": "w-bpre-pkm",
+   "name": "PKM machine gun",
+   "base": "Light machine gun",
+   "range": 30,
+   "shots": 3,
+   "dmg": "0",
+   "traits": [
+    "Heavy",
+    "Team"
+   ],
+   "pts": 10,
+   "cat": "Team"
+  },
+  {
+   "id": "w-bpre-gl",
+   "name": "Grenade launcher",
+   "base": "Grenade launcher",
+   "range": 24,
+   "shots": 0,
+   "dmg": "by grenade",
+   "traits": [
+    "Launcher",
+    "Heavy",
+    "Team"
+   ],
+   "pts": 10,
+   "cat": "Team"
+  },
+  {
+   "id": "w-bpre-military-rifle",
+   "name": "Military rifle",
+   "base": "Military rifle",
+   "range": 24,
+   "shots": 1,
+   "dmg": "0",
+   "traits": [],
+   "pts": 3,
+   "cat": "Rifle"
+  },
+  {
+   "id": "w-bpre-precision",
+   "name": "Precision rifle",
+   "base": "Precision rifle",
+   "range": 36,
+   "shots": 1,
+   "dmg": "1",
+   "traits": [
+    "Critical",
+    "Sniping"
+   ],
+   "pts": 6,
+   "cat": "Rifle"
+  },
+  {
+   "id": "w-bpre-shotgun",
+   "name": "Shotgun",
+   "base": "Shotgun",
+   "range": 12,
+   "shots": 1,
+   "dmg": "0",
+   "traits": [
+    "Critical"
+   ],
+   "pts": 2,
+   "cat": "Rifle"
+  },
+  {
+   "id": "w-bpre-pistol",
+   "name": "Service pistol",
+   "base": "Service pistol",
+   "range": 9,
+   "shots": 1,
+   "dmg": "0",
+   "traits": [
+    "Pistol"
+   ],
+   "pts": 1,
+   "cat": "Sidearm"
+  },
+  {
+   "id": "w-bpre-hand-laser",
+   "name": "Hand laser",
+   "base": "Hand laser",
+   "range": 9,
+   "shots": 1,
+   "dmg": "0",
+   "traits": [
+    "Pistol",
+    "Snap Shot"
+   ],
+   "pts": 2,
+   "cat": "Sidearm"
+  },
+  {
+   "id": "w-bpre-blast-pistol",
+   "name": "Blast pistol",
+   "base": "Blast pistol",
+   "range": 8,
+   "shots": 1,
+   "dmg": "1",
+   "traits": [
+    "Pistol"
+   ],
+   "pts": 2,
+   "cat": "Sidearm"
+  },
+  {
+   "id": "w-bpre-blade",
+   "name": "Blade",
+   "base": "Blade",
+   "range": 0,
+   "shots": 0,
+   "dmg": "1",
+   "traits": [
+    "Melee"
+   ],
+   "pts": 1,
+   "cat": "Melee"
+  },
+  {
+   "id": "w-bpre-ripper",
+   "name": "Ripper sword",
+   "base": "Ripper sword",
+   "range": 0,
+   "shots": 0,
+   "dmg": "2",
+   "traits": [
+    "Melee",
+    "Piercing"
+   ],
+   "pts": 3,
+   "cat": "Melee"
+  },
+  {
+   "id": "w-bpre-claw",
+   "name": "Powered claw",
+   "base": "Powered claw",
+   "range": 0,
+   "shots": 0,
+   "dmg": "3",
+   "traits": [
+    "Melee",
+    "Clumsy",
+    "Piercing"
+   ],
+   "pts": 3,
+   "cat": "Melee"
+  },
+  {
+   "id": "w-bpre-frag",
+   "name": "Frag grenades",
+   "base": "Frag grenade",
+   "range": 6,
+   "shots": 1,
+   "dmg": "0",
+   "traits": [
+    "Area"
+   ],
+   "pts": 1,
+   "cat": "Grenade"
+  },
+  {
+   "id": "w-bpre-breach-charge",
+   "name": "Breaching charge",
+   "base": "BPRE custom",
+   "range": 3,
+   "shots": 1,
+   "dmg": "3",
+   "traits": [
+    "Area",
+    "Piercing",
+    "One Use"
+   ],
+   "pts": 4,
+   "cat": "Grenade"
+  },
+  {
+   "id": "w-bpre-breach-kit",
+   "name": "Breaching kit",
+   "base": "BPRE custom",
+   "range": 3,
+   "shots": 1,
+   "dmg": "4",
+   "traits": [
+    "Piercing",
+    "One Use"
+   ],
+   "pts": 5,
+   "cat": "Grenade"
+  },
+  {
+   "id": "w-bpre-ied-kit",
+   "name": "IED kit",
+   "base": "BPRE custom",
+   "range": 3,
+   "shots": 1,
+   "dmg": "2",
+   "traits": [
+    "Area",
+    "Piercing"
+   ],
+   "pts": 8,
+   "cat": "Grenade"
+  },
+  {
+   "id": "w-bpre-vest",
+   "name": "Suicide vest",
+   "base": "BPRE custom",
+   "range": 0,
+   "shots": 0,
+   "dmg": "3",
+   "traits": [
+    "Area",
+    "Piercing",
+    "Special: detonates when killed or as an action, 3\" radius"
+   ],
+   "pts": 0,
+   "cat": "Melee"
+  },
+  {
+   "id": "w-bpre-drone-area",
+   "name": "Drone Strike (area)",
+   "base": "BPRE custom",
+   "range": 999,
+   "shots": 1,
+   "dmg": "2",
+   "traits": [
+    "Area",
+    "Indirect Fire",
+    "One Use"
+   ],
+   "pts": 15,
+   "cat": "Team"
+  },
+  {
+   "id": "w-bpre-drone-area-crow",
+   "name": "Drone Strike (enhanced)",
+   "base": "BPRE custom",
+   "range": 999,
+   "shots": 1,
+   "dmg": "3",
+   "traits": [
+    "Area",
+    "Indirect Fire",
+    "One Use"
+   ],
+   "pts": 18,
+   "cat": "Team"
+  },
+  {
+   "id": "w-bpre-drone-targeted",
+   "name": "Targeted drone strike (x2)",
+   "base": "BPRE custom",
+   "range": 999,
+   "shots": 2,
+   "dmg": "1",
+   "traits": [
+    "Indirect Fire",
+    "One Use each"
+   ],
+   "pts": 12,
+   "cat": "Team"
+  },
+  {
+   "id": "w-bpre-drone-targeted3",
+   "name": "Targeted drone strike (x3)",
+   "base": "BPRE custom",
+   "range": 999,
+   "shots": 3,
+   "dmg": "1",
+   "traits": [
+    "Indirect Fire",
+    "One Use each"
+   ],
+   "pts": 18,
+   "cat": "Team"
+  },
+  {
+   "id": "w-asl-blaster-rifle",
+   "name": "Blaster rifle",
+   "base": "Infantry laser",
+   "range": 30,
+   "shots": 1,
+   "dmg": "0",
+   "traits": [
+    "Snap Shot"
+   ],
+   "pts": 4,
+   "cat": "Rifle"
+  },
+  {
+   "id": "w-asl-blaster-carbine",
+   "name": "Blaster carbine",
+   "base": "Hand laser",
+   "range": 9,
+   "shots": 1,
+   "dmg": "0",
+   "traits": [
+    "Pistol",
+    "Snap Shot"
+   ],
+   "pts": 2,
+   "cat": "Sidearm"
+  },
+  {
+   "id": "w-sl-plasma-pistol",
+   "name": "Plasma pistol",
+   "base": "Blast pistol",
+   "range": 8,
+   "shots": 1,
+   "dmg": "1",
+   "traits": [
+    "Pistol"
+   ],
+   "pts": 2,
+   "cat": "Sidearm"
+  },
+  {
+   "id": "w-sl-power-sword",
+   "name": "Power sword",
+   "base": "Ripper sword",
+   "range": 0,
+   "shots": 0,
+   "dmg": "2",
+   "traits": [
+    "Melee",
+    "Piercing"
+   ],
+   "pts": 3,
+   "cat": "Melee"
+  },
+  {
+   "id": "w-sl-assault-rifle",
+   "name": "Assault rifle",
+   "base": "Military rifle",
+   "range": 24,
+   "shots": 1,
+   "dmg": "0",
+   "traits": [],
+   "pts": 3,
+   "cat": "Rifle"
+  },
+  {
+   "id": "w-sl-stun",
+   "name": "Stun grenade",
+   "base": "Shock grenade",
+   "range": 6,
+   "shots": 0,
+   "dmg": "—",
+   "traits": [
+    "Area",
+    "Shock"
+   ],
+   "pts": 1,
+   "cat": "Grenade"
+  },
+  {
+   "id": "w-sol-lasrifle",
+   "name": "Solar Pattern Lasrifle",
+   "base": "Solarii",
+   "range": 24,
+   "shots": 1,
+   "dmg": "0",
+   "traits": [
+    "Reliable"
+   ],
+   "pts": 0,
+   "cat": "Rifle"
+  },
+  {
+   "id": "w-sol-lasrifle-volley",
+   "name": "Lasrifle (Volley Mode)",
+   "base": "Solarii",
+   "range": 18,
+   "shots": 2,
+   "dmg": "0",
+   "traits": [
+    "Unreliable",
+    "Must not move; one figure per squad per activation"
+   ],
+   "pts": 0,
+   "cat": "Rifle"
+  },
+  {
+   "id": "w-sol-laspistol",
+   "name": "Laspistol",
+   "base": "Solarii",
+   "range": 10,
+   "shots": 1,
+   "dmg": "0",
+   "traits": [
+    "Pistol"
+   ],
+   "pts": 0,
+   "cat": "Sidearm"
+  },
+  {
+   "id": "w-sol-flamer",
+   "name": "Flamer (Solan Pattern)",
+   "base": "Solarii",
+   "range": 6,
+   "shots": 0,
+   "dmg": "1",
+   "traits": [
+    "Stream",
+    "Area",
+    "Hits on 2+"
+   ],
+   "pts": 0,
+   "cat": "Team"
+  },
+  {
+   "id": "w-sol-autogun",
+   "name": "Auxilia Autogun",
+   "base": "Solarii",
+   "range": 18,
+   "shots": 2,
+   "dmg": "0",
+   "traits": [
+    "Assault"
+   ],
+   "pts": 0,
+   "cat": "Rifle"
+  },
+  {
+   "id": "w-sol-blade",
+   "name": "Combat Blade (Lorica-Mount)",
+   "base": "Solarii",
+   "range": 0,
+   "shots": 0,
+   "dmg": "0",
+   "traits": [
+    "Melee"
+   ],
+   "pts": 0,
+   "cat": "Melee"
+  },
+  {
+   "id": "w-sol-melta",
+   "name": "Melta Cutter",
+   "base": "Solarii",
+   "range": 8,
+   "shots": 1,
+   "dmg": "3",
+   "traits": [
+    "Anti-Armor",
+    "Limited Ammo (2)"
+   ],
+   "pts": 8,
+   "cat": "Team"
+  },
+  {
+   "id": "w-sol-sniper",
+   "name": "Auxilia Sniper Lasrifle",
+   "base": "Solarii",
+   "range": 36,
+   "shots": 1,
+   "dmg": "1",
+   "traits": [
+    "Sniper",
+    "Requires Setup (1 action)"
+   ],
+   "pts": 0,
+   "cat": "Rifle"
+  },
+  {
+   "id": "w-sol-frag",
+   "name": "Grenade (Frag)",
+   "base": "Solarii",
+   "range": 8,
+   "shots": 0,
+   "dmg": "0",
+   "traits": [
+    "Area",
+    "Limited Use (2 per figure)"
+   ],
+   "pts": 0,
+   "cat": "Grenade"
+  },
+  {
+   "id": "w-sol-voidflash",
+   "name": "Grenade (Void-Flash)",
+   "base": "Solarii",
+   "range": 8,
+   "shots": 0,
+   "dmg": "—",
+   "traits": [
+    "Area",
+    "Suppression only: 1 Suppression marker to all in 3\"",
+    "Limited Use (1 per figure)"
+   ],
+   "pts": 0,
+   "cat": "Grenade"
+  },
+  {
+   "id": "w-sol-shield",
+   "name": "Lorica Riot Shield",
+   "base": "Solarii",
+   "range": 0,
+   "shots": 0,
+   "dmg": "—",
+   "traits": [
+    "Defensive",
+    "5+ save vs ranged from the front arc"
+   ],
+   "pts": 0,
+   "cat": "Melee"
+  },
+  {
+   "id": "w-sol-lascannon",
+   "name": "Lascannon Battery",
+   "base": "Solarii",
+   "range": 48,
+   "shots": 1,
+   "dmg": "4",
+   "traits": [
+    "Anti-Armor",
+    "Crewed (2)"
+   ],
+   "pts": 0,
+   "cat": "Crewed"
+  },
+  {
+   "id": "w-sol-autocannon",
+   "name": "Autocannon (20mm)",
+   "base": "Solarii",
+   "range": 36,
+   "shots": 2,
+   "dmg": "2",
+   "traits": [
+    "Anti-Armor (Light)",
+    "Crewed (2)"
+   ],
+   "pts": 0,
+   "cat": "Crewed"
+  },
+  {
+   "id": "w-sol-missile-krak",
+   "name": "Missile Launcher (Krak)",
+   "base": "Solarii",
+   "range": 36,
+   "shots": 1,
+   "dmg": "3",
+   "traits": [
+    "Anti-Armor",
+    "Limited Ammo (3)",
+    "Crewed (2)"
+   ],
+   "pts": 12,
+   "cat": "Team"
+  },
+  {
+   "id": "w-sol-missile-frag",
+   "name": "Missile Launcher (Frag)",
+   "base": "Solarii",
+   "range": 24,
+   "shots": 0,
+   "dmg": "1",
+   "traits": [
+    "Area",
+    "Crewed (2)",
+    "Limited Ammo (3)"
+   ],
+   "pts": 0,
+   "cat": "Team"
+  },
+  {
+   "id": "w-sol-heavy-flamer",
+   "name": "Heavy Flamer (Crew)",
+   "base": "Solarii",
+   "range": 6,
+   "shots": 0,
+   "dmg": "2",
+   "traits": [
+    "Stream",
+    "Area",
+    "Crewed (2)"
+   ],
+   "pts": 0,
+   "cat": "Crewed"
+  },
+  {
+   "id": "w-sol-tarantula-ac",
+   "name": "Dual Autocannons (Tarantula)",
+   "base": "Solarii",
+   "range": 24,
+   "shots": 2,
+   "dmg": "2",
+   "traits": [
+    "Anti-Armor (Light)",
+    "Overwatch only",
+    "Automated"
+   ],
+   "pts": 0,
+   "cat": "Crewed"
+  },
+  {
+   "id": "w-sol-tarantula-lc",
+   "name": "Dual Las-Cannons (Tarantula)",
+   "base": "Solarii",
+   "range": 36,
+   "shots": 2,
+   "dmg": "3",
+   "traits": [
+    "Anti-Armor",
+    "Overwatch only",
+    "Automated"
+   ],
+   "pts": 0,
+   "cat": "Crewed"
+  },
+  {
+   "id": "w-sol-battle-cannon",
+   "name": "Malcador Battle Cannon",
+   "base": "Solarii",
+   "range": 48,
+   "shots": "D3",
+   "dmg": "4",
+   "traits": [
+    "Area",
+    "Anti-Armor",
+    "Front arc"
+   ],
+   "pts": 0,
+   "cat": "Vehicle"
+  },
+  {
+   "id": "w-sol-hull-lascannon",
+   "name": "Hull Lascannon",
+   "base": "Solarii",
+   "range": 36,
+   "shots": 1,
+   "dmg": "4",
+   "traits": [
+    "Anti-Armor",
+    "Front arc"
+   ],
+   "pts": 0,
+   "cat": "Vehicle"
+  },
+  {
+   "id": "w-sol-sponson-ac",
+   "name": "Sponson Autocannon",
+   "base": "Solarii",
+   "range": 24,
+   "shots": 2,
+   "dmg": "2",
+   "traits": [
+    "Anti-Armor (Light)",
+    "Side arc"
+   ],
+   "pts": 0,
+   "cat": "Vehicle"
+  },
+  {
+   "id": "w-sol-demolisher",
+   "name": "Malcador Demolisher Cannon",
+   "base": "Solarii",
+   "range": 24,
+   "shots": "D6",
+   "dmg": "5",
+   "traits": [
+    "Area",
+    "Heavy",
+    "Front arc"
+   ],
+   "pts": 15,
+   "cat": "Vehicle"
+  },
+  {
+   "id": "w-sol-neutron",
+   "name": "Neutron Laser Projector",
+   "base": "Solarii",
+   "range": 60,
+   "shots": 1,
+   "dmg": "5",
+   "traits": [
+    "Anti-Armor",
+    "Powerful",
+    "Natural 6 to hit: +1 KP damage",
+    "Charge Cycle"
+   ],
+   "pts": 0,
+   "cat": "Vehicle"
+  },
+  {
+   "id": "w-sol-valdor-ac",
+   "name": "Hull Autocannon (Defensive)",
+   "base": "Solarii",
+   "range": 24,
+   "shots": 2,
+   "dmg": "2",
+   "traits": [
+    "Anti-Armor (Light)",
+    "360° arc"
+   ],
+   "pts": 0,
+   "cat": "Vehicle"
+  },
+  {
+   "id": "w-sol-dracosan-lc",
+   "name": "Dracosan Hull Lascannon",
+   "base": "Solarii",
+   "range": 36,
+   "shots": 1,
+   "dmg": "3",
+   "traits": [
+    "Anti-Armor",
+    "Front arc"
+   ],
+   "pts": 0,
+   "cat": "Vehicle"
+  },
+  {
+   "id": "w-sol-multilaser",
+   "name": "Aethon Multi-Laser",
+   "base": "Solarii",
+   "range": 30,
+   "shots": 3,
+   "dmg": "1",
+   "traits": [
+    "Reliable",
+    "360° arc"
+   ],
+   "pts": 0,
+   "cat": "Vehicle"
+  },
+  {
+   "id": "w-sol-missile-pod",
+   "name": "Aethon Missile Pod",
+   "base": "Solarii",
+   "range": 36,
+   "shots": "D3",
+   "dmg": "2",
+   "traits": [
+    "Anti-Armor (Light)",
+    "Front arc"
+   ],
+   "pts": 0,
+   "cat": "Vehicle"
+  },
+  {
+   "id": "w-sol-claws",
+   "name": "Charonite Claws",
+   "base": "Solarii",
+   "range": 0,
+   "shots": 2,
+   "dmg": "2",
+   "traits": [
+    "Melee",
+    "Powerful (struck targets roll Toughness or gain 1 Suppression)"
+   ],
+   "pts": 0,
+   "cat": "Melee"
+  },
+  {
+   "id": "w-ae-catapult",
+   "name": "Shuriken Catapult",
+   "base": "Aeldari",
+   "range": 18,
+   "shots": 2,
+   "dmg": "0",
+   "traits": [
+    "Shuriken"
+   ],
+   "pts": 0,
+   "cat": "Rifle"
+  },
+  {
+   "id": "w-ae-pistol",
+   "name": "Shuriken Pistol",
+   "base": "Aeldari",
+   "range": 12,
+   "shots": 1,
+   "dmg": "0",
+   "traits": [
+    "Pistol",
+    "Shuriken"
+   ],
+   "pts": 0,
+   "cat": "Sidearm"
+  },
+  {
+   "id": "w-ae-avenger",
+   "name": "Avenger Shuriken Catapult",
+   "base": "Aeldari",
+   "range": 20,
+   "shots": 3,
+   "dmg": "0",
+   "traits": [
+    "Shuriken"
+   ],
+   "pts": 0,
+   "cat": "Rifle"
+  },
+  {
+   "id": "w-ae-longrifle",
+   "name": "Ranger Long Rifle",
+   "base": "Aeldari",
+   "range": 36,
+   "shots": 1,
+   "dmg": "1",
+   "traits": [
+    "Heavy",
+    "Sniping",
+    "Spirit-Guided"
+   ],
+   "pts": 0,
+   "cat": "Rifle"
+  },
+  {
+   "id": "w-ae-deathspinner",
+   "name": "Death Spinner",
+   "base": "Aeldari",
+   "range": 12,
+   "shots": 3,
+   "dmg": "1",
+   "traits": [
+    "Monofilament"
+   ],
+   "pts": 0,
+   "cat": "Rifle"
+  },
+  {
+   "id": "w-ae-lasblaster",
+   "name": "Lasblaster",
+   "base": "Aeldari",
+   "range": 24,
+   "shots": 2,
+   "dmg": "0",
+   "traits": [
+    "Snap Shot"
+   ],
+   "pts": 0,
+   "cat": "Rifle"
+  },
+  {
+   "id": "w-ae-scatter",
+   "name": "Scatter Laser",
+   "base": "Aeldari",
+   "range": 30,
+   "shots": 4,
+   "dmg": "0",
+   "traits": [
+    "Heavy"
+   ],
+   "pts": 0,
+   "cat": "Team"
+  },
+  {
+   "id": "w-ae-starcannon",
+   "name": "Starcannon",
+   "base": "Aeldari",
+   "range": 36,
+   "shots": 2,
+   "dmg": "2",
+   "traits": [
+    "Heavy",
+    "Piercing"
+   ],
+   "pts": 8,
+   "cat": "Team"
+  },
+  {
+   "id": "w-ae-brightlance",
+   "name": "Bright Lance",
+   "base": "Aeldari",
+   "range": 40,
+   "shots": 1,
+   "dmg": "4 (x2)",
+   "traits": [
+    "Heavy",
+    "Piercing",
+    "Anti-Armor"
+   ],
+   "pts": 12,
+   "cat": "Team"
+  },
+  {
+   "id": "w-ae-missile",
+   "name": "Missile Launcher",
+   "base": "Aeldari",
+   "range": 36,
+   "shots": 1,
+   "dmg": "3 (x2)",
+   "traits": [
+    "Heavy",
+    "Versatile"
+   ],
+   "pts": 6,
+   "cat": "Team"
+  },
+  {
+   "id": "w-ae-reaper",
+   "name": "Reaper Launcher",
+   "base": "Aeldari",
+   "range": 36,
+   "shots": 2,
+   "dmg": "1",
+   "traits": [
+    "Heavy",
+    "Piercing"
+   ],
+   "pts": 0,
+   "cat": "Team"
+  },
+  {
+   "id": "w-ae-fusiongun",
+   "name": "Fusion Gun",
+   "base": "Aeldari",
+   "range": 12,
+   "shots": 1,
+   "dmg": "5 (x3)",
+   "traits": [
+    "Melta",
+    "Piercing"
+   ],
+   "pts": 10,
+   "cat": "Rifle"
+  },
+  {
+   "id": "w-ae-fusionpistol",
+   "name": "Fusion Pistol",
+   "base": "Aeldari",
+   "range": 6,
+   "shots": 1,
+   "dmg": "4 (x2)",
+   "traits": [
+    "Pistol",
+    "Melta",
+    "Piercing"
+   ],
+   "pts": 8,
+   "cat": "Sidearm"
+  },
+  {
+   "id": "w-ae-firepike",
+   "name": "Firepike",
+   "base": "Aeldari",
+   "range": 18,
+   "shots": 1,
+   "dmg": "5 (x3)",
+   "traits": [
+    "Melta",
+    "Piercing"
+   ],
+   "pts": 10,
+   "cat": "Rifle"
+  },
+  {
+   "id": "w-ae-tempest",
+   "name": "Tempest Launcher",
+   "base": "Aeldari",
+   "range": 36,
+   "shots": 2,
+   "dmg": "1",
+   "traits": [
+    "Heavy",
+    "Area",
+    "Indirect Fire"
+   ],
+   "pts": 8,
+   "cat": "Team"
+  },
+  {
+   "id": "w-ae-wraithcannon",
+   "name": "Wraithcannon",
+   "base": "Aeldari",
+   "range": 12,
+   "shots": 1,
+   "dmg": "Special",
+   "traits": [
+    "Wraithweapon"
+   ],
+   "pts": 0,
+   "cat": "Team"
+  },
+  {
+   "id": "w-ae-dscythe",
+   "name": "D-Scythe",
+   "base": "Aeldari",
+   "range": 8,
+   "shots": 3,
+   "dmg": "Special",
+   "traits": [
+    "Wraithweapon",
+    "Focused"
+   ],
+   "pts": 0,
+   "cat": "Team"
+  },
+  {
+   "id": "w-ae-hawkgren",
+   "name": "Hawk Grenade Pack",
+   "base": "Aeldari",
+   "range": 6,
+   "shots": 2,
+   "dmg": "1",
+   "traits": [
+    "Area",
+    "Drop Attack"
+   ],
+   "pts": 0,
+   "cat": "Grenade"
+  },
+  {
+   "id": "w-ae-meltabomb",
+   "name": "Melta Bomb",
+   "base": "Aeldari",
+   "range": 1,
+   "shots": 1,
+   "dmg": "4 (x2)",
+   "traits": [
+    "Single Use",
+    "Piercing"
+   ],
+   "pts": 0,
+   "cat": "Grenade"
+  },
+  {
+   "id": "w-ae-chainsword",
+   "name": "Chainsword",
+   "base": "Aeldari",
+   "range": 0,
+   "shots": 0,
+   "dmg": "0",
+   "traits": [
+    "Melee"
+   ],
+   "pts": 0,
+   "cat": "Melee"
+  },
+  {
+   "id": "w-ae-powersword",
+   "name": "Power Sword",
+   "base": "Aeldari",
+   "range": 0,
+   "shots": 0,
+   "dmg": "1",
+   "traits": [
+    "Melee",
+    "Elegant",
+    "Piercing"
+   ],
+   "pts": 0,
+   "cat": "Melee"
+  },
+  {
+   "id": "w-ae-witchblade",
+   "name": "Witchblade",
+   "base": "Aeldari",
+   "range": 0,
+   "shots": 0,
+   "dmg": "Special",
+   "traits": [
+    "Melee",
+    "Elegant",
+    "Psi-Weapon"
+   ],
+   "pts": 0,
+   "cat": "Melee"
+  },
+  {
+   "id": "w-ae-singingspear",
+   "name": "Singing Spear",
+   "base": "Aeldari",
+   "range": 12,
+   "shots": 1,
+   "dmg": "2 / Special",
+   "traits": [
+    "Thrown",
+    "Melee",
+    "Psi-Weapon"
+   ],
+   "pts": 5,
+   "cat": "Melee"
+  },
+  {
+   "id": "w-ae-scorpchain",
+   "name": "Scorpion Chainsword",
+   "base": "Aeldari",
+   "range": 0,
+   "shots": 0,
+   "dmg": "1",
+   "traits": [
+    "Melee"
+   ],
+   "pts": 0,
+   "cat": "Melee"
+  },
+  {
+   "id": "w-ae-mandiblasters",
+   "name": "Mandiblasters",
+   "base": "Aeldari",
+   "range": 0,
+   "shots": 0,
+   "dmg": "0",
+   "traits": [
+    "Melee",
+    "Auto-Hit"
+   ],
+   "pts": 4,
+   "cat": "Melee"
+  },
+  {
+   "id": "w-ae-scorpclaw",
+   "name": "Scorpion Claw",
+   "base": "Aeldari",
+   "range": 0,
+   "shots": 0,
+   "dmg": "2",
+   "traits": [
+    "Melee",
+    "Clumsy",
+    "Piercing"
+   ],
+   "pts": 8,
+   "cat": "Melee"
+  },
+  {
+   "id": "w-ae-bitingblade",
+   "name": "Biting Blade",
+   "base": "Aeldari",
+   "range": 0,
+   "shots": 0,
+   "dmg": "2",
+   "traits": [
+    "Melee",
+    "Elegant"
+   ],
+   "pts": 6,
+   "cat": "Melee"
+  },
+  {
+   "id": "w-ae-bansheesword",
+   "name": "Banshee Power Sword",
+   "base": "Aeldari",
+   "range": 0,
+   "shots": 0,
+   "dmg": "1",
+   "traits": [
+    "Melee",
+    "Elegant",
+    "Piercing"
+   ],
+   "pts": 0,
+   "cat": "Melee"
+  },
+  {
+   "id": "w-ae-executioner",
+   "name": "Executioner",
+   "base": "Aeldari",
+   "range": 0,
+   "shots": 0,
+   "dmg": "2",
+   "traits": [
+    "Melee",
+    "Elegant",
+    "Piercing"
+   ],
+   "pts": 8,
+   "cat": "Melee"
+  },
+  {
+   "id": "w-ae-mirrorswords",
+   "name": "Mirrorswords",
+   "base": "Aeldari",
+   "range": 0,
+   "shots": 0,
+   "dmg": "1",
+   "traits": [
+    "Melee",
+    "Elegant",
+    "Paired"
+   ],
+   "pts": 6,
+   "cat": "Melee"
+  },
+  {
+   "id": "w-ae-ghostsword",
+   "name": "Ghostsword",
+   "base": "Aeldari",
+   "range": 0,
+   "shots": 0,
+   "dmg": "2",
+   "traits": [
+    "Melee",
+    "Piercing",
+    "Wraithweapon"
+   ],
+   "pts": 0,
+   "cat": "Melee"
+  },
+  {
+   "id": "w-ae-ghostaxe",
+   "name": "Ghostaxe",
+   "base": "Aeldari",
+   "range": 0,
+   "shots": 0,
+   "dmg": "3",
+   "traits": [
+    "Melee",
+    "Clumsy",
+    "Piercing",
+    "Wraithweapon"
+   ],
+   "pts": 0,
+   "cat": "Melee"
+  },
+  {
+   "id": "w-ae-ghostglaive",
+   "name": "Ghostglaive",
+   "base": "Aeldari",
+   "range": 0,
+   "shots": 0,
+   "dmg": "3",
+   "traits": [
+    "Melee",
+    "Elegant"
+   ],
+   "pts": 10,
+   "cat": "Melee"
+  },
+  {
+   "id": "w-ae-ghostspear",
+   "name": "Ghostspear",
+   "base": "Aeldari",
+   "range": 0,
+   "shots": 0,
+   "dmg": "2",
+   "traits": [
+    "Melee",
+    "Elegant",
+    "Psi-Weapon"
+   ],
+   "pts": 0,
+   "cat": "Melee"
+  },
+  {
+   "id": "w-ae-witchstaff",
+   "name": "Witch Staff",
+   "base": "Aeldari",
+   "range": 0,
+   "shots": 0,
+   "dmg": "1",
+   "traits": [
+    "Melee",
+    "Psi-Weapon"
+   ],
+   "pts": 0,
+   "cat": "Melee"
+  },
+  {
+   "id": "w-ae-wailingdoom",
+   "name": "The Wailing Doom",
+   "base": "Aeldari",
+   "range": 12,
+   "shots": 1,
+   "dmg": "4 / 3",
+   "traits": [
+    "Melee: Damage 4, Elegant, Piercing",
+    "Ranged 12\": Damage 3, Melta"
+   ],
+   "pts": 0,
+   "cat": "Melee"
+  },
+  {
+   "id": "w-ae-twincatapult",
+   "name": "Twin Shuriken Catapult",
+   "base": "Aeldari",
+   "range": 18,
+   "shots": 4,
+   "dmg": "0",
+   "traits": [
+    "Vehicle Mount",
+    "Shuriken"
+   ],
+   "pts": 0,
+   "cat": "Vehicle"
+  },
+  {
+   "id": "w-ae-shurikencannon",
+   "name": "Shuriken Cannon",
+   "base": "Aeldari",
+   "range": 24,
+   "shots": 3,
+   "dmg": "1",
+   "traits": [
+    "Vehicle Mount",
+    "Shuriken"
+   ],
+   "pts": 6,
+   "cat": "Vehicle"
+  },
+  {
+   "id": "w-ae-twinscatter",
+   "name": "Twin Scatter Laser",
+   "base": "Aeldari",
+   "range": 30,
+   "shots": 6,
+   "dmg": "0",
+   "traits": [
+    "Vehicle Mount"
+   ],
+   "pts": 0,
+   "cat": "Vehicle"
+  },
+  {
+   "id": "w-ae-twinstar",
+   "name": "Twin Starcannon",
+   "base": "Aeldari",
+   "range": 36,
+   "shots": 3,
+   "dmg": "2",
+   "traits": [
+    "Vehicle Mount",
+    "Piercing"
+   ],
+   "pts": 15,
+   "cat": "Vehicle"
+  },
+  {
+   "id": "w-ae-twinlance",
+   "name": "Twin Bright Lance",
+   "base": "Aeldari",
+   "range": 40,
+   "shots": 2,
+   "dmg": "4 (x2)",
+   "traits": [
+    "Vehicle Mount",
+    "Piercing",
+    "Anti-Armor"
+   ],
+   "pts": 20,
+   "cat": "Vehicle"
+  },
+  {
+   "id": "w-ae-pulselaser",
+   "name": "Pulse Laser",
+   "base": "Aeldari",
+   "range": 48,
+   "shots": 2,
+   "dmg": "2",
+   "traits": [
+    "Vehicle Mount",
+    "Piercing"
+   ],
+   "pts": 0,
+   "cat": "Vehicle"
+  },
+  {
+   "id": "w-ae-prismcannon",
+   "name": "Prism Cannon",
+   "base": "Aeldari",
+   "range": 60,
+   "shots": "1/3",
+   "dmg": "5 (x3) / 2",
+   "traits": [
+    "Vehicle Mount",
+    "Prism"
+   ],
+   "pts": 0,
+   "cat": "Vehicle"
+  },
+  {
+   "id": "w-ae-shadowweaver",
+   "name": "Shadow Weaver",
+   "base": "Aeldari",
+   "range": 48,
+   "shots": 3,
+   "dmg": "1",
+   "traits": [
+    "Vehicle Mount",
+    "Monofilament",
+    "Indirect Fire"
+   ],
+   "pts": 0,
+   "cat": "Vehicle"
+  },
+  {
+   "id": "w-ae-dcannon",
+   "name": "D-Cannon",
+   "base": "Aeldari",
+   "range": 24,
+   "shots": 1,
+   "dmg": "Special",
+   "traits": [
+    "Vehicle Mount",
+    "Wraithweapon",
+    "Area"
+   ],
+   "pts": 0,
+   "cat": "Vehicle"
+  }
+ ],
+ "gear": [
+  {
+   "id": "g-bpre-ew",
+   "name": "EW Suite",
+   "type": "Equipment",
+   "activation": "Action",
+   "uses": "",
+   "effect": "Instead of shooting, Savvy 4+: one enemy unit within 18\" may not use Reaction fire or receive Leader bonuses until this model next activates.",
+   "pts": 8
+  },
+  {
+   "id": "g-bpre-radio",
+   "name": "Tactical radio",
+   "type": "Equipment",
+   "activation": "Free",
+   "uses": "",
+   "effect": "Forward Observer: may call in a friendly Drone Strike as if the Advisor, at −1 to template placement.",
+   "pts": 3
+  },
+  {
+   "id": "g-sl-vox",
+   "name": "Command vox",
+   "type": "Equipment",
+   "activation": "Free",
+   "uses": "",
+   "effect": "Von Camp's command net (Viper Actual).",
+   "pts": 0
+  }
+ ],
+ "templates": [
+  {
+   "id": "t-ch-assaulters",
+   "name": "Cold Harbor Assaulters",
+   "side": "enemy",
+   "faction": "f-coldharbor",
+   "troop": "squad",
+   "size": 4,
+   "level": "",
+   "profile": {
+    "sp": 5,
+    "re": 3,
+    "cs": 2,
+    "t": 5,
+    "kp": 2,
+    "sv": 1,
+    "tr": 1,
+    "save": "5+"
+   },
+   "leader": null,
+   "weapons": [
+    "w-bpre-spg-carbine",
+    "w-bpre-pistol",
+    "w-bpre-breach-charge"
+   ],
+   "teamWeapons": [],
+   "leaderWeapons": [],
+   "rules": [
+    "Tier 1",
+    "Stack Entry",
+    "Tactical Reload",
+    "CQB Doctrine",
+    "Night Vision"
+   ],
+   "pointsMode": "manual",
+   "points": 120,
+   "priceAs": "",
+   "source": "BPRE Cold Harbor & Aayari Covenant (project doc)",
+   "notes": "Doc: squad of 2–4; one may swap the carbine for a shotgun at no cost."
+  },
+  {
+   "id": "t-ch-ar",
+   "name": "Cold Harbor Automatic Rifleman",
+   "side": "enemy",
+   "faction": "f-coldharbor",
+   "troop": "individual",
+   "size": 1,
+   "level": "minor",
+   "profile": {
+    "sp": 4,
+    "re": 2,
+    "cs": 2,
+    "t": 5,
+    "kp": 2,
+    "sv": 1,
+    "tr": 1,
+    "save": "5+"
+   },
+   "leader": null,
+   "weapons": [
+    "w-bpre-spg-ar",
+    "w-bpre-pistol"
+   ],
+   "teamWeapons": [],
+   "leaderWeapons": [],
+   "rules": [
+    "Tier 1",
+    "Suppressive Fire",
+    "Base of Fire"
+   ],
+   "pointsMode": "manual",
+   "points": 35,
+   "priceAs": "",
+   "source": "BPRE Cold Harbor & Aayari Covenant (project doc)"
+  },
+  {
+   "id": "t-ch-recce",
+   "name": "Cold Harbor Recce Operator",
+   "side": "enemy",
+   "faction": "f-coldharbor",
+   "troop": "individual",
+   "size": 1,
+   "level": "minor",
+   "profile": {
+    "sp": 6,
+    "re": 3,
+    "cs": 1,
+    "t": 4,
+    "kp": 2,
+    "sv": 2,
+    "tr": 1,
+    "save": "5+"
+   },
+   "leader": null,
+   "weapons": [
+    "w-bpre-spg-carbine",
+    "w-bpre-pistol"
+   ],
+   "teamWeapons": [],
+   "leaderWeapons": [],
+   "rules": [
+    "Tier 1",
+    "Pathfinder (Infiltrate)",
+    "Breacher",
+    "Eyes On"
+   ],
+   "pointsMode": "manual",
+   "points": 28,
+   "priceAs": "",
+   "source": "BPRE Cold Harbor & Aayari Covenant (project doc)"
+  },
+  {
+   "id": "t-ch-advisor",
+   "name": "Cold Harbor Advisor",
+   "side": "enemy",
+   "faction": "f-coldharbor",
+   "troop": "individual",
+   "size": 1,
+   "level": "major",
+   "profile": {
+    "sp": 5,
+    "re": 3,
+    "cs": 1,
+    "t": 5,
+    "kp": 2,
+    "sv": 2,
+    "tr": 2,
+    "save": "5+"
+   },
+   "leader": null,
+   "weapons": [
+    "w-bpre-spg-carbine",
+    "w-bpre-pistol",
+    "w-bpre-drone-area"
+   ],
+   "teamWeapons": [],
+   "leaderWeapons": [],
+   "rules": [
+    "Leader",
+    "Tier 1",
+    "Drone Network Controller",
+    "Precision Strike",
+    "Tactical Coordinator"
+   ],
+   "pointsMode": "manual",
+   "points": 45,
+   "priceAs": "",
+   "source": "BPRE Cold Harbor & Aayari Covenant (project doc)"
+  },
+  {
+   "id": "t-ch-scorch-gren",
+   "name": "Scorch Assault Grenadiers",
+   "side": "enemy",
+   "faction": "f-coldharbor",
+   "troop": "squad",
+   "size": 4,
+   "level": "",
+   "profile": {
+    "sp": 5,
+    "re": 2,
+    "cs": 1,
+    "t": 4,
+    "kp": 1,
+    "sv": 1,
+    "tr": 1,
+    "save": "5+"
+   },
+   "leader": null,
+   "weapons": [
+    "w-bpre-assault-carbine",
+    "w-bpre-frag",
+    "w-bpre-blade"
+   ],
+   "teamWeapons": [],
+   "leaderWeapons": [],
+   "rules": [
+    "Tier 2",
+    "Rapid Clearance",
+    "CQB Doctrine",
+    "Night Vision"
+   ],
+   "pointsMode": "manual",
+   "points": 88,
+   "priceAs": "",
+   "source": "BPRE Cold Harbor & Aayari Covenant (project doc)"
+  },
+  {
+   "id": "t-ch-scorch-recce",
+   "name": "Scorch Recce Raiders",
+   "side": "enemy",
+   "faction": "f-coldharbor",
+   "troop": "squad",
+   "size": 4,
+   "level": "",
+   "profile": {
+    "sp": 6,
+    "re": 2,
+    "cs": 1,
+    "t": 4,
+    "kp": 1,
+    "sv": 1,
+    "tr": 1,
+    "save": "5+"
+   },
+   "leader": null,
+   "weapons": [
+    "w-bpre-assault-carbine",
+    "w-bpre-pistol"
+   ],
+   "teamWeapons": [],
+   "leaderWeapons": [],
+   "rules": [
+    "Tier 2",
+    "Scout (Infiltrate)",
+    "Recon Report",
+    "Night Vision"
+   ],
+   "pointsMode": "manual",
+   "points": 80,
+   "priceAs": "",
+   "source": "BPRE Cold Harbor & Aayari Covenant (project doc)"
+  },
+  {
+   "id": "t-ch-scorch-tech",
+   "name": "Scorch Assault Tech",
+   "side": "enemy",
+   "faction": "f-coldharbor",
+   "troop": "individual",
+   "size": 1,
+   "level": "minor",
+   "profile": {
+    "sp": 5,
+    "re": 2,
+    "cs": 0,
+    "t": 4,
+    "kp": 1,
+    "sv": 2,
+    "tr": 1,
+    "save": "5+"
+   },
+   "leader": null,
+   "weapons": [
+    "w-bpre-assault-carbine",
+    "w-bpre-breach-kit"
+   ],
+   "teamWeapons": [],
+   "leaderWeapons": [],
+   "rules": [
+    "Tier 2",
+    "Demolitions Expert",
+    "Field Medic"
+   ],
+   "pointsMode": "manual",
+   "points": 20,
+   "priceAs": "",
+   "source": "BPRE Cold Harbor & Aayari Covenant (project doc)"
+  },
+  {
+   "id": "t-ch-nitto-sysops",
+   "name": "Nitto Sys Ops",
+   "side": "enemy",
+   "faction": "f-coldharbor",
+   "troop": "individual",
+   "size": 1,
+   "level": "minor",
+   "profile": {
+    "sp": 5,
+    "re": 2,
+    "cs": 0,
+    "t": 4,
+    "kp": 1,
+    "sv": 2,
+    "tr": 1,
+    "save": "6+"
+   },
+   "leader": null,
+   "weapons": [
+    "w-bpre-military-rifle"
+   ],
+   "teamWeapons": [],
+   "leaderWeapons": [],
+   "rules": [
+    "Tier 3",
+    "Electronic Warfare (EW Suite)",
+    "Signals Intelligence"
+   ],
+   "pointsMode": "manual",
+   "points": 18,
+   "priceAs": "",
+   "source": "BPRE Cold Harbor & Aayari Covenant (project doc)"
+  },
+  {
+   "id": "t-ch-nitto-rifles",
+   "name": "Nitto Riflemen",
+   "side": "enemy",
+   "faction": "f-coldharbor",
+   "troop": "squad",
+   "size": 5,
+   "level": "",
+   "profile": {
+    "sp": 5,
+    "re": 1,
+    "cs": 0,
+    "t": 4,
+    "kp": 1,
+    "sv": 0,
+    "tr": 0,
+    "save": "6+"
+   },
+   "leader": null,
+   "weapons": [
+    "w-bpre-military-rifle",
+    "w-bpre-frag",
+    "w-bpre-blade"
+   ],
+   "teamWeapons": [],
+   "leaderWeapons": [],
+   "rules": [
+    "Tier 3"
+   ],
+   "pointsMode": "manual",
+   "points": 60,
+   "priceAs": "",
+   "source": "BPRE Cold Harbor & Aayari Covenant (project doc)"
+  },
+  {
+   "id": "t-ch-nitto-point",
+   "name": "Nitto Pointmen",
+   "side": "enemy",
+   "faction": "f-coldharbor",
+   "troop": "squad",
+   "size": 5,
+   "level": "",
+   "profile": {
+    "sp": 5,
+    "re": 2,
+    "cs": 0,
+    "t": 4,
+    "kp": 1,
+    "sv": 0,
+    "tr": 0,
+    "save": "6+"
+   },
+   "leader": null,
+   "weapons": [
+    "w-bpre-shotgun",
+    "w-bpre-pistol",
+    "w-bpre-blade"
+   ],
+   "teamWeapons": [],
+   "leaderWeapons": [],
+   "rules": [
+    "Tier 3",
+    "Point Position",
+    "Doorkicker"
+   ],
+   "pointsMode": "manual",
+   "points": 70,
+   "priceAs": "",
+   "source": "BPRE Cold Harbor & Aayari Covenant (project doc)"
+  },
+  {
+   "id": "t-ch-spear-sysops",
+   "name": "SPEAR Sys Ops",
+   "side": "enemy",
+   "faction": "f-coldharbor",
+   "troop": "individual",
+   "size": 1,
+   "level": "minor",
+   "profile": {
+    "sp": 5,
+    "re": 1,
+    "cs": 0,
+    "t": 4,
+    "kp": 1,
+    "sv": 1,
+    "tr": 0,
+    "save": "6+"
+   },
+   "leader": null,
+   "weapons": [
+    "w-bpre-military-rifle"
+   ],
+   "teamWeapons": [],
+   "leaderWeapons": [],
+   "rules": [
+    "Tier 3",
+    "Forward Observer (Tactical radio)"
+   ],
+   "pointsMode": "manual",
+   "points": 14,
+   "priceAs": "",
+   "source": "BPRE Cold Harbor & Aayari Covenant (project doc)"
+  },
+  {
+   "id": "t-ch-spear-marksman",
+   "name": "SPEAR Marksman",
+   "side": "enemy",
+   "faction": "f-coldharbor",
+   "troop": "individual",
+   "size": 1,
+   "level": "minor",
+   "profile": {
+    "sp": 5,
+    "re": 1,
+    "cs": 1,
+    "t": 4,
+    "kp": 1,
+    "sv": 0,
+    "tr": 0,
+    "save": "6+"
+   },
+   "leader": null,
+   "weapons": [
+    "w-bpre-precision",
+    "w-bpre-pistol"
+   ],
+   "teamWeapons": [],
+   "leaderWeapons": [],
+   "rules": [
+    "Tier 3",
+    "Designated Marksman"
+   ],
+   "pointsMode": "manual",
+   "points": 16,
+   "priceAs": "",
+   "source": "BPRE Cold Harbor & Aayari Covenant (project doc)"
+  },
+  {
+   "id": "t-ch-spear-assault",
+   "name": "SPEAR Assaulters",
+   "side": "enemy",
+   "faction": "f-coldharbor",
+   "troop": "squad",
+   "size": 5,
+   "level": "",
+   "profile": {
+    "sp": 5,
+    "re": 1,
+    "cs": 0,
+    "t": 4,
+    "kp": 1,
+    "sv": 0,
+    "tr": 0,
+    "save": "6+"
+   },
+   "leader": null,
+   "weapons": [
+    "w-bpre-military-rifle",
+    "w-bpre-frag",
+    "w-bpre-blade"
+   ],
+   "teamWeapons": [],
+   "leaderWeapons": [],
+   "rules": [
+    "Tier 3"
+   ],
+   "pointsMode": "manual",
+   "points": 55,
+   "priceAs": "",
+   "source": "BPRE Cold Harbor & Aayari Covenant (project doc)",
+   "notes": "Doc: squad of 4–6."
+  },
+  {
+   "id": "t-ch-viper",
+   "name": "\"Viper\" — Cold Harbor Actual",
+   "side": "enemy",
+   "faction": "f-coldharbor",
+   "troop": "individual",
+   "size": 1,
+   "level": "epic",
+   "profile": {
+    "sp": 5,
+    "re": 3,
+    "cs": 2,
+    "t": 5,
+    "kp": 3,
+    "sv": 2,
+    "tr": 2,
+    "save": "4+"
+   },
+   "leader": null,
+   "weapons": [
+    "w-bpre-spg-carbine-viper",
+    "w-bpre-blast-pistol",
+    "w-bpre-ripper"
+   ],
+   "teamWeapons": [],
+   "leaderWeapons": [],
+   "rules": [
+    "Leader",
+    "Cold Harbor Actual",
+    "Fix and Finish",
+    "Been There Before",
+    "Force Commander"
+   ],
+   "pointsMode": "manual",
+   "points": 65,
+   "priceAs": "",
+   "source": "BPRE Cold Harbor & Aayari Covenant (project doc)"
+  },
+  {
+   "id": "t-ch-ember",
+   "name": "\"Ember\" — SFC Nadia Okafor",
+   "side": "enemy",
+   "faction": "f-coldharbor",
+   "troop": "individual",
+   "size": 1,
+   "level": "major",
+   "profile": {
+    "sp": 5,
+    "re": 2,
+    "cs": 2,
+    "t": 5,
+    "kp": 2,
+    "sv": 1,
+    "tr": 1,
+    "save": "5+"
+   },
+   "leader": null,
+   "weapons": [
+    "w-bpre-assault-carbine",
+    "w-bpre-frag",
+    "w-bpre-blade"
+   ],
+   "teamWeapons": [],
+   "leaderWeapons": [],
+   "rules": [
+    "Scorch Leader",
+    "Compound Clearance",
+    "Relentless"
+   ],
+   "pointsMode": "manual",
+   "points": 40,
+   "priceAs": "",
+   "source": "BPRE Cold Harbor & Aayari Covenant (project doc)"
+  },
+  {
+   "id": "t-ch-crow",
+   "name": "\"Crow\" — Cold Harbor Intelligence",
+   "side": "enemy",
+   "faction": "f-coldharbor",
+   "troop": "individual",
+   "size": 1,
+   "level": "major",
+   "profile": {
+    "sp": 5,
+    "re": 2,
+    "cs": 1,
+    "t": 4,
+    "kp": 2,
+    "sv": 3,
+    "tr": 2,
+    "save": "5+"
+   },
+   "leader": null,
+   "weapons": [
+    "w-bpre-hand-laser",
+    "w-bpre-drone-area-crow"
+   ],
+   "teamWeapons": [],
+   "leaderWeapons": [],
+   "rules": [
+    "Spymaster",
+    "Network",
+    "Unreliable Ally",
+    "Non-combatant preference"
+   ],
+   "pointsMode": "manual",
+   "points": 50,
+   "priceAs": "",
+   "source": "BPRE Cold Harbor & Aayari Covenant (project doc)"
+  },
+  {
+   "id": "t-aa-shurta",
+   "name": "Shurta Fighters",
+   "side": "enemy",
+   "faction": "f-aayari",
+   "troop": "squad",
+   "size": 6,
+   "level": "",
+   "profile": {
+    "sp": 5,
+    "re": 1,
+    "cs": -1,
+    "t": 3,
+    "kp": 1,
+    "sv": -1,
+    "tr": -1,
+    "save": "—"
+   },
+   "leader": null,
+   "weapons": [
+    "w-bpre-ak",
+    "w-bpre-blade"
+   ],
+   "teamWeapons": [],
+   "leaderWeapons": [],
+   "rules": [
+    "Fanaticism",
+    "Volume of Fire",
+    "Expendable"
+   ],
+   "pointsMode": "manual",
+   "points": 36,
+   "priceAs": "",
+   "source": "BPRE Cold Harbor & Aayari Covenant (project doc)",
+   "notes": "Doc: squad of 4–8."
+  },
+  {
+   "id": "t-aa-shurta-pkm",
+   "name": "Shurta PKM Gunners",
+   "side": "enemy",
+   "faction": "f-aayari",
+   "troop": "team",
+   "size": 2,
+   "level": "",
+   "profile": {
+    "sp": 4,
+    "re": 1,
+    "cs": -1,
+    "t": 3,
+    "kp": 1,
+    "sv": -1,
+    "tr": -1,
+    "save": "—"
+   },
+   "leader": null,
+   "weapons": [],
+   "teamWeapons": [
+    "w-bpre-pkm"
+   ],
+   "leaderWeapons": [],
+   "rules": [
+    "Fanaticism",
+    "Suppression (−1)"
+   ],
+   "pointsMode": "manual",
+   "points": 20,
+   "priceAs": "",
+   "source": "BPRE Cold Harbor & Aayari Covenant (project doc)",
+   "notes": "Doc: weapon team of 2 figures (the portal builder expects 3; edit with freeform units on)."
+  },
+  {
+   "id": "t-aa-muhtasib",
+   "name": "Muhtasib Fighters",
+   "side": "enemy",
+   "faction": "f-aayari",
+   "troop": "squad",
+   "size": 4,
+   "level": "",
+   "profile": {
+    "sp": 5,
+    "re": 1,
+    "cs": 0,
+    "t": 4,
+    "kp": 1,
+    "sv": 0,
+    "tr": 0,
+    "save": "6+"
+   },
+   "leader": null,
+   "weapons": [
+    "w-bpre-ak",
+    "w-bpre-frag",
+    "w-bpre-blade"
+   ],
+   "teamWeapons": [],
+   "leaderWeapons": [],
+   "rules": [
+    "Veteran Fighter",
+    "Fearless"
+   ],
+   "pointsMode": "manual",
+   "points": 56,
+   "priceAs": "",
+   "source": "BPRE Cold Harbor & Aayari Covenant (project doc)"
+  },
+  {
+   "id": "t-aa-sapper",
+   "name": "Muhtasib Sapper",
+   "side": "enemy",
+   "faction": "f-aayari",
+   "troop": "individual",
+   "size": 1,
+   "level": "minor",
+   "profile": {
+    "sp": 5,
+    "re": 1,
+    "cs": 0,
+    "t": 4,
+    "kp": 1,
+    "sv": 1,
+    "tr": 0,
+    "save": "6+"
+   },
+   "leader": null,
+   "weapons": [
+    "w-bpre-ak",
+    "w-bpre-ied-kit",
+    "w-bpre-vest"
+   ],
+   "teamWeapons": [],
+   "leaderWeapons": [],
+   "rules": [
+    "IED Specialist",
+    "Last Resort"
+   ],
+   "pointsMode": "manual",
+   "points": 16,
+   "priceAs": "",
+   "source": "BPRE Cold Harbor & Aayari Covenant (project doc)"
+  },
+  {
+   "id": "t-aa-qadi",
+   "name": "\"The Qadi\" — Covenant War Leader",
+   "side": "enemy",
+   "faction": "f-aayari",
+   "troop": "individual",
+   "size": 1,
+   "level": "major",
+   "profile": {
+    "sp": 5,
+    "re": 2,
+    "cs": 0,
+    "t": 4,
+    "kp": 2,
+    "sv": 2,
+    "tr": 2,
+    "save": "6+"
+   },
+   "leader": null,
+   "weapons": [
+    "w-bpre-ak",
+    "w-bpre-pistol"
+   ],
+   "teamWeapons": [],
+   "leaderWeapons": [],
+   "rules": [
+    "Leader",
+    "Inspirational Leader",
+    "Strategic Mind",
+    "Martyr's Fury"
+   ],
+   "pointsMode": "manual",
+   "points": 35,
+   "priceAs": "",
+   "source": "BPRE Cold Harbor & Aayari Covenant (project doc)"
+  },
+  {
+   "id": "t-aa-ironjaw",
+   "name": "\"Ironjaw\" — Kadir Vahren",
+   "side": "enemy",
+   "faction": "f-aayari",
+   "troop": "individual",
+   "size": 1,
+   "level": "major",
+   "profile": {
+    "sp": 5,
+    "re": 2,
+    "cs": 1,
+    "t": 5,
+    "kp": 2,
+    "sv": 0,
+    "tr": 0,
+    "save": "5+"
+   },
+   "leader": null,
+   "weapons": [
+    "w-bpre-ak",
+    "w-bpre-claw",
+    "w-bpre-frag"
+   ],
+   "teamWeapons": [],
+   "leaderWeapons": [],
+   "rules": [
+    "Unkillable",
+    "Lead From the Front",
+    "Wrath"
+   ],
+   "pointsMode": "manual",
+   "points": 38,
+   "priceAs": "",
+   "source": "BPRE Cold Harbor & Aayari Covenant (project doc)"
+  },
+  {
+   "id": "t-hb-bpre-grenadiers",
+   "name": "Hongbin Mercenary Grenadiers",
+   "side": "enemy",
+   "faction": "f-hb",
+   "troop": "squad",
+   "size": 4,
+   "level": "",
+   "profile": {
+    "sp": 5,
+    "re": 2,
+    "cs": 1,
+    "t": 4,
+    "kp": 1,
+    "sv": 0,
+    "tr": 1,
+    "save": "6+"
+   },
+   "leader": null,
+   "weapons": [
+    "w-bpre-assault-rifle",
+    "w-bpre-frag"
+   ],
+   "teamWeapons": [
+    "w-bpre-gl"
+   ],
+   "leaderWeapons": [],
+   "rules": [
+    "Professional Soldier",
+    "Military profile (Errata E-1)"
+   ],
+   "pointsMode": "manual",
+   "points": 84,
+   "priceAs": "",
+   "source": "BPRE Cold Harbor & Aayari Covenant (project doc) + Errata E-1",
+   "notes": "Errata E-1: Reaction 2, Combat +1, Training +1. Points provisional (16 + 5)."
+  },
+  {
+   "id": "t-hb-bpre-pkm",
+   "name": "Hongbin PKM Gunners",
+   "side": "enemy",
+   "faction": "f-hb",
+   "troop": "team",
+   "size": 2,
+   "level": "",
+   "profile": {
+    "sp": 4,
+    "re": 2,
+    "cs": 1,
+    "t": 4,
+    "kp": 1,
+    "sv": 0,
+    "tr": 1,
+    "save": "6+"
+   },
+   "leader": null,
+   "weapons": [],
+   "teamWeapons": [
+    "w-bpre-pkm"
+   ],
+   "leaderWeapons": [],
+   "rules": [
+    "Trained Gunner",
+    "Military profile (Errata E-1)"
+   ],
+   "pointsMode": "manual",
+   "points": 38,
+   "priceAs": "",
+   "source": "BPRE Cold Harbor & Aayari Covenant (project doc) + Errata E-1",
+   "notes": "Errata E-1. Points provisional (14 + 5). Doc: weapon team of 2 figures."
+  },
+  {
+   "id": "t-hb-bpre-enabler",
+   "name": "Hongbin Enabler",
+   "side": "enemy",
+   "faction": "f-hb",
+   "troop": "individual",
+   "size": 1,
+   "level": "major",
+   "profile": {
+    "sp": 5,
+    "re": 2,
+    "cs": 1,
+    "t": 4,
+    "kp": 2,
+    "sv": 2,
+    "tr": 1,
+    "save": "5+"
+   },
+   "leader": null,
+   "weapons": [
+    "w-bpre-hb-carbine",
+    "w-bpre-pistol",
+    "w-bpre-drone-targeted"
+   ],
+   "teamWeapons": [],
+   "leaderWeapons": [],
+   "rules": [
+    "Leader",
+    "Intelligence Officer",
+    "Counter-Drone",
+    "Dual Strike"
+   ],
+   "pointsMode": "manual",
+   "points": 40,
+   "priceAs": "",
+   "source": "BPRE Cold Harbor & Aayari Covenant (project doc)"
+  },
+  {
+   "id": "t-hb-bpre-ghost",
+   "name": "\"Ghost Signal\" — Hongbin Handler",
+   "side": "enemy",
+   "faction": "f-hb",
+   "troop": "individual",
+   "size": 1,
+   "level": "epic",
+   "profile": {
+    "sp": 5,
+    "re": 2,
+    "cs": 0,
+    "t": 4,
+    "kp": 2,
+    "sv": 3,
+    "tr": 2,
+    "save": "5+"
+   },
+   "leader": null,
+   "weapons": [
+    "w-bpre-hand-laser",
+    "w-bpre-drone-targeted3"
+   ],
+   "teamWeapons": [],
+   "leaderWeapons": [],
+   "rules": [
+    "Shadow Commander",
+    "Enhanced Drone Network",
+    "Plausible Deniability",
+    "Non-combatant preference"
+   ],
+   "pointsMode": "manual",
+   "points": 52,
+   "priceAs": "",
+   "source": "BPRE Cold Harbor & Aayari Covenant (project doc)"
+  },
+  {
+   "id": "t-asl-cell",
+   "name": "ASL fighter cell",
+   "side": "enemy",
+   "faction": "f-asl",
+   "troop": "squad",
+   "size": 5,
+   "level": "",
+   "profile": {
+    "sp": 4,
+    "re": 1,
+    "cs": 0,
+    "t": 3,
+    "kp": 1,
+    "sv": 0,
+    "tr": 0,
+    "save": "—"
+   },
+   "leader": {
+    "sp": 4,
+    "re": 2,
+    "cs": 1,
+    "t": 3,
+    "kp": 2,
+    "sv": 0,
+    "tr": 0,
+    "save": "—"
+   },
+   "weapons": [
+    "w-asl-blaster-rifle"
+   ],
+   "teamWeapons": [],
+   "leaderWeapons": [
+    "w-asl-blaster-carbine",
+    "w-bpre-blade"
+   ],
+   "rules": [
+    "Fanaticism",
+    "Cell Structure",
+    "Urban Fighters"
+   ],
+   "pointsMode": "auto",
+   "points": 0,
+   "priceAs": "Human · Civilian",
+   "leaderPriceAs": "Human · Civilian",
+   "source": "Feuertaufe (Missions 1–4)",
+   "notes": "Fighters 9 pts (Civilian 5 + blaster rifle 4); cell leader 8 as built in Feuertaufe, with the Mission 3 leader line (Reaction 2, Combat +1, KP 2)."
+  },
+  {
+   "id": "t-sl-voncamp",
+   "name": "Capt. Mikhail Von Camp — \"Viper Actual\"",
+   "side": "player",
+   "faction": "f-steellions",
+   "troop": "individual",
+   "size": 1,
+   "level": "epic",
+   "profile": {
+    "sp": 5,
+    "re": 3,
+    "cs": 3,
+    "t": 5,
+    "kp": 5,
+    "sv": 3,
+    "tr": 4,
+    "save": "—"
+   },
+   "leader": null,
+   "weapons": [
+    "w-sl-plasma-pistol",
+    "w-sl-power-sword",
+    "w-bpre-frag"
+   ],
+   "teamWeapons": [],
+   "leaderWeapons": [],
+   "rules": [
+    "Leader",
+    "Lead From Front",
+    "Viper Actual",
+    "Command vox"
+   ],
+   "pointsMode": "manual",
+   "points": 80,
+   "priceAs": "",
+   "source": "Steel Lions Master Reference §8"
+  },
+  {
+   "id": "t-sl-almira",
+   "name": "1LT Sarah Almira — \"Viper 1\"",
+   "side": "player",
+   "faction": "f-steellions",
+   "troop": "individual",
+   "size": 1,
+   "level": "major",
+   "profile": {
+    "sp": 6,
+    "re": 3,
+    "cs": 3,
+    "t": 4,
+    "kp": 4,
+    "sv": 2,
+    "tr": 3,
+    "save": "—"
+   },
+   "leader": null,
+   "weapons": [
+    "w-sl-assault-rifle",
+    "w-bpre-blade",
+    "w-bpre-frag",
+    "w-sl-stun"
+   ],
+   "teamWeapons": [],
+   "leaderWeapons": [],
+   "rules": [
+    "Leader",
+    "Assault Instinct",
+    "Aggressive Advance"
+   ],
+   "pointsMode": "manual",
+   "points": 65,
+   "priceAs": "",
+   "source": "Steel Lions Master Reference §8"
+  },
+  {
+   "id": "t-sol-aux",
+   "name": "Auxiliaris Squad",
+   "side": "enemy",
+   "faction": "f-solarii",
+   "troop": "squad",
+   "size": 5,
+   "level": "",
+   "profile": {
+    "sp": 4,
+    "re": 2,
+    "cs": 1,
+    "t": 4,
+    "kp": 1,
+    "sv": 0,
+    "tr": 1,
+    "save": "—"
+   },
+   "leader": {
+    "sp": 4,
+    "re": 2,
+    "cs": 1,
+    "t": 4,
+    "kp": 2,
+    "sv": 0,
+    "tr": 2,
+    "save": "—"
+   },
+   "weapons": [
+    "w-sol-lasrifle",
+    "w-sol-blade",
+    "w-sol-frag"
+   ],
+   "teamWeapons": [],
+   "leaderWeapons": [
+    "w-sol-lasrifle",
+    "w-sol-laspistol",
+    "w-sol-blade",
+    "w-sol-frag"
+   ],
+   "rules": [
+    "Void-Sealed",
+    "Fire Discipline"
+   ],
+   "pointsMode": "manual",
+   "points": 63,
+   "priceAs": "",
+   "source": "5PT Solarii Auxiliaries faction document",
+   "notes": "4–6 figures incl. a Corporal (11 / 19 pts). One figure may swap the lasrifle for a Melta Cutter (+8) or Missile Launcher (+12)."
+  },
+  {
+   "id": "t-sol-flamer",
+   "name": "Auxilia Flamer Section",
+   "side": "enemy",
+   "faction": "f-solarii",
+   "troop": "squad",
+   "size": 4,
+   "level": "",
+   "profile": {
+    "sp": 4,
+    "re": 2,
+    "cs": 1,
+    "t": 4,
+    "kp": 1,
+    "sv": 0,
+    "tr": 1,
+    "save": "—"
+   },
+   "leader": null,
+   "weapons": [
+    "w-sol-flamer",
+    "w-sol-laspistol",
+    "w-sol-blade"
+   ],
+   "teamWeapons": [],
+   "leaderWeapons": [],
+   "rules": [
+    "Breach Specialists",
+    "Hazardous Munitions",
+    "Close Support Only"
+   ],
+   "pointsMode": "manual",
+   "points": 56,
+   "priceAs": "",
+   "source": "5PT Solarii Auxiliaries faction document",
+   "notes": "14 pts per figure; section size not given in the document (set to 4). Max one per Auxiliaris Section."
+  },
+  {
+   "id": "t-sol-veletarian",
+   "name": "Veletarian Squad",
+   "side": "enemy",
+   "faction": "f-solarii",
+   "troop": "squad",
+   "size": 5,
+   "level": "",
+   "profile": {
+    "sp": 4,
+    "re": 2,
+    "cs": 2,
+    "t": 4,
+    "kp": 1,
+    "sv": 0,
+    "tr": 1,
+    "save": "—"
+   },
+   "leader": {
+    "sp": 4,
+    "re": 2,
+    "cs": 2,
+    "t": 4,
+    "kp": 2,
+    "sv": 0,
+    "tr": 2,
+    "save": "—"
+   },
+   "weapons": [
+    "w-sol-autogun",
+    "w-sol-blade",
+    "w-sol-shield",
+    "w-sol-voidflash"
+   ],
+   "teamWeapons": [],
+   "leaderWeapons": [],
+   "rules": [
+    "Shield Wall",
+    "Shock Assault",
+    "Riot Shield Saves (5+ front arc, ranged)"
+   ],
+   "pointsMode": "manual",
+   "points": 78,
+   "priceAs": "",
+   "source": "5PT Solarii Auxiliaries faction document",
+   "notes": "14 per Veletarian, 22 for the Veteran. Max one squad per force."
+  },
+  {
+   "id": "t-sol-veterans",
+   "name": "Auxilia Veteran Squad",
+   "side": "enemy",
+   "faction": "f-solarii",
+   "troop": "squad",
+   "size": 5,
+   "level": "",
+   "profile": {
+    "sp": 4,
+    "re": 2,
+    "cs": 2,
+    "t": 5,
+    "kp": 2,
+    "sv": 0,
+    "tr": 2,
+    "save": "6+"
+   },
+   "leader": {
+    "sp": 4,
+    "re": 3,
+    "cs": 2,
+    "t": 5,
+    "kp": 2,
+    "sv": 0,
+    "tr": 2,
+    "save": "6+"
+   },
+   "weapons": [
+    "w-sol-lasrifle",
+    "w-sol-blade"
+   ],
+   "teamWeapons": [
+    "w-sol-melta"
+   ],
+   "leaderWeapons": [
+    "w-sol-lasrifle",
+    "w-sol-laspistol",
+    "w-sol-blade"
+   ],
+   "rules": [
+    "Lorica Praetoria (6+ save, cannot Dash)",
+    "Veteran Fire Discipline",
+    "Tactical Reserve"
+   ],
+   "pointsMode": "manual",
+   "points": 108,
+   "priceAs": "",
+   "source": "5PT Solarii Auxiliaries faction document",
+   "notes": "20 per Veteran, 28 for the Sergeant. Lasrifles may use Volley Mode as a standard action."
+  },
+  {
+   "id": "t-sol-charonite",
+   "name": "Ogryn Charonites",
+   "side": "enemy",
+   "faction": "f-solarii",
+   "troop": "squad",
+   "size": 3,
+   "level": "",
+   "profile": {
+    "sp": 5,
+    "re": 1,
+    "cs": 3,
+    "t": 5,
+    "kp": 3,
+    "sv": 0,
+    "tr": 0,
+    "save": "—"
+   },
+   "leader": null,
+   "weapons": [
+    "w-sol-claws"
+   ],
+   "teamWeapons": [],
+   "leaderWeapons": [],
+   "rules": [
+    "Fearsome Charge",
+    "Modified Biology (Fearless)",
+    "Requires Handler",
+    "Cannot Benefit From Cover (below Large)",
+    "Void-Sealed (Modified Lorica)"
+   ],
+   "pointsMode": "manual",
+   "points": 105,
+   "priceAs": "",
+   "source": "5PT Solarii Auxiliaries faction document",
+   "notes": "35 per figure; unit size not given (set to 3). Savvy NA. Max one unit per force, with a Handler."
+  },
+  {
+   "id": "t-sol-medicae",
+   "name": "Auxilia Medicae",
+   "side": "enemy",
+   "faction": "f-solarii",
+   "troop": "individual",
+   "size": 1,
+   "level": "minor",
+   "profile": {
+    "sp": 4,
+    "re": 2,
+    "cs": 1,
+    "t": 4,
+    "kp": 1,
+    "sv": 1,
+    "tr": 1,
+    "save": "—"
+   },
+   "leader": null,
+   "weapons": [
+    "w-sol-laspistol",
+    "w-sol-blade"
+   ],
+   "teamWeapons": [],
+   "leaderWeapons": [],
+   "rules": [
+    "Combat Medicine",
+    "Triage Protocol",
+    "Non-Combatant (Partial)"
+   ],
+   "pointsMode": "manual",
+   "points": 15,
+   "priceAs": "",
+   "source": "5PT Solarii Auxiliaries faction document"
+  },
+  {
+   "id": "t-sol-snipers",
+   "name": "Auxilia Sniper Section",
+   "side": "enemy",
+   "faction": "f-solarii",
+   "troop": "team",
+   "size": 2,
+   "level": "",
+   "profile": {
+    "sp": 4,
+    "re": 3,
+    "cs": 2,
+    "t": 4,
+    "kp": 1,
+    "sv": 1,
+    "tr": 1,
+    "save": "—"
+   },
+   "leader": null,
+   "weapons": [
+    "w-sol-sniper",
+    "w-sol-laspistol"
+   ],
+   "teamWeapons": [
+    "w-sol-sniper"
+   ],
+   "leaderWeapons": [],
+   "rules": [
+    "Overwatch Specialists",
+    "Lorica Camouflage System",
+    "Priority Targeting",
+    "Small Unit (2–3)"
+   ],
+   "pointsMode": "manual",
+   "points": 36,
+   "priceAs": "",
+   "source": "5PT Solarii Auxiliaries faction document",
+   "notes": "18 per figure, 2–3 figures; each carries a sniper lasrifle. Max two per force. Edit with freeform units on (the builder expects 3-crew teams)."
+  },
+  {
+   "id": "t-sol-subaltern",
+   "name": "Subaltern",
+   "side": "enemy",
+   "faction": "f-solarii",
+   "troop": "individual",
+   "size": 1,
+   "level": "minor",
+   "profile": {
+    "sp": 4,
+    "re": 2,
+    "cs": 1,
+    "t": 4,
+    "kp": 2,
+    "sv": 1,
+    "tr": 2,
+    "save": "—"
+   },
+   "leader": null,
+   "weapons": [
+    "w-sol-lasrifle",
+    "w-sol-blade",
+    "w-sol-frag"
+   ],
+   "teamWeapons": [],
+   "leaderWeapons": [],
+   "rules": [
+    "Leader",
+    "Squad Commander",
+    "Issue Orders"
+   ],
+   "pointsMode": "manual",
+   "points": 20,
+   "priceAs": "",
+   "source": "5PT Solarii Auxiliaries faction document",
+   "notes": "May take Laspistol + Melta Cutter instead of the lasrifle."
+  },
+  {
+   "id": "t-sol-tribune",
+   "name": "Tribune",
+   "side": "enemy",
+   "faction": "f-solarii",
+   "troop": "individual",
+   "size": 1,
+   "level": "major",
+   "profile": {
+    "sp": 4,
+    "re": 3,
+    "cs": 2,
+    "t": 4,
+    "kp": 3,
+    "sv": 1,
+    "tr": 3,
+    "save": "—"
+   },
+   "leader": null,
+   "weapons": [
+    "w-sol-lasrifle",
+    "w-sol-laspistol",
+    "w-sol-blade",
+    "w-sol-melta",
+    "w-sol-frag",
+    "w-sol-voidflash"
+   ],
+   "teamWeapons": [],
+   "leaderWeapons": [],
+   "rules": [
+    "Leader",
+    "Section Command",
+    "Battle Orders",
+    "Tactical Assessment"
+   ],
+   "pointsMode": "manual",
+   "points": 32,
+   "priceAs": "",
+   "source": "5PT Solarii Auxiliaries faction document"
+  },
+  {
+   "id": "t-sol-legate",
+   "name": "Legate-Commander",
+   "side": "enemy",
+   "faction": "f-solarii",
+   "troop": "individual",
+   "size": 1,
+   "level": "epic",
+   "profile": {
+    "sp": 5,
+    "re": 3,
+    "cs": 2,
+    "t": 5,
+    "kp": 4,
+    "sv": 2,
+    "tr": 4,
+    "save": "—"
+   },
+   "leader": null,
+   "weapons": [
+    "w-sol-lasrifle",
+    "w-sol-laspistol",
+    "w-sol-blade",
+    "w-sol-frag",
+    "w-sol-voidflash",
+    "w-sol-melta"
+   ],
+   "teamWeapons": [],
+   "leaderWeapons": [],
+   "rules": [
+    "Leader",
+    "Tercio Authority",
+    "Strategic Command",
+    "Legate's Resolve",
+    "Veteran of a Hundred Deployments"
+   ],
+   "pointsMode": "manual",
+   "points": 55,
+   "priceAs": "",
+   "source": "5PT Solarii Auxiliaries faction document",
+   "notes": "Command-pattern lasrifle fires twice; Lorica blade +1 Damage. One per Tercio."
+  },
+  {
+   "id": "t-sol-solis",
+   "name": "Legate Maret Solis — \"The Brass Legate\"",
+   "side": "enemy",
+   "faction": "f-solarii",
+   "troop": "individual",
+   "size": 1,
+   "level": "epic",
+   "profile": {
+    "sp": 5,
+    "re": 4,
+    "cs": 3,
+    "t": 5,
+    "kp": 5,
+    "sv": 2,
+    "tr": 4,
+    "save": "—"
+   },
+   "leader": null,
+   "weapons": [
+    "w-sol-lasrifle",
+    "w-sol-blade",
+    "w-sol-melta",
+    "w-sol-frag",
+    "w-sol-voidflash"
+   ],
+   "teamWeapons": [],
+   "leaderWeapons": [],
+   "rules": [
+    "Leader",
+    "All Legate-Commander rules",
+    "Thirty Years of Deployments",
+    "Brass Resolve",
+    "Tactical Prescience"
+   ],
+   "pointsMode": "manual",
+   "points": 75,
+   "priceAs": "",
+   "source": "5PT Solarii Auxiliaries faction document",
+   "notes": "Command-pattern lasrifle fires twice; Lorica blade Damage +2. CARDINAL hook: Tribune Varek Holt."
+  },
+  {
+   "id": "t-sol-darr",
+   "name": "Tribune-Specialist Ilion Darr — \"The Patient One\"",
+   "side": "enemy",
+   "faction": "f-solarii",
+   "troop": "individual",
+   "size": 1,
+   "level": "major",
+   "profile": {
+    "sp": 4,
+    "re": 4,
+    "cs": 3,
+    "t": 4,
+    "kp": 3,
+    "sv": 2,
+    "tr": 3,
+    "save": "—"
+   },
+   "leader": null,
+   "weapons": [
+    "w-sol-sniper",
+    "w-sol-laspistol",
+    "w-sol-blade"
+   ],
+   "teamWeapons": [],
+   "leaderWeapons": [],
+   "rules": [
+    "Overwatch Commander",
+    "Priority Target Designation",
+    "The Patient One",
+    "Lorica Camouflage System"
+   ],
+   "pointsMode": "manual",
+   "points": 45,
+   "priceAs": "",
+   "source": "5PT Solarii Auxiliaries faction document",
+   "notes": "Command-pattern sniper lasrifle: no setup action."
+  },
+  {
+   "id": "t-sol-ashval",
+   "name": "Sergeant-Major Borun Ashval",
+   "side": "enemy",
+   "faction": "f-solarii",
+   "troop": "individual",
+   "size": 1,
+   "level": "minor",
+   "profile": {
+    "sp": 4,
+    "re": 2,
+    "cs": 2,
+    "t": 4,
+    "kp": 2,
+    "sv": 1,
+    "tr": 3,
+    "save": "—"
+   },
+   "leader": null,
+   "weapons": [
+    "w-sol-lasrifle",
+    "w-sol-laspistol",
+    "w-sol-blade",
+    "w-sol-frag"
+   ],
+   "teamWeapons": [],
+   "leaderWeapons": [],
+   "rules": [
+    "Master Handler",
+    "Calm Under Fire",
+    "Non-Officer Authority"
+   ],
+   "pointsMode": "manual",
+   "points": 28,
+   "priceAs": "",
+   "source": "5PT Solarii Auxiliaries faction document"
+  },
+  {
+   "id": "t-sol-aethon",
+   "name": "Aethon Heavy Sentinel",
+   "side": "enemy",
+   "faction": "f-solarii",
+   "troop": "vehicle",
+   "size": 1,
+   "level": "",
+   "profile": {
+    "sp": 6,
+    "re": 1,
+    "cs": 0,
+    "t": 5,
+    "kp": 4,
+    "sv": 0,
+    "tr": 0,
+    "save": "—"
+   },
+   "leader": null,
+   "weapons": [
+    "w-sol-multilaser",
+    "w-sol-missile-pod"
+   ],
+   "teamWeapons": [],
+   "leaderWeapons": [],
+   "rules": [
+    "Walker Mobility",
+    "Agile Fire Platform",
+    "Exposed Crew Compartment"
+   ],
+   "pointsMode": "manual",
+   "points": 65,
+   "priceAs": "",
+   "source": "5PT Solarii Auxiliaries faction document",
+   "notes": "Reaction and Combat not given for vehicles; set to 1 / +0."
+  },
+  {
+   "id": "t-sol-dracosan",
+   "name": "Dracosan Armoured Transport",
+   "side": "enemy",
+   "faction": "f-solarii",
+   "troop": "vehicle",
+   "size": 1,
+   "level": "",
+   "profile": {
+    "sp": 8,
+    "re": 1,
+    "cs": 0,
+    "t": 6,
+    "kp": 6,
+    "sv": 0,
+    "tr": 0,
+    "save": "—"
+   },
+   "leader": null,
+   "weapons": [
+    "w-sol-dracosan-lc"
+   ],
+   "teamWeapons": [],
+   "leaderWeapons": [],
+   "rules": [
+    "Transport (10 infantry)",
+    "Armoured Delivery",
+    "Reinforced Hull",
+    "Bulky Frame"
+   ],
+   "pointsMode": "manual",
+   "points": 95,
+   "priceAs": "",
+   "source": "5PT Solarii Auxiliaries faction document"
+  },
+  {
+   "id": "t-sol-malcador",
+   "name": "Malcador Battle Tank",
+   "side": "enemy",
+   "faction": "f-solarii",
+   "troop": "vehicle",
+   "size": 1,
+   "level": "",
+   "profile": {
+    "sp": 6,
+    "re": 1,
+    "cs": 0,
+    "t": 7,
+    "kp": 8,
+    "sv": 0,
+    "tr": 0,
+    "save": "—"
+   },
+   "leader": null,
+   "weapons": [
+    "w-sol-battle-cannon",
+    "w-sol-hull-lascannon",
+    "w-sol-sponson-ac"
+   ],
+   "teamWeapons": [],
+   "leaderWeapons": [],
+   "rules": [
+    "Heavy Armor",
+    "Slow and Steady",
+    "Sponson Fire Arcs (×2 autocannons)",
+    "Variant: Demolisher Cannon (+15, loses 1 sponson)"
+   ],
+   "pointsMode": "manual",
+   "points": 140,
+   "priceAs": "",
+   "source": "5PT Solarii Auxiliaries faction document"
+  },
+  {
+   "id": "t-sol-valdor",
+   "name": "Valdor Tank Destroyer",
+   "side": "enemy",
+   "faction": "f-solarii",
+   "troop": "vehicle",
+   "size": 1,
+   "level": "",
+   "profile": {
+    "sp": 5,
+    "re": 1,
+    "cs": 0,
+    "t": 6,
+    "kp": 6,
+    "sv": 0,
+    "tr": 0,
+    "save": "—"
+   },
+   "leader": null,
+   "weapons": [
+    "w-sol-neutron",
+    "w-sol-valdor-ac"
+   ],
+   "teamWeapons": [],
+   "leaderWeapons": [],
+   "rules": [
+    "Tank Hunter",
+    "Charge Cycle",
+    "Priority Target"
+   ],
+   "pointsMode": "manual",
+   "points": 130,
+   "priceAs": "",
+   "source": "5PT Solarii Auxiliaries faction document"
+  },
+  {
+   "id": "t-sol-tarantula",
+   "name": "Tarantula Sentry Gun",
+   "side": "enemy",
+   "faction": "f-solarii",
+   "troop": "vehicle",
+   "size": 1,
+   "level": "",
+   "profile": {
+    "sp": 0,
+    "re": 2,
+    "cs": 1,
+    "t": 4,
+    "kp": 2,
+    "sv": 0,
+    "tr": 0,
+    "save": "—"
+   },
+   "leader": null,
+   "weapons": [
+    "w-sol-tarantula-ac"
+   ],
+   "teamWeapons": [],
+   "leaderWeapons": [],
+   "rules": [
+    "Automated",
+    "Vulnerable When Targeted",
+    "Sensor range 18\"",
+    "Alternative: Dual Las-Cannons"
+   ],
+   "pointsMode": "manual",
+   "points": 25,
+   "priceAs": "",
+   "source": "5PT Solarii Auxiliaries faction document",
+   "notes": "Optional emplacement; up to two per force in prepared-defense scenarios."
+  },
+  {
+   "id": "t-ae-guardians",
+   "name": "Guardian Defender Squad",
+   "side": "enemy",
+   "faction": "f-aeldari",
+   "troop": "squad",
+   "size": 5,
+   "level": "",
+   "profile": {
+    "sp": 7,
+    "re": 2,
+    "cs": 0,
+    "t": 3,
+    "kp": 1,
+    "sv": 1,
+    "tr": 0,
+    "save": "—"
+   },
+   "leader": null,
+   "weapons": [
+    "w-ae-catapult"
+   ],
+   "teamWeapons": [],
+   "leaderWeapons": [],
+   "rules": [
+    "Battle Focus",
+    "Fleet of Foot"
+   ],
+   "pointsMode": "manual",
+   "points": 40,
+   "priceAs": "",
+   "source": "The Aeldari Remnant (Steel Lions conversion)",
+   "notes": "8 per Guardian. One may become a Squad Leader with Combat +1 (+4)."
+  },
+  {
+   "id": "t-ae-platform",
+   "name": "Guardian Weapons Platform",
+   "side": "enemy",
+   "faction": "f-aeldari",
+   "troop": "team",
+   "size": 2,
+   "level": "",
+   "profile": {
+    "sp": 6,
+    "re": 2,
+    "cs": 1,
+    "t": 3,
+    "kp": 2,
+    "sv": 1,
+    "tr": 0,
+    "save": "—"
+   },
+   "leader": null,
+   "weapons": [
+    "w-ae-catapult"
+   ],
+   "teamWeapons": [
+    "w-ae-scatter"
+   ],
+   "leaderWeapons": [],
+   "rules": [
+    "Platform crew"
+   ],
+   "pointsMode": "manual",
+   "points": 16,
+   "priceAs": "",
+   "source": "The Aeldari Remnant (Steel Lions conversion)",
+   "notes": "Added to a Guardian Defender squad (+16). Platform weapon: Scatter Laser (free), Starcannon (+8), Bright Lance (+12) or Missile Launcher (+6). Edit with freeform units on."
+  },
+  {
+   "id": "t-ae-stormguardians",
+   "name": "Storm Guardian Squad",
+   "side": "enemy",
+   "faction": "f-aeldari",
+   "troop": "squad",
+   "size": 5,
+   "level": "",
+   "profile": {
+    "sp": 7,
+    "re": 2,
+    "cs": 0,
+    "t": 3,
+    "kp": 1,
+    "sv": 1,
+    "tr": 0,
+    "save": "—"
+   },
+   "leader": null,
+   "weapons": [
+    "w-ae-pistol",
+    "w-ae-chainsword"
+   ],
+   "teamWeapons": [],
+   "leaderWeapons": [],
+   "rules": [
+    "Battle Focus",
+    "Fleet of Foot"
+   ],
+   "pointsMode": "manual",
+   "points": 45,
+   "priceAs": "",
+   "source": "The Aeldari Remnant (Steel Lions conversion)",
+   "notes": "Two may take Fusion Guns (+10 each) or Flamers (+6 each)."
+  },
+  {
+   "id": "t-ae-rangers",
+   "name": "Ranger Squad",
+   "side": "enemy",
+   "faction": "f-aeldari",
+   "troop": "squad",
+   "size": 5,
+   "level": "",
+   "profile": {
+    "sp": 6,
+    "re": 3,
+    "cs": 1,
+    "t": 3,
+    "kp": 1,
+    "sv": 2,
+    "tr": 1,
+    "save": "—"
+   },
+   "leader": null,
+   "weapons": [
+    "w-ae-longrifle",
+    "w-ae-pistol"
+   ],
+   "teamWeapons": [],
+   "leaderWeapons": [],
+   "rules": [
+    "Infiltrate",
+    "Stealth (+1 save in cover)"
+   ],
+   "pointsMode": "manual",
+   "points": 70,
+   "priceAs": "",
+   "source": "The Aeldari Remnant (Steel Lions conversion)",
+   "notes": "14 per Ranger (base squad 42 = 3)."
+  },
+  {
+   "id": "t-ae-avengers",
+   "name": "Dire Avenger Squad",
+   "side": "enemy",
+   "faction": "f-aeldari",
+   "troop": "squad",
+   "size": 5,
+   "level": "",
+   "profile": {
+    "sp": 7,
+    "re": 3,
+    "cs": 1,
+    "t": 3,
+    "kp": 1,
+    "sv": 1,
+    "tr": 1,
+    "save": "—"
+   },
+   "leader": {
+    "sp": 7,
+    "re": 4,
+    "cs": 2,
+    "t": 4,
+    "kp": 2,
+    "sv": 2,
+    "tr": 2,
+    "save": "—"
+   },
+   "weapons": [
+    "w-ae-avenger"
+   ],
+   "teamWeapons": [],
+   "leaderWeapons": [],
+   "rules": [
+    "Defensive Focus",
+    "Bladestorm"
+   ],
+   "pointsMode": "manual",
+   "points": 70,
+   "priceAs": "",
+   "source": "The Aeldari Remnant (Steel Lions conversion)",
+   "notes": "Exarch options: Power Sword + Shimmershield (5+ invulnerable for the squad, +10) or dual catapults (+5)."
+  },
+  {
+   "id": "t-ae-banshees",
+   "name": "Howling Banshee Squad",
+   "side": "enemy",
+   "faction": "f-aeldari",
+   "troop": "squad",
+   "size": 5,
+   "level": "",
+   "profile": {
+    "sp": 8,
+    "re": 3,
+    "cs": 1,
+    "t": 3,
+    "kp": 1,
+    "sv": 1,
+    "tr": 1,
+    "save": "—"
+   },
+   "leader": {
+    "sp": 8,
+    "re": 4,
+    "cs": 2,
+    "t": 4,
+    "kp": 2,
+    "sv": 2,
+    "tr": 2,
+    "save": "—"
+   },
+   "weapons": [
+    "w-ae-bansheesword",
+    "w-ae-pistol"
+   ],
+   "teamWeapons": [],
+   "leaderWeapons": [],
+   "rules": [
+    "War Shout",
+    "Acrobatic"
+   ],
+   "pointsMode": "manual",
+   "points": 75,
+   "priceAs": "",
+   "source": "The Aeldari Remnant (Steel Lions conversion)",
+   "notes": "Exarch options: Executioner (+8) or Mirrorswords (+6)."
+  },
+  {
+   "id": "t-ae-scorpions",
+   "name": "Striking Scorpion Squad",
+   "side": "enemy",
+   "faction": "f-aeldari",
+   "troop": "squad",
+   "size": 5,
+   "level": "",
+   "profile": {
+    "sp": 6,
+    "re": 3,
+    "cs": 2,
+    "t": 4,
+    "kp": 1,
+    "sv": 1,
+    "tr": 1,
+    "save": "—"
+   },
+   "leader": {
+    "sp": 6,
+    "re": 4,
+    "cs": 3,
+    "t": 4,
+    "kp": 2,
+    "sv": 2,
+    "tr": 2,
+    "save": "—"
+   },
+   "weapons": [
+    "w-ae-scorpchain",
+    "w-ae-pistol",
+    "w-ae-mandiblasters"
+   ],
+   "teamWeapons": [],
+   "leaderWeapons": [],
+   "rules": [
+    "Infiltrate",
+    "Shadow Strike",
+    "Mandiblasters"
+   ],
+   "pointsMode": "manual",
+   "points": 80,
+   "priceAs": "",
+   "source": "The Aeldari Remnant (Steel Lions conversion)",
+   "notes": "Exarch options: Scorpion Claw (+8) or Biting Blade (+6)."
+  },
+  {
+   "id": "t-ae-dragons",
+   "name": "Fire Dragon Squad",
+   "side": "enemy",
+   "faction": "f-aeldari",
+   "troop": "squad",
+   "size": 5,
+   "level": "",
+   "profile": {
+    "sp": 6,
+    "re": 3,
+    "cs": 1,
+    "t": 3,
+    "kp": 1,
+    "sv": 1,
+    "tr": 1,
+    "save": "—"
+   },
+   "leader": {
+    "sp": 6,
+    "re": 4,
+    "cs": 2,
+    "t": 4,
+    "kp": 2,
+    "sv": 2,
+    "tr": 2,
+    "save": "—"
+   },
+   "weapons": [
+    "w-ae-fusiongun",
+    "w-ae-meltabomb"
+   ],
+   "teamWeapons": [],
+   "leaderWeapons": [],
+   "rules": [
+    "Tank Hunters",
+    "Melta Bombs"
+   ],
+   "pointsMode": "manual",
+   "points": 90,
+   "priceAs": "",
+   "source": "The Aeldari Remnant (Steel Lions conversion)",
+   "notes": "Exarch options: Firepike (+10) or Dragon's Breath Flamer (8\", 4 shots, Dmg 1, Focused; +8)."
+  },
+  {
+   "id": "t-ae-reapers",
+   "name": "Dark Reaper Squad",
+   "side": "enemy",
+   "faction": "f-aeldari",
+   "troop": "squad",
+   "size": 5,
+   "level": "",
+   "profile": {
+    "sp": 5,
+    "re": 3,
+    "cs": 2,
+    "t": 3,
+    "kp": 1,
+    "sv": 1,
+    "tr": 1,
+    "save": "—"
+   },
+   "leader": {
+    "sp": 5,
+    "re": 4,
+    "cs": 3,
+    "t": 4,
+    "kp": 2,
+    "sv": 2,
+    "tr": 2,
+    "save": "—"
+   },
+   "weapons": [
+    "w-ae-reaper"
+   ],
+   "teamWeapons": [],
+   "leaderWeapons": [],
+   "rules": [
+    "Inescapable Aim",
+    "Slow and Purposeful"
+   ],
+   "pointsMode": "manual",
+   "points": 100,
+   "priceAs": "",
+   "source": "The Aeldari Remnant (Steel Lions conversion)",
+   "notes": "Exarch options: Tempest Launcher (+8) or Shuriken Cannon (+6)."
+  },
+  {
+   "id": "t-ae-hawks",
+   "name": "Swooping Hawk Squad",
+   "side": "enemy",
+   "faction": "f-aeldari",
+   "troop": "squad",
+   "size": 5,
+   "level": "",
+   "profile": {
+    "sp": 6,
+    "re": 3,
+    "cs": 1,
+    "t": 3,
+    "kp": 1,
+    "sv": 1,
+    "tr": 1,
+    "save": "—"
+   },
+   "leader": {
+    "sp": 6,
+    "re": 4,
+    "cs": 2,
+    "t": 4,
+    "kp": 2,
+    "sv": 2,
+    "tr": 2,
+    "save": "—"
+   },
+   "weapons": [
+    "w-ae-lasblaster",
+    "w-ae-hawkgren"
+   ],
+   "teamWeapons": [],
+   "leaderWeapons": [],
+   "rules": [
+    "Wings of Khaine (fly 12\")",
+    "Skyleap"
+   ],
+   "pointsMode": "manual",
+   "points": 80,
+   "priceAs": "",
+   "source": "The Aeldari Remnant (Steel Lions conversion)",
+   "notes": "Speed 12\" flying / 6\" on foot. Exarch options: Hawk's Talon (24\", 4 shots, Dmg 0; +6) or Power Sword (+4)."
+  },
+  {
+   "id": "t-ae-spiders",
+   "name": "Warp Spider Squad",
+   "side": "enemy",
+   "faction": "f-aeldari",
+   "troop": "squad",
+   "size": 5,
+   "level": "",
+   "profile": {
+    "sp": 6,
+    "re": 4,
+    "cs": 1,
+    "t": 3,
+    "kp": 1,
+    "sv": 2,
+    "tr": 1,
+    "save": "—"
+   },
+   "leader": {
+    "sp": 6,
+    "re": 5,
+    "cs": 2,
+    "t": 4,
+    "kp": 2,
+    "sv": 2,
+    "tr": 2,
+    "save": "—"
+   },
+   "weapons": [
+    "w-ae-deathspinner"
+   ],
+   "teamWeapons": [],
+   "leaderWeapons": [],
+   "rules": [
+    "Warp Jump (8\" teleport)",
+    "Flickerjump"
+   ],
+   "pointsMode": "manual",
+   "points": 100,
+   "priceAs": "",
+   "source": "The Aeldari Remnant (Steel Lions conversion)",
+   "notes": "Exarch options: Twin Death Spinners (6 shots, +10) or Power Blades (+6)."
+  },
+  {
+   "id": "t-ae-wraithguard",
+   "name": "Wraithguard Squad",
+   "side": "enemy",
+   "faction": "f-aeldari",
+   "troop": "squad",
+   "size": 5,
+   "level": "",
+   "profile": {
+    "sp": 5,
+    "re": 2,
+    "cs": 1,
+    "t": 6,
+    "kp": 2,
+    "sv": 0,
+    "tr": 0,
+    "save": "—"
+   },
+   "leader": null,
+   "weapons": [
+    "w-ae-wraithcannon"
+   ],
+   "teamWeapons": [],
+   "leaderWeapons": [],
+   "rules": [
+    "Wraith Construct"
+   ],
+   "pointsMode": "manual",
+   "points": 160,
+   "priceAs": "",
+   "source": "The Aeldari Remnant (Steel Lions conversion)",
+   "notes": "32 per figure. May swap Wraithcannons for D-Scythes (+10 total). Savvy NA."
+  },
+  {
+   "id": "t-ae-wraithblades",
+   "name": "Wraithblade Squad",
+   "side": "enemy",
+   "faction": "f-aeldari",
+   "troop": "squad",
+   "size": 5,
+   "level": "",
+   "profile": {
+    "sp": 5,
+    "re": 2,
+    "cs": 2,
+    "t": 6,
+    "kp": 2,
+    "sv": 0,
+    "tr": 0,
+    "save": "—"
+   },
+   "leader": null,
+   "weapons": [
+    "w-ae-ghostsword"
+   ],
+   "teamWeapons": [],
+   "leaderWeapons": [],
+   "rules": [
+    "Wraith Construct",
+    "Fearless in close combat"
+   ],
+   "pointsMode": "manual",
+   "points": 175,
+   "priceAs": "",
+   "source": "The Aeldari Remnant (Steel Lions conversion)",
+   "notes": "May swap to Ghostaxes + Forceshields (5+ invulnerable) for free."
+  },
+  {
+   "id": "t-ae-wraithlord",
+   "name": "Wraithlord",
+   "side": "enemy",
+   "faction": "f-aeldari",
+   "troop": "individual",
+   "size": 1,
+   "level": "major",
+   "profile": {
+    "sp": 6,
+    "re": 2,
+    "cs": 2,
+    "t": 7,
+    "kp": 4,
+    "sv": 0,
+    "tr": 0,
+    "save": "—"
+   },
+   "leader": null,
+   "weapons": [
+    "w-ae-brightlance",
+    "w-ae-scatter",
+    "w-ae-catapult"
+   ],
+   "teamWeapons": [],
+   "leaderWeapons": [],
+   "rules": [
+    "Large Target",
+    "Monstrous Creature (fires all weapons)",
+    "Wraith Construct"
+   ],
+   "pointsMode": "manual",
+   "points": 80,
+   "priceAs": "",
+   "source": "The Aeldari Remnant (Steel Lions conversion)",
+   "notes": "Arm weapons: choose two of Scatter Laser, Starcannon, Bright Lance, Missile Launcher; two shoulder Shuriken Catapults. Ghostglaive +10."
+  },
+  {
+   "id": "t-ae-wraithseer",
+   "name": "Wraithseer",
+   "side": "enemy",
+   "faction": "f-aeldari",
+   "troop": "individual",
+   "size": 1,
+   "level": "major",
+   "profile": {
+    "sp": 6,
+    "re": 3,
+    "cs": 2,
+    "t": 7,
+    "kp": 4,
+    "sv": 2,
+    "tr": 1,
+    "save": "—"
+   },
+   "leader": null,
+   "weapons": [
+    "w-ae-dcannon",
+    "w-ae-ghostspear"
+   ],
+   "teamWeapons": [],
+   "leaderWeapons": [],
+   "rules": [
+    "Psyker (2 powers per turn, 3 Runes of Battle)",
+    "Spirit Mark",
+    "Wraith Construct"
+   ],
+   "pointsMode": "manual",
+   "points": 100,
+   "priceAs": "",
+   "source": "The Aeldari Remnant (Steel Lions conversion)"
+  },
+  {
+   "id": "t-ae-warlock",
+   "name": "Warlock",
+   "side": "enemy",
+   "faction": "f-aeldari",
+   "troop": "individual",
+   "size": 1,
+   "level": "minor",
+   "profile": {
+    "sp": 7,
+    "re": 3,
+    "cs": 1,
+    "t": 3,
+    "kp": 2,
+    "sv": 2,
+    "tr": 1,
+    "save": "—"
+   },
+   "leader": null,
+   "weapons": [
+    "w-ae-pistol",
+    "w-ae-witchblade"
+   ],
+   "teamWeapons": [],
+   "leaderWeapons": [],
+   "rules": [
+    "Psyker: 2 Runes of Battle powers, casts 1 per activation, 4 Psi",
+    "Attachment (+5)"
+   ],
+   "pointsMode": "manual",
+   "points": 25,
+   "priceAs": "",
+   "source": "The Aeldari Remnant (Steel Lions conversion)"
+  },
+  {
+   "id": "t-ae-farseer",
+   "name": "Farseer",
+   "side": "enemy",
+   "faction": "f-aeldari",
+   "troop": "individual",
+   "size": 1,
+   "level": "major",
+   "profile": {
+    "sp": 6,
+    "re": 4,
+    "cs": 1,
+    "t": 3,
+    "kp": 3,
+    "sv": 3,
+    "tr": 2,
+    "save": "—"
+   },
+   "leader": null,
+   "weapons": [
+    "w-ae-pistol",
+    "w-ae-witchblade"
+   ],
+   "teamWeapons": [],
+   "leaderWeapons": [],
+   "rules": [
+    "Leader",
+    "Psyker: 4 powers, casts 2 per activation, 8 Psi",
+    "Spirit Stones",
+    "Ghosthelm"
+   ],
+   "pointsMode": "manual",
+   "points": 45,
+   "priceAs": "",
+   "source": "The Aeldari Remnant (Steel Lions conversion)",
+   "notes": "May upgrade to Singing Spear (+5)."
+  },
+  {
+   "id": "t-ae-spiritseer",
+   "name": "Spiritseer",
+   "side": "enemy",
+   "faction": "f-aeldari",
+   "troop": "individual",
+   "size": 1,
+   "level": "major",
+   "profile": {
+    "sp": 6,
+    "re": 3,
+    "cs": 1,
+    "t": 3,
+    "kp": 2,
+    "sv": 3,
+    "tr": 1,
+    "save": "—"
+   },
+   "leader": null,
+   "weapons": [
+    "w-ae-pistol",
+    "w-ae-witchstaff"
+   ],
+   "teamWeapons": [],
+   "leaderWeapons": [],
+   "rules": [
+    "Psyker: 3 powers incl. Spirit Link, casts 2, 6 Psi",
+    "Spirit Mark",
+    "Voice of the Dead"
+   ],
+   "pointsMode": "manual",
+   "points": 35,
+   "priceAs": "",
+   "source": "The Aeldari Remnant (Steel Lions conversion)"
+  },
+  {
+   "id": "t-ae-autarch",
+   "name": "Autarch",
+   "side": "enemy",
+   "faction": "f-aeldari",
+   "troop": "individual",
+   "size": 1,
+   "level": "major",
+   "profile": {
+    "sp": 7,
+    "re": 4,
+    "cs": 2,
+    "t": 4,
+    "kp": 3,
+    "sv": 2,
+    "tr": 2,
+    "save": "—"
+   },
+   "leader": null,
+   "weapons": [
+    "w-ae-pistol",
+    "w-ae-powersword"
+   ],
+   "teamWeapons": [],
+   "leaderWeapons": [],
+   "rules": [
+    "Leader",
+    "Path of Command",
+    "Master of War"
+   ],
+   "pointsMode": "manual",
+   "points": 50,
+   "priceAs": "",
+   "source": "The Aeldari Remnant (Steel Lions conversion)",
+   "notes": "Options: Fusion Pistol (+8), Reaper Launcher (+10); wargear Hawk Wings (+10), Warp Jump Generator (+12), Mandiblasters (+4), Banshee Mask (+4)."
+  },
+  {
+   "id": "t-ae-avatar",
+   "name": "Avatar of Khaine",
+   "side": "enemy",
+   "faction": "f-aeldari",
+   "troop": "individual",
+   "size": 1,
+   "level": "epic",
+   "profile": {
+    "sp": 8,
+    "re": 5,
+    "cs": 3,
+    "t": 7,
+    "kp": 5,
+    "sv": 0,
+    "tr": 3,
+    "save": "5+"
+   },
+   "leader": null,
+   "weapons": [
+    "w-ae-wailingdoom"
+   ],
+   "teamWeapons": [],
+   "leaderWeapons": [],
+   "rules": [
+    "Daemon (5+ invulnerable)",
+    "Inspiring Presence",
+    "Molten Body",
+    "Fear"
+   ],
+   "pointsMode": "manual",
+   "points": 150,
+   "priceAs": "",
+   "source": "The Aeldari Remnant (Steel Lions conversion)",
+   "notes": "One per army; cannot be the Warlord."
+  },
+  {
+   "id": "t-ae-taldris",
+   "name": "Farseer Taldris of the Wandering Path",
+   "side": "enemy",
+   "faction": "f-aeldari",
+   "troop": "individual",
+   "size": 1,
+   "level": "epic",
+   "profile": {
+    "sp": 6,
+    "re": 5,
+    "cs": 2,
+    "t": 4,
+    "kp": 4,
+    "sv": 4,
+    "tr": 2,
+    "save": "—"
+   },
+   "leader": null,
+   "weapons": [
+    "w-ae-singingspear",
+    "w-ae-pistol"
+   ],
+   "teamWeapons": [],
+   "leaderWeapons": [],
+   "rules": [
+    "Leader",
+    "Psyker: all Runes of Fate + Spirit Link, casts 3, 10 Psi",
+    "Foresight",
+    "Far-Seeing Eye"
+   ],
+   "pointsMode": "manual",
+   "points": 75,
+   "priceAs": "",
+   "source": "The Aeldari Remnant (Steel Lions conversion)"
+  },
+  {
+   "id": "t-ae-sindri",
+   "name": "Autarch Sindri Swiftblade",
+   "side": "enemy",
+   "faction": "f-aeldari",
+   "troop": "individual",
+   "size": 1,
+   "level": "epic",
+   "profile": {
+    "sp": 8,
+    "re": 5,
+    "cs": 3,
+    "t": 4,
+    "kp": 4,
+    "sv": 2,
+    "tr": 3,
+    "save": "—"
+   },
+   "leader": null,
+   "weapons": [
+    "w-ae-fusionpistol",
+    "w-ae-powersword"
+   ],
+   "teamWeapons": [],
+   "leaderWeapons": [],
+   "rules": [
+    "Leader",
+    "Path of Command",
+    "Master of War",
+    "War Shout (Banshee Mask)",
+    "Wings of Khaine",
+    "Blade of the Autarch"
+   ],
+   "pointsMode": "manual",
+   "points": 85,
+   "priceAs": "",
+   "source": "The Aeldari Remnant (Steel Lions conversion)"
+  },
+  {
+   "id": "t-ae-karandras",
+   "name": "Exarch Karandras of the Shadow",
+   "side": "enemy",
+   "faction": "f-aeldari",
+   "troop": "individual",
+   "size": 1,
+   "level": "major",
+   "profile": {
+    "sp": 6,
+    "re": 5,
+    "cs": 4,
+    "t": 5,
+    "kp": 3,
+    "sv": 2,
+    "tr": 3,
+    "save": "—"
+   },
+   "leader": null,
+   "weapons": [
+    "w-ae-scorpclaw",
+    "w-ae-bitingblade",
+    "w-ae-mandiblasters",
+    "w-ae-pistol"
+   ],
+   "teamWeapons": [],
+   "leaderWeapons": [],
+   "rules": [
+    "Infiltrate",
+    "Shadow Strike",
+    "Stealth (+2 save in cover)",
+    "Scorpion's Sting"
+   ],
+   "pointsMode": "manual",
+   "points": 65,
+   "priceAs": "",
+   "source": "The Aeldari Remnant (Steel Lions conversion)"
+  },
+  {
+   "id": "t-ae-vyper",
+   "name": "Vyper Jetbike",
+   "side": "enemy",
+   "faction": "f-aeldari",
+   "troop": "vehicle",
+   "size": 1,
+   "level": "",
+   "profile": {
+    "sp": 16,
+    "re": 1,
+    "cs": 0,
+    "t": 5,
+    "kp": 3,
+    "sv": 0,
+    "tr": 0,
+    "save": "—"
+   },
+   "leader": null,
+   "weapons": [
+    "w-ae-twincatapult",
+    "w-ae-shurikencannon"
+   ],
+   "teamWeapons": [],
+   "leaderWeapons": [],
+   "rules": [
+    "Grav-Vehicle",
+    "Light Vehicle",
+    "Exposed Crew",
+    "Open-Topped"
+   ],
+   "pointsMode": "manual",
+   "points": 45,
+   "priceAs": "",
+   "source": "The Aeldari Remnant (Steel Lions conversion)",
+   "notes": "Turret: Shuriken Cannon (free), Scatter Laser +5, Starcannon +10, Bright Lance +15. Crew 2."
+  },
+  {
+   "id": "t-ae-serpent",
+   "name": "Wave Serpent",
+   "side": "enemy",
+   "faction": "f-aeldari",
+   "troop": "vehicle",
+   "size": 1,
+   "level": "",
+   "profile": {
+    "sp": 14,
+    "re": 1,
+    "cs": 0,
+    "t": 7,
+    "kp": 5,
+    "sv": 0,
+    "tr": 0,
+    "save": "—"
+   },
+   "leader": null,
+   "weapons": [
+    "w-ae-twincatapult",
+    "w-ae-twinscatter"
+   ],
+   "teamWeapons": [],
+   "leaderWeapons": [],
+   "rules": [
+    "Grav-Vehicle",
+    "Transport (12)",
+    "Serpent Shield"
+   ],
+   "pointsMode": "manual",
+   "points": 90,
+   "priceAs": "",
+   "source": "The Aeldari Remnant (Steel Lions conversion)",
+   "notes": "Turret: Twin Scatter Laser (free), Twin Starcannon +15, Twin Bright Lance +20."
+  },
+  {
+   "id": "t-ae-falcon",
+   "name": "Falcon Grav-Tank",
+   "side": "enemy",
+   "faction": "f-aeldari",
+   "troop": "vehicle",
+   "size": 1,
+   "level": "",
+   "profile": {
+    "sp": 14,
+    "re": 1,
+    "cs": 0,
+    "t": 7,
+    "kp": 5,
+    "sv": 0,
+    "tr": 0,
+    "save": "—"
+   },
+   "leader": null,
+   "weapons": [
+    "w-ae-twincatapult",
+    "w-ae-pulselaser",
+    "w-ae-shurikencannon"
+   ],
+   "teamWeapons": [],
+   "leaderWeapons": [],
+   "rules": [
+    "Grav-Vehicle",
+    "Transport (6)",
+    "Hover Tank"
+   ],
+   "pointsMode": "manual",
+   "points": 100,
+   "priceAs": "",
+   "source": "The Aeldari Remnant (Steel Lions conversion)"
+  },
+  {
+   "id": "t-ae-prism",
+   "name": "Fire Prism",
+   "side": "enemy",
+   "faction": "f-aeldari",
+   "troop": "vehicle",
+   "size": 1,
+   "level": "",
+   "profile": {
+    "sp": 12,
+    "re": 1,
+    "cs": 0,
+    "t": 7,
+    "kp": 5,
+    "sv": 0,
+    "tr": 0,
+    "save": "—"
+   },
+   "leader": null,
+   "weapons": [
+    "w-ae-twincatapult",
+    "w-ae-prismcannon"
+   ],
+   "teamWeapons": [],
+   "leaderWeapons": [],
+   "rules": [
+    "Grav-Vehicle",
+    "Linked Fire"
+   ],
+   "pointsMode": "manual",
+   "points": 120,
+   "priceAs": "",
+   "source": "The Aeldari Remnant (Steel Lions conversion)"
+  },
+  {
+   "id": "t-ae-nightspinner",
+   "name": "Night Spinner",
+   "side": "enemy",
+   "faction": "f-aeldari",
+   "troop": "vehicle",
+   "size": 1,
+   "level": "",
+   "profile": {
+    "sp": 12,
+    "re": 1,
+    "cs": 0,
+    "t": 7,
+    "kp": 5,
+    "sv": 0,
+    "tr": 0,
+    "save": "—"
+   },
+   "leader": null,
+   "weapons": [
+    "w-ae-twincatapult",
+    "w-ae-shadowweaver"
+   ],
+   "teamWeapons": [],
+   "leaderWeapons": [],
+   "rules": [
+    "Grav-Vehicle",
+    "Indirect Fire"
+   ],
+   "pointsMode": "manual",
+   "points": 100,
+   "priceAs": "",
+   "source": "The Aeldari Remnant (Steel Lions conversion)",
+   "notes": "Twin Shadow Weavers."
+  },
+  {
+   "id": "t-ae-warwalker",
+   "name": "War Walker",
+   "side": "enemy",
+   "faction": "f-aeldari",
+   "troop": "vehicle",
+   "size": 1,
+   "level": "",
+   "profile": {
+    "sp": 8,
+    "re": 1,
+    "cs": 0,
+    "t": 5,
+    "kp": 3,
+    "sv": 0,
+    "tr": 0,
+    "save": "—"
+   },
+   "leader": null,
+   "weapons": [
+    "w-ae-scatter"
+   ],
+   "teamWeapons": [],
+   "leaderWeapons": [],
+   "rules": [
+    "Scout",
+    "Walker (fires both weapons)"
+   ],
+   "pointsMode": "manual",
+   "points": 50,
+   "priceAs": "",
+   "source": "The Aeldari Remnant (Steel Lions conversion)",
+   "notes": "Two identical arm weapons (Scatter Laser, Starcannon, Bright Lance, Missile Launcher or Shuriken Cannon). 50 per walker."
+  }
+ ],
+ "factions": [
+  {
+   "id": "f-coldharbor",
+   "name": "Cold Harbor Solutions Group",
+   "side": "enemy",
+   "noVehicles": true,
+   "personality": "Opportunist",
+   "source": "BPRE Cold Harbor & Aayari Covenant (project doc)",
+   "notes": "Stellex-contracted PMC. Tier 1 operators, Tier 2 Crisis Troop Scorch, Tier 3 Nitto 00 Unit and SPEAR Brigade. Expect 8–14 figures against 16–25.",
+   "rules": [
+    {
+     "name": "Tier 1 Professionalism",
+     "text": "Tier 1 operators never rout and auto-pass morale. If the last Tier 1 operator dies, Tier 2/3 units test morale at −1."
+    },
+    {
+     "name": "Fire and Movement",
+     "text": "When a Cold Harbor unit fires and another moves in the same phase, the moving unit gets +1 to its armor save for that activation."
+    },
+    {
+     "name": "CQB Doctrine",
+     "text": "Operators and Scorch: +1 Combat fighting inside buildings or enclosed structures."
+    },
+    {
+     "name": "Drone Network",
+     "text": "With an Advisor or Enabler in the force, friendly units within 12\" of the Advisor may re-roll failed Reaction tests once per round."
+    },
+    {
+     "name": "Night Vision",
+     "text": "Operators and Scorch ignore darkness penalties; Nitto and SPEAR halve them (round down)."
+    },
+    {
+     "name": "Mixed Force",
+     "text": "May mix all three tiers in one platoon; a Tier 1 character must lead."
+    },
+    {
+     "name": "Suppressed [C]",
+     "text": "Enemies may not Reaction-fire at the attacker; shots after the first in an activation are −1 to hit."
+    },
+    {
+     "name": "One Use [C]",
+     "text": "Used once per battle."
+    }
+   ],
+   "slots": {
+    "infantry": "t-ch-scorch-gren",
+    "recon": "t-ch-scorch-recce",
+    "storm": "t-ch-assaulters",
+    "weaponsTeam": "t-ch-ar",
+    "majorChar": "t-ch-advisor",
+    "epicChar": "t-ch-viper",
+    "sniper": "t-ch-spear-marksman",
+    "transport": "",
+    "armoredCar": "",
+    "lightTank": "",
+    "tank": "",
+    "heavyTank": ""
+   }
+  },
+  {
+   "id": "f-aayari",
+   "name": "The Aayari Covenant",
+   "side": "enemy",
+   "noVehicles": true,
+   "personality": "Aggressive",
+   "source": "BPRE Cold Harbor & Aayari Covenant (project doc)",
+   "notes": "Fanatical insurgent network aligned with the ASL, supplied through Hongbin Alloy. Field 20–30% more points than a Cold Harbor opponent, and plenty of terrain.",
+   "rules": [
+    {
+     "name": "Fanaticism",
+     "text": "Aayari Guard pass morale on 3+ and never retreat; a failed check Pins instead."
+    },
+    {
+     "name": "Expendable Masses",
+     "text": "Up to 6 Troop choices per platoon; Shurta squads do not count toward support or specialist limits."
+    },
+    {
+     "name": "Improvised Explosives",
+     "text": "Before deployment place D3+1 IED tokens. Enemy within 3\": detonate, 4+ to hit, Damage 2, Area, Piercing. A Muhtasib Sapper within 12\" and LoS may command-detonate."
+    },
+    {
+     "name": "Proxy Warfare",
+     "text": "Hongbin Alloy units may be taken as support choices; with Hongbin present the force gains Drone Strike."
+    },
+    {
+     "name": "Ambush Tactics",
+     "text": "After deployment, up to 2 Shurta squads may use Hidden Deployment."
+    },
+    {
+     "name": "Decentralized Command",
+     "text": "No morale penalty for a leader's death; without a Hongbin Enabler on the table, no coordinated activations."
+    }
+   ],
+   "slots": {
+    "infantry": "t-aa-shurta",
+    "recon": "t-aa-shurta",
+    "storm": "t-aa-muhtasib",
+    "weaponsTeam": "t-aa-shurta-pkm",
+    "majorChar": "t-aa-qadi",
+    "epicChar": "t-hb-bpre-ghost",
+    "sniper": "",
+    "transport": "",
+    "armoredCar": "",
+    "lightTank": "",
+    "tank": "",
+    "heavyTank": ""
+   }
+  },
+  {
+   "id": "f-hb",
+   "name": "Hongbin Alloy",
+   "side": "enemy",
+   "noVehicles": true,
+   "personality": "Methodical",
+   "source": "BPRE Cold Harbor & Aayari Covenant (project doc) + Errata E-1",
+   "notes": "Mercenary cutout for Hegemonic Authority intelligence. Professionals: standard morale, withdraw rather than die. Rank-and-file use the Military profile per Errata E-1.",
+   "rules": [
+    {
+     "name": "Professional Soldier",
+     "text": "Hongbin do not use Aayari Fanaticism; standard morale."
+    },
+    {
+     "name": "Errata E-1",
+     "text": "Rank-and-file: Reaction 2, Combat +1, Training +1, Toughness 4, 6+ save. Points provisional (+5 per figure)."
+    }
+   ],
+   "slots": {
+    "infantry": "t-hb-bpre-grenadiers",
+    "recon": "t-hb-recon",
+    "storm": "t-hb-bpre-grenadiers",
+    "weaponsTeam": "t-hb-bpre-pkm",
+    "majorChar": "t-hb-bpre-enabler",
+    "epicChar": "t-hb-bpre-ghost",
+    "sniper": "t-hb-recon",
+    "transport": "",
+    "armoredCar": "",
+    "lightTank": "",
+    "tank": "",
+    "heavyTank": ""
+   }
+  },
+  {
+   "id": "f-asl",
+   "name": "Ad Servitutem Liberandum",
+   "side": "enemy",
+   "noVehicles": true,
+   "personality": "Raider",
+   "source": "Steel Lions Master Reference §4; Feuertaufe",
+   "notes": "Cell-based insurgents. Civilian profile, Toughness 3, KP 1. Proxied by Star Wars Legion Rebel Troopers in Feuertaufe.",
+   "rules": [
+    {
+     "name": "Cell Structure",
+     "text": "Eliminated leaders are replaced; units do not break from leader casualties."
+    },
+    {
+     "name": "Urban Fighters",
+     "text": "+1 Combat in buildings and ruins."
+    },
+    {
+     "name": "Improvised Explosives",
+     "text": "D3 IED tokens may be placed before battle."
+    },
+    {
+     "name": "Fanaticism",
+     "text": "Pass morale on 3+ and never retreat; fight to the last model. (Feuertaufe: a failed check Pins.)"
+    }
+   ],
+   "slots": {
+    "infantry": "t-asl-cell",
+    "recon": "t-asl-cell",
+    "storm": "t-asl-cell",
+    "weaponsTeam": "",
+    "majorChar": "",
+    "epicChar": "",
+    "sniper": "",
+    "transport": "",
+    "armoredCar": "",
+    "lightTank": "",
+    "tank": "",
+    "heavyTank": ""
+   }
+  },
+  {
+   "id": "f-steellions",
+   "name": "Steel Lions Mercenary Company",
+   "side": "player",
+   "personality": "Methodical",
+   "source": "Steel Lions Master Reference §4",
+   "notes": "Squad profiles live in the Fringe Detachment campaign chat and are not in this pack yet.",
+   "rules": [
+    {
+     "name": "Mercenary Professionals",
+     "text": "Re-roll one failed morale check per battle."
+    },
+    {
+     "name": "Flexible Tactics",
+     "text": "May change one unit's mission role at the start of battle."
+    },
+    {
+     "name": "Veteran Instincts",
+     "text": "Units with 3+ campaign experience may react once on the enemy turn."
+    }
+   ],
+   "slots": {}
+  },
+  {
+   "id": "f-78",
+   "name": "78th Sturm Battalion",
+   "side": "player",
+   "personality": "Methodical",
+   "source": "Steel Lions Master Reference §4",
+   "notes": "Eisenwald redemption battalion. Roster and templates come from the example data.",
+   "rules": [
+    {
+     "name": "Iron Discipline",
+     "text": "Never routs; auto-pass morale checks."
+    },
+    {
+     "name": "Siege Veterans",
+     "text": "+1 Combat in prepared positions or urban terrain."
+    },
+    {
+     "name": "Artillery Support",
+     "text": "Any squad can call off-table artillery once per battle."
+    },
+    {
+     "name": "Redemption Through Sacrifice",
+     "text": "Once per battle: +2 Combat for one turn, but damage taken ignores armor."
+    }
+   ],
+   "slots": {}
+  },
+  {
+   "id": "f-solarii",
+   "name": "Solarii Auxiliaries",
+   "side": "enemy",
+   "personality": "Methodical",
+   "source": "5PT Solarii Auxiliaries faction document",
+   "notes": "Professional mercenary Tercios from Anchor Primus. Composition: at least two Auxiliaris squads; one officer per two Auxiliaris/Veteran squads (Tribune or higher at 750+); one vehicle per 300 pts; one named character per 500 pts. Encounter: roll the Solarii Disposition D6 (1 Contract Opposition, 2 Neutral Observers, 3 Parallel Objective, 4 Contracted Alliance, 5 CARDINAL Complication, 6 Request for Assistance) and keep a Relationship Track from 0.",
+   "rules": [
+    {
+     "name": "Void-Sealed (Lorica Protocol)",
+     "text": "Immune to hostile atmosphere, radiation and similar hazards. Solarii infantry cannot Dash."
+    },
+    {
+     "name": "Fire Discipline",
+     "text": "A unit that fires without moving may reroll one failed Hit die (not if suppressed)."
+    },
+    {
+     "name": "Integrity of Formation",
+     "text": "No Suppression penalties while an unsuppressed officer is within 6\". At 50% or fewer figures, Training test 5+ at next activation or fall back 3\"."
+    },
+    {
+     "name": "Methodical Advance",
+     "text": "Designate a Primary Fire Position: units there get +1 Training and −1 activation cost (min 1)."
+    },
+    {
+     "name": "Combined Arms Coordination",
+     "text": "A vehicle firing at a target Solarii infantry fired on this round ignores its Cover bonus."
+    },
+    {
+     "name": "Tercio Pride",
+     "text": "When the first unit is lost, units that can see where it fell gain +1 Training for the battle."
+    },
+    {
+     "name": "Lorica Coordination",
+     "text": "Infantry within 8\" of an unsuppressed officer may use the officer's Training for Morale tests."
+    },
+    {
+     "name": "Weapon traits",
+     "text": "Reliable / Unreliable, Anti-Armor (Light), Limited Ammo (n), Crewed (n), Requires Setup, Powerful — as defined in the Solarii document."
+    }
+   ],
+   "slots": {
+    "infantry": "t-sol-aux",
+    "recon": "t-sol-snipers",
+    "storm": "t-sol-veletarian",
+    "weaponsTeam": "t-sol-flamer",
+    "majorChar": "t-sol-tribune",
+    "epicChar": "t-sol-legate",
+    "sniper": "t-sol-snipers",
+    "transport": "t-sol-dracosan",
+    "armoredCar": "t-sol-aethon",
+    "lightTank": "t-sol-aethon",
+    "tank": "t-sol-malcador",
+    "heavyTank": "t-sol-valdor"
+   }
+  },
+  {
+   "id": "f-aeldari",
+   "name": "Aeldari Remnant",
+   "side": "enemy",
+   "personality": "Opportunist",
+   "source": "The Aeldari Remnant (Steel Lions conversion)",
+   "notes": "Craftworlds Il-Kaithe (heavy weapons, monitoring the Necron awakening), Saim-Hann (fast raiders in the Shatter) and Ulthwé (manipulators; Farseer Taldris). Campaign hooks: The Convergence, The Debt Unpaid, The Lost Exodite, The Psychic Storm.",
+   "rules": [
+    {
+     "name": "Ancient Doom",
+     "text": "Immune to non-psychic Fear; in melee with Necrons, Training test or −1 Combat."
+    },
+    {
+     "name": "Battle Focus",
+     "text": "Infantry may fire after Running or Dashing at −1 to Hit (not Heavy weapons)."
+    },
+    {
+     "name": "Fleet of Foot",
+     "text": "+2\" when Running instead of +1\"."
+    },
+    {
+     "name": "Psychic Race",
+     "text": "Enemy psykers −1 targeting Aeldari; Aeldari psykers +1 (not Wraith constructs)."
+    },
+    {
+     "name": "Superior Senses",
+     "text": "Cannot be surprised; ignore the first −1 from Limited Visibility."
+    },
+    {
+     "name": "Shuriken",
+     "text": "Natural 6 to Hit auto-wounds and ignores armor."
+    },
+    {
+     "name": "Monofilament",
+     "text": "Damage rolled against Reactions instead of Toughness."
+    },
+    {
+     "name": "Melta",
+     "text": "At half range or less, +1 to the damage multiplier."
+    },
+    {
+     "name": "Spirit-Guided",
+     "text": "Ignore cover penalties."
+    },
+    {
+     "name": "Wraithweapon",
+     "text": "Target passes Training at −2 or is removed; vehicles take D3 damage."
+    },
+    {
+     "name": "Psi-Weapon",
+     "text": "Psyker adds Savvy to damage; Piercing vs psykers."
+    },
+    {
+     "name": "Prism / Resonance / Paired / Drop Attack / Auto-Hit",
+     "text": "As defined in the Aeldari Remnant document §2.2."
+    },
+    {
+     "name": "Aeldari Vehicles",
+     "text": "Grav-Vehicle, Elegant Design (−1 to be hit after moving half Speed), Crystal Matrix (fire all weapons)."
+    },
+    {
+     "name": "Serpent Shield",
+     "text": "Damage 1 or less ignored on 5+; once per game discharge (24\", D6+6 shots, Dmg 1, ignores cover), then the passive is lost."
+    },
+    {
+     "name": "Casting Powers",
+     "text": "Spend Psi Points, roll 1D6+Savvy, 5+ succeeds; natural 1 = 1 Hit to the psyker. Regain half max Psi each turn. Each power once per turn per psyker."
+    },
+    {
+     "name": "Runes of Fate (Farseer)",
+     "text": "Guide (1): reroll missed attacks · Doom (2): enemy −1 saves · Fortune (2): friendly +1 saves · Mind War (2): Savvy duel · Eldritch Storm (3): 6\" radius, Dmg 1 Piercing · Executioner (2): 3 Hits Dmg 1 Focused."
+    },
+    {
+     "name": "Runes of Battle",
+     "text": "Conceal/Reveal (1) · Protect/Jinx (2) · Quicken/Restrain (2) · Embolden/Horrify (1/2) · Spirit Link (1, Spiritseer)."
+    }
+   ],
+   "slots": {
+    "infantry": "t-ae-guardians",
+    "recon": "t-ae-rangers",
+    "storm": "t-ae-banshees",
+    "weaponsTeam": "t-ae-platform",
+    "majorChar": "t-ae-autarch",
+    "epicChar": "t-ae-taldris",
+    "sniper": "t-ae-rangers",
+    "transport": "t-ae-serpent",
+    "armoredCar": "t-ae-warwalker",
+    "lightTank": "t-ae-vyper",
+    "tank": "t-ae-falcon",
+    "heavyTank": "t-ae-prism"
+   }
+  }
+ ]
+}

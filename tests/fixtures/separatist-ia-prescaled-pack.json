@@ -1,0 +1,2164 @@
+{
+ "kind": "pcp-bundle",
+ "v": 1,
+ "app": "Parsecs Command 1.0.2",
+ "exported": "2026-10-14T21:52:00.240Z",
+ "from": "Star Wars: Legion — Separatist Alliance (conversion)",
+ "weapons": [
+  {
+   "id": "w-cis-e5",
+   "name": "E-5 blaster rifle",
+   "base": "Infantry laser",
+   "range": 45,
+   "shots": 1,
+   "dmg": "0",
+   "traits": [
+    "Snap Shot"
+   ],
+   "pts": 4,
+   "cat": "Rifle"
+  },
+  {
+   "id": "w-cis-e5c",
+   "name": "E-5C heavy blaster rifle",
+   "base": "Light machine gun",
+   "range": 45,
+   "shots": 3,
+   "dmg": "0",
+   "traits": [
+    "Heavy",
+    "Team"
+   ],
+   "pts": 10,
+   "cat": "Team"
+  },
+  {
+   "id": "w-cis-e60r",
+   "name": "E-60R missile launcher",
+   "base": "Fury rifle",
+   "range": 36,
+   "shots": 1,
+   "dmg": "3 (x2)",
+   "traits": [
+    "Heavy",
+    "Piercing",
+    "Knock Back",
+    "Team"
+   ],
+   "pts": 15,
+   "cat": "Team"
+  },
+  {
+   "id": "w-cis-b2-wrist",
+   "name": "B2 wrist blasters",
+   "base": "Blaster (2 shots)",
+   "range": 27,
+   "shots": 2,
+   "dmg": "0",
+   "traits": [
+    "Snap Shot"
+   ],
+   "pts": 5,
+   "cat": "Rifle"
+  },
+  {
+   "id": "w-cis-b2-ha",
+   "name": "B2-HA wrist rocket",
+   "base": "Fury rifle (lighter)",
+   "range": 36,
+   "shots": 1,
+   "dmg": "2",
+   "traits": [
+    "Area",
+    "Heavy",
+    "Team"
+   ],
+   "pts": 12,
+   "cat": "Team"
+  },
+  {
+   "id": "w-cis-b2-acm",
+   "name": "B2-ACM arm cannon",
+   "base": "Hyper blaster",
+   "range": 36,
+   "shots": 3,
+   "dmg": "1",
+   "traits": [
+    "Overheat",
+    "Team"
+   ],
+   "pts": 14,
+   "cat": "Team"
+  },
+  {
+   "id": "w-cis-b2-jet",
+   "name": "B2-RP wrist rockets",
+   "base": "Grenade launcher (frag)",
+   "range": 27,
+   "shots": 1,
+   "dmg": "0",
+   "traits": [
+    "Area"
+   ],
+   "pts": 4,
+   "cat": "Rifle"
+  },
+  {
+   "id": "w-cis-thermal",
+   "name": "Thermal detonator",
+   "base": "Frag grenade",
+   "range": 9,
+   "shots": 1,
+   "dmg": "0",
+   "traits": [
+    "Area"
+   ],
+   "pts": 1,
+   "cat": "Grenade"
+  },
+  {
+   "id": "w-cis-bx-e5",
+   "name": "E-5 carbine",
+   "base": "Military rifle",
+   "range": 36,
+   "shots": 1,
+   "dmg": "0",
+   "traits": [
+    "Snap Shot"
+   ],
+   "pts": 3,
+   "cat": "Rifle"
+  },
+  {
+   "id": "w-cis-vibrosword",
+   "name": "Vibrosword",
+   "base": "Ripper sword",
+   "range": 0,
+   "shots": 0,
+   "dmg": "2",
+   "traits": [
+    "Melee",
+    "Piercing"
+   ],
+   "pts": 3,
+   "cat": "Melee"
+  },
+  {
+   "id": "w-cis-bx-sniper",
+   "name": "E-5s sniper rifle",
+   "base": "Sniper rifle",
+   "range": 60,
+   "shots": 1,
+   "dmg": "1 (x2)",
+   "traits": [
+    "Heavy",
+    "Piercing",
+    "Sniping",
+    "Team"
+   ],
+   "pts": 10,
+   "cat": "Team"
+  },
+  {
+   "id": "w-cis-prox-mine",
+   "name": "Proximity mine",
+   "base": "BPRE custom",
+   "range": 0,
+   "shots": 1,
+   "dmg": "2",
+   "traits": [
+    "Area",
+    "One Use",
+    "Placed in contact; detonates when an enemy moves within 3\""
+   ],
+   "pts": 2,
+   "cat": "Grenade"
+  },
+  {
+   "id": "w-cis-sonic",
+   "name": "Geonosian sonic blaster",
+   "base": "Blaster",
+   "range": 27,
+   "shots": 1,
+   "dmg": "1",
+   "traits": [
+    "Shock"
+   ],
+   "pts": 4,
+   "cat": "Rifle"
+  },
+  {
+   "id": "w-cis-sonic-pistol",
+   "name": "Sonic pistol",
+   "base": "Blast pistol",
+   "range": 12,
+   "shots": 1,
+   "dmg": "1",
+   "traits": [
+    "Pistol",
+    "Shock"
+   ],
+   "pts": 3,
+   "cat": "Sidearm"
+  },
+  {
+   "id": "w-cis-sonic-cannon",
+   "name": "Geonosian sonic cannon",
+   "base": "Flak gun (heavy)",
+   "range": 36,
+   "shots": 1,
+   "dmg": "2",
+   "traits": [
+    "Area",
+    "Shock",
+    "Heavy",
+    "Team"
+   ],
+   "pts": 12,
+   "cat": "Team"
+  },
+  {
+   "id": "w-cis-geo-charge",
+   "name": "Geonosian demolition charge",
+   "base": "Penetrator grenade",
+   "range": 9,
+   "shots": 1,
+   "dmg": "3",
+   "traits": [
+    "Piercing",
+    "Knock Back",
+    "One Use"
+   ],
+   "pts": 2,
+   "cat": "Grenade"
+  },
+  {
+   "id": "w-cis-staff",
+   "name": "Sonic staff",
+   "base": "Suppression maul",
+   "range": 0,
+   "shots": 0,
+   "dmg": "1",
+   "traits": [
+    "Melee",
+    "Stun"
+   ],
+   "pts": 2,
+   "cat": "Melee"
+  },
+  {
+   "id": "w-cis-sunfac-blade",
+   "name": "Ceremonial blade",
+   "base": "Glare sword",
+   "range": 0,
+   "shots": 0,
+   "dmg": "1",
+   "traits": [
+    "Melee",
+    "Elegant"
+   ],
+   "pts": 2,
+   "cat": "Melee"
+  },
+  {
+   "id": "w-cis-electrostaff",
+   "name": "Electrostaff",
+   "base": "Ripper sword + Stun",
+   "range": 0,
+   "shots": 0,
+   "dmg": "2",
+   "traits": [
+    "Melee",
+    "Piercing",
+    "Stun"
+   ],
+   "pts": 4,
+   "cat": "Melee"
+  },
+  {
+   "id": "w-cis-electrowhip",
+   "name": "Electro-whip",
+   "base": "Suppression maul",
+   "range": 0,
+   "shots": 0,
+   "dmg": "0",
+   "traits": [
+    "Melee",
+    "Stun",
+    "Reach 2\""
+   ],
+   "pts": 2,
+   "cat": "Melee"
+  },
+  {
+   "id": "w-cis-mg-rocket",
+   "name": "MagnaGuard rocket launcher",
+   "base": "Fury rifle",
+   "range": 36,
+   "shots": 1,
+   "dmg": "3 (x2)",
+   "traits": [
+    "Heavy",
+    "Piercing",
+    "Team"
+   ],
+   "pts": 15,
+   "cat": "Team"
+  },
+  {
+   "id": "w-cis-deka",
+   "name": "Droideka twin blasters",
+   "base": "Hyper blaster",
+   "range": 36,
+   "shots": 3,
+   "dmg": "1",
+   "traits": [
+    "Paired",
+    "Must be in shield mode to fire"
+   ],
+   "pts": 14,
+   "cat": "Team"
+  },
+  {
+   "id": "w-cis-aqua",
+   "name": "Aqua droid twin blasters",
+   "base": "Hyper blaster",
+   "range": 36,
+   "shots": 2,
+   "dmg": "1",
+   "traits": [
+    "Paired"
+   ],
+   "pts": 10,
+   "cat": "Team"
+  },
+  {
+   "id": "w-cis-aqua-missile",
+   "name": "Aqua droid torpedo missiles",
+   "base": "Fury rifle",
+   "range": 36,
+   "shots": 1,
+   "dmg": "3 (x2)",
+   "traits": [
+    "Heavy",
+    "Piercing",
+    "Limited Ammo (2)"
+   ],
+   "pts": 12,
+   "cat": "Team"
+  },
+  {
+   "id": "w-cis-heavy-aqua",
+   "name": "Heavy aqua laser cannon",
+   "base": "Plasma rifle (heavy)",
+   "range": 36,
+   "shots": 2,
+   "dmg": "2",
+   "traits": [
+    "Heavy",
+    "Piercing"
+   ],
+   "pts": 14,
+   "cat": "Team"
+  },
+  {
+   "id": "w-cis-dt57",
+   "name": "DT-57 \"Annihilator\" blaster",
+   "base": "Blast pistol",
+   "range": 12,
+   "shots": 1,
+   "dmg": "1",
+   "traits": [
+    "Pistol"
+   ],
+   "pts": 2,
+   "cat": "Sidearm"
+  },
+  {
+   "id": "w-cis-hand-blaster",
+   "name": "Hand blaster",
+   "base": "Hand laser",
+   "range": 13.5,
+   "shots": 1,
+   "dmg": "0",
+   "traits": [
+    "Pistol",
+    "Snap Shot"
+   ],
+   "pts": 2,
+   "cat": "Sidearm"
+  },
+  {
+   "id": "w-cis-ll30",
+   "name": "Twin LL-30 blaster pistols",
+   "base": "Blast pistol x2",
+   "range": 12,
+   "shots": 2,
+   "dmg": "1",
+   "traits": [
+    "Pistol",
+    "Paired",
+    "Critical"
+   ],
+   "pts": 4,
+   "cat": "Sidearm"
+  },
+  {
+   "id": "w-cis-saber",
+   "name": "Lightsaber",
+   "base": "Ripper sword (superior)",
+   "range": 0,
+   "shots": 0,
+   "dmg": "3",
+   "traits": [
+    "Melee",
+    "Piercing",
+    "Elegant"
+   ],
+   "pts": 4,
+   "cat": "Melee"
+  },
+  {
+   "id": "w-cis-saber-twin",
+   "name": "Twin curved lightsabers",
+   "base": "Ripper sword (superior) x2",
+   "range": 0,
+   "shots": 0,
+   "dmg": "3",
+   "traits": [
+    "Melee",
+    "Piercing",
+    "Elegant",
+    "Paired"
+   ],
+   "pts": 5,
+   "cat": "Melee"
+  },
+  {
+   "id": "w-cis-saber-double",
+   "name": "Double-bladed lightsaber",
+   "base": "Ripper sword (superior)",
+   "range": 0,
+   "shots": 0,
+   "dmg": "3",
+   "traits": [
+    "Melee",
+    "Piercing",
+    "Defensive"
+   ],
+   "pts": 5,
+   "cat": "Melee"
+  },
+  {
+   "id": "w-cis-saber-quad",
+   "name": "Four lightsabers (cyborg arms)",
+   "base": "Ripper sword (superior) x2",
+   "range": 0,
+   "shots": 0,
+   "dmg": "3",
+   "traits": [
+    "Melee",
+    "Piercing",
+    "Paired",
+    "Two attacks in close assault"
+   ],
+   "pts": 6,
+   "cat": "Melee"
+  },
+  {
+   "id": "w-cis-tk-push",
+   "name": "Telekinetic push",
+   "base": "Psionic power",
+   "range": 13.5,
+   "shots": 1,
+   "dmg": "0",
+   "traits": [
+    "Psi-Weapon",
+    "Knock Back",
+    "Shock",
+    "Ignores Cover"
+   ],
+   "pts": 3,
+   "cat": "Sidearm"
+  },
+  {
+   "id": "w-cis-tk-hurl",
+   "name": "Telekinetic hurl",
+   "base": "Psionic power",
+   "range": 13.5,
+   "shots": 2,
+   "dmg": "1",
+   "traits": [
+    "Psi-Weapon",
+    "Area",
+    "One target unit per activation"
+   ],
+   "pts": 5,
+   "cat": "Sidearm"
+  },
+  {
+   "id": "w-cis-trench-strike",
+   "name": "Orbital strike",
+   "base": "BPRE custom",
+   "range": 999,
+   "shots": 1,
+   "dmg": "3",
+   "traits": [
+    "Area",
+    "Indirect Fire",
+    "One Use"
+   ],
+   "pts": 15,
+   "cat": "Team"
+  },
+  {
+   "id": "w-cis-probe-blaster",
+   "name": "Probe droid blaster",
+   "base": "Hand laser",
+   "range": 13.5,
+   "shots": 1,
+   "dmg": "0",
+   "traits": [
+    "Snap Shot"
+   ],
+   "pts": 2,
+   "cat": "Vehicle"
+  },
+  {
+   "id": "w-cis-stap-guns",
+   "name": "STAP twin blaster cannons",
+   "base": "Light machine gun",
+   "range": 45,
+   "shots": 2,
+   "dmg": "1",
+   "traits": [
+    "Front arc"
+   ],
+   "pts": 10,
+   "cat": "Vehicle"
+  },
+  {
+   "id": "w-cis-wheel-guns",
+   "name": "Wheel bike twin blasters",
+   "base": "Light machine gun",
+   "range": 36,
+   "shots": 2,
+   "dmg": "1",
+   "traits": [
+    "Front arc"
+   ],
+   "pts": 10,
+   "cat": "Vehicle"
+  },
+  {
+   "id": "w-cis-grievous-bike",
+   "name": "TSMEU-6 heavy blaster",
+   "base": "20mm auto-cannon (light)",
+   "range": 36,
+   "shots": 2,
+   "dmg": "2",
+   "traits": [
+    "Front arc"
+   ],
+   "pts": 12,
+   "cat": "Vehicle"
+  },
+  {
+   "id": "w-cis-dsd1",
+   "name": "DSD1 heavy blaster cannon",
+   "base": "20mm auto-cannon",
+   "range": 54,
+   "shots": 3,
+   "dmg": "2",
+   "traits": [
+    "Crewed",
+    "Front arc"
+   ],
+   "pts": 20,
+   "cat": "Vehicle"
+  },
+  {
+   "id": "w-cis-crab",
+   "name": "LM-432 twin blasters",
+   "base": "Hyper blaster",
+   "range": 36,
+   "shots": 3,
+   "dmg": "1",
+   "traits": [
+    "Crewed",
+    "360° arc"
+   ],
+   "pts": 14,
+   "cat": "Vehicle"
+  },
+  {
+   "id": "w-cis-aat-cannon",
+   "name": "AAT heavy laser cannon",
+   "base": "Laser cannon",
+   "range": 72,
+   "shots": 1,
+   "dmg": "5 (x3)",
+   "traits": [
+    "Crewed",
+    "Front arc"
+   ],
+   "pts": 35,
+   "cat": "Vehicle"
+  },
+  {
+   "id": "w-cis-aat-blasters",
+   "name": "AAT anti-personnel blasters",
+   "base": "Light machine gun",
+   "range": 45,
+   "shots": 3,
+   "dmg": "0",
+   "traits": [
+    "Crewed",
+    "Front arc"
+   ],
+   "pts": 10,
+   "cat": "Vehicle"
+  },
+  {
+   "id": "w-cis-aat-shells",
+   "name": "AAT energy shells",
+   "base": "100mm cannon (frag)",
+   "range": 72,
+   "shots": 1,
+   "dmg": "2",
+   "traits": [
+    "Area",
+    "Crewed",
+    "Front arc",
+    "One Use"
+   ],
+   "pts": 15,
+   "cat": "Vehicle"
+  },
+  {
+   "id": "w-cis-persuader-cannon",
+   "name": "Persuader heavy laser cannon",
+   "base": "Anti-tank laser",
+   "range": 72,
+   "shots": 1,
+   "dmg": "5 (x3)",
+   "traits": [
+    "Crewed",
+    "Front arc"
+   ],
+   "pts": 35,
+   "cat": "Vehicle"
+  },
+  {
+   "id": "w-cis-persuader-tri",
+   "name": "Persuader tri-blasters",
+   "base": "Hyper blaster",
+   "range": 36,
+   "shots": 3,
+   "dmg": "1",
+   "traits": [
+    "Crewed",
+    "Side arc"
+   ],
+   "pts": 14,
+   "cat": "Vehicle"
+  },
+  {
+   "id": "w-cis-proto-cannon",
+   "name": "Prototype pulse cannon",
+   "base": "Pulse laser",
+   "range": 54,
+   "shots": 2,
+   "dmg": "4 (x2)",
+   "traits": [
+    "Crewed",
+    "Front arc"
+   ],
+   "pts": 35,
+   "cat": "Vehicle"
+  }
+ ],
+ "gear": [
+  {
+   "id": "g-cis-pk",
+   "name": "PK-series worker droid",
+   "type": "Equipment",
+   "activation": "Action",
+   "uses": "",
+   "effect": "Counterpart to a vehicle or droid squad. Repair: one droid vehicle within 3\" regains 1 KP (once per round), or restore one fallen B1 to its squad on 5+.",
+   "pts": 33
+  },
+  {
+   "id": "g-cis-comms",
+   "name": "Separatist comms relay",
+   "type": "Equipment",
+   "activation": "Free",
+   "uses": "",
+   "effect": "Command Network range +6\" for the carrying leader.",
+   "pts": 5
+  },
+  {
+   "id": "g-cis-shield",
+   "name": "Deflector shield generator",
+   "type": "Equipment",
+   "activation": "Free",
+   "uses": "",
+   "effect": "4+ save against ranged Hits; no save in close assault or while moving at Dash speed.",
+   "pts": 6
+  }
+ ],
+ "templates": [
+  {
+   "id": "t-cis-grievous",
+   "name": "General Grievous",
+   "side": "enemy",
+   "faction": "f-cis",
+   "troop": "individual",
+   "size": 1,
+   "level": "epic",
+   "profile": {
+    "sp": 9,
+    "re": 3,
+    "cs": 3,
+    "t": 5,
+    "kp": 4,
+    "sv": 1,
+    "tr": 2,
+    "save": "5+"
+   },
+   "leader": null,
+   "weapons": [
+    "w-cis-saber-quad",
+    "w-cis-dt57"
+   ],
+   "teamWeapons": [],
+   "leaderWeapons": [],
+   "rules": [
+    "Leader",
+    "Cyborg (Synthetic for Fear, Burn and Stun only)",
+    "Jedi Hunter: +1 to Hit in close assault against Heroes and Leaders",
+    "Relentless: may Dash and still Engage",
+    "Supreme Commander: droid units within 12\" re-roll one failed Morale die",
+    "Wall-crawler: climbing costs no extra movement"
+   ],
+   "pointsMode": "manual",
+   "points": 233,
+   "priceAs": "",
+   "source": "Star Wars: Legion Separatist Alliance (Atomic Mass Games), converted for 5P:T",
+   "notes": "Legion reference ≈ 155 pts."
+  },
+  {
+   "id": "t-cis-grievous-bike",
+   "name": "General Grievous, Wheelbike Warlord",
+   "side": "enemy",
+   "faction": "f-cis",
+   "troop": "individual",
+   "size": 1,
+   "level": "epic",
+   "profile": {
+    "sp": 18,
+    "re": 3,
+    "cs": 3,
+    "t": 5,
+    "kp": 4,
+    "sv": 1,
+    "tr": 2,
+    "save": "5+"
+   },
+   "leader": null,
+   "weapons": [
+    "w-cis-saber-quad",
+    "w-cis-grievous-bike"
+   ],
+   "teamWeapons": [],
+   "leaderWeapons": [],
+   "rules": [
+    "Leader",
+    "Mounted on a TSMEU-6 wheel bike: cannot enter buildings; Speed 9\" when dismounted",
+    "Jedi Hunter",
+    "Rapid Interdiction: droid vehicles within 12\" may Dash and still fire"
+   ],
+   "pointsMode": "manual",
+   "points": 255,
+   "priceAs": "",
+   "source": "Star Wars: Legion Separatist Alliance (Atomic Mass Games), converted for 5P:T",
+   "notes": "Legion reference ≈ 170 pts. New in the Rapid Interdiction Force battle force (2026). Profile is a provisional conversion."
+  },
+  {
+   "id": "t-cis-dooku",
+   "name": "Count Dooku",
+   "side": "enemy",
+   "faction": "f-cis",
+   "troop": "individual",
+   "size": 1,
+   "level": "epic",
+   "profile": {
+    "sp": 6,
+    "re": 4,
+    "cs": 3,
+    "t": 4,
+    "kp": 4,
+    "sv": 2,
+    "tr": 2,
+    "save": "—"
+   },
+   "leader": null,
+   "weapons": [
+    "w-cis-saber",
+    "w-cis-tk-push",
+    "w-cis-tk-hurl"
+   ],
+   "teamWeapons": [],
+   "leaderWeapons": [],
+   "rules": [
+    "Leader",
+    "Hero (6+ save, never Suppressed)",
+    "Saber Duelist: Makashi master, enemies may not re-roll Hit dice against him in close assault",
+    "Saber Deflection: 5+ save against ranged Hits; on a 6 the shot strikes the firer",
+    "Telekinetic (psionic, telekinesis only)",
+    "Separatist Head of State: once per battle all droid units within 12\" remove 1 Suppression"
+   ],
+   "pointsMode": "manual",
+   "points": 285,
+   "priceAs": "",
+   "source": "Star Wars: Legion Separatist Alliance (Atomic Mass Games), converted for 5P:T",
+   "notes": "Legion reference ≈ 190 pts. Converted as a duelist with telekinesis only; Sith titles and dark-side powers removed by design."
+  },
+  {
+   "id": "t-cis-std",
+   "name": "Super Tactical Droid",
+   "side": "enemy",
+   "faction": "f-cis",
+   "troop": "individual",
+   "size": 1,
+   "level": "major",
+   "profile": {
+    "sp": 6,
+    "re": 2,
+    "cs": 1,
+    "t": 5,
+    "kp": 3,
+    "sv": 2,
+    "tr": 2,
+    "save": "6+"
+   },
+   "leader": null,
+   "weapons": [
+    "w-cis-hand-blaster"
+   ],
+   "teamWeapons": [],
+   "leaderWeapons": [],
+   "rules": [
+    "Leader",
+    "Droid (Synthetic)",
+    "Tactical Matrix: once per phase, a droid unit within 12\" may take an assigned die regardless of Reaction",
+    "Command Network"
+   ],
+   "pointsMode": "manual",
+   "points": 135,
+   "priceAs": "",
+   "source": "Star Wars: Legion Separatist Alliance (Atomic Mass Games), converted for 5P:T",
+   "notes": "Legion reference ≈ 90 pts."
+  },
+  {
+   "id": "t-cis-kalani",
+   "name": "Kalani, Super Tactical Droid",
+   "side": "enemy",
+   "faction": "f-cis",
+   "troop": "individual",
+   "size": 1,
+   "level": "major",
+   "profile": {
+    "sp": 6,
+    "re": 3,
+    "cs": 1,
+    "t": 5,
+    "kp": 3,
+    "sv": 2,
+    "tr": 2,
+    "save": "6+"
+   },
+   "leader": null,
+   "weapons": [
+    "w-cis-hand-blaster"
+   ],
+   "teamWeapons": [],
+   "leaderWeapons": [],
+   "rules": [
+    "Leader",
+    "Droid (Synthetic)",
+    "Calculated Probabilities: re-roll one Reaction die each phase",
+    "Tactical Matrix",
+    "Command Network"
+   ],
+   "pointsMode": "manual",
+   "points": 143,
+   "priceAs": "",
+   "source": "Star Wars: Legion Separatist Alliance (Atomic Mass Games), converted for 5P:T",
+   "notes": "Legion reference ≈ 95 pts."
+  },
+  {
+   "id": "t-cis-kraken",
+   "name": "Kraken, Super Tactical Droid",
+   "side": "enemy",
+   "faction": "f-cis",
+   "troop": "individual",
+   "size": 1,
+   "level": "major",
+   "profile": {
+    "sp": 6,
+    "re": 2,
+    "cs": 1,
+    "t": 5,
+    "kp": 3,
+    "sv": 2,
+    "tr": 2,
+    "save": "6+"
+   },
+   "leader": null,
+   "weapons": [
+    "w-cis-hand-blaster"
+   ],
+   "teamWeapons": [],
+   "leaderWeapons": [],
+   "rules": [
+    "Leader",
+    "Droid (Synthetic)",
+    "Overwhelming Assault: one droid squad within 12\" gets +1 to Hit this round",
+    "Tactical Matrix",
+    "Command Network"
+   ],
+   "pointsMode": "manual",
+   "points": 143,
+   "priceAs": "",
+   "source": "Star Wars: Legion Separatist Alliance (Atomic Mass Games), converted for 5P:T",
+   "notes": "Legion reference ≈ 95 pts."
+  },
+  {
+   "id": "t-cis-stcd",
+   "name": "Super Tactical Command Droid",
+   "side": "enemy",
+   "faction": "f-cis",
+   "troop": "individual",
+   "size": 1,
+   "level": "major",
+   "profile": {
+    "sp": 6,
+    "re": 2,
+    "cs": 1,
+    "t": 5,
+    "kp": 2,
+    "sv": 2,
+    "tr": 1,
+    "save": "6+"
+   },
+   "leader": null,
+   "weapons": [
+    "w-cis-hand-blaster"
+   ],
+   "teamWeapons": [],
+   "leaderWeapons": [],
+   "rules": [
+    "Leader",
+    "Droid (Synthetic)",
+    "Configurable: choose Command and Control (Tactical Matrix) or Auxiliary Command (+1 Reaction to one droid unit within 6\") when deployed",
+    "Command Network"
+   ],
+   "pointsMode": "manual",
+   "points": 113,
+   "priceAs": "",
+   "source": "Star Wars: Legion Separatist Alliance (Atomic Mass Games), converted for 5P:T",
+   "notes": "Legion reference ≈ 75 pts."
+  },
+  {
+   "id": "t-cis-tseries",
+   "name": "T-Series Tactical Droid",
+   "side": "enemy",
+   "faction": "f-cis",
+   "troop": "individual",
+   "size": 1,
+   "level": "minor",
+   "profile": {
+    "sp": 6,
+    "re": 2,
+    "cs": 0,
+    "t": 4,
+    "kp": 2,
+    "sv": 2,
+    "tr": 1,
+    "save": "—"
+   },
+   "leader": null,
+   "weapons": [
+    "w-cis-hand-blaster"
+   ],
+   "teamWeapons": [],
+   "leaderWeapons": [],
+   "rules": [
+    "Leader",
+    "Droid (Synthetic)",
+    "Programmed for Strategy: one droid unit within 6\" counts as +1 Reaction this round",
+    "Command Network"
+   ],
+   "pointsMode": "manual",
+   "points": 83,
+   "priceAs": "",
+   "source": "Star Wars: Legion Separatist Alliance (Atomic Mass Games), converted for 5P:T",
+   "notes": "Legion reference ≈ 55 pts."
+  },
+  {
+   "id": "t-cis-sunfac",
+   "name": "Sun Fac",
+   "side": "enemy",
+   "faction": "f-cis",
+   "troop": "individual",
+   "size": 1,
+   "level": "major",
+   "profile": {
+    "sp": 8,
+    "re": 3,
+    "cs": 2,
+    "t": 4,
+    "kp": 3,
+    "sv": 1,
+    "tr": 1,
+    "save": "—"
+   },
+   "leader": null,
+   "weapons": [
+    "w-cis-sonic-pistol",
+    "w-cis-sunfac-blade"
+   ],
+   "teamWeapons": [],
+   "leaderWeapons": [],
+   "rules": [
+    "Leader",
+    "Flight (ignores terrain when moving)",
+    "Ruthless Lieutenant: a Geonosian squad within 6\" may re-roll one Hit die per activation"
+   ],
+   "pointsMode": "manual",
+   "points": 143,
+   "priceAs": "",
+   "source": "Star Wars: Legion Separatist Alliance (Atomic Mass Games), converted for 5P:T",
+   "notes": "Legion reference ≈ 95 pts."
+  },
+  {
+   "id": "t-cis-poggle",
+   "name": "Poggle the Lesser",
+   "side": "enemy",
+   "faction": "f-cis",
+   "troop": "individual",
+   "size": 1,
+   "level": "major",
+   "profile": {
+    "sp": 8,
+    "re": 2,
+    "cs": 0,
+    "t": 3,
+    "kp": 3,
+    "sv": 2,
+    "tr": 1,
+    "save": "—"
+   },
+   "leader": null,
+   "weapons": [
+    "w-cis-staff",
+    "w-cis-sonic-pistol"
+   ],
+   "teamWeapons": [],
+   "leaderWeapons": [],
+   "rules": [
+    "Leader",
+    "Flight",
+    "Archduke: Geonosian units within 12\" +1 Morale",
+    "Override: a droid unit within 12\" ignores Battle Droid Protocols this round"
+   ],
+   "pointsMode": "manual",
+   "points": 113,
+   "priceAs": "",
+   "source": "Star Wars: Legion Separatist Alliance (Atomic Mass Games), converted for 5P:T",
+   "notes": "Legion reference ≈ 75 pts."
+  },
+  {
+   "id": "t-cis-trench",
+   "name": "Admiral Trench",
+   "side": "enemy",
+   "faction": "f-cis",
+   "troop": "individual",
+   "size": 1,
+   "level": "major",
+   "profile": {
+    "sp": 5,
+    "re": 2,
+    "cs": 1,
+    "t": 4,
+    "kp": 3,
+    "sv": 3,
+    "tr": 2,
+    "save": "—"
+   },
+   "leader": null,
+   "weapons": [
+    "w-cis-hand-blaster",
+    "w-cis-trench-strike"
+   ],
+   "teamWeapons": [],
+   "leaderWeapons": [],
+   "rules": [
+    "Leader",
+    "Override: a droid unit within 12\" ignores Battle Droid Protocols this round by taking 1 Suppression",
+    "Caught in a Web: once per round, remove an enemy Overwatch status or add 2 Suppression to one enemy unit in sight"
+   ],
+   "pointsMode": "manual",
+   "points": 165,
+   "priceAs": "",
+   "source": "Star Wars: Legion Separatist Alliance (Atomic Mass Games), converted for 5P:T",
+   "notes": "Legion reference ≈ 110 pts. New in Leaders of the Separatist Alliance (2026). Provisional conversion."
+  },
+  {
+   "id": "t-cis-ventress",
+   "name": "Asajj Ventress",
+   "side": "enemy",
+   "faction": "f-cis",
+   "troop": "individual",
+   "size": 1,
+   "level": "epic",
+   "profile": {
+    "sp": 9,
+    "re": 4,
+    "cs": 3,
+    "t": 4,
+    "kp": 3,
+    "sv": 1,
+    "tr": 1,
+    "save": "—"
+   },
+   "leader": null,
+   "weapons": [
+    "w-cis-saber-twin",
+    "w-cis-tk-push"
+   ],
+   "teamWeapons": [],
+   "leaderWeapons": [],
+   "rules": [
+    "Hero (6+ save, never Suppressed)",
+    "Saber Duelist",
+    "Saber Deflection: 5+ save against ranged Hits",
+    "Acrobat: leaps up to 4\" vertically at no movement cost",
+    "Assassin: may deploy Hidden",
+    "Telekinetic (psionic, telekinesis only)"
+   ],
+   "pointsMode": "manual",
+   "points": 165,
+   "priceAs": "",
+   "source": "Star Wars: Legion Separatist Alliance (Atomic Mass Games), converted for 5P:T",
+   "notes": "Legion reference ≈ 110 pts. Converted as an assassin-duelist; Nightsister elements removed by design."
+  },
+  {
+   "id": "t-cis-opress",
+   "name": "Savage Opress",
+   "side": "enemy",
+   "faction": "f-cis",
+   "troop": "individual",
+   "size": 1,
+   "level": "epic",
+   "profile": {
+    "sp": 8,
+    "re": 3,
+    "cs": 3,
+    "t": 6,
+    "kp": 4,
+    "sv": 0,
+    "tr": 1,
+    "save": "—"
+   },
+   "leader": null,
+   "weapons": [
+    "w-cis-saber-double",
+    "w-cis-tk-push"
+   ],
+   "teamWeapons": [],
+   "leaderWeapons": [],
+   "rules": [
+    "Hero (6+ save, never Suppressed)",
+    "Saber Duelist",
+    "Enraged: at 2 or fewer KP gains +1 Combat in close assault and ignores Morale",
+    "Brute Strength: close assault Hits cause Knock Back"
+   ],
+   "pointsMode": "manual",
+   "points": 195,
+   "priceAs": "",
+   "source": "Star Wars: Legion Separatist Alliance (Atomic Mass Games), converted for 5P:T",
+   "notes": "Legion reference ≈ 130 pts. Converted as a brute duelist; Nightbrother elements removed by design."
+  },
+  {
+   "id": "t-cis-maul",
+   "name": "Maul",
+   "side": "enemy",
+   "faction": "f-cis",
+   "troop": "individual",
+   "size": 1,
+   "level": "epic",
+   "profile": {
+    "sp": 9,
+    "re": 4,
+    "cs": 3,
+    "t": 4,
+    "kp": 3,
+    "sv": 1,
+    "tr": 1,
+    "save": "—"
+   },
+   "leader": null,
+   "weapons": [
+    "w-cis-saber-double",
+    "w-cis-tk-push"
+   ],
+   "teamWeapons": [],
+   "leaderWeapons": [],
+   "rules": [
+    "Hero (6+ save, never Suppressed)",
+    "Saber Duelist",
+    "Saber Deflection: 5+ save against ranged Hits",
+    "Relentless: may Dash and still Engage",
+    "Acrobat"
+   ],
+   "pointsMode": "manual",
+   "points": 173,
+   "priceAs": "",
+   "source": "Star Wars: Legion Separatist Alliance (Atomic Mass Games), converted for 5P:T",
+   "notes": "Legion reference ≈ 115 pts. Legion \"Maul, Impatient Apprentice\" (115 pts after April 2026). Sith elements removed by design."
+  },
+  {
+   "id": "t-cis-bane",
+   "name": "Cad Bane",
+   "side": "enemy",
+   "faction": "f-cis",
+   "troop": "individual",
+   "size": 1,
+   "level": "major",
+   "profile": {
+    "sp": 6,
+    "re": 4,
+    "cs": 3,
+    "t": 4,
+    "kp": 3,
+    "sv": 2,
+    "tr": 1,
+    "save": "6+"
+   },
+   "leader": null,
+   "weapons": [
+    "w-cis-ll30",
+    "w-cis-thermal"
+   ],
+   "teamWeapons": [],
+   "leaderWeapons": [],
+   "rules": [
+    "Gunslinger: may fire at two different targets",
+    "Rocket Boots: once per round, move 6\" ignoring terrain",
+    "Bounty: +1 Battle Point for killing an enemy Leader"
+   ],
+   "pointsMode": "manual",
+   "points": 158,
+   "priceAs": "",
+   "source": "Star Wars: Legion Separatist Alliance (Atomic Mass Games), converted for 5P:T",
+   "notes": "Legion reference ≈ 105 pts. Bounty hunter in Separatist pay (originally a Separatist operative)."
+  },
+  {
+   "id": "t-cis-b1",
+   "name": "B1 Battle Droids",
+   "side": "enemy",
+   "faction": "f-cis",
+   "troop": "squad",
+   "size": 6,
+   "level": "",
+   "profile": {
+    "sp": 6,
+    "re": 1,
+    "cs": 0,
+    "t": 3,
+    "kp": 1,
+    "sv": 0,
+    "tr": 0,
+    "save": "—"
+   },
+   "leader": {
+    "sp": 6,
+    "re": 2,
+    "cs": 0,
+    "t": 3,
+    "kp": 1,
+    "sv": 0,
+    "tr": 0,
+    "save": "—"
+   },
+   "weapons": [
+    "w-cis-e5"
+   ],
+   "teamWeapons": [
+    "w-cis-e5c"
+   ],
+   "leaderWeapons": [
+    "w-cis-e5"
+   ],
+   "rules": [
+    "Droid (Synthetic)",
+    "Battle Droid Protocols",
+    "Expendable"
+   ],
+   "pointsMode": "manual",
+   "points": 54,
+   "priceAs": "",
+   "source": "Star Wars: Legion Separatist Alliance (Atomic Mass Games), converted for 5P:T",
+   "notes": "Legion reference ≈ 36 pts. Squad of 6 including the OOM sergeant. Swap the E-5C for an E-60R missile launcher (+5) if desired."
+  },
+  {
+   "id": "t-cis-b2",
+   "name": "B2 Super Battle Droids",
+   "side": "enemy",
+   "faction": "f-cis",
+   "troop": "squad",
+   "size": 4,
+   "level": "",
+   "profile": {
+    "sp": 5,
+    "re": 1,
+    "cs": 1,
+    "t": 5,
+    "kp": 1,
+    "sv": 0,
+    "tr": 0,
+    "save": "6+"
+   },
+   "leader": {
+    "sp": 5,
+    "re": 2,
+    "cs": 1,
+    "t": 5,
+    "kp": 1,
+    "sv": 0,
+    "tr": 0,
+    "save": "6+"
+   },
+   "weapons": [
+    "w-cis-b2-wrist"
+   ],
+   "teamWeapons": [
+    "w-cis-b2-ha"
+   ],
+   "leaderWeapons": [
+    "w-cis-b2-wrist"
+   ],
+   "rules": [
+    "Droid (Synthetic)",
+    "Battle Droid Protocols",
+    "Armored Chassis"
+   ],
+   "pointsMode": "manual",
+   "points": 96,
+   "priceAs": "",
+   "source": "Star Wars: Legion Separatist Alliance (Atomic Mass Games), converted for 5P:T",
+   "notes": "Legion reference ≈ 48 pts. Legion fields 3 (+1 optional); the portal builder needs 4. Swap the B2-HA for a B2-ACM arm cannon (+2)."
+  },
+  {
+   "id": "t-cis-geo",
+   "name": "Geonosian Warriors",
+   "side": "enemy",
+   "faction": "f-cis",
+   "troop": "squad",
+   "size": 5,
+   "level": "",
+   "profile": {
+    "sp": 8,
+    "re": 2,
+    "cs": 0,
+    "t": 3,
+    "kp": 1,
+    "sv": 0,
+    "tr": 0,
+    "save": "—"
+   },
+   "leader": {
+    "sp": 8,
+    "re": 2,
+    "cs": 1,
+    "t": 3,
+    "kp": 2,
+    "sv": 0,
+    "tr": 1,
+    "save": "—"
+   },
+   "weapons": [
+    "w-cis-sonic"
+   ],
+   "teamWeapons": [
+    "w-cis-sonic-cannon"
+   ],
+   "leaderWeapons": [
+    "w-cis-sonic",
+    "w-cis-sunfac-blade"
+   ],
+   "rules": [
+    "Flight (ignores terrain when moving)",
+    "Hive Swarm: +1 to Hit in close assault if two Geonosian units engage the same target"
+   ],
+   "pointsMode": "manual",
+   "points": 85,
+   "priceAs": "",
+   "source": "Star Wars: Legion Separatist Alliance (Atomic Mass Games), converted for 5P:T",
+   "notes": "Legion reference ≈ 44 pts."
+  },
+  {
+   "id": "t-cis-geo-eng",
+   "name": "Geonosian Engineers",
+   "side": "enemy",
+   "faction": "f-cis",
+   "troop": "squad",
+   "size": 4,
+   "level": "",
+   "profile": {
+    "sp": 8,
+    "re": 2,
+    "cs": 0,
+    "t": 3,
+    "kp": 1,
+    "sv": 1,
+    "tr": 0,
+    "save": "—"
+   },
+   "leader": {
+    "sp": 8,
+    "re": 2,
+    "cs": 0,
+    "t": 3,
+    "kp": 1,
+    "sv": 2,
+    "tr": 0,
+    "save": "—"
+   },
+   "weapons": [
+    "w-cis-sonic",
+    "w-cis-geo-charge"
+   ],
+   "teamWeapons": [],
+   "leaderWeapons": [
+    "w-cis-sonic-pistol",
+    "w-cis-geo-charge"
+   ],
+   "rules": [
+    "Flight",
+    "Field Engineers: may repair a droid vehicle within 3\" (1 KP on 4+) instead of firing",
+    "Sappers: demolition charges +1 Damage against terrain and fortifications"
+   ],
+   "pointsMode": "manual",
+   "points": 72,
+   "priceAs": "",
+   "source": "Star Wars: Legion Separatist Alliance (Atomic Mass Games), converted for 5P:T",
+   "notes": "Legion reference ≈ 48 pts. Special Issue unit, Rapid Interdiction Force battle force (2026). Provisional conversion."
+  },
+  {
+   "id": "t-cis-bx",
+   "name": "BX-Series Droid Commandos",
+   "side": "enemy",
+   "faction": "f-cis",
+   "troop": "squad",
+   "size": 4,
+   "level": "",
+   "profile": {
+    "sp": 9,
+    "re": 3,
+    "cs": 1,
+    "t": 4,
+    "kp": 1,
+    "sv": 1,
+    "tr": 1,
+    "save": "6+"
+   },
+   "leader": {
+    "sp": 9,
+    "re": 3,
+    "cs": 2,
+    "t": 4,
+    "kp": 2,
+    "sv": 1,
+    "tr": 1,
+    "save": "6+"
+   },
+   "weapons": [
+    "w-cis-bx-e5",
+    "w-cis-vibrosword"
+   ],
+   "teamWeapons": [],
+   "leaderWeapons": [
+    "w-cis-bx-e5",
+    "w-cis-vibrosword",
+    "w-cis-prox-mine"
+   ],
+   "rules": [
+    "Droid (Synthetic)",
+    "Scout (Infiltrate)",
+    "Covert Ops: may deploy disguised as Uncertain",
+    "Climbing Droid"
+   ],
+   "pointsMode": "manual",
+   "points": 92,
+   "priceAs": "",
+   "source": "Star Wars: Legion Separatist Alliance (Atomic Mass Games), converted for 5P:T",
+   "notes": "Legion reference ≈ 60 pts. 60 pts after the April 2026 update."
+  },
+  {
+   "id": "t-cis-bx-strike",
+   "name": "BX-Series Strike Team",
+   "side": "enemy",
+   "faction": "f-cis",
+   "troop": "individual",
+   "size": 1,
+   "level": "minor",
+   "profile": {
+    "sp": 9,
+    "re": 3,
+    "cs": 2,
+    "t": 4,
+    "kp": 2,
+    "sv": 1,
+    "tr": 1,
+    "save": "6+"
+   },
+   "leader": null,
+   "weapons": [
+    "w-cis-bx-sniper",
+    "w-cis-vibrosword"
+   ],
+   "teamWeapons": [],
+   "leaderWeapons": [],
+   "rules": [
+    "Droid (Synthetic)",
+    "Incognito: Hidden until it fires",
+    "Prepared Position: +1 to Hit if it has not moved this battle",
+    "Sniper Team"
+   ],
+   "pointsMode": "manual",
+   "points": 27,
+   "priceAs": "",
+   "source": "Star Wars: Legion Separatist Alliance (Atomic Mass Games), converted for 5P:T",
+   "notes": "Legion reference ≈ 36 pts. Legion fields 2 figures (now Support rank). Field two copies, or one with a spotter."
+  },
+  {
+   "id": "t-cis-magna",
+   "name": "IG-100 MagnaGuards",
+   "side": "enemy",
+   "faction": "f-cis",
+   "troop": "squad",
+   "size": 4,
+   "level": "",
+   "profile": {
+    "sp": 8,
+    "re": 3,
+    "cs": 2,
+    "t": 5,
+    "kp": 2,
+    "sv": 0,
+    "tr": 1,
+    "save": "6+"
+   },
+   "leader": {
+    "sp": 8,
+    "re": 3,
+    "cs": 2,
+    "t": 5,
+    "kp": 2,
+    "sv": 0,
+    "tr": 1,
+    "save": "6+"
+   },
+   "weapons": [
+    "w-cis-electrostaff"
+   ],
+   "teamWeapons": [],
+   "leaderWeapons": [
+    "w-cis-electrostaff",
+    "w-cis-mg-rocket"
+   ],
+   "rules": [
+    "Droid (Synthetic)",
+    "Bodyguard: may take Hits aimed at a friendly Leader within 2\"",
+    "Fearless",
+    "Relentless"
+   ],
+   "pointsMode": "manual",
+   "points": 180,
+   "priceAs": "",
+   "source": "Star Wars: Legion Separatist Alliance (Atomic Mass Games), converted for 5P:T",
+   "notes": "Legion reference ≈ 60 pts. Legion fields 2–4; the portal builder needs 4."
+  },
+  {
+   "id": "t-cis-magna-proto",
+   "name": "IG-100 Prototype MagnaGuards",
+   "side": "enemy",
+   "faction": "f-cis",
+   "troop": "squad",
+   "size": 4,
+   "level": "",
+   "profile": {
+    "sp": 8,
+    "re": 2,
+    "cs": 1,
+    "t": 5,
+    "kp": 1,
+    "sv": 0,
+    "tr": 0,
+    "save": "6+"
+   },
+   "leader": {
+    "sp": 8,
+    "re": 2,
+    "cs": 2,
+    "t": 5,
+    "kp": 2,
+    "sv": 0,
+    "tr": 1,
+    "save": "6+"
+   },
+   "weapons": [
+    "w-cis-electrowhip"
+   ],
+   "teamWeapons": [],
+   "leaderWeapons": [
+    "w-cis-electrostaff"
+   ],
+   "rules": [
+    "Droid (Synthetic)",
+    "Bodyguard",
+    "Experimental Programming: roll 1D6 at activation; on a 1 the unit may only Engage the nearest enemy"
+   ],
+   "pointsMode": "manual",
+   "points": 132,
+   "priceAs": "",
+   "source": "Star Wars: Legion Separatist Alliance (Atomic Mass Games), converted for 5P:T",
+   "notes": "Legion reference ≈ 66 pts."
+  },
+  {
+   "id": "t-cis-b2-rocket",
+   "name": "B2 Super Rocket Battle Droids",
+   "side": "enemy",
+   "faction": "f-cis",
+   "troop": "squad",
+   "size": 4,
+   "level": "",
+   "profile": {
+    "sp": 6,
+    "re": 1,
+    "cs": 1,
+    "t": 5,
+    "kp": 1,
+    "sv": 0,
+    "tr": 0,
+    "save": "6+"
+   },
+   "leader": {
+    "sp": 6,
+    "re": 2,
+    "cs": 1,
+    "t": 5,
+    "kp": 1,
+    "sv": 0,
+    "tr": 0,
+    "save": "6+"
+   },
+   "weapons": [
+    "w-cis-b2-wrist",
+    "w-cis-b2-jet"
+   ],
+   "teamWeapons": [],
+   "leaderWeapons": [
+    "w-cis-b2-wrist",
+    "w-cis-b2-jet"
+   ],
+   "rules": [
+    "Droid (Synthetic)",
+    "Jet Pack: may move 9\" ignoring terrain instead of a normal move",
+    "Battle Droid Protocols"
+   ],
+   "pointsMode": "manual",
+   "points": 120,
+   "priceAs": "",
+   "source": "Star Wars: Legion Separatist Alliance (Atomic Mass Games), converted for 5P:T",
+   "notes": "Legion reference ≈ 60 pts. Provisional conversion; unit size and points to confirm against the card."
+  },
+  {
+   "id": "t-cis-deka",
+   "name": "Droideka",
+   "side": "enemy",
+   "faction": "f-cis",
+   "troop": "individual",
+   "size": 1,
+   "level": "minor",
+   "profile": {
+    "sp": 5,
+    "re": 2,
+    "cs": 1,
+    "t": 5,
+    "kp": 2,
+    "sv": 0,
+    "tr": 0,
+    "save": "4+"
+   },
+   "leader": null,
+   "weapons": [
+    "w-cis-deka"
+   ],
+   "teamWeapons": [],
+   "leaderWeapons": [],
+   "rules": [
+    "Droid (Synthetic)",
+    "Heavy Droid Trooper",
+    "Deflector Shield: 4+ save against ranged Hits; none in close assault",
+    "Wheel Form: Speed 12\" but cannot fire or use its shield; switching form is a free action at activation",
+    "Battle Droid Protocols"
+   ],
+   "pointsMode": "manual",
+   "points": 51,
+   "priceAs": "",
+   "source": "Star Wars: Legion Separatist Alliance (Atomic Mass Games), converted for 5P:T",
+   "notes": "Legion reference ≈ 67 pts. Legion fields 2 per unit (67 pts). Field in pairs."
+  },
+  {
+   "id": "t-cis-aqua",
+   "name": "Aqua Droid",
+   "side": "enemy",
+   "faction": "f-cis",
+   "troop": "individual",
+   "size": 1,
+   "level": "minor",
+   "profile": {
+    "sp": 5,
+    "re": 2,
+    "cs": 1,
+    "t": 5,
+    "kp": 2,
+    "sv": 0,
+    "tr": 0,
+    "save": "5+"
+   },
+   "leader": null,
+   "weapons": [
+    "w-cis-aqua",
+    "w-cis-aqua-missile"
+   ],
+   "teamWeapons": [],
+   "leaderWeapons": [],
+   "rules": [
+    "Droid (Synthetic)",
+    "Heavy Droid Trooper",
+    "Amphibious: moves through water at full Speed and counts as in Cover there",
+    "Infiltrate",
+    "Battle Droid Protocols"
+   ],
+   "pointsMode": "manual",
+   "points": 60,
+   "priceAs": "",
+   "source": "Star Wars: Legion Separatist Alliance (Atomic Mass Games), converted for 5P:T",
+   "notes": "Legion reference ≈ 80 pts. Legion fields 2 per unit. Field in pairs."
+  },
+  {
+   "id": "t-cis-aqua-heavy",
+   "name": "Heavy Aqua Droid",
+   "side": "enemy",
+   "faction": "f-cis",
+   "troop": "individual",
+   "size": 1,
+   "level": "major",
+   "profile": {
+    "sp": 5,
+    "re": 2,
+    "cs": 1,
+    "t": 6,
+    "kp": 3,
+    "sv": 0,
+    "tr": 0,
+    "save": "5+"
+   },
+   "leader": null,
+   "weapons": [
+    "w-cis-heavy-aqua",
+    "w-cis-aqua"
+   ],
+   "teamWeapons": [],
+   "leaderWeapons": [],
+   "rules": [
+    "Droid (Synthetic)",
+    "Heavy Droid Trooper",
+    "Amphibious",
+    "Battle Droid Protocols"
+   ],
+   "pointsMode": "manual",
+   "points": 90,
+   "priceAs": "",
+   "source": "Star Wars: Legion Separatist Alliance (Atomic Mass Games), converted for 5P:T",
+   "notes": "Legion reference ≈ 60 pts. Provisional conversion."
+  },
+  {
+   "id": "t-cis-stap",
+   "name": "STAP Rider",
+   "side": "enemy",
+   "faction": "f-cis",
+   "troop": "vehicle",
+   "size": 1,
+   "level": "",
+   "profile": {
+    "sp": 18,
+    "re": 2,
+    "cs": 0,
+    "t": 5,
+    "kp": 2,
+    "sv": 0,
+    "tr": 0,
+    "save": "—"
+   },
+   "leader": null,
+   "weapons": [
+    "w-cis-stap-guns"
+   ],
+   "teamWeapons": [],
+   "leaderWeapons": [],
+   "rules": [
+    "Light vehicle (book p.142)",
+    "Drifter (repulsor)",
+    "Exposed crew: B1 pilot",
+    "Battle Droid Protocols"
+   ],
+   "pointsMode": "manual",
+   "points": 45,
+   "priceAs": "",
+   "source": "Star Wars: Legion Separatist Alliance (Atomic Mass Games), converted for 5P:T",
+   "notes": "Legion reference ≈ 60 pts. Legion fields 2 per unit. Field in pairs."
+  },
+  {
+   "id": "t-cis-wheelbike",
+   "name": "TSMEU-6 Personal Wheel Bike",
+   "side": "enemy",
+   "faction": "f-cis",
+   "troop": "vehicle",
+   "size": 1,
+   "level": "",
+   "profile": {
+    "sp": 24,
+    "re": 2,
+    "cs": 0,
+    "t": 6,
+    "kp": 2,
+    "sv": 0,
+    "tr": 0,
+    "save": "—"
+   },
+   "leader": null,
+   "weapons": [
+    "w-cis-wheel-guns"
+   ],
+   "teamWeapons": [],
+   "leaderWeapons": [],
+   "rules": [
+    "Light vehicle (book p.142)",
+    "Wheeled",
+    "Exposed crew: B1 rider"
+   ],
+   "pointsMode": "manual",
+   "points": 53,
+   "priceAs": "",
+   "source": "Star Wars: Legion Separatist Alliance (Atomic Mass Games), converted for 5P:T",
+   "notes": "Legion reference ≈ 70 pts. Legion fields 2 per unit. Field in pairs."
+  },
+  {
+   "id": "t-cis-dsd1",
+   "name": "DSD1 Dwarf Spider Droid",
+   "side": "enemy",
+   "faction": "f-cis",
+   "troop": "vehicle",
+   "size": 1,
+   "level": "",
+   "profile": {
+    "sp": 8,
+    "re": 1,
+    "cs": 0,
+    "t": 7,
+    "kp": 4,
+    "sv": 0,
+    "tr": 0,
+    "save": "—"
+   },
+   "leader": null,
+   "weapons": [
+    "w-cis-dsd1"
+   ],
+   "teamWeapons": [],
+   "leaderWeapons": [],
+   "rules": [
+    "Droid (Synthetic)",
+    "Walker",
+    "Climbing Vehicle: may climb Linear features and 2\" walls",
+    "Self-Destruct: when destroyed, 1 Hit at Damage 2 to every figure within 3\"",
+    "Wheel Mode: Speed 15\" but cannot fire"
+   ],
+   "pointsMode": "manual",
+   "points": 113,
+   "priceAs": "",
+   "source": "Star Wars: Legion Separatist Alliance (Atomic Mass Games), converted for 5P:T",
+   "notes": "Legion reference ≈ 75 pts."
+  },
+  {
+   "id": "t-cis-crab",
+   "name": "LM-432 Crab Droid",
+   "side": "enemy",
+   "faction": "f-cis",
+   "troop": "vehicle",
+   "size": 1,
+   "level": "",
+   "profile": {
+    "sp": 9,
+    "re": 1,
+    "cs": 0,
+    "t": 7,
+    "kp": 4,
+    "sv": 0,
+    "tr": 0,
+    "save": "—"
+   },
+   "leader": null,
+   "weapons": [
+    "w-cis-crab"
+   ],
+   "teamWeapons": [],
+   "leaderWeapons": [],
+   "rules": [
+    "Droid (Synthetic)",
+    "Walker",
+    "All-Terrain: ignores Area terrain movement limits",
+    "Mud Pump: once per battle, place a 3\" Fog marker in contact"
+   ],
+   "pointsMode": "manual",
+   "points": 105,
+   "priceAs": "",
+   "source": "Star Wars: Legion Separatist Alliance (Atomic Mass Games), converted for 5P:T",
+   "notes": "Legion reference ≈ 70 pts."
+  },
+  {
+   "id": "t-cis-probe",
+   "name": "DRK-1 Probe Droid",
+   "side": "enemy",
+   "faction": "f-cis",
+   "troop": "vehicle",
+   "size": 1,
+   "level": "",
+   "profile": {
+    "sp": 12,
+    "re": 2,
+    "cs": 0,
+    "t": 3,
+    "kp": 1,
+    "sv": 1,
+    "tr": 0,
+    "save": "—"
+   },
+   "leader": null,
+   "weapons": [
+    "w-cis-probe-blaster"
+   ],
+   "teamWeapons": [],
+   "leaderWeapons": [],
+   "rules": [
+    "Droid (Synthetic)",
+    "Flying drone",
+    "Spotter: friendly Indirect Fire against targets this drone sees is +1 to Hit",
+    "Comms Relay: extends one friendly Leader's Command Network to 12\" from the drone"
+   ],
+   "pointsMode": "manual",
+   "points": 23,
+   "priceAs": "",
+   "source": "Star Wars: Legion Separatist Alliance (Atomic Mass Games), converted for 5P:T",
+   "notes": "Legion reference ≈ 15 pts. Legion fields 1–3."
+  },
+  {
+   "id": "t-cis-aat",
+   "name": "AAT Battle Tank",
+   "side": "enemy",
+   "faction": "f-cis",
+   "troop": "vehicle",
+   "size": 1,
+   "level": "",
+   "profile": {
+    "sp": 11,
+    "re": 1,
+    "cs": 0,
+    "t": 9,
+    "kp": 6,
+    "sv": 0,
+    "tr": 0,
+    "save": "—"
+   },
+   "leader": null,
+   "weapons": [
+    "w-cis-aat-cannon",
+    "w-cis-aat-blasters",
+    "w-cis-aat-shells"
+   ],
+   "teamWeapons": [],
+   "leaderWeapons": [],
+   "rules": [
+    "Grav (Drifter) medium tank",
+    "Vulnerable Rear: Hits from the rear arc are +1 Damage",
+    "Droid crew (Reaction 1, Combat +0)",
+    "Transport: may carry one B1 squad on its hull (Capacity 6, Exposed)"
+   ],
+   "pointsMode": "manual",
+   "points": 233,
+   "priceAs": "",
+   "source": "Star Wars: Legion Separatist Alliance (Atomic Mass Games), converted for 5P:T",
+   "notes": "Legion reference ≈ 155 pts."
+  },
+  {
+   "id": "t-cis-persuader",
+   "name": "NR-N99 Persuader-Class Tank Droid",
+   "side": "enemy",
+   "faction": "f-cis",
+   "troop": "vehicle",
+   "size": 1,
+   "level": "",
+   "profile": {
+    "sp": 12,
+    "re": 1,
+    "cs": 0,
+    "t": 9,
+    "kp": 6,
+    "sv": 0,
+    "tr": 0,
+    "save": "—"
+   },
+   "leader": null,
+   "weapons": [
+    "w-cis-persuader-cannon",
+    "w-cis-persuader-tri"
+   ],
+   "teamWeapons": [],
+   "leaderWeapons": [],
+   "rules": [
+    "Droid (Synthetic)",
+    "Wheeled heavy tank",
+    "Ram: when moving into infantry, each figure contacted takes 1 Hit at Damage 2",
+    "Tank Droid: can direct droid troopers within 6\" (they ignore Battle Droid Protocols this round)"
+   ],
+   "pointsMode": "manual",
+   "points": 180,
+   "priceAs": "",
+   "source": "Star Wars: Legion Separatist Alliance (Atomic Mass Games), converted for 5P:T",
+   "notes": "Legion reference ≈ 120 pts."
+  },
+  {
+   "id": "t-cis-proto-tank",
+   "name": "Prototype Tank Droid",
+   "side": "enemy",
+   "faction": "f-cis",
+   "troop": "vehicle",
+   "size": 1,
+   "level": "",
+   "profile": {
+    "sp": 12,
+    "re": 1,
+    "cs": 0,
+    "t": 8,
+    "kp": 5,
+    "sv": 0,
+    "tr": 0,
+    "save": "—"
+   },
+   "leader": null,
+   "weapons": [
+    "w-cis-proto-cannon",
+    "w-cis-persuader-tri"
+   ],
+   "teamWeapons": [],
+   "leaderWeapons": [],
+   "rules": [
+    "Droid (Synthetic)",
+    "Wheeled tank",
+    "Ram",
+    "Experimental Systems: on a natural 1 to Hit, the pulse cannon cannot fire next activation"
+   ],
+   "pointsMode": "manual",
+   "points": 165,
+   "priceAs": "",
+   "source": "Star Wars: Legion Separatist Alliance (Atomic Mass Games), converted for 5P:T",
+   "notes": "Legion reference ≈ 110 pts. Card variant of the Persuader. Provisional conversion."
+  }
+ ],
+ "factions": [
+  {
+   "id": "f-cis",
+   "name": "Separatist Alliance",
+   "side": "enemy",
+   "personality": "Aggressive",
+   "source": "Star Wars: Legion Separatist Alliance (Atomic Mass Games), converted for 5P:T",
+   "notes": "The Confederacy's droid army (Star Wars: Legion, Atomic Mass Games). Distances are already Independent Action values (book ×1.5): run with IA OFF and both multipliers at 1. Points are hand-set to Legion balance: approximate Legion points ×1.5, which puts a B1 squad near the book price of a comparable squad; Legion characters and tanks come out pricier than book equivalents because Legion prices them that way. Legion reference values are approximate; check them against your unit cards. Force users are converted as duelists with telekinesis only; Sith, Nightsister and Nightbrother elements are removed by design. Shadow Collective units in the Separatist card pack (Pyke Syndicate, Black Sun) are not included.",
+   "rules": [
+    {
+     "name": "Droid (Synthetic)",
+     "text": "Book Synthetic rules (p.46): no Fear; immune to gas, Burn, Stun and Shock; no Medics; no campaign experience. Droids are Suppressed and test Morale normally."
+    },
+    {
+     "name": "Battle Droid Protocols",
+     "text": "A unit with this rule that is not within 12\" of a friendly Leader with Command Network when it activates makes an AI roll: on 1–3 it may only Engage the closest visible enemy without moving (or Move toward it if none is visible)."
+    },
+    {
+     "name": "Command Network",
+     "text": "Separatist Leaders may give Direct Command to any droid unit within 12\" (not 2\"), without joining it."
+    },
+    {
+     "name": "Expendable",
+     "text": "B1 squads do not cause Morale tests in other friendly units when they lose figures."
+    },
+    {
+     "name": "Heavy Droid Trooper",
+     "text": "Ignores Linear-feature cover penalties when firing over barricades; may move after a close assault ends."
+    },
+    {
+     "name": "Flight",
+     "text": "Geonosians move over terrain and up buildings without movement cost; they cannot end a move in mid-air."
+    },
+    {
+     "name": "Saber Duelist",
+     "text": "Lightsaber wielders roll one extra close assault die and may re-roll a failed close assault Hit once per activation."
+    },
+    {
+     "name": "Saber Deflection",
+     "text": "5+ save against ranged Hits (cannot combine with other saves). On a natural 6 the shot strikes the firer's unit."
+    },
+    {
+     "name": "Telekinetic (psionic)",
+     "text": "Psi-Weapon powers only (push and hurl). No mind control, no lightning, no dark-side abilities."
+    },
+    {
+     "name": "Paired [W]",
+     "text": "Two weapons: roll one extra attack die."
+    },
+    {
+     "name": "Front arc / Side arc / 360° arc [W]",
+     "text": "Vehicle weapon arcs, book p.50."
+    }
+   ],
+   "slots": {
+    "infantry": "t-cis-b1",
+    "recon": "t-cis-bx",
+    "storm": "t-cis-b2",
+    "weaponsTeam": "t-cis-deka",
+    "majorChar": "t-cis-std",
+    "epicChar": "t-cis-grievous",
+    "sniper": "t-cis-bx-strike",
+    "transport": "t-cis-aat",
+    "armoredCar": "t-cis-dsd1",
+    "lightTank": "t-cis-crab",
+    "tank": "t-cis-aat",
+    "heavyTank": "t-cis-persuader"
+   }
+  }
+ ]
+}

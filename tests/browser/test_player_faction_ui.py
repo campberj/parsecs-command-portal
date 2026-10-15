@@ -1,0 +1,31 @@
+"""Any faction can be the player or the opponent in a new campaign."""
+from playwright.sync_api import sync_playwright
+from common import Checks, launch, boot, import_pack, out
+
+chk = Checks('player faction UI')
+with sync_playwright() as pw:
+    ctx, pg, errs, _ = launch(pw)
+    boot(pg); import_pack(pg)
+    pg.click('#tab-setup'); pg.wait_for_timeout(100)
+    opts = pg.eval_on_selector_all('#nc-player option', 'os => os.map(o => o.value)')
+    chk('player select lists imported faction', 'f-cis' in opts and 'f-78' in opts)
+    pg.select_option('#nc-player', 'f-cis'); pg.select_option('#nc-opp', 'f-cis'); pg.click('form[data-form="newcampaign"] button[type=submit]'); pg.wait_for_timeout(200)
+    chk('same faction on both sides refused', pg.evaluate("S.setup.player") == 'f-78')
+    pg.select_option('#nc-player', 'f-cis'); pg.select_option('#nc-opp', 'f-78'); pg.select_option('#nc-scale', 'platoon'); pg.fill('#nc-name', 'Droid Front')
+    pg.click('form[data-form="newcampaign"] button[type=submit]'); pg.wait_for_timeout(400)
+    chk('campaign started as Separatists vs 78th', pg.evaluate("S.setup.player") == 'f-cis' and pg.evaluate("S.setup.opponent") == 'f-78')
+    chk('starter force built from Separatist units', pg.evaluate("S.roster.units.length > 0 && S.roster.units.every(u => S.armory.templates.find(t => t.id === u.tpl).faction === 'f-cis')"))
+    pg.click('#tab-forces'); pg.wait_for_timeout(200)
+    chk('add-unit list offers own faction', pg.eval_on_selector_all('#add-tpl option', 'os => os.length') > 5)
+    pg.screenshot(path=out('facsel_forces.png'))
+    pg.select_option('#add-tpl', 't-cis-grievous'); pg.uncheck('#add-pay'); pg.click('form[data-form="addunit"] button[type=submit]'); pg.wait_for_timeout(200)
+    chk('character added', pg.evaluate("S.roster.units.some(u=>u.tpl==='t-cis-grievous')"))
+    pg.click('#tab-missions'); pg.click('form[data-form="genmission"] button[type=submit]'); pg.wait_for_timeout(300)
+    v = pg.inner_text('#view'); chk('mission against the 78th with a directive', '78th' in v and 'DIRECTIVE' in v)
+    pg.click('#tab-armory'); pg.click('[data-act="atab"][data-k="factions"]'); pg.wait_for_timeout(200)
+    chk('factions panel marks your faction', 'YOUR FACTION' in pg.inner_text('#view').upper())
+    pg.click('#tab-setup'); pg.wait_for_timeout(100)
+    chk('two campaign slots', pg.evaluate("META.campaigns.length") == 2)
+    chk('no page errors', not errs)
+    ctx.close()
+chk.finish()

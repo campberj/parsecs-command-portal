@@ -1,0 +1,1655 @@
+{
+ "kind": "pcp-rules",
+ "v": 1,
+ "app": "Parsecs Command 1.0.1",
+ "note": "Transcribed from the 5P:T rulebook, the Field Commander's Guide and 5PFH 3rd edition. Keyed = taken from a book; mark each Verified after checking.",
+ "tables": {
+  "enemyForces": {
+   "status": "keyed",
+   "rows": [
+    {
+     "max": 10,
+     "slots": "infantry",
+     "cond": "outnumbered3",
+     "alt": "infantry, infantry"
+    },
+    {
+     "max": 20,
+     "slots": "infantry, infantry, majorChar"
+    },
+    {
+     "max": 30,
+     "slots": "recon"
+    },
+    {
+     "max": 40,
+     "slots": "infantry, transport"
+    },
+    {
+     "max": 45,
+     "slots": "epicChar",
+     "cond": "outnumbered3",
+     "alt": "epicChar, infantry"
+    },
+    {
+     "max": 50,
+     "slots": "weaponsTeam",
+     "cond": "playerHeavy",
+     "alt": "heavyTank"
+    },
+    {
+     "max": 60,
+     "slots": "armoredCar",
+     "cond": "enemyVehicles2",
+     "alt": "infantry"
+    },
+    {
+     "max": 70,
+     "slots": "tank",
+     "cond": "enemyNoInfantry",
+     "alt": "infantry, infantry"
+    },
+    {
+     "max": 80,
+     "slots": "infantry, tank"
+    },
+    {
+     "max": 90,
+     "slots": "",
+     "cond": "playerVehicles2",
+     "alt": "lightTank"
+    },
+    {
+     "max": 100,
+     "slots": "",
+     "cond": "objectivesOutnumbered",
+     "alt": "storm, infantry",
+     "cond2": "objectives",
+     "alt2": "storm"
+    }
+   ],
+   "updated": "2026-10-14T20:35:28.900Z"
+  },
+  "story": {
+   "status": "keyed",
+   "rows": [
+    {
+     "max": 4,
+     "title": "Reinforcements",
+     "text": "One side receives reinforcements: significant manpower or a new capability (armor, specialists). Player: add a unit to your force, or an extra enemy unit next mission. Operational: one army +1 Army Strength.",
+     "effect": "reinf"
+    },
+    {
+     "max": 8,
+     "title": "Critical Strike",
+     "text": "One side attacks an important or high-priority target. Player: play out the mission. Operational: if it succeeds, an army at 4+ Army Strength loses 1.",
+     "effect": "crit"
+    },
+    {
+     "max": 11,
+     "title": "New Main Character",
+     "text": "The focal character of your force changes. Player: choose or create a new main character.",
+     "effect": ""
+    },
+    {
+     "max": 15,
+     "title": "Flashback",
+     "text": "Play out an event from the past of a character, unit, or the conflict.",
+     "effect": ""
+    },
+    {
+     "max": 20,
+     "title": "Balance is Shifting",
+     "text": "One side is gaining the upper hand. Operational: in one Zone, +1 Army Strength and the enemy army −1.",
+     "effect": "shift"
+    },
+    {
+     "max": 25,
+     "title": "Shortfall",
+     "text": "One side runs short of a resource such as fuel or ammunition. Operational: one army with 4+ Army Strength loses 1.",
+     "effect": "short"
+    },
+    {
+     "max": 31,
+     "title": "New Character",
+     "text": "A new character joins the story. Player: add a new character to your force.",
+     "effect": ""
+    },
+    {
+     "max": 36,
+     "title": "New Ally",
+     "text": "One side gains a new ally. Player: a new force, an off-world operation, or an unusual unit. Operational: add a new Zone, the ally at Army Strength 4 against 2.",
+     "effect": "ally"
+    },
+    {
+     "max": 42,
+     "title": "Loss of Initiative",
+     "text": "The side on the defensive seizes the initiative. Operational: the side with the lowest Cohesion adds +1 Army Strength and fights in that Zone.",
+     "effect": "init"
+    },
+    {
+     "max": 46,
+     "title": "Change of Perspective *",
+     "text": "The campaign shifts to a new point of view. Player: choose a side or faction you now play as. (Dramatic: reroll if it does not fit.)",
+     "effect": ""
+    },
+    {
+     "max": 52,
+     "title": "Unconventional Operation",
+     "text": "One side launches a special operations mission. Player: play it out. Operational: pick an enemy army and roll 1D6; below its Army Strength, it loses 1.",
+     "effect": "unconv"
+    },
+    {
+     "max": 57,
+     "title": "Loss of Capability",
+     "text": "One side loses a capability (artillery, air movement…). Player: cannot use it next turn. Operational: that side carries out no Order this turn.",
+     "effect": "losscap"
+    },
+    {
+     "max": 62,
+     "title": "Side Story *",
+     "text": "A secondary story unfolds alongside the conflict. Play it through. (Dramatic: reroll if it does not fit.)",
+     "effect": ""
+    },
+    {
+     "max": 66,
+     "title": "Unit Reassignment",
+     "text": "A unit is reassigned elsewhere. Player: one unit leaves and is replaced with a new unit.",
+     "effect": ""
+    },
+    {
+     "max": 72,
+     "title": "Change in Strategy",
+     "text": "One side adopts a new strategy. Player: reflect it in the next scenario. Operational: that side carries out two Orders this turn.",
+     "effect": "strategy"
+    },
+    {
+     "max": 77,
+     "title": "Change of Focus",
+     "text": "The fighting shifts to a new area. Player: choose a new area (and force) to play. Operational: change the Operational Focus.",
+     "effect": "focus"
+    },
+    {
+     "max": 83,
+     "title": "Transfer In",
+     "text": "A unit transfers in from another formation or off-world. Player: add a unit. Operational: your Zone gains +1 Army Strength if currently 4 or less.",
+     "effect": "transfer"
+    },
+    {
+     "max": 88,
+     "title": "Front Transfer",
+     "text": "The focal unit moves to a different area of the conflict. Operational: move your forces to a different Zone.",
+     "effect": "front"
+    },
+    {
+     "max": 92,
+     "title": "R&R",
+     "text": "The focal unit rests, recovers and refits. Player: make force changes, recover casualties, repair. Operational: your Zone is raised to Army Strength 3 if currently 3 or less.",
+     "effect": "rr"
+    },
+    {
+     "max": 96,
+     "title": "New Front Opens",
+     "text": "A new area joins the conflict. Player: play a battle there. Operational: add a Zone, both sides at Army Strength 4, and fight there this turn.",
+     "effect": "newfront"
+    },
+    {
+     "max": 100,
+     "title": "Remote Conflict *",
+     "text": "A linked conflict breaks out in another country, planet or system. Player: play a battle there. Operational: creates a new operational conflict. (Dramatic: reroll if it does not fit.)",
+     "effect": ""
+    }
+   ],
+   "updated": "2026-10-14T20:35:28.900Z"
+  },
+  "orders": {
+   "status": "keyed",
+   "rows": [
+    {
+     "max": 1,
+     "name": "Construct Defense",
+     "effect": "fortify"
+    },
+    {
+     "max": 2,
+     "name": "Continued Offensive",
+     "effect": "continue"
+    },
+    {
+     "max": 3,
+     "name": "New Offensive",
+     "effect": "newOffensive"
+    },
+    {
+     "max": 4,
+     "name": "Renewed Effort",
+     "effect": "renew"
+    },
+    {
+     "max": 5,
+     "name": "Raiding",
+     "effect": "raid"
+    },
+    {
+     "max": 6,
+     "name": "Bolster Positions",
+     "effect": "bolster"
+    }
+   ],
+   "updated": "2026-10-14T20:35:28.900Z"
+  },
+  "unitLosses": {
+   "status": "keyed",
+   "rows": [
+    {
+     "max": 1,
+     "state": "Lost",
+     "battles": 0
+    },
+    {
+     "max": 2,
+     "state": "Devastated",
+     "battles": 2
+    },
+    {
+     "max": 3,
+     "state": "Weakened",
+     "battles": 1
+    },
+    {
+     "max": 6,
+     "state": "Okay",
+     "battles": 0
+    }
+   ],
+   "updated": "2026-10-14T20:35:28.900Z"
+  },
+  "injury": {
+   "status": "keyed",
+   "rows": [
+    {
+     "max": 5,
+     "result": "Gruesome fate (equipment damaged)",
+     "effect": "dead",
+     "turns": "",
+     "xp": 0
+    },
+    {
+     "max": 15,
+     "result": "Death or permanent injury",
+     "effect": "dead",
+     "turns": "",
+     "xp": 0
+    },
+    {
+     "max": 16,
+     "result": "Miraculous escape (+1 Luck; all carried items lost)",
+     "effect": "fine",
+     "turns": "",
+     "xp": 0
+    },
+    {
+     "max": 30,
+     "result": "Equipment loss (random carried item damaged)",
+     "effect": "fine",
+     "turns": "",
+     "xp": 0
+    },
+    {
+     "max": 45,
+     "result": "Crippling wound (surgery, or −1 to the higher of Speed or Toughness)",
+     "effect": "injured",
+     "turns": "D6",
+     "xp": 0
+    },
+    {
+     "max": 54,
+     "result": "Serious injury",
+     "effect": "injured",
+     "turns": "D3+1",
+     "xp": 0
+    },
+    {
+     "max": 80,
+     "result": "Minor injuries",
+     "effect": "injured",
+     "turns": "1",
+     "xp": 0
+    },
+    {
+     "max": 95,
+     "result": "Knocked out",
+     "effect": "light",
+     "turns": "",
+     "xp": 0
+    },
+    {
+     "max": 100,
+     "result": "School of hard knocks",
+     "effect": "fine",
+     "turns": "",
+     "xp": 1
+    }
+   ],
+   "updated": "2026-10-14T20:35:28.900Z"
+  },
+  "figXp": {
+   "status": "keyed",
+   "rows": [
+    {
+     "key": "casualty",
+     "label": "Became a casualty",
+     "xp": 1
+    },
+    {
+     "key": "survivedLoss",
+     "label": "Survived, but did not win",
+     "xp": 2
+    },
+    {
+     "key": "survivedWin",
+     "label": "Survived and won",
+     "xp": 3
+    },
+    {
+     "key": "firstBlood",
+     "label": "First character to inflict a casualty",
+     "xp": 1
+    },
+    {
+     "key": "unique",
+     "label": "Killed a Unique Individual",
+     "xp": 1
+    },
+    {
+     "key": "perKill",
+     "label": "Each kill (not in the book; portal option)",
+     "xp": 0
+    }
+   ],
+   "updated": "2026-10-14T20:35:28.900Z"
+  },
+  "advance": {
+   "status": "keyed",
+   "rows": [
+    {
+     "stat": "re",
+     "xp": 7,
+     "step": 1,
+     "max": 6
+    },
+    {
+     "stat": "cs",
+     "xp": 7,
+     "step": 1,
+     "max": 5
+    },
+    {
+     "stat": "sp",
+     "xp": 5,
+     "step": 1,
+     "max": 8
+    },
+    {
+     "stat": "sv",
+     "xp": 5,
+     "step": 1,
+     "max": 5
+    },
+    {
+     "stat": "t",
+     "xp": 6,
+     "step": 1,
+     "max": 6
+    }
+   ],
+   "updated": "2026-10-14T20:35:28.900Z"
+  },
+  "unitXp": {
+   "status": "keyed",
+   "rows": [
+    {
+     "key": "unit",
+     "label": "Each squad, crew or individual that took part",
+     "dice": "D6"
+    },
+    {
+     "key": "indWin",
+     "label": "Individual, battle won (2D6, keep the higher)",
+     "dice": "best2"
+    }
+   ],
+   "updated": "2026-10-14T20:35:28.900Z"
+  },
+  "skirmishObj": {
+   "status": "keyed",
+   "rows": [
+    {
+     "max": 20,
+     "name": "Kill Target",
+     "text": "Randomly select an enemy figure on the table; completed when it is killed."
+    },
+    {
+     "max": 30,
+     "name": "Score Kills",
+     "text": "Randomly select one of your figures; completed when it kills two enemies."
+    },
+    {
+     "max": 50,
+     "name": "Kill Confirmed",
+     "text": "Mark where the next enemy is killed; completed when one of your figures moves into contact with the marker."
+    },
+    {
+     "max": 60,
+     "name": "Stay Alive",
+     "text": "Randomly select one of your figures; completed if it survives the next three rounds."
+    },
+    {
+     "max": 75,
+     "name": "Capture",
+     "text": "At the end of two consecutive rounds, have troops in a target terrain feature with no enemies present."
+    },
+    {
+     "max": 90,
+     "name": "Scout",
+     "text": "Two target terrain features must both be contacted by any of your figures."
+    },
+    {
+     "max": 100,
+     "name": "Sneak Through",
+     "text": "A figure must move off the opposing battlefield edge."
+    }
+   ],
+   "updated": "2026-10-14T20:35:28.900Z"
+  },
+  "battleObj": {
+   "status": "keyed",
+   "rows": [
+    {
+     "max": 1,
+     "name": "Engagement",
+     "text": "1 VP per Hero, Leader, squad or vehicle destroyed or driven off; highest total wins. With unequal unit counts, the smaller army picks units worth 2 VP until values match."
+    },
+    {
+     "max": 2,
+     "name": "Vital Ground",
+     "text": "Terrain features partly within 4\" of the table centre: hold the majority at game end with the enemy holding none."
+    },
+    {
+     "max": 3,
+     "name": "Hold the Field",
+     "text": "Three markers evenly spaced on the centre line; secure with troops within 2\" and no enemy within 2\" at round end. Hold 2 at the end to win."
+    },
+    {
+     "max": 4,
+     "name": "Recon in Force",
+     "text": "Have more infantry units (2+ figures left) in the enemy deployment area than they have in yours at game end."
+    },
+    {
+     "max": 5,
+     "name": "Break Point",
+     "text": "Destroy or drive off 50% of enemy units; the game ends at that round end. Both at once, or the Clock runs out, is a draw."
+    },
+    {
+     "max": 6,
+     "name": "Search and Retrieve",
+     "text": "Markers in the six features nearest the centre line; the first infantry unit to enter removes one and rolls D6, finding the target on a roll ≤ markers removed. Holder at the end wins."
+    }
+   ],
+   "updated": "2026-10-14T20:35:28.900Z"
+  },
+  "secondary": {
+   "status": "keyed",
+   "rows": [
+    {
+     "max": 8,
+     "name": "Reach Location (character)"
+    },
+    {
+     "max": 14,
+     "name": "Kill Target"
+    },
+    {
+     "max": 23,
+     "name": "Reach Location and Interact (6+ Savvy)"
+    },
+    {
+     "max": 30,
+     "name": "Locate (6+ Savvy)"
+    },
+    {
+     "max": 37,
+     "name": "Leave Battle (character)"
+    },
+    {
+     "max": 43,
+     "name": "Hold Fast (character)"
+    },
+    {
+     "max": 49,
+     "name": "Kill Unit"
+    },
+    {
+     "max": 55,
+     "name": "Kill Confirmed"
+    },
+    {
+     "max": 64,
+     "name": "Capture"
+    },
+    {
+     "max": 71,
+     "name": "Confront (any character)"
+    },
+    {
+     "max": 81,
+     "name": "Search"
+    },
+    {
+     "max": 91,
+     "name": "Secure"
+    },
+    {
+     "max": 100,
+     "name": "Retrieve"
+    }
+   ],
+   "updated": "2026-10-14T20:35:28.900Z"
+  },
+  "conditions": {
+   "status": "keyed",
+   "rows": [
+    {
+     "max": 3,
+     "name": "Poor support",
+     "text": "All support availability numbers +1 (6+ becomes 7+)."
+    },
+    {
+     "max": 6,
+     "name": "Limited support",
+     "text": "Failing to call support raises its availability by 1."
+    },
+    {
+     "max": 9,
+     "name": "Jammed transmissions",
+     "text": "All communications require a test (5P:T p.120)."
+    },
+    {
+     "max": 12,
+     "name": "Chance encounter",
+     "text": "All troops deployed on the table begin Confused (p.121)."
+    },
+    {
+     "max": 15,
+     "name": "Dangerous terrain",
+     "text": "A random feature in each table quarter is Dangerous (p.122)."
+    },
+    {
+     "max": 18,
+     "name": "Limited ammo",
+     "text": "Gun crew and vehicle weapons use Dwindling Ammo (p.123)."
+    },
+    {
+     "max": 21,
+     "name": "Limited visibility",
+     "text": "Limited Visibility applies (p.123). Roll 1D6: 1 Dawn, 6 Dusk."
+    },
+    {
+     "max": 24,
+     "name": "Weapons testing",
+     "text": "Each player picks one weapon: a prototype with +1 Damage, using the Unreliable/Prototype rule (p.131)."
+    },
+    {
+     "max": 27,
+     "name": "Unstable terrain",
+     "text": "The first time each feature is entered, roll 1D6; on a 1 it collapses and is removed."
+    },
+    {
+     "max": 30,
+     "name": "Fight to the bitter end",
+     "text": "All troops +1 to effective Morale."
+    },
+    {
+     "max": 33,
+     "name": "Snap decisions",
+     "text": "No Overwatch actions this battle."
+    },
+    {
+     "max": 36,
+     "name": "Uncertain ground",
+     "text": "No unit may Dash / Move Out."
+    },
+    {
+     "max": 39,
+     "name": "Rivalry",
+     "text": "Each player picks one squad: Fearless, does not test Morale."
+    },
+    {
+     "max": 42,
+     "name": "Combat specialist",
+     "text": "Each player picks one figure: X2 attacks in close assault (p.36)."
+    },
+    {
+     "max": 45,
+     "name": "Storm tactics",
+     "text": "All close assault attacks +1 to the Hit die."
+    },
+    {
+     "max": 48,
+     "name": "Hesitation",
+     "text": "First turn: activate only 1 unit per phase."
+    },
+    {
+     "max": 51,
+     "name": "Lack of fire control",
+     "text": "Units cannot split fire; figures that cannot see the primary target cannot fire."
+    },
+    {
+     "max": 54,
+     "name": "Heroic battle",
+     "text": "Each player picks one figure: +1 KP."
+    },
+    {
+     "max": 57,
+     "name": "Frantic battle",
+     "text": "All units +1 Reaction."
+    },
+    {
+     "max": 60,
+     "name": "Tank hunt",
+     "text": "Natural 6 to hit a vehicle: +1 Damage."
+    },
+    {
+     "max": 63,
+     "name": "Unexpectedly vital mission",
+     "text": "Each VP awarded: roll 1D6, on a 6 award 1 more VP."
+    },
+    {
+     "max": 66,
+     "name": "Lengthy battle",
+     "text": "Add 1 round to the game length."
+    },
+    {
+     "max": 69,
+     "name": "Uncertain battle length",
+     "text": "After the last round roll 1D6: 1–4 ends, 5–6 another round; repeat."
+    },
+    {
+     "max": 72,
+     "name": "Delayed",
+     "text": "Each player picks a random unit to start off-table; it arrives from its edge when activated in Round 3."
+    },
+    {
+     "max": 75,
+     "name": "Immediate reserve",
+     "text": "Up to half your units may start off-table and arrive from your edge when activated in Round 2."
+    },
+    {
+     "max": 78,
+     "name": "Positional warfare",
+     "text": "Each player may place barricades or trenches giving Cover to two infantry squads or gun crews."
+    },
+    {
+     "max": 81,
+     "name": "Shelling terrain",
+     "text": "Each player may replace one terrain feature with craters or ruins."
+    },
+    {
+     "max": 84,
+     "name": "Ammo supply",
+     "text": "One squad or gun crew may reroll up to 3 missed shooting hit rolls this game."
+    },
+    {
+     "max": 87,
+     "name": "Rookies",
+     "text": "Each player randomly picks one unit: −1 Reaction."
+    },
+    {
+     "max": 90,
+     "name": "Cover the rear",
+     "text": "Each player picks one unit that does not take part."
+    },
+    {
+     "max": 93,
+     "name": "Junior leadership",
+     "text": "Each player picks one squad: its leader +1 KP."
+    },
+    {
+     "max": 96,
+     "name": "Static warfare",
+     "text": "The first unit each player activates in a round cannot move."
+    },
+    {
+     "max": 99,
+     "name": "Fight to the end",
+     "text": "No Skulk or Fall Back actions."
+    },
+    {
+     "max": 100,
+     "name": "Hero battle",
+     "text": "All squad leaders and individuals +1 KP."
+    }
+   ],
+   "updated": "2026-10-14T20:35:28.900Z"
+  },
+  "condCount": {
+   "status": "keyed",
+   "rows": [
+    {
+     "max": 15,
+     "count": 0
+    },
+    {
+     "max": 75,
+     "count": 1
+    },
+    {
+     "max": 90,
+     "count": 2
+    },
+    {
+     "max": 100,
+     "count": 3
+    }
+   ],
+   "updated": "2026-10-14T20:35:28.900Z"
+  },
+  "squadSkills": {
+   "status": "keyed",
+   "rows": [
+    {
+     "name": "Brave",
+     "xp": 10,
+     "text": "+1 to all Morale tests; cumulative with Motivator."
+    },
+    {
+     "name": "Tank hunters",
+     "xp": 15,
+     "text": "One figure per activation may take a Tank Killer shot: one shot, +1 to Hit and damage. Declare before firing."
+    },
+    {
+     "name": "Keen shots",
+     "xp": 10,
+     "text": "+6\" range with rifles; one rifle shot per activation may add +1 to Hit after rolling."
+    },
+    {
+     "name": "Die-hards",
+     "xp": 5,
+     "text": "When deploying, one figure other than the sergeant gets +1 KP."
+    },
+    {
+     "name": "Fire drill",
+     "xp": 10,
+     "text": "If the squad does not move, add Combat Skill to Hit when firing on Overwatch."
+    },
+    {
+     "name": "Brawlers",
+     "xp": 5,
+     "text": "In close assault, reroll any 1 on the attack dice once."
+    },
+    {
+     "name": "Fearless",
+     "xp": 5,
+     "text": "The squad becomes Fearless (p.46)."
+    },
+    {
+     "name": "Bombers",
+     "xp": 5,
+     "text": "Two figures per activation may throw grenades; thrown range +2\"; +1 damage when assaulting vehicles with grenades."
+    },
+    {
+     "name": "Guerillas",
+     "xp": 10,
+     "text": "May fire pistols and rifles while Dashing; hits only on a natural 6."
+    },
+    {
+     "name": "Quick",
+     "xp": 10,
+     "text": "+4\" when Dashing instead of +2\"."
+    }
+   ],
+   "updated": "2026-10-14T20:35:28.900Z"
+  },
+  "sgtSkills": {
+   "status": "keyed",
+   "rows": [
+    {
+     "name": "Rugged",
+     "xp": 5,
+     "text": "+1 KP."
+    },
+    {
+     "name": "Parry",
+     "xp": 5,
+     "text": "Once per close assault, force one incoming assault on the sergeant to be rerolled."
+    },
+    {
+     "name": "Motivator",
+     "xp": 5,
+     "text": "+1 to all squad Morale tests; cumulative with Brave."
+    },
+    {
+     "name": "Fighter",
+     "xp": 5,
+     "text": "Two attacks in close assault."
+    },
+    {
+     "name": "Survivor",
+     "xp": 5,
+     "text": "When hit from any source, roll 1D6; on 5–6 the hit has no effect."
+    },
+    {
+     "name": "Tactics",
+     "xp": 10,
+     "text": "The squad counts as +1 Reactions."
+    },
+    {
+     "name": "Experienced Eye",
+     "xp": 5,
+     "text": "+1 to Hit with all ranged attacks."
+    },
+    {
+     "name": "Alert",
+     "xp": 5,
+     "text": "Observation rolls spot at +3\"."
+    }
+   ],
+   "updated": "2026-10-14T20:35:28.900Z"
+  },
+  "indSkills": {
+   "status": "keyed",
+   "rows": [
+    {
+     "name": "Gun-slinging",
+     "xp": 5,
+     "text": "May use two pistols at once, both at the same target unit."
+    },
+    {
+     "name": "Quick feet",
+     "xp": 5,
+     "text": "Dash bonus equals normal Speed instead of +2\"."
+    },
+    {
+     "name": "Deadly accuracy",
+     "xp": 5,
+     "text": "Reroll any 1 on the initial dice of any attack."
+    },
+    {
+     "name": "Lucky",
+     "xp": 5,
+     "text": "6+ Saving Throw."
+    },
+    {
+     "name": "Skilled leader",
+     "xp": 5,
+     "text": "Leader only: Morale bonus applies within 9\"."
+    },
+    {
+     "name": "Expert fighter",
+     "xp": 5,
+     "text": "One additional close combat attack."
+    }
+   ],
+   "updated": "2026-10-14T20:35:28.900Z"
+  },
+  "crewSkills": {
+   "status": "keyed",
+   "rows": [
+    {
+     "name": "Defend the guns",
+     "xp": 5,
+     "text": "Defending a close assault, each figure strikes twice when rolling to hit."
+    },
+    {
+     "name": "Fortified positions",
+     "xp": 5,
+     "text": "6+ Saving Throw against all Hits."
+    },
+    {
+     "name": "Deploy hidden",
+     "xp": 5,
+     "text": "Hidden until it first fires; must be spotted with an Observation roll."
+    },
+    {
+     "name": "Gun drill",
+     "xp": 10,
+     "text": "May reroll a single Hit die."
+    },
+    {
+     "name": "Redeployment",
+     "xp": 5,
+     "text": "Moves 2\" per crew figure, to a maximum of 6\"."
+    },
+    {
+     "name": "Target selection",
+     "xp": 5,
+     "text": "May ignore target selection rules and fire at any squad or vehicle in sight."
+    }
+   ],
+   "updated": "2026-10-14T20:35:28.900Z"
+  },
+  "vehicleSkills": {
+   "status": "keyed",
+   "rows": [
+    {
+     "name": "Gunnery",
+     "xp": 15,
+     "text": "Main weapon: natural 6s on the Hit dice allow one additional shot at the same target."
+    },
+    {
+     "name": "Command",
+     "xp": 10,
+     "text": "+1 Reaction."
+    },
+    {
+     "name": "Driving",
+     "xp": 10,
+     "text": "One additional turn per move."
+    },
+    {
+     "name": "Damage control",
+     "xp": 5,
+     "text": "If immobilized, roll 1D6 on activation; 5–6 regains mobility."
+    },
+    {
+     "name": "Improvised armor",
+     "xp": 10,
+     "text": "+1 KP."
+    },
+    {
+     "name": "Defensive measures",
+     "xp": 5,
+     "text": "Close assault attacks on the vehicle are −1 to Hit."
+    }
+   ],
+   "updated": "2026-10-14T20:35:28.900Z"
+  },
+  "params": {
+   "status": "keyed",
+   "rows": [
+    {
+     "key": "cohShort",
+     "label": "Cohesion, short campaign (book: 3–4)",
+     "value": 3
+    },
+    {
+     "key": "cohStandard",
+     "label": "Cohesion, standard campaign (book default 5)",
+     "value": 5
+    },
+    {
+     "key": "cohLong",
+     "label": "Cohesion, long campaign (book: 8–10)",
+     "value": 10
+    },
+    {
+     "key": "regionsPerCoh",
+     "label": "Regions per point of total Cohesion (book: at least 1; example 1.5)",
+     "value": 1.5
+    },
+    {
+     "key": "pbpPerTurn",
+     "label": "Player Battle Points earned per army per turn",
+     "value": 2
+    },
+    {
+     "key": "pbpMax",
+     "label": "Player Battle Points saved per army",
+     "value": 3
+    },
+    {
+     "key": "dq",
+     "label": "Defense Quality of a Defensible region",
+     "value": 2
+    },
+    {
+     "key": "inhospCap",
+     "label": "Army Strength cap in Inhospitable regions",
+     "value": 2
+    },
+    {
+     "key": "cpWin",
+     "label": "CP bonus, victory (no VP scenario)",
+     "value": 3
+    },
+    {
+     "key": "cpDraw",
+     "label": "CP bonus, draw",
+     "value": 2
+    },
+    {
+     "key": "cpLoss",
+     "label": "CP bonus, defeat or inconclusive",
+     "value": 1
+    },
+    {
+     "key": "rosterAdd",
+     "label": "Roster Addition (CP)",
+     "value": 3
+    },
+    {
+     "key": "refit",
+     "label": "Unit Refit (CP)",
+     "value": 1
+    },
+    {
+     "key": "skillPremium",
+     "label": "XP premium for a second veteran skill (FCG)",
+     "value": 5
+    },
+    {
+     "key": "skillCP",
+     "label": "Gain Veteran Skill (CP, core rules)",
+     "value": 4
+    },
+    {
+     "key": "retrainCP",
+     "label": "Retrain Unit (CP, core rules)",
+     "value": 2
+    }
+   ],
+   "updated": "2026-10-14T20:35:28.900Z"
+  },
+  "profileCosts": {
+   "status": "keyed",
+   "rows": [
+    {
+     "species": "Human",
+     "profile": "Civilian",
+     "pts": 5
+    },
+    {
+     "species": "Human",
+     "profile": "Military",
+     "pts": 10
+    },
+    {
+     "species": "Human",
+     "profile": "Sergeant/Minor",
+     "pts": 15
+    },
+    {
+     "species": "Human",
+     "profile": "Major",
+     "pts": 20
+    },
+    {
+     "species": "Human",
+     "profile": "Epic",
+     "pts": 30
+    },
+    {
+     "species": "Feral",
+     "profile": "Civilian",
+     "pts": 6
+    },
+    {
+     "species": "Feral",
+     "profile": "Military",
+     "pts": 12
+    },
+    {
+     "species": "Feral",
+     "profile": "Sergeant/Minor",
+     "pts": 17
+    },
+    {
+     "species": "Feral",
+     "profile": "Major",
+     "pts": 22
+    },
+    {
+     "species": "Feral",
+     "profile": "Epic",
+     "pts": 32
+    },
+    {
+     "species": "Hulker",
+     "profile": "Standard",
+     "pts": 15
+    },
+    {
+     "species": "Hulker",
+     "profile": "Sergeant/Minor",
+     "pts": 20
+    },
+    {
+     "species": "Hulker",
+     "profile": "Major",
+     "pts": 25
+    },
+    {
+     "species": "Hulker",
+     "profile": "Epic",
+     "pts": 40
+    },
+    {
+     "species": "Erekish (Precursors)",
+     "profile": "Civilian",
+     "pts": 6
+    },
+    {
+     "species": "Erekish (Precursors)",
+     "profile": "Military",
+     "pts": 12
+    },
+    {
+     "species": "Erekish (Precursors)",
+     "profile": "Sergeant/Minor",
+     "pts": 18
+    },
+    {
+     "species": "Erekish (Precursors)",
+     "profile": "Major",
+     "pts": 25
+    },
+    {
+     "species": "Erekish (Precursors)",
+     "profile": "Epic",
+     "pts": 35
+    },
+    {
+     "species": "K'Erin",
+     "profile": "Civilian",
+     "pts": 8
+    },
+    {
+     "species": "K'Erin",
+     "profile": "Military",
+     "pts": 13
+    },
+    {
+     "species": "K'Erin",
+     "profile": "Sergeant/Minor",
+     "pts": 20
+    },
+    {
+     "species": "K'Erin",
+     "profile": "Major",
+     "pts": 25
+    },
+    {
+     "species": "K'Erin",
+     "profile": "Epic",
+     "pts": 32
+    },
+    {
+     "species": "Souless",
+     "profile": "Standard",
+     "pts": 20
+    },
+    {
+     "species": "The Converted",
+     "profile": "Worker",
+     "pts": 10
+    },
+    {
+     "species": "The Converted",
+     "profile": "Military",
+     "pts": 15
+    },
+    {
+     "species": "The Converted",
+     "profile": "Sergeant/Minor",
+     "pts": 20
+    },
+    {
+     "species": "The Converted",
+     "profile": "Major",
+     "pts": 25
+    },
+    {
+     "species": "The Converted",
+     "profile": "Epic",
+     "pts": 36
+    },
+    {
+     "species": "The Horde",
+     "profile": "Worker",
+     "pts": 6
+    },
+    {
+     "species": "The Horde",
+     "profile": "Military",
+     "pts": 10
+    },
+    {
+     "species": "The Horde",
+     "profile": "Sergeant/Minor",
+     "pts": 15
+    },
+    {
+     "species": "The Horde",
+     "profile": "Major",
+     "pts": 20
+    },
+    {
+     "species": "The Horde",
+     "profile": "Epic",
+     "pts": 30
+    },
+    {
+     "species": "Serian (Engineers)",
+     "profile": "Civilian",
+     "pts": 7
+    },
+    {
+     "species": "Serian (Engineers)",
+     "profile": "Military",
+     "pts": 11
+    },
+    {
+     "species": "Serian (Engineers)",
+     "profile": "Sergeant/Minor",
+     "pts": 16
+    },
+    {
+     "species": "Serian (Engineers)",
+     "profile": "Major",
+     "pts": 22
+    },
+    {
+     "species": "Serian (Engineers)",
+     "profile": "Epic",
+     "pts": 32
+    },
+    {
+     "species": "The Swift",
+     "profile": "Civilian",
+     "pts": 6
+    },
+    {
+     "species": "The Swift",
+     "profile": "Military",
+     "pts": 12
+    },
+    {
+     "species": "The Swift",
+     "profile": "Sergeant/Minor",
+     "pts": 17
+    },
+    {
+     "species": "The Swift",
+     "profile": "Major",
+     "pts": 22
+    },
+    {
+     "species": "The Swift",
+     "profile": "Epic",
+     "pts": 32
+    },
+    {
+     "species": "Keltrin (Skulkers)",
+     "profile": "Civilian",
+     "pts": 6
+    },
+    {
+     "species": "Keltrin (Skulkers)",
+     "profile": "Military",
+     "pts": 12
+    },
+    {
+     "species": "Keltrin (Skulkers)",
+     "profile": "Sergeant/Minor",
+     "pts": 17
+    },
+    {
+     "species": "Keltrin (Skulkers)",
+     "profile": "Major",
+     "pts": 22
+    },
+    {
+     "species": "Keltrin (Skulkers)",
+     "profile": "Epic",
+     "pts": 32
+    },
+    {
+     "species": "Hakshan",
+     "profile": "Civilian",
+     "pts": 5
+    },
+    {
+     "species": "Hakshan",
+     "profile": "Military",
+     "pts": 10
+    },
+    {
+     "species": "Hakshan",
+     "profile": "Sergeant/Minor",
+     "pts": 15
+    },
+    {
+     "species": "Hakshan",
+     "profile": "Major",
+     "pts": 20
+    },
+    {
+     "species": "Hakshan",
+     "profile": "Epic",
+     "pts": 30
+    },
+    {
+     "species": "Clones (The Many)",
+     "profile": "Civilian",
+     "pts": 8
+    },
+    {
+     "species": "Clones (The Many)",
+     "profile": "Military",
+     "pts": 15
+    },
+    {
+     "species": "Clones (The Many)",
+     "profile": "Sergeant/Minor",
+     "pts": 20
+    },
+    {
+     "species": "Clones (The Many)",
+     "profile": "Major",
+     "pts": 30
+    },
+    {
+     "species": "Clones (The Many)",
+     "profile": "Epic",
+     "pts": 40
+    },
+    {
+     "species": "Ystrik (Manipulators)",
+     "profile": "Civilian",
+     "pts": 5
+    },
+    {
+     "species": "Ystrik (Manipulators)",
+     "profile": "Military",
+     "pts": 8
+    },
+    {
+     "species": "Ystrik (Manipulators)",
+     "profile": "Sergeant/Minor",
+     "pts": 13
+    },
+    {
+     "species": "Ystrik (Manipulators)",
+     "profile": "Major",
+     "pts": 18
+    },
+    {
+     "species": "Ystrik (Manipulators)",
+     "profile": "Epic",
+     "pts": 27
+    },
+    {
+     "species": "Krag (Dwarves)",
+     "profile": "Civilian",
+     "pts": 5
+    },
+    {
+     "species": "Krag (Dwarves)",
+     "profile": "Military",
+     "pts": 10
+    },
+    {
+     "species": "Krag (Dwarves)",
+     "profile": "Sergeant/Minor",
+     "pts": 15
+    },
+    {
+     "species": "Krag (Dwarves)",
+     "profile": "Major",
+     "pts": 20
+    },
+    {
+     "species": "Krag (Dwarves)",
+     "profile": "Epic",
+     "pts": 30
+    },
+    {
+     "species": "Creature",
+     "profile": "Swarm",
+     "pts": 15
+    },
+    {
+     "species": "Creature",
+     "profile": "Razor Lizard",
+     "pts": 8
+    },
+    {
+     "species": "Creature",
+     "profile": "Gene-Dog",
+     "pts": 14
+    },
+    {
+     "species": "Creature",
+     "profile": "Sand Runner",
+     "pts": 8
+    },
+    {
+     "species": "Creature",
+     "profile": "Krog",
+     "pts": 25
+    },
+    {
+     "species": "Creature",
+     "profile": "Brute Lizard, Large",
+     "pts": 30
+    },
+    {
+     "species": "Creature",
+     "profile": "Brute Lizard, Huge",
+     "pts": 40
+    },
+    {
+     "species": "Creature",
+     "profile": "Brute Lizard, Massive",
+     "pts": 55
+    },
+    {
+     "species": "Vehicle",
+     "profile": "Nomad Bike",
+     "pts": 15
+    },
+    {
+     "species": "Vehicle",
+     "profile": "Scouter",
+     "pts": 35
+    },
+    {
+     "species": "Vehicle",
+     "profile": "Lancer",
+     "pts": 30
+    },
+    {
+     "species": "Vehicle",
+     "profile": "Frontier Trike",
+     "pts": 35
+    },
+    {
+     "species": "Vehicle",
+     "profile": "Raider Trike",
+     "pts": 35
+    },
+    {
+     "species": "Vehicle",
+     "profile": "Armoured Car",
+     "pts": 60
+    },
+    {
+     "species": "Vehicle",
+     "profile": "APC",
+     "pts": 50
+    },
+    {
+     "species": "Vehicle",
+     "profile": "APC – Grav",
+     "pts": 55
+    },
+    {
+     "species": "Vehicle",
+     "profile": "IFV",
+     "pts": 70
+    },
+    {
+     "species": "Vehicle",
+     "profile": "IFV – Grav",
+     "pts": 75
+    },
+    {
+     "species": "Vehicle",
+     "profile": "Light tank",
+     "pts": 100
+    },
+    {
+     "species": "Vehicle",
+     "profile": "Light tank – Grav",
+     "pts": 115
+    },
+    {
+     "species": "Vehicle",
+     "profile": "Medium tank",
+     "pts": 140
+    },
+    {
+     "species": "Vehicle",
+     "profile": "Medium – Grav",
+     "pts": 150
+    },
+    {
+     "species": "Vehicle",
+     "profile": "Heavy tank",
+     "pts": 200
+    },
+    {
+     "species": "Vehicle",
+     "profile": "Light walker",
+     "pts": 70
+    },
+    {
+     "species": "Vehicle",
+     "profile": "Heavy walker",
+     "pts": 100
+    },
+    {
+     "species": "Vehicle",
+     "profile": "CIM-L",
+     "pts": 35
+    },
+    {
+     "species": "Vehicle",
+     "profile": "CIM-APP",
+     "pts": 45
+    }
+   ],
+   "updated": "2026-10-14T20:35:28.900Z"
+  },
+  "supportCost": {
+   "status": "keyed",
+   "rows": [
+    {
+     "tn": 6,
+     "cp": 3,
+     "note": "Portal tier"
+    },
+    {
+     "tn": 7,
+     "cp": 2,
+     "note": "Book: Battle Support"
+    },
+    {
+     "tn": 8,
+     "cp": 1,
+     "note": "Portal tier (book: mid-battle call of a paid asset)"
+    }
+   ],
+   "updated": "2026-10-14T20:35:28.900Z"
+  },
+  "points": {
+   "status": "placeholder",
+   "rows": [
+    {
+     "key": "base",
+     "label": "Base figure (Speed 4, Reaction 1, Combat +0, Toughness 3, KP 1)",
+     "value": 4.82
+    },
+    {
+     "key": "sp",
+     "label": "Per point of Speed above 4",
+     "value": 0.97
+    },
+    {
+     "key": "re",
+     "label": "Per point of Reaction above 1",
+     "value": 1.33
+    },
+    {
+     "key": "cs",
+     "label": "Per point of Combat",
+     "value": 1.82
+    },
+    {
+     "key": "t",
+     "label": "Per point of Toughness above 3",
+     "value": 2.28
+    },
+    {
+     "key": "kp",
+     "label": "Per KP above 1",
+     "value": 5.26
+    },
+    {
+     "key": "sv",
+     "label": "Per point of Savvy",
+     "value": 1.79
+    },
+    {
+     "key": "tr",
+     "label": "Per point of Training",
+     "value": 1.09
+    },
+    {
+     "key": "save",
+     "label": "Per step of armor save (6+ = 1 step)",
+     "value": 1.34
+    },
+    {
+     "key": "individual",
+     "label": "Individual surcharge",
+     "value": 5
+    },
+    {
+     "key": "hero",
+     "label": "Hero rule",
+     "value": 5
+    },
+    {
+     "key": "leader",
+     "label": "Leader rule on an individual",
+     "value": 10
+    }
+   ],
+   "updated": null
+  }
+ },
+ "sources": {
+  "enemyForces": "5P:T p.62 (Random Enemy Forces)",
+  "story": "5P:T pp.102–104 (Story Events)",
+  "orders": "5P:T p.98 (Operational Orders)",
+  "unitLosses": "5P:T p.105 (Unit Losses)",
+  "injury": "5PFH 3rd ed. p.122 (Injury Table)",
+  "figXp": "5PFH 3rd ed. p.123 (Experience)",
+  "advance": "5PFH 3rd ed. p.123 (Ability Increase)",
+  "unitXp": "FCG pp.64–65 (Squad and Personal Experience)",
+  "skirmishObj": "5P:T p.75 (Skirmish Objectives)",
+  "battleObj": "5P:T p.77 (Battle Scenario objectives)",
+  "secondary": "5P:T p.83 (Secondary Objectives)",
+  "conditions": "FCG pp.56–57 (Battlefield Conditions)",
+  "condCount": "FCG p.56 (Condition Number Table, column A)",
+  "squadSkills": "5P:T p.149 (cost is Army Builder points; FCG pays it in XP)",
+  "sgtSkills": "5P:T p.150 (a veteran sergeant also becomes Fearless)",
+  "indSkills": "5P:T p.150",
+  "crewSkills": "5P:T p.151",
+  "vehicleSkills": "5P:T p.151 (not usable dismounted; same broad vehicle class only)",
+  "params": "5P:T pp.92–99, 106–108; FCG p.64",
+  "profileCosts": "5P:T Master Points Costs pp.178–180 (from your photos)",
+  "supportCost": "5P:T p.109 Battle Support (7+); 6+ and 8+ tiers are portal options"
+ }
+}
