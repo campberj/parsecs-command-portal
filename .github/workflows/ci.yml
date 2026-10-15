@@ -40,6 +40,9 @@ jobs:
     if: github.event_name == 'push' && github.ref == 'refs/heads/main'
     needs: test
     runs-on: ubuntu-latest
+    # Until Pages is turned on (Settings -> Pages -> Source: GitHub Actions) this job
+    # cannot find a site to deploy to; don't let that mark the whole run as failed.
+    continue-on-error: true
     permissions:
       contents: read
       pages: write
