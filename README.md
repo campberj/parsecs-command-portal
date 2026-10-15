@@ -7,6 +7,7 @@ The finished portal is **one self-contained HTML file**. Open it in a browser an
 ## Using it
 
 - **From GitHub Pages**: open https://campberj.github.io/parsecs-command-portal/ — or save the page to keep a local copy. Packs are at `/packs/<name>.json` on the same site.
+- **From a release**: [`releases/`](releases/) holds each version's built portal (`parsecs-command-<version>.html`) with the packs added in that version — download and open.
 - **From a build**: run `node build.mjs`, then open `dist/index.html`. The same file is also written as `dist/parsecs-command-<version>.html` for keeping alongside your campaign files.
 - **Data packs** in [`packs/`](packs/). Faction packs import from **Forces → Import**; the rules pack imports from **Rules data → Import rules pack**.
 
@@ -70,4 +71,4 @@ python -m playwright install chromium
 
 Every push and pull request runs both test sets in GitHub Actions. Pushes to `main` also publish `dist/` to GitHub Pages using `node build.mjs --public`, which leaves out the book-keyed rules pack.
 
-To release a new version: bump `version` in `package.json`, add a `CHANGELOG.md` entry, and push.
+To release a new version: bump `version` in `package.json`, add a `CHANGELOG.md` entry, copy `dist/parsecs-command-<version>.html` (and any new pack) into `releases/<version>/`, and push.
