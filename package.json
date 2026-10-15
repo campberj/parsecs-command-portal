@@ -1,13 +1,16 @@
 {
   "name": "parsecs-command-portal",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "private": true,
   "description": "Parsecs Command: a single-file campaign portal for Five Parsecs From Home: Tactics.",
   "scripts": {
     "build": "node build.mjs",
     "build:public": "node build.mjs --public",
     "test": "node build.mjs && node tests/run-node.mjs",
-    "test:browser": "node build.mjs && python3 tests/browser/run_all.py"
+    "test:browser": "node build.mjs && python3 tests/browser/run_all.py",
+    "pack:blkout": "node tools/build-blkout-pack.mjs"
   },
-  "engines": { "node": ">=18" }
+  "engines": {
+    "node": ">=18"
+  }
 }

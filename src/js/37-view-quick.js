@@ -67,9 +67,8 @@ function quickCards(q, size){
     out.push(missionCardPrint({ ...q, regionName:`${q.player.name} vs ${q.opp.name}` }, cls));
     q.units.forEach(u => out.push(...unitCardsPrint(u, cls)));
     q.eunits.filter(e => e.unit).forEach(e => out.push(...unitCardsPrint(e.unit, cls)));
-    const rules = []; [...new Set([q.player.faction, q.opp.faction, ...q.units.map(u => (tplOf(u) || {}).faction), ...q.eunits.filter(e => e.unit).map(e => (tplOf(e.unit) || {}).faction)])].map(factionOf).filter(Boolean).forEach(f => (f.rules || []).forEach(r => rules.push(`${f.name} — ${r.name}: ${r.text}`)));
-    if (S.mods.ia) rules.push('Independent Action: 1.5× movement and ranges; per-figure suppression and Reaction; Pinned replaces Broken.');
-    if (rules.length) out.push(`<div class="icard ${cls}"><h5>Rules in force<small>reference</small></h5><ol style="margin:0;padding-left:14px">${rules.map(r => `<li>${esc(r)}</li>`).join('')}</ol>${cardFoot(1, 1)}</div>`);
+    const facs = [...new Set([q.player.faction, q.opp.faction, ...q.units.map(u => (tplOf(u) || {}).faction), ...q.eunits.filter(e => e.unit).map(e => (tplOf(e.unit) || {}).faction)])].map(factionOf);
+    out.push(...refCardsPrint(cls, [...factionRuleLines(facs), ...modRuleLines()]));
   } finally { CARD_LABEL = null; }
   return out;
 }

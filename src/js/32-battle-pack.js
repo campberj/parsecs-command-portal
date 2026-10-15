@@ -37,19 +37,36 @@ function missionCardPrint(m, cls){
     ${m.support.length ? `<div><b>Support:</b> ${m.support.map(s => esc(s.name) + ' ' + s.tn + '+').join(', ')}</div>` : ''}
     ${cardFoot(1, 1)}</div>`;
 }
-function refCardPrint(cls, unitIds){
-  const hr = (S.content.houseRules || []).filter(Boolean); const rules = [];
-  const facs = [...new Set((unitIds || []).map(id => S.roster.units.find(u => u.id === id)).filter(Boolean).map(u => tplOf(u) && tplOf(u).faction))].map(factionOf).filter(f => f && (f.rules || []).length);
-  facs.forEach(f => f.rules.forEach(r => rules.push(`${f.name} — ${r.name}: ${r.text}`)));
+/* faction rules for the reference card: a rule shared word for word by several factions prints once */
+function factionRuleLines(facs){
+  const seen = new Map();
+  facs.filter(Boolean).forEach(f => (f.rules || []).forEach(r => { const k = r.name + '\u0000' + r.text; if (!seen.has(k)) seen.set(k, { names:[], r }); const e = seen.get(k); if (!e.names.includes(f.name)) e.names.push(f.name); }));
+  return [...seen.values()].map(({ names, r }) => `${names.join(' / ')} — ${r.name}: ${r.text}`);
+}
+/* the reference runs onto as many cards as it needs (budget in characters per card) */
+function refCardsPrint(cls, lines){
+  if (!lines.length) return [];
+  const budget = cls === 'c46' ? 2300 : 1650; const chunks = [[]]; let used = 0;
+  lines.forEach(l => { const n = l.length + 40; if (used + n > budget && chunks[chunks.length - 1].length){ chunks.push([]); used = 0; } chunks[chunks.length - 1].push(l); used += n; });
+  let start = 1;
+  return chunks.map((ls, i) => { const html = `<div class="icard ${cls}"><h5>Rules in force<small>reference${chunks.length > 1 ? ` ${i + 1} of ${chunks.length}` : ''}</small></h5><ol start="${start}" style="margin:0;padding-left:14px">${ls.map(r => `<li>${esc(r)}</li>`).join('')}</ol>${cardFoot(i + 1, chunks.length)}</div>`; start += ls.length; return html; });
+}
+function modRuleLines(){
+  const rules = [];
   if (S.mods.ia) rules.push('Independent Action: 1.5× movement and ranges; per-figure suppression and Reaction; Pinned replaces Broken; Piercing ignores saves; Anti-Tank +1 vs vehicles; Sniping +1 stationary; Stream is a line template ignoring cover.');
   ['strictOverwatch','individualActions','retreat','landSomewhere'].forEach(k => { if (S.mods[k]) rules.push({ strictOverwatch:'Strict Overwatch', individualActions:'Individual Actions', retreat:'Retreat', landSomewhere:'It Has to Land Somewhere' }[k]); });
-  return `<div class="icard ${cls}"><h5>Rules in force<small>reference</small></h5><ol style="margin:0;padding-left:14px">${[...rules, ...hr].map(r => `<li>${esc(r)}</li>`).join('')}</ol>${cardFoot(1, 1)}</div>`;
+  return rules;
+}
+function refCardPrint(cls, unitIds){
+  const hr = (S.content.houseRules || []).filter(Boolean);
+  const facs = [...new Set((unitIds || []).map(id => S.roster.units.find(u => u.id === id)).filter(Boolean).map(u => tplOf(u) && tplOf(u).faction))].map(factionOf);
+  return refCardsPrint(cls, [...factionRuleLines(facs), ...modRuleLines(), ...hr]);
 }
 function packCards(pk){
   const cls = pk.size === '46' ? 'c46' : ''; const out = [];
   const m = pk.mission && S.missions.find(x => x.id === pk.mission); if (m) out.push(missionCardPrint(m, cls));
   pk.units.map(id => S.roster.units.find(u => u.id === id)).filter(Boolean).forEach(u => out.push(...unitCardsPrint(u, cls)));
-  if (pk.ref) out.push(refCardPrint(cls, pk.units));
+  if (pk.ref) out.push(...refCardPrint(cls, pk.units));
   return out;
 }
 function packPanel(){

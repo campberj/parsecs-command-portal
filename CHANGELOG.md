@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.0.7
+- **BLKOUT pack** (`packs/blkout-pack.json`): Enemy Spotted Studios' BLKOUT 2nd Ed. forces as three alignment blocs — The Authority (Harlow 1st Reaction Force, UN 3rd Battalion, UN Raid Force Alpha, UN Forces), Manticor Borz Group and Task Force Boone — 50 units including generic and named Handlers and the four Dusters, on the locked Steel Lions conversion schema. Built by `tools/build-blkout-pack.mjs`.
+- The rules reference card now prints a rule shared word for word by several factions once, naming them all, and runs onto extra cards when the rules don't fit on one.
+
 ## 1.0.6 — repository
 - Moved into this repository. The single file is now built from `src/` (`styles.css`, an HTML shell and 36 section scripts); the built `dist/index.html` matches the 1.0.6 file handed out before except for the header comment, so existing saves and backups carry over unchanged.
 - Version string now comes from `package.json`.
