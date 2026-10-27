@@ -1,7 +1,7 @@
 {
  "kind": "pcp-bundle",
  "v": 1,
- "app": "Parsecs Command 1.0.2",
+ "app": "Parsecs Command 1.0.8",
  "exported": "2026-10-14T20:51:54.132Z",
  "from": "Steel Lions project documents",
  "weapons": [
@@ -2339,11 +2339,11 @@
     "Professional Soldier",
     "Military profile (Errata E-1)"
    ],
-   "pointsMode": "manual",
-   "points": 84,
-   "priceAs": "",
+   "pointsMode": "auto",
+   "points": 0,
+   "priceAs": "Human · Military",
    "source": "BPRE Cold Harbor & Aayari Covenant (project doc) + Errata E-1",
-   "notes": "Errata E-1: Reaction 2, Combat +1, Training +1. Points provisional (16 + 5)."
+   "notes": "Errata E-1: Reaction 2, Combat +1, Training +1. Priced by the Army Builder as the book Human Military profile plus armor and weapons (27 Oct 2026)."
   },
   {
    "id": "t-hb-bpre-pkm",
@@ -2373,11 +2373,11 @@
     "Trained Gunner",
     "Military profile (Errata E-1)"
    ],
-   "pointsMode": "manual",
-   "points": 38,
-   "priceAs": "",
+   "pointsMode": "auto",
+   "points": 0,
+   "priceAs": "Human · Military",
    "source": "BPRE Cold Harbor & Aayari Covenant (project doc) + Errata E-1",
-   "notes": "Errata E-1. Points provisional (14 + 5). Doc: weapon team of 2 figures."
+   "notes": "Errata E-1. Doc: weapon team of 2 figures. Priced by the Army Builder as the book Human Military profile plus armor and weapons (27 Oct 2026)."
   },
   {
    "id": "t-hb-bpre-enabler",

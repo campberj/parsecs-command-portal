@@ -1,8 +1,8 @@
 {
  "kind": "pcp-bundle",
  "v": 1,
- "app": "Parsecs Command 1.0.7",
- "exported": "2026-10-15T00:00:00.000Z",
+ "app": "Parsecs Command 1.0.8",
+ "exported": "2026-10-27T00:00:00.000Z",
  "from": "BLKOUT (Enemy Spotted Studios) — Steel Lions conversion",
  "weapons": [
   {
@@ -1397,7 +1397,7 @@
    "points": 0,
    "priceAs": "",
    "source": "BLKOUT 2nd Ed. (Enemy Spotted Studios), converted for 5P:T",
-   "notes": "Card: Skill 5, Move 4, Armor 3/5, 1 Grunt + Fire Support. BLKOUT card fields 2; portal weapon teams are a crew of 3. Card text gives Skill 5 (Skill 4 was mentioned in May); change Combat/Reaction here if your card differs."
+   "notes": "Card: Skill 5, Move 4, Armor 3/5, 1 Grunt + Fire Support. BLKOUT card fields 2; portal weapon teams are a crew of 3. Skill 5 confirmed by RJ (27 Oct 2026)."
   },
   {
    "id": "t-blk-auth-unf-batcon",
@@ -1820,7 +1820,7 @@
    "points": 0,
    "priceAs": "",
    "source": "BLKOUT 2nd Ed. (Enemy Spotted Studios), converted for 5P:T",
-   "notes": "2 Grunts + Team Leader and SAW Gunner (card back). Boone card fronts are image-only in the project files; Skill, Move, Armor and weapons are taken from the May 11 conversion (read from the card images) — check against your cards."
+   "notes": "2 Grunts + Team Leader and SAW Gunner (card back). Skill, Move, Armor and weapons from the May 11 conversion (read from the card images; confirmed by RJ, 27 Oct 2026)."
   },
   {
    "id": "t-blk-tfb-vat",
@@ -1857,7 +1857,7 @@
    "points": 0,
    "priceAs": "",
    "source": "BLKOUT 2nd Ed. (Enemy Spotted Studios), converted for 5P:T",
-   "notes": "1 Grunt + Data Specialist and SAW Gunner (card back). Boone card fronts are image-only in the project files; Skill, Move, Armor and weapons are taken from the May 11 conversion (read from the card images) — check against your cards."
+   "notes": "1 Grunt + Data Specialist and SAW Gunner (card back). Skill, Move, Armor and weapons from the May 11 conversion (read from the card images; confirmed by RJ, 27 Oct 2026)."
   },
   {
    "id": "t-blk-tfb-razorback",
@@ -1895,7 +1895,7 @@
    "points": 65,
    "priceAs": "",
    "source": "BLKOUT 2nd Ed. (Enemy Spotted Studios), converted for 5P:T",
-   "notes": "1 model (Supplemental errata). Hand-priced: the Army Builder formula does not cover vehicles. Boone card fronts are image-only in the project files; Skill, Move, Armor and weapons are taken from the May 11 conversion (read from the card images) — check against your cards."
+   "notes": "1 model (Supplemental errata). Hand-priced: the Army Builder formula does not cover vehicles. Skill, Move, Armor and weapons from the May 11 conversion (read from the card images; confirmed by RJ, 27 Oct 2026)."
   },
   {
    "id": "t-blk-auth-handler-assault",
@@ -3043,7 +3043,7 @@
     "tank": "t-blk-tfb-duster-mattis",
     "heavyTank": "t-blk-tfb-duster-topor"
    },
-   "notes": "Martian expeditionary task force leading the Headless resistance on ABOL; allied in the Steel Lions BLKOUT conversion. Card fronts for Boone are image-only in the project files, so Skill, Move, Armor and weapons come from the May 11 conversion (read from the card images) — check them against your cards. Book-scale distances. No transport cards: a rolled transport stays a generic APC line. Infantry points come from the Army Builder formula; the Razorback and Dusters are hand-priced.",
+   "notes": "Martian expeditionary task force leading the Headless resistance on ABOL; allied in the Steel Lions BLKOUT conversion. Card fronts for Boone are image-only in the project files; Skill, Move, Armor and weapons come from the May 11 conversion (read from the card images) and were confirmed by RJ on 27 Oct 2026. Book-scale distances. No transport cards: a rolled transport stays a generic APC line. Infantry points come from the Army Builder formula; the Razorback and Dusters are hand-priced.",
    "rules": [
     {
      "name": "BLKOUT conversion",

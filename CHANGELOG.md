@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.0.8
+- **DUSTLINE pack at book scale.** Every speed, range and inch figure in its rules is divided by 1.5 (the assault rifle is now 24", Dash is Speed + 2"), so it scales with the other packs when Independent Action is on instead of double-scaling. Auto-priced DUSTLINE units cost a little less, because points no longer count the inflated speeds. Re-import the pack to update a campaign.
+- **Hongbin Errata E-1 repriced.** Mercenary Grenadiers and PKM Gunners are priced by the Army Builder as the book Human Military profile plus armor and weapons: 74 and 34 points (provisional 84 and 38).
+- **BLKOUT pack.** Task Force Boone stats and the Golem's Skill 5 confirmed; the "check against your cards" notes are gone.
+- GitHub Actions moved to their Node 24 releases.
+- New test covering every faction pack: references, book-scale distances, prices.
+
 ## 1.0.7
 - **BLKOUT pack** (`packs/blkout-pack.json`): Enemy Spotted Studios' BLKOUT 2nd Ed. forces as three alignment blocs — The Authority (Harlow 1st Reaction Force, UN 3rd Battalion, UN Raid Force Alpha, UN Forces), Manticor Borz Group and Task Force Boone — 50 units including generic and named Handlers and the four Dusters, on the locked Steel Lions conversion schema. Built by `tools/build-blkout-pack.mjs`.
 - The rules reference card now prints a rule shared word for word by several factions once, naming them all, and runs onto extra cards when the rules don't fit on one.

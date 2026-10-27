@@ -1,15 +1,15 @@
 {
  "kind": "pcp-bundle",
  "v": 1,
- "app": "Parsecs Command 1.0.2",
- "exported": "2026-10-14T20:51:54.134Z",
+ "app": "Parsecs Command 1.0.8",
+ "exported": "2026-10-27T00:00:00.000Z",
  "from": "DUSTLINE v1.0",
  "weapons": [
   {
    "id": "w-dl-pistol",
    "name": "Service pistol (9mm CT)",
    "base": "DUSTLINE",
-   "range": 14,
+   "range": 9,
    "shots": 1,
    "dmg": "0",
    "traits": [
@@ -22,7 +22,7 @@
    "id": "w-dl-pistol-sil",
    "name": "Sidearm, suppressed",
    "base": "DUSTLINE",
-   "range": 12,
+   "range": 8,
    "shots": 1,
    "dmg": "0",
    "traits": [
@@ -36,7 +36,7 @@
    "id": "w-dl-pdw",
    "name": "Machine pistol / PDW",
    "base": "DUSTLINE",
-   "range": 14,
+   "range": 9,
    "shots": 2,
    "dmg": "0",
    "traits": [
@@ -50,7 +50,7 @@
    "id": "w-dl-gauss-pistol",
    "name": "Gauss sidearm",
    "base": "DUSTLINE",
-   "range": 18,
+   "range": 12,
    "shots": 1,
    "dmg": "0",
    "traits": [
@@ -64,7 +64,7 @@
    "id": "w-dl-carbine",
    "name": "Carbine (5.56/6.5 NGSW)",
    "base": "DUSTLINE",
-   "range": 30,
+   "range": 20,
    "shots": 1,
    "dmg": "0",
    "traits": [],
@@ -75,7 +75,7 @@
    "id": "w-dl-ar",
    "name": "Assault rifle",
    "base": "DUSTLINE",
-   "range": 36,
+   "range": 24,
    "shots": 1,
    "dmg": "0",
    "traits": [],
@@ -86,7 +86,7 @@
    "id": "w-dl-carbine-sil",
    "name": "Carbine, suppressed",
    "base": "DUSTLINE",
-   "range": 24,
+   "range": 16,
    "shots": 1,
    "dmg": "0",
    "traits": [
@@ -99,7 +99,7 @@
    "id": "w-dl-ngsw",
    "name": "NGSW (Next Gen Squad Weapon)",
    "base": "DUSTLINE",
-   "range": 45,
+   "range": 30,
    "shots": 1,
    "dmg": "1",
    "traits": [
@@ -112,7 +112,7 @@
    "id": "w-dl-smart-carbine",
    "name": "Smart carbine (programmable)",
    "base": "DUSTLINE",
-   "range": 30,
+   "range": 20,
    "shots": 1,
    "dmg": "0",
    "traits": [
@@ -125,7 +125,7 @@
    "id": "w-dl-dmr",
    "name": "DMR (Designated Marksman)",
    "base": "DUSTLINE",
-   "range": 54,
+   "range": 36,
    "shots": 1,
    "dmg": "1",
    "traits": [
@@ -138,7 +138,7 @@
    "id": "w-dl-sniper",
    "name": "Sniper rifle (7.62/.338)",
    "base": "DUSTLINE",
-   "range": 60,
+   "range": 40,
    "shots": 1,
    "dmg": "1 (x2)",
    "traits": [
@@ -153,7 +153,7 @@
    "id": "w-dl-amr",
    "name": "Anti-materiel rifle (.50/20mm)",
    "base": "DUSTLINE",
-   "range": 75,
+   "range": 50,
    "shots": 1,
    "dmg": "2 (x2)",
    "traits": [
@@ -169,7 +169,7 @@
    "id": "w-dl-shotgun",
    "name": "Combat shotgun",
    "base": "DUSTLINE",
-   "range": 18,
+   "range": 12,
    "shots": 1,
    "dmg": "0",
    "traits": [
@@ -182,7 +182,7 @@
    "id": "w-dl-smart-shotgun",
    "name": "Smart shotgun (frag/slug/EMP)",
    "base": "DUSTLINE",
-   "range": 18,
+   "range": 12,
    "shots": 1,
    "dmg": "0",
    "traits": [
@@ -195,7 +195,7 @@
    "id": "w-dl-lmg",
    "name": "Light machine gun",
    "base": "DUSTLINE",
-   "range": 45,
+   "range": 30,
    "shots": 3,
    "dmg": "0",
    "traits": [
@@ -209,7 +209,7 @@
    "id": "w-dl-mmg",
    "name": "Medium machine gun (7.62)",
    "base": "DUSTLINE",
-   "range": 54,
+   "range": 36,
    "shots": 3,
    "dmg": "1",
    "traits": [
@@ -224,7 +224,7 @@
    "id": "w-dl-agl",
    "name": "Auto-grenade launcher",
    "base": "DUSTLINE",
-   "range": 36,
+   "range": 24,
    "shots": 0,
    "dmg": "—",
    "traits": [
@@ -239,11 +239,11 @@
    "id": "w-dl-atgm",
    "name": "ATGM launcher (Javelin-class)",
    "base": "DUSTLINE",
-   "range": 144,
+   "range": 96,
    "shots": 1,
    "dmg": "4 (x4)",
    "traits": [
-    "Minimum Range 18\"",
+    "Minimum Range 12\"",
     "Limited Supply",
     "Lock On",
     "Team"
@@ -255,13 +255,13 @@
    "id": "w-dl-mortar",
    "name": "Commando mortar (60mm)",
    "base": "DUSTLINE",
-   "range": 72,
+   "range": 48,
    "shots": 1,
    "dmg": "1",
    "traits": [
     "Area",
     "Indirect",
-    "Minimum Range 18\"",
+    "Minimum Range 12\"",
     "Team"
    ],
    "pts": 14,
@@ -271,7 +271,7 @@
    "id": "w-dl-hels",
    "name": "Squad DE laser (HEL-S)",
    "base": "DUSTLINE",
-   "range": 30,
+   "range": 20,
    "shots": 2,
    "dmg": "1",
    "traits": [
@@ -287,7 +287,7 @@
    "id": "w-dl-flamer",
    "name": "Flame projector (modern)",
    "base": "DUSTLINE",
-   "range": 9,
+   "range": 6,
    "shots": 0,
    "dmg": "1",
    "traits": [
@@ -302,7 +302,7 @@
    "id": "w-dl-thermobaric",
    "name": "Thermobaric launcher",
    "base": "DUSTLINE",
-   "range": 24,
+   "range": 16,
    "shots": 1,
    "dmg": "2",
    "traits": [
@@ -318,7 +318,7 @@
    "id": "w-dl-rpg",
    "name": "Thermobaric RPG",
    "base": "DUSTLINE",
-   "range": 30,
+   "range": 20,
    "shots": 1,
    "dmg": "3",
    "traits": [
@@ -333,7 +333,7 @@
    "id": "w-dl-frag",
    "name": "Frag grenade",
    "base": "Frag grenade",
-   "range": 9,
+   "range": 6,
    "shots": 1,
    "dmg": "0",
    "traits": [
@@ -346,7 +346,7 @@
    "id": "w-dl-hel-mount",
    "name": "HEL squad mount (counter-UAS)",
    "base": "DUSTLINE",
-   "range": 36,
+   "range": 24,
    "shots": 1,
    "dmg": "2",
    "traits": [
@@ -362,7 +362,7 @@
    "id": "w-dl-cuas-shotgun",
    "name": "Counter-UAS shotgun",
    "base": "DUSTLINE",
-   "range": 18,
+   "range": 12,
    "shots": 1,
    "dmg": "1",
    "traits": [
@@ -376,7 +376,7 @@
    "id": "w-dl-netlauncher",
    "name": "Net-launcher",
    "base": "DUSTLINE",
-   "range": 9,
+   "range": 6,
    "shots": 1,
    "dmg": "—",
    "traits": [
@@ -390,11 +390,11 @@
    "id": "w-dl-sb-ap",
    "name": "Switchblade-type A/P",
    "base": "DUSTLINE",
-   "range": 60,
+   "range": 40,
    "shots": 1,
    "dmg": "2",
    "traits": [
-    "3\" area",
+    "2\" area",
     "Launcher",
     "Single Use",
     "JT 4+"
@@ -406,7 +406,7 @@
    "id": "w-dl-sb-av",
    "name": "Switchblade-type A/V",
    "base": "DUSTLINE",
-   "range": 60,
+   "range": 40,
    "shots": 1,
    "dmg": "4 (x2)",
    "traits": [
@@ -422,7 +422,7 @@
    "id": "w-dl-hero",
    "name": "Hero-class swarm",
    "base": "DUSTLINE",
-   "range": 108,
+   "range": 72,
    "shots": 3,
    "dmg": "1 (x3)",
    "traits": [
@@ -455,7 +455,7 @@
    "id": "w-dl-ugv-carbine",
    "name": "Integral carbine (UGV)",
    "base": "DUSTLINE",
-   "range": 36,
+   "range": 24,
    "shots": 1,
    "dmg": "0",
    "traits": [],
@@ -466,7 +466,7 @@
    "id": "w-dl-ugv-lmg",
    "name": "Integral LMG (UGV)",
    "base": "DUSTLINE",
-   "range": 45,
+   "range": 30,
    "shots": 3,
    "dmg": "0",
    "traits": [
@@ -479,7 +479,7 @@
    "id": "w-dl-ugv-shotgun",
    "name": "Integral shotgun (UGV)",
    "base": "DUSTLINE",
-   "range": 18,
+   "range": 12,
    "shots": 1,
    "dmg": "0",
    "traits": [
@@ -496,7 +496,7 @@
    "shots": 1,
    "dmg": "1",
    "traits": [
-    "4\" blast",
+    "3\" blast",
     "Once per mission"
    ],
    "pts": 0,
@@ -513,7 +513,7 @@
    "size": 1,
    "level": "major",
    "profile": {
-    "sp": 7,
+    "sp": 5,
     "re": 2,
     "cs": 1,
     "t": 4,
@@ -550,7 +550,7 @@
    "size": 1,
    "level": "minor",
    "profile": {
-    "sp": 8,
+    "sp": 5,
     "re": 2,
     "cs": 1,
     "t": 4,
@@ -587,7 +587,7 @@
    "size": 1,
    "level": "minor",
    "profile": {
-    "sp": 7,
+    "sp": 5,
     "re": 2,
     "cs": 2,
     "t": 3,
@@ -622,7 +622,7 @@
    "size": 1,
    "level": "minor",
    "profile": {
-    "sp": 7,
+    "sp": 5,
     "re": 2,
     "cs": 0,
     "t": 3,
@@ -657,7 +657,7 @@
    "size": 1,
    "level": "minor",
    "profile": {
-    "sp": 7,
+    "sp": 5,
     "re": 2,
     "cs": 0,
     "t": 3,
@@ -691,7 +691,7 @@
    "size": 1,
    "level": "minor",
    "profile": {
-    "sp": 7,
+    "sp": 5,
     "re": 2,
     "cs": 0,
     "t": 4,
@@ -726,7 +726,7 @@
    "size": 1,
    "level": "minor",
    "profile": {
-    "sp": 7,
+    "sp": 5,
     "re": 2,
     "cs": 1,
     "t": 4,
@@ -761,7 +761,7 @@
    "size": 1,
    "level": "minor",
    "profile": {
-    "sp": 7,
+    "sp": 5,
     "re": 2,
     "cs": 2,
     "t": 3,
@@ -797,7 +797,7 @@
    "size": 1,
    "level": "",
    "profile": {
-    "sp": 12,
+    "sp": 8,
     "re": 2,
     "cs": 0,
     "t": 1,
@@ -811,7 +811,7 @@
    "teamWeapons": [],
    "leaderWeapons": [],
    "rules": [
-    "ISR: +1 to hit for squadmates within 12\"",
+    "ISR: +1 to hit for squadmates within 8\"",
     "Unarmed",
     "JT 4+"
    ],
@@ -829,7 +829,7 @@
    "size": 1,
    "level": "",
    "profile": {
-    "sp": 14,
+    "sp": 9,
     "re": 2,
     "cs": 0,
     "t": 1,
@@ -863,7 +863,7 @@
    "size": 1,
    "level": "",
    "profile": {
-    "sp": 9,
+    "sp": 6,
     "re": 1,
     "cs": 0,
     "t": 0,
@@ -877,7 +877,7 @@
    "teamWeapons": [],
    "leaderWeapons": [],
    "rules": [
-    "Cannot be targeted beyond 6\"",
+    "Cannot be targeted beyond 4\"",
     "Free Recon result",
     "JT 5+"
    ],
@@ -895,7 +895,7 @@
    "size": 1,
    "level": "",
    "profile": {
-    "sp": 18,
+    "sp": 12,
     "re": 2,
     "cs": 0,
     "t": 1,
@@ -928,7 +928,7 @@
    "size": 1,
    "level": "",
    "profile": {
-    "sp": 6,
+    "sp": 4,
     "re": 0,
     "cs": 0,
     "t": 4,
@@ -960,7 +960,7 @@
    "size": 1,
    "level": "",
    "profile": {
-    "sp": 10,
+    "sp": 7,
     "re": 0,
     "cs": 0,
     "t": 4,
@@ -991,7 +991,7 @@
    "size": 1,
    "level": "",
    "profile": {
-    "sp": 9,
+    "sp": 6,
     "re": 0,
     "cs": 0,
     "t": 3,
@@ -1025,7 +1025,7 @@
    "size": 1,
    "level": "",
    "profile": {
-    "sp": 9,
+    "sp": 6,
     "re": 0,
     "cs": 1,
     "t": 4,
@@ -1058,7 +1058,7 @@
    "size": 1,
    "level": "",
    "profile": {
-    "sp": 8,
+    "sp": 5,
     "re": 0,
     "cs": 0,
     "t": 4,
@@ -1091,7 +1091,7 @@
    "size": 1,
    "level": "",
    "profile": {
-    "sp": 7,
+    "sp": 5,
     "re": 0,
     "cs": 0,
     "t": 2,
@@ -1123,7 +1123,7 @@
    "size": 1,
    "level": "major",
    "profile": {
-    "sp": 7,
+    "sp": 5,
     "re": 2,
     "cs": 1,
     "t": 4,
@@ -1158,7 +1158,7 @@
    "size": 4,
    "level": "",
    "profile": {
-    "sp": 8,
+    "sp": 5,
     "re": 2,
     "cs": 1,
     "t": 4,
@@ -1193,7 +1193,7 @@
    "size": 1,
    "level": "minor",
    "profile": {
-    "sp": 7,
+    "sp": 5,
     "re": 2,
     "cs": 2,
     "t": 3,
@@ -1226,7 +1226,7 @@
    "size": 1,
    "level": "minor",
    "profile": {
-    "sp": 7,
+    "sp": 5,
     "re": 2,
     "cs": 0,
     "t": 3,
@@ -1259,7 +1259,7 @@
    "size": 1,
    "level": "minor",
    "profile": {
-    "sp": 7,
+    "sp": 5,
     "re": 2,
     "cs": 1,
     "t": 4,
@@ -1291,7 +1291,7 @@
    "size": 1,
    "level": "minor",
    "profile": {
-    "sp": 7,
+    "sp": 5,
     "re": 2,
     "cs": 1,
     "t": 4,
@@ -1324,7 +1324,7 @@
    "size": 1,
    "level": "minor",
    "profile": {
-    "sp": 7,
+    "sp": 5,
     "re": 2,
     "cs": 0,
     "t": 3,
@@ -1358,7 +1358,7 @@
    "size": 5,
    "level": "",
    "profile": {
-    "sp": 6,
+    "sp": 4,
     "re": 1,
     "cs": 0,
     "t": 3,
@@ -1391,7 +1391,7 @@
    "size": 4,
    "level": "",
    "profile": {
-    "sp": 7,
+    "sp": 5,
     "re": 2,
     "cs": 1,
     "t": 4,
@@ -1427,7 +1427,7 @@
    "size": 1,
    "level": "minor",
    "profile": {
-    "sp": 6,
+    "sp": 4,
     "re": 2,
     "cs": 1,
     "t": 4,
@@ -1459,7 +1459,7 @@
    "size": 1,
    "level": "",
    "profile": {
-    "sp": 9,
+    "sp": 6,
     "re": 1,
     "cs": 0,
     "t": 3,
@@ -1491,7 +1491,7 @@
    "size": 1,
    "level": "major",
    "profile": {
-    "sp": 7,
+    "sp": 5,
     "re": 2,
     "cs": 1,
     "t": 4,
@@ -1525,7 +1525,7 @@
    "size": 4,
    "level": "",
    "profile": {
-    "sp": 7,
+    "sp": 5,
     "re": 2,
     "cs": 1,
     "t": 3,
@@ -1559,7 +1559,7 @@
    "size": 6,
    "level": "",
    "profile": {
-    "sp": 6,
+    "sp": 4,
     "re": 1,
     "cs": 0,
     "t": 3,
@@ -1592,7 +1592,7 @@
    "size": 1,
    "level": "minor",
    "profile": {
-    "sp": 6,
+    "sp": 4,
     "re": 1,
     "cs": 0,
     "t": 3,
@@ -1626,7 +1626,7 @@
    "size": 1,
    "level": "minor",
    "profile": {
-    "sp": 7,
+    "sp": 5,
     "re": 2,
     "cs": 1,
     "t": 4,
@@ -1661,7 +1661,7 @@
    "size": 1,
    "level": "minor",
    "profile": {
-    "sp": 6,
+    "sp": 4,
     "re": 2,
     "cs": 1,
     "t": 3,
@@ -1695,7 +1695,7 @@
    "size": 6,
    "level": "",
    "profile": {
-    "sp": 6,
+    "sp": 4,
     "re": 1,
     "cs": 0,
     "t": 3,
@@ -1728,7 +1728,7 @@
    "size": 1,
    "level": "minor",
    "profile": {
-    "sp": 6,
+    "sp": 4,
     "re": 1,
     "cs": 0,
     "t": 3,
@@ -1760,7 +1760,7 @@
    "size": 1,
    "level": "minor",
    "profile": {
-    "sp": 6,
+    "sp": 4,
     "re": 2,
     "cs": 2,
     "t": 3,
@@ -1792,7 +1792,7 @@
    "size": 1,
    "level": "minor",
    "profile": {
-    "sp": 6,
+    "sp": 4,
     "re": 1,
     "cs": 0,
     "t": 2,
@@ -1806,7 +1806,7 @@
    "teamWeapons": [],
    "leaderWeapons": [],
    "rules": [
-    "Suicide Attack: if killed in close assault, Dmg 2 to all within 3\""
+    "Suicide Attack: if killed in close assault, Dmg 2 to all within 2\""
    ],
    "pointsMode": "manual",
    "points": 6,
@@ -1857,7 +1857,7 @@
    "size": 1,
    "level": "",
    "profile": {
-    "sp": 9,
+    "sp": 6,
     "re": 2,
     "cs": 0,
     "t": 3,
@@ -1889,7 +1889,7 @@
    "size": 1,
    "level": "",
    "profile": {
-    "sp": 9,
+    "sp": 6,
     "re": 2,
     "cs": 1,
     "t": 4,
@@ -1921,7 +1921,7 @@
    "size": 1,
    "level": "",
    "profile": {
-    "sp": 12,
+    "sp": 8,
     "re": 2,
     "cs": 0,
     "t": 1,
@@ -1968,7 +1968,7 @@
    "teamWeapons": [],
    "leaderWeapons": [],
    "rules": [
-    "Destroying or capturing it disables ADS within 18\" for 2 rounds"
+    "Destroying or capturing it disables ADS within 12\" for 2 rounds"
    ],
    "pointsMode": "manual",
    "points": 20,
@@ -1983,11 +1983,11 @@
    "side": "player",
    "personality": "Methodical",
    "source": "DUSTLINE v1.0",
-   "notes": "Separate setting (2045–2060, Post-Treaty dating). All distances in this pack are already DUSTLINE values (base ×1.5): run DUSTLINE campaigns with Independent Action OFF and both multipliers at 1. A cadre is 8 operators plus UAS/UGV; one Team Leader; one optional Tier-1 (+1 to one stat). Archetype points are portal estimates; the book gives none.",
+   "notes": "Separate setting (2045–2060, Post-Treaty dating). Distances are book scale (DUSTLINE's ×1.5 values divided back by 1.5), like the other packs; turn on Independent Action to play at DUSTLINE scale. A cadre is 8 operators plus UAS/UGV; one Team Leader; one optional Tier-1 (+1 to one stat). Archetype points are portal estimates; the book gives none.",
    "rules": [
     {
-     "name": "Distance scaling",
-     "text": "All distances are DUSTLINE values (already 1.5×). Coherency 6\"; Dash = Speed + 3\"."
+     "name": "Distances",
+     "text": "Book scale, like the other packs: turn on Independent Action to play at DUSTLINE scale (×1.5). Coherency 4\"; Dash = Speed + 2\"."
     },
     {
      "name": "Advanced medical care",
@@ -2007,7 +2007,7 @@
     },
     {
      "name": "Exosuits",
-     "text": "Assist (6+, +1\" Speed, 3 pts) · Combat (4+, Speed 7\", sealed, Signature; 10 pts) · Siege (3+, Speed 5\", Crewed weapons; 25 pts)."
+     "text": "Assist (6+, +1\" Speed, 3 pts) · Combat (4+, Speed 5\", sealed, Signature; 10 pts) · Siege (3+, Speed 3\", Crewed weapons; 25 pts)."
     }
    ],
    "slots": {}
@@ -2075,7 +2075,7 @@
    "rules": [
     {
      "name": "Shattered Bonds",
-     "text": "When a Jefe/Enforcer falls, cartel units within 12\" test Reaction 4+ or are Pinned for a round."
+     "text": "When a Jefe/Enforcer falls, cartel units within 8\" test Reaction 4+ or are Pinned for a round."
     },
     {
      "name": "Drone Saturation",
@@ -2103,7 +2103,7 @@
    "rules": [
     {
      "name": "Home Ground",
-     "text": "+1 Reaction within 6\" of cover; may re-roll failed Stealth-related tests."
+     "text": "+1 Reaction within 4\" of cover; may re-roll failed Stealth-related tests."
     },
     {
      "name": "Numbers",
@@ -2111,7 +2111,7 @@
     },
     {
      "name": "IED Surprise",
-     "text": "One concealed IED per 24\"×24\" zone; first friendly within 2\" triggers Dmg 3, 3\" area."
+     "text": "One concealed IED per 16\"×16\" zone; first friendly within 1\" triggers Dmg 3, 2\" area."
     }
    ],
    "slots": {

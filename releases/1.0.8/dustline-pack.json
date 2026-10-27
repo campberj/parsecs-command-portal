@@ -1,0 +1,2156 @@
+{
+ "kind": "pcp-bundle",
+ "v": 1,
+ "app": "Parsecs Command 1.0.8",
+ "exported": "2026-10-27T00:00:00.000Z",
+ "from": "DUSTLINE v1.0",
+ "weapons": [
+  {
+   "id": "w-dl-pistol",
+   "name": "Service pistol (9mm CT)",
+   "base": "DUSTLINE",
+   "range": 9,
+   "shots": 1,
+   "dmg": "0",
+   "traits": [
+    "Pistol"
+   ],
+   "pts": 1,
+   "cat": "Sidearm"
+  },
+  {
+   "id": "w-dl-pistol-sil",
+   "name": "Sidearm, suppressed",
+   "base": "DUSTLINE",
+   "range": 8,
+   "shots": 1,
+   "dmg": "0",
+   "traits": [
+    "Pistol",
+    "Silenced"
+   ],
+   "pts": 3,
+   "cat": "Sidearm"
+  },
+  {
+   "id": "w-dl-pdw",
+   "name": "Machine pistol / PDW",
+   "base": "DUSTLINE",
+   "range": 9,
+   "shots": 2,
+   "dmg": "0",
+   "traits": [
+    "Pistol",
+    "Snap Shot"
+   ],
+   "pts": 3,
+   "cat": "Sidearm"
+  },
+  {
+   "id": "w-dl-gauss-pistol",
+   "name": "Gauss sidearm",
+   "base": "DUSTLINE",
+   "range": 12,
+   "shots": 1,
+   "dmg": "0",
+   "traits": [
+    "Pistol",
+    "Piercing"
+   ],
+   "pts": 4,
+   "cat": "Sidearm"
+  },
+  {
+   "id": "w-dl-carbine",
+   "name": "Carbine (5.56/6.5 NGSW)",
+   "base": "DUSTLINE",
+   "range": 20,
+   "shots": 1,
+   "dmg": "0",
+   "traits": [],
+   "pts": 3,
+   "cat": "Rifle"
+  },
+  {
+   "id": "w-dl-ar",
+   "name": "Assault rifle",
+   "base": "DUSTLINE",
+   "range": 24,
+   "shots": 1,
+   "dmg": "0",
+   "traits": [],
+   "pts": 3,
+   "cat": "Rifle"
+  },
+  {
+   "id": "w-dl-carbine-sil",
+   "name": "Carbine, suppressed",
+   "base": "DUSTLINE",
+   "range": 16,
+   "shots": 1,
+   "dmg": "0",
+   "traits": [
+    "Silenced"
+   ],
+   "pts": 4,
+   "cat": "Rifle"
+  },
+  {
+   "id": "w-dl-ngsw",
+   "name": "NGSW (Next Gen Squad Weapon)",
+   "base": "DUSTLINE",
+   "range": 30,
+   "shots": 1,
+   "dmg": "1",
+   "traits": [
+    "Piercing"
+   ],
+   "pts": 5,
+   "cat": "Rifle"
+  },
+  {
+   "id": "w-dl-smart-carbine",
+   "name": "Smart carbine (programmable)",
+   "base": "DUSTLINE",
+   "range": 20,
+   "shots": 1,
+   "dmg": "0",
+   "traits": [
+    "Programmable"
+   ],
+   "pts": 5,
+   "cat": "Rifle"
+  },
+  {
+   "id": "w-dl-dmr",
+   "name": "DMR (Designated Marksman)",
+   "base": "DUSTLINE",
+   "range": 36,
+   "shots": 1,
+   "dmg": "1",
+   "traits": [
+    "Critical"
+   ],
+   "pts": 5,
+   "cat": "Rifle"
+  },
+  {
+   "id": "w-dl-sniper",
+   "name": "Sniper rifle (7.62/.338)",
+   "base": "DUSTLINE",
+   "range": 40,
+   "shots": 1,
+   "dmg": "1 (x2)",
+   "traits": [
+    "Heavy",
+    "Sniping",
+    "Team"
+   ],
+   "pts": 10,
+   "cat": "Team"
+  },
+  {
+   "id": "w-dl-amr",
+   "name": "Anti-materiel rifle (.50/20mm)",
+   "base": "DUSTLINE",
+   "range": 50,
+   "shots": 1,
+   "dmg": "2 (x2)",
+   "traits": [
+    "Heavy",
+    "Piercing",
+    "Sniping",
+    "Team"
+   ],
+   "pts": 14,
+   "cat": "Team"
+  },
+  {
+   "id": "w-dl-shotgun",
+   "name": "Combat shotgun",
+   "base": "DUSTLINE",
+   "range": 12,
+   "shots": 1,
+   "dmg": "0",
+   "traits": [
+    "Critical"
+   ],
+   "pts": 2,
+   "cat": "Rifle"
+  },
+  {
+   "id": "w-dl-smart-shotgun",
+   "name": "Smart shotgun (frag/slug/EMP)",
+   "base": "DUSTLINE",
+   "range": 12,
+   "shots": 1,
+   "dmg": "0",
+   "traits": [
+    "Programmable"
+   ],
+   "pts": 3,
+   "cat": "Rifle"
+  },
+  {
+   "id": "w-dl-lmg",
+   "name": "Light machine gun",
+   "base": "DUSTLINE",
+   "range": 30,
+   "shots": 3,
+   "dmg": "0",
+   "traits": [
+    "Heavy",
+    "Team"
+   ],
+   "pts": 10,
+   "cat": "Team"
+  },
+  {
+   "id": "w-dl-mmg",
+   "name": "Medium machine gun (7.62)",
+   "base": "DUSTLINE",
+   "range": 36,
+   "shots": 3,
+   "dmg": "1",
+   "traits": [
+    "Heavy",
+    "Team",
+    "Suppressing"
+   ],
+   "pts": 14,
+   "cat": "Team"
+  },
+  {
+   "id": "w-dl-agl",
+   "name": "Auto-grenade launcher",
+   "base": "DUSTLINE",
+   "range": 24,
+   "shots": 0,
+   "dmg": "—",
+   "traits": [
+    "Launcher",
+    "Heavy",
+    "Team"
+   ],
+   "pts": 12,
+   "cat": "Team"
+  },
+  {
+   "id": "w-dl-atgm",
+   "name": "ATGM launcher (Javelin-class)",
+   "base": "DUSTLINE",
+   "range": 96,
+   "shots": 1,
+   "dmg": "4 (x4)",
+   "traits": [
+    "Minimum Range 12\"",
+    "Limited Supply",
+    "Lock On",
+    "Team"
+   ],
+   "pts": 30,
+   "cat": "Team"
+  },
+  {
+   "id": "w-dl-mortar",
+   "name": "Commando mortar (60mm)",
+   "base": "DUSTLINE",
+   "range": 48,
+   "shots": 1,
+   "dmg": "1",
+   "traits": [
+    "Area",
+    "Indirect",
+    "Minimum Range 12\"",
+    "Team"
+   ],
+   "pts": 14,
+   "cat": "Team"
+  },
+  {
+   "id": "w-dl-hels",
+   "name": "Squad DE laser (HEL-S)",
+   "base": "DUSTLINE",
+   "range": 20,
+   "shots": 2,
+   "dmg": "1",
+   "traits": [
+    "Focused",
+    "Overheat",
+    "Team",
+    "Anti-Drone"
+   ],
+   "pts": 12,
+   "cat": "Team"
+  },
+  {
+   "id": "w-dl-flamer",
+   "name": "Flame projector (modern)",
+   "base": "DUSTLINE",
+   "range": 6,
+   "shots": 0,
+   "dmg": "1",
+   "traits": [
+    "Stream",
+    "Burn",
+    "Team"
+   ],
+   "pts": 6,
+   "cat": "Team"
+  },
+  {
+   "id": "w-dl-thermobaric",
+   "name": "Thermobaric launcher",
+   "base": "DUSTLINE",
+   "range": 16,
+   "shots": 1,
+   "dmg": "2",
+   "traits": [
+    "Area",
+    "Burn",
+    "Launcher",
+    "Single Shot"
+   ],
+   "pts": 10,
+   "cat": "Team"
+  },
+  {
+   "id": "w-dl-rpg",
+   "name": "Thermobaric RPG",
+   "base": "DUSTLINE",
+   "range": 20,
+   "shots": 1,
+   "dmg": "3",
+   "traits": [
+    "Area",
+    "Burn",
+    "2 reloads"
+   ],
+   "pts": 0,
+   "cat": "Team"
+  },
+  {
+   "id": "w-dl-frag",
+   "name": "Frag grenade",
+   "base": "Frag grenade",
+   "range": 6,
+   "shots": 1,
+   "dmg": "0",
+   "traits": [
+    "Area"
+   ],
+   "pts": 1,
+   "cat": "Grenade"
+  },
+  {
+   "id": "w-dl-hel-mount",
+   "name": "HEL squad mount (counter-UAS)",
+   "base": "DUSTLINE",
+   "range": 24,
+   "shots": 1,
+   "dmg": "2",
+   "traits": [
+    "Anti-Drone",
+    "Overheat",
+    "Team",
+    "4+ to hit UAS; cannot target ground units"
+   ],
+   "pts": 18,
+   "cat": "Team"
+  },
+  {
+   "id": "w-dl-cuas-shotgun",
+   "name": "Counter-UAS shotgun",
+   "base": "DUSTLINE",
+   "range": 12,
+   "shots": 1,
+   "dmg": "1",
+   "traits": [
+    "Anti-Drone",
+    "Critical vs UAS"
+   ],
+   "pts": 3,
+   "cat": "Rifle"
+  },
+  {
+   "id": "w-dl-netlauncher",
+   "name": "Net-launcher",
+   "base": "DUSTLINE",
+   "range": 6,
+   "shots": 1,
+   "dmg": "—",
+   "traits": [
+    "Anti-Drone",
+    "Capture"
+   ],
+   "pts": 4,
+   "cat": "Rifle"
+  },
+  {
+   "id": "w-dl-sb-ap",
+   "name": "Switchblade-type A/P",
+   "base": "DUSTLINE",
+   "range": 40,
+   "shots": 1,
+   "dmg": "2",
+   "traits": [
+    "2\" area",
+    "Launcher",
+    "Single Use",
+    "JT 4+"
+   ],
+   "pts": 6,
+   "cat": "Team"
+  },
+  {
+   "id": "w-dl-sb-av",
+   "name": "Switchblade-type A/V",
+   "base": "DUSTLINE",
+   "range": 40,
+   "shots": 1,
+   "dmg": "4 (x2)",
+   "traits": [
+    "Piercing",
+    "Launcher",
+    "Single Use",
+    "JT 4+"
+   ],
+   "pts": 10,
+   "cat": "Team"
+  },
+  {
+   "id": "w-dl-hero",
+   "name": "Hero-class swarm",
+   "base": "DUSTLINE",
+   "range": 72,
+   "shots": 3,
+   "dmg": "1 (x3)",
+   "traits": [
+    "Launcher",
+    "Single Use",
+    "Swarm",
+    "JT 3+"
+   ],
+   "pts": 14,
+   "cat": "Team"
+  },
+  {
+   "id": "w-dl-phoenix",
+   "name": "Phoenix-class long-loiter",
+   "base": "DUSTLINE",
+   "range": 999,
+   "shots": 1,
+   "dmg": "3 (x2)",
+   "traits": [
+    "Piercing",
+    "Launcher",
+    "Single Use",
+    "Loiters 3 turns",
+    "JT 5+"
+   ],
+   "pts": 16,
+   "cat": "Team"
+  },
+  {
+   "id": "w-dl-ugv-carbine",
+   "name": "Integral carbine (UGV)",
+   "base": "DUSTLINE",
+   "range": 24,
+   "shots": 1,
+   "dmg": "0",
+   "traits": [],
+   "pts": 0,
+   "cat": "Vehicle"
+  },
+  {
+   "id": "w-dl-ugv-lmg",
+   "name": "Integral LMG (UGV)",
+   "base": "DUSTLINE",
+   "range": 30,
+   "shots": 3,
+   "dmg": "0",
+   "traits": [
+    "Heavy"
+   ],
+   "pts": 0,
+   "cat": "Vehicle"
+  },
+  {
+   "id": "w-dl-ugv-shotgun",
+   "name": "Integral shotgun (UGV)",
+   "base": "DUSTLINE",
+   "range": 12,
+   "shots": 1,
+   "dmg": "0",
+   "traits": [
+    "Critical"
+   ],
+   "pts": 0,
+   "cat": "Vehicle"
+  },
+  {
+   "id": "w-dl-ep-charge",
+   "name": "Dropped EP charge",
+   "base": "DUSTLINE",
+   "range": 0,
+   "shots": 1,
+   "dmg": "1",
+   "traits": [
+    "3\" blast",
+    "Once per mission"
+   ],
+   "pts": 0,
+   "cat": "Grenade"
+  }
+ ],
+ "templates": [
+  {
+   "id": "t-dl-tl",
+   "name": "Team Leader",
+   "side": "player",
+   "faction": "f-dl-cadre",
+   "troop": "individual",
+   "size": 1,
+   "level": "major",
+   "profile": {
+    "sp": 5,
+    "re": 2,
+    "cs": 1,
+    "t": 4,
+    "kp": 2,
+    "sv": 0,
+    "tr": 0,
+    "save": "5+"
+   },
+   "leader": null,
+   "weapons": [
+    "w-dl-ar",
+    "w-dl-pistol"
+   ],
+   "teamWeapons": [],
+   "leaderWeapons": [],
+   "rules": [
+    "Leader",
+    "Tactics",
+    "Command Presence",
+    "Unflappable"
+   ],
+   "pointsMode": "auto",
+   "points": 0,
+   "priceAs": "",
+   "source": "DUSTLINE v1.0",
+   "notes": "Kit: modular rifle with advanced optics, sidearm, Controller data-tool, comms relay."
+  },
+  {
+   "id": "t-dl-assault",
+   "name": "Assault Operator",
+   "side": "player",
+   "faction": "f-dl-cadre",
+   "troop": "individual",
+   "size": 1,
+   "level": "minor",
+   "profile": {
+    "sp": 5,
+    "re": 2,
+    "cs": 1,
+    "t": 4,
+    "kp": 2,
+    "sv": 0,
+    "tr": 0,
+    "save": "5+"
+   },
+   "leader": null,
+   "weapons": [
+    "w-dl-carbine",
+    "w-dl-shotgun",
+    "w-dl-frag"
+   ],
+   "teamWeapons": [],
+   "leaderWeapons": [],
+   "rules": [
+    "Assist Exo",
+    "Aggressive",
+    "Close Combat Specialist"
+   ],
+   "pointsMode": "auto",
+   "points": 0,
+   "priceAs": "",
+   "source": "DUSTLINE v1.0",
+   "notes": "Kit: compact carbine or SMG, shotgun or breacher, frag and stun grenades."
+  },
+  {
+   "id": "t-dl-dm",
+   "name": "Designated Marksman",
+   "side": "player",
+   "faction": "f-dl-cadre",
+   "troop": "individual",
+   "size": 1,
+   "level": "minor",
+   "profile": {
+    "sp": 5,
+    "re": 2,
+    "cs": 2,
+    "t": 3,
+    "kp": 2,
+    "sv": 0,
+    "tr": 0,
+    "save": "6+"
+   },
+   "leader": null,
+   "weapons": [
+    "w-dl-dmr",
+    "w-dl-carbine"
+   ],
+   "teamWeapons": [],
+   "leaderWeapons": [],
+   "rules": [
+    "Marksman",
+    "Patient",
+    "Advanced Optics"
+   ],
+   "pointsMode": "auto",
+   "points": 0,
+   "priceAs": "",
+   "source": "DUSTLINE v1.0"
+  },
+  {
+   "id": "t-dl-dronehand",
+   "name": "Dronehand",
+   "side": "player",
+   "faction": "f-dl-cadre",
+   "troop": "individual",
+   "size": 1,
+   "level": "minor",
+   "profile": {
+    "sp": 5,
+    "re": 2,
+    "cs": 0,
+    "t": 3,
+    "kp": 2,
+    "sv": 1,
+    "tr": 0,
+    "save": "6+"
+   },
+   "leader": null,
+   "weapons": [
+    "w-dl-carbine"
+   ],
+   "teamWeapons": [],
+   "leaderWeapons": [],
+   "rules": [
+    "Controller",
+    "Systems",
+    "Savvy +1"
+   ],
+   "pointsMode": "auto",
+   "points": 0,
+   "priceAs": "",
+   "source": "DUSTLINE v1.0",
+   "notes": "Runs up to 2 UAS and 1 UGV."
+  },
+  {
+   "id": "t-dl-ewo",
+   "name": "Electronic Warfare Officer",
+   "side": "player",
+   "faction": "f-dl-cadre",
+   "troop": "individual",
+   "size": 1,
+   "level": "minor",
+   "profile": {
+    "sp": 5,
+    "re": 2,
+    "cs": 0,
+    "t": 3,
+    "kp": 2,
+    "sv": 2,
+    "tr": 0,
+    "save": "6+"
+   },
+   "leader": null,
+   "weapons": [
+    "w-dl-carbine"
+   ],
+   "teamWeapons": [],
+   "leaderWeapons": [],
+   "rules": [
+    "Signals Specialist (EW Skill +2)",
+    "Cryptographer"
+   ],
+   "pointsMode": "auto",
+   "points": 0,
+   "priceAs": "",
+   "source": "DUSTLINE v1.0",
+   "notes": "Kit: portable EW suite, quantum-secured datalink node."
+  },
+  {
+   "id": "t-dl-medic",
+   "name": "Combat Medic",
+   "side": "player",
+   "faction": "f-dl-cadre",
+   "troop": "individual",
+   "size": 1,
+   "level": "minor",
+   "profile": {
+    "sp": 5,
+    "re": 2,
+    "cs": 0,
+    "t": 4,
+    "kp": 2,
+    "sv": 0,
+    "tr": 0,
+    "save": "5+"
+   },
+   "leader": null,
+   "weapons": [
+    "w-dl-carbine",
+    "w-dl-pistol"
+   ],
+   "teamWeapons": [],
+   "leaderWeapons": [],
+   "rules": [
+    "Combat Medic",
+    "Advanced Trauma Kit (3 uses)",
+    "Unflappable"
+   ],
+   "pointsMode": "auto",
+   "points": 0,
+   "priceAs": "",
+   "source": "DUSTLINE v1.0"
+  },
+  {
+   "id": "t-dl-breacher",
+   "name": "Breacher",
+   "side": "player",
+   "faction": "f-dl-cadre",
+   "troop": "individual",
+   "size": 1,
+   "level": "minor",
+   "profile": {
+    "sp": 5,
+    "re": 2,
+    "cs": 1,
+    "t": 4,
+    "kp": 2,
+    "sv": 0,
+    "tr": 0,
+    "save": "5+"
+   },
+   "leader": null,
+   "weapons": [
+    "w-dl-shotgun"
+   ],
+   "teamWeapons": [],
+   "leaderWeapons": [],
+   "rules": [
+    "Breacher",
+    "Demolitions",
+    "Combat Exo optional"
+   ],
+   "pointsMode": "auto",
+   "points": 0,
+   "priceAs": "",
+   "source": "DUSTLINE v1.0",
+   "notes": "Kit: shotgun or SMG, breaching charges, flex-cutting lines, thermal charges."
+  },
+  {
+   "id": "t-dl-scout",
+   "name": "Scout / Sniper",
+   "side": "player",
+   "faction": "f-dl-cadre",
+   "troop": "individual",
+   "size": 1,
+   "level": "minor",
+   "profile": {
+    "sp": 5,
+    "re": 2,
+    "cs": 2,
+    "t": 3,
+    "kp": 2,
+    "sv": 0,
+    "tr": 0,
+    "save": "6+"
+   },
+   "leader": null,
+   "weapons": [
+    "w-dl-sniper",
+    "w-dl-pistol-sil"
+   ],
+   "teamWeapons": [],
+   "leaderWeapons": [],
+   "rules": [
+    "Stalker",
+    "Sniper",
+    "Low Signature"
+   ],
+   "pointsMode": "auto",
+   "points": 0,
+   "priceAs": "",
+   "source": "DUSTLINE v1.0",
+   "notes": "Kit: active camouflage cloak, low-signature kit."
+  },
+  {
+   "id": "t-dl-bee",
+   "name": "Bee-class quadrotor (UAS)",
+   "side": "player",
+   "faction": "f-dl-cadre",
+   "troop": "vehicle",
+   "size": 1,
+   "level": "",
+   "profile": {
+    "sp": 8,
+    "re": 2,
+    "cs": 0,
+    "t": 1,
+    "kp": 1,
+    "sv": 0,
+    "tr": 0,
+    "save": "—"
+   },
+   "leader": null,
+   "weapons": [],
+   "teamWeapons": [],
+   "leaderWeapons": [],
+   "rules": [
+    "ISR: +1 to hit for squadmates within 8\"",
+    "Unarmed",
+    "JT 4+"
+   ],
+   "pointsMode": "manual",
+   "points": 6,
+   "priceAs": "",
+   "source": "DUSTLINE v1.0"
+  },
+  {
+   "id": "t-dl-hornet",
+   "name": "Hornet-class quadrotor (UAS)",
+   "side": "player",
+   "faction": "f-dl-cadre",
+   "troop": "vehicle",
+   "size": 1,
+   "level": "",
+   "profile": {
+    "sp": 9,
+    "re": 2,
+    "cs": 0,
+    "t": 1,
+    "kp": 1,
+    "sv": 0,
+    "tr": 0,
+    "save": "—"
+   },
+   "leader": null,
+   "weapons": [
+    "w-dl-ep-charge"
+   ],
+   "teamWeapons": [],
+   "leaderWeapons": [],
+   "rules": [
+    "ISR",
+    "Passive RF",
+    "JT 3+"
+   ],
+   "pointsMode": "manual",
+   "points": 10,
+   "priceAs": "",
+   "source": "DUSTLINE v1.0"
+  },
+  {
+   "id": "t-dl-crow",
+   "name": "Crow-class nano-rotor (UAS)",
+   "side": "player",
+   "faction": "f-dl-cadre",
+   "troop": "vehicle",
+   "size": 1,
+   "level": "",
+   "profile": {
+    "sp": 6,
+    "re": 1,
+    "cs": 0,
+    "t": 0,
+    "kp": 1,
+    "sv": 0,
+    "tr": 0,
+    "save": "—"
+   },
+   "leader": null,
+   "weapons": [],
+   "teamWeapons": [],
+   "leaderWeapons": [],
+   "rules": [
+    "Cannot be targeted beyond 4\"",
+    "Free Recon result",
+    "JT 5+"
+   ],
+   "pointsMode": "manual",
+   "points": 4,
+   "priceAs": "",
+   "source": "DUSTLINE v1.0"
+  },
+  {
+   "id": "t-dl-raven",
+   "name": "Raven-class fixed-wing (UAS)",
+   "side": "player",
+   "faction": "f-dl-cadre",
+   "troop": "vehicle",
+   "size": 1,
+   "level": "",
+   "profile": {
+    "sp": 12,
+    "re": 2,
+    "cs": 0,
+    "t": 1,
+    "kp": 1,
+    "sv": 0,
+    "tr": 0,
+    "save": "—"
+   },
+   "leader": null,
+   "weapons": [],
+   "teamWeapons": [],
+   "leaderWeapons": [],
+   "rules": [
+    "Overwatch-capable",
+    "Area-wide Observer bonus",
+    "May designate Orbital Support",
+    "JT 4+"
+   ],
+   "pointsMode": "manual",
+   "points": 8,
+   "priceAs": "",
+   "source": "DUSTLINE v1.0"
+  },
+  {
+   "id": "t-dl-mule",
+   "name": "Mule-class transport (UGV)",
+   "side": "player",
+   "faction": "f-dl-cadre",
+   "troop": "vehicle",
+   "size": 1,
+   "level": "",
+   "profile": {
+    "sp": 4,
+    "re": 0,
+    "cs": 0,
+    "t": 4,
+    "kp": 1,
+    "sv": 0,
+    "tr": 0,
+    "save": "6+"
+   },
+   "leader": null,
+   "weapons": [],
+   "teamWeapons": [],
+   "leaderWeapons": [],
+   "rules": [
+    "Autonomous",
+    "Carries 300 kg or a Down operator",
+    "Unarmed"
+   ],
+   "pointsMode": "manual",
+   "points": 8,
+   "priceAs": "",
+   "source": "DUSTLINE v1.0"
+  },
+  {
+   "id": "t-dl-jackal",
+   "name": "Jackal-class wheeled (UGV)",
+   "side": "player",
+   "faction": "f-dl-cadre",
+   "troop": "vehicle",
+   "size": 1,
+   "level": "",
+   "profile": {
+    "sp": 7,
+    "re": 0,
+    "cs": 0,
+    "t": 4,
+    "kp": 1,
+    "sv": 0,
+    "tr": 0,
+    "save": "5+"
+   },
+   "leader": null,
+   "weapons": [],
+   "teamWeapons": [],
+   "leaderWeapons": [],
+   "rules": [
+    "Autonomous",
+    "Cargo or remote Team weapon (+4)"
+   ],
+   "pointsMode": "manual",
+   "points": 12,
+   "priceAs": "",
+   "source": "DUSTLINE v1.0"
+  },
+  {
+   "id": "t-dl-hound",
+   "name": "Hound-class sentry quadruped (UGV)",
+   "side": "player",
+   "faction": "f-dl-cadre",
+   "troop": "vehicle",
+   "size": 1,
+   "level": "",
+   "profile": {
+    "sp": 6,
+    "re": 0,
+    "cs": 0,
+    "t": 3,
+    "kp": 1,
+    "sv": 0,
+    "tr": 0,
+    "save": "6+"
+   },
+   "leader": null,
+   "weapons": [
+    "w-dl-ugv-carbine"
+   ],
+   "teamWeapons": [],
+   "leaderWeapons": [],
+   "rules": [
+    "Autonomous patrol",
+    "Observer bonus",
+    "JT 4+"
+   ],
+   "pointsMode": "manual",
+   "points": 12,
+   "priceAs": "",
+   "source": "DUSTLINE v1.0"
+  },
+  {
+   "id": "t-dl-wolf",
+   "name": "Wolf-class armed quadruped (UGV)",
+   "side": "player",
+   "faction": "f-dl-cadre",
+   "troop": "vehicle",
+   "size": 1,
+   "level": "",
+   "profile": {
+    "sp": 6,
+    "re": 0,
+    "cs": 1,
+    "t": 4,
+    "kp": 1,
+    "sv": 0,
+    "tr": 0,
+    "save": "5+"
+   },
+   "leader": null,
+   "weapons": [
+    "w-dl-ugv-lmg"
+   ],
+   "teamWeapons": [],
+   "leaderWeapons": [],
+   "rules": [
+    "2 smoke canisters",
+    "JT 4+"
+   ],
+   "pointsMode": "manual",
+   "points": 20,
+   "priceAs": "",
+   "source": "DUSTLINE v1.0"
+  },
+  {
+   "id": "t-dl-badger",
+   "name": "Badger-class breacher (UGV)",
+   "side": "player",
+   "faction": "f-dl-cadre",
+   "troop": "vehicle",
+   "size": 1,
+   "level": "",
+   "profile": {
+    "sp": 5,
+    "re": 0,
+    "cs": 0,
+    "t": 4,
+    "kp": 1,
+    "sv": 0,
+    "tr": 0,
+    "save": "5+"
+   },
+   "leader": null,
+   "weapons": [
+    "w-dl-ugv-shotgun"
+   ],
+   "teamWeapons": [],
+   "leaderWeapons": [],
+   "rules": [
+    "Shaped-charge breaching payload (1 use)",
+    "JT 3+"
+   ],
+   "pointsMode": "manual",
+   "points": 18,
+   "priceAs": "",
+   "source": "DUSTLINE v1.0"
+  },
+  {
+   "id": "t-dl-pika",
+   "name": "Pika-class micro-UGV",
+   "side": "player",
+   "faction": "f-dl-cadre",
+   "troop": "vehicle",
+   "size": 1,
+   "level": "",
+   "profile": {
+    "sp": 5,
+    "re": 0,
+    "cs": 0,
+    "t": 2,
+    "kp": 1,
+    "sv": 0,
+    "tr": 0,
+    "save": "—"
+   },
+   "leader": null,
+   "weapons": [],
+   "teamWeapons": [],
+   "leaderWeapons": [],
+   "rules": [
+    "Passive sensors: free scouting intel",
+    "Single grenade payload",
+    "JT 5+"
+   ],
+   "pointsMode": "manual",
+   "points": 6,
+   "priceAs": "",
+   "source": "DUSTLINE v1.0"
+  },
+  {
+   "id": "t-dl-sf-lead",
+   "name": "SF Team Lead (Captain/Major)",
+   "side": "enemy",
+   "faction": "f-dl-sf",
+   "troop": "individual",
+   "size": 1,
+   "level": "major",
+   "profile": {
+    "sp": 5,
+    "re": 2,
+    "cs": 1,
+    "t": 4,
+    "kp": 2,
+    "sv": 0,
+    "tr": 0,
+    "save": "5+"
+   },
+   "leader": null,
+   "weapons": [
+    "w-dl-dmr",
+    "w-dl-pistol"
+   ],
+   "teamWeapons": [],
+   "leaderWeapons": [],
+   "rules": [
+    "Leader",
+    "Tactics",
+    "Command Presence"
+   ],
+   "pointsMode": "manual",
+   "points": 14,
+   "priceAs": "",
+   "source": "DUSTLINE v1.0"
+  },
+  {
+   "id": "t-dl-sf-ops",
+   "name": "SF Operators",
+   "side": "enemy",
+   "faction": "f-dl-sf",
+   "troop": "squad",
+   "size": 4,
+   "level": "",
+   "profile": {
+    "sp": 5,
+    "re": 2,
+    "cs": 1,
+    "t": 4,
+    "kp": 2,
+    "sv": 0,
+    "tr": 0,
+    "save": "5+"
+   },
+   "leader": null,
+   "weapons": [
+    "w-dl-ar",
+    "w-dl-pistol",
+    "w-dl-frag"
+   ],
+   "teamWeapons": [],
+   "leaderWeapons": [],
+   "rules": [
+    "Assist Exo"
+   ],
+   "pointsMode": "manual",
+   "points": 40,
+   "priceAs": "",
+   "source": "DUSTLINE v1.0",
+   "notes": "10 per operator."
+  },
+  {
+   "id": "t-dl-sf-dmr",
+   "name": "SF DMR Specialist",
+   "side": "enemy",
+   "faction": "f-dl-sf",
+   "troop": "individual",
+   "size": 1,
+   "level": "minor",
+   "profile": {
+    "sp": 5,
+    "re": 2,
+    "cs": 2,
+    "t": 3,
+    "kp": 2,
+    "sv": 0,
+    "tr": 0,
+    "save": "6+"
+   },
+   "leader": null,
+   "weapons": [
+    "w-dl-dmr"
+   ],
+   "teamWeapons": [],
+   "leaderWeapons": [],
+   "rules": [
+    "Marksman",
+    "Advanced Optics"
+   ],
+   "pointsMode": "manual",
+   "points": 12,
+   "priceAs": "",
+   "source": "DUSTLINE v1.0"
+  },
+  {
+   "id": "t-dl-sf-ewo",
+   "name": "SF Signals / EWO",
+   "side": "enemy",
+   "faction": "f-dl-sf",
+   "troop": "individual",
+   "size": 1,
+   "level": "minor",
+   "profile": {
+    "sp": 5,
+    "re": 2,
+    "cs": 0,
+    "t": 3,
+    "kp": 2,
+    "sv": 0,
+    "tr": 0,
+    "save": "6+"
+   },
+   "leader": null,
+   "weapons": [
+    "w-dl-carbine"
+   ],
+   "teamWeapons": [],
+   "leaderWeapons": [],
+   "rules": [
+    "EW Skill +2",
+    "Portable jam-pod"
+   ],
+   "pointsMode": "manual",
+   "points": 12,
+   "priceAs": "",
+   "source": "DUSTLINE v1.0"
+  },
+  {
+   "id": "t-dl-sf-gunner",
+   "name": "SF Support Gunner",
+   "side": "enemy",
+   "faction": "f-dl-sf",
+   "troop": "individual",
+   "size": 1,
+   "level": "minor",
+   "profile": {
+    "sp": 5,
+    "re": 2,
+    "cs": 1,
+    "t": 4,
+    "kp": 2,
+    "sv": 0,
+    "tr": 0,
+    "save": "5+"
+   },
+   "leader": null,
+   "weapons": [
+    "w-dl-lmg"
+   ],
+   "teamWeapons": [],
+   "leaderWeapons": [],
+   "rules": [
+    "Assist Exo"
+   ],
+   "pointsMode": "manual",
+   "points": 14,
+   "priceAs": "",
+   "source": "DUSTLINE v1.0"
+  },
+  {
+   "id": "t-dl-sf-breacher",
+   "name": "SF Breacher",
+   "side": "enemy",
+   "faction": "f-dl-sf",
+   "troop": "individual",
+   "size": 1,
+   "level": "minor",
+   "profile": {
+    "sp": 5,
+    "re": 2,
+    "cs": 1,
+    "t": 4,
+    "kp": 2,
+    "sv": 0,
+    "tr": 0,
+    "save": "5+"
+   },
+   "leader": null,
+   "weapons": [
+    "w-dl-shotgun"
+   ],
+   "teamWeapons": [],
+   "leaderWeapons": [],
+   "rules": [
+    "Breacher",
+    "Demolitions"
+   ],
+   "pointsMode": "manual",
+   "points": 12,
+   "priceAs": "",
+   "source": "DUSTLINE v1.0"
+  },
+  {
+   "id": "t-dl-corp-lead",
+   "name": "Shift Lead",
+   "side": "enemy",
+   "faction": "f-dl-corp",
+   "troop": "individual",
+   "size": 1,
+   "level": "minor",
+   "profile": {
+    "sp": 5,
+    "re": 2,
+    "cs": 0,
+    "t": 3,
+    "kp": 2,
+    "sv": 0,
+    "tr": 0,
+    "save": "6+"
+   },
+   "leader": null,
+   "weapons": [
+    "w-dl-ar",
+    "w-dl-pistol"
+   ],
+   "teamWeapons": [],
+   "leaderWeapons": [],
+   "rules": [
+    "Leader",
+    "Comms with site ops"
+   ],
+   "pointsMode": "manual",
+   "points": 8,
+   "priceAs": "",
+   "source": "DUSTLINE v1.0"
+  },
+  {
+   "id": "t-dl-corp-guards",
+   "name": "Security Guards",
+   "side": "enemy",
+   "faction": "f-dl-corp",
+   "troop": "squad",
+   "size": 5,
+   "level": "",
+   "profile": {
+    "sp": 4,
+    "re": 1,
+    "cs": 0,
+    "t": 3,
+    "kp": 1,
+    "sv": 0,
+    "tr": 0,
+    "save": "6+"
+   },
+   "leader": null,
+   "weapons": [
+    "w-dl-carbine"
+   ],
+   "teamWeapons": [],
+   "leaderWeapons": [],
+   "rules": [
+    "Defensive Posture"
+   ],
+   "pointsMode": "manual",
+   "points": 20,
+   "priceAs": "",
+   "source": "DUSTLINE v1.0",
+   "notes": "4 per guard."
+  },
+  {
+   "id": "t-dl-corp-response",
+   "name": "Response Team",
+   "side": "enemy",
+   "faction": "f-dl-corp",
+   "troop": "squad",
+   "size": 4,
+   "level": "",
+   "profile": {
+    "sp": 5,
+    "re": 2,
+    "cs": 1,
+    "t": 4,
+    "kp": 2,
+    "sv": 0,
+    "tr": 0,
+    "save": "5+"
+   },
+   "leader": null,
+   "weapons": [
+    "w-dl-ar",
+    "w-dl-shotgun",
+    "w-dl-frag"
+   ],
+   "teamWeapons": [],
+   "leaderWeapons": [],
+   "rules": [
+    "Assist Exo",
+    "Former military"
+   ],
+   "pointsMode": "manual",
+   "points": 36,
+   "priceAs": "",
+   "source": "DUSTLINE v1.0",
+   "notes": "9 per operator."
+  },
+  {
+   "id": "t-dl-corp-qrf",
+   "name": "QRF Heavy",
+   "side": "enemy",
+   "faction": "f-dl-corp",
+   "troop": "individual",
+   "size": 1,
+   "level": "minor",
+   "profile": {
+    "sp": 4,
+    "re": 2,
+    "cs": 1,
+    "t": 4,
+    "kp": 3,
+    "sv": 0,
+    "tr": 0,
+    "save": "5+"
+   },
+   "leader": null,
+   "weapons": [
+    "w-dl-lmg"
+   ],
+   "teamWeapons": [],
+   "leaderWeapons": [],
+   "rules": [
+    "Combat Exo"
+   ],
+   "pointsMode": "manual",
+   "points": 12,
+   "priceAs": "",
+   "source": "DUSTLINE v1.0"
+  },
+  {
+   "id": "t-dl-corp-k9",
+   "name": "K-9 / Sentry UGV",
+   "side": "enemy",
+   "faction": "f-dl-corp",
+   "troop": "vehicle",
+   "size": 1,
+   "level": "",
+   "profile": {
+    "sp": 6,
+    "re": 1,
+    "cs": 0,
+    "t": 3,
+    "kp": 1,
+    "sv": 0,
+    "tr": 0,
+    "save": "6+"
+   },
+   "leader": null,
+   "weapons": [
+    "w-dl-ugv-carbine"
+   ],
+   "teamWeapons": [],
+   "leaderWeapons": [],
+   "rules": [
+    "Autonomous patrol"
+   ],
+   "pointsMode": "manual",
+   "points": 10,
+   "priceAs": "",
+   "source": "DUSTLINE v1.0"
+  },
+  {
+   "id": "t-dl-cart-jefe",
+   "name": "Jefe / Enforcer",
+   "side": "enemy",
+   "faction": "f-dl-cartel",
+   "troop": "individual",
+   "size": 1,
+   "level": "major",
+   "profile": {
+    "sp": 5,
+    "re": 2,
+    "cs": 1,
+    "t": 4,
+    "kp": 2,
+    "sv": 0,
+    "tr": 0,
+    "save": "5+"
+   },
+   "leader": null,
+   "weapons": [
+    "w-dl-ar",
+    "w-dl-gauss-pistol"
+   ],
+   "teamWeapons": [],
+   "leaderWeapons": [],
+   "rules": [
+    "Leader",
+    "Aggressive"
+   ],
+   "pointsMode": "manual",
+   "points": 10,
+   "priceAs": "",
+   "source": "DUSTLINE v1.0"
+  },
+  {
+   "id": "t-dl-cart-sicarios",
+   "name": "Sicarios (veterans)",
+   "side": "enemy",
+   "faction": "f-dl-cartel",
+   "troop": "squad",
+   "size": 4,
+   "level": "",
+   "profile": {
+    "sp": 5,
+    "re": 2,
+    "cs": 1,
+    "t": 3,
+    "kp": 2,
+    "sv": 0,
+    "tr": 0,
+    "save": "6+"
+   },
+   "leader": null,
+   "weapons": [
+    "w-dl-ar",
+    "w-dl-frag"
+   ],
+   "teamWeapons": [],
+   "leaderWeapons": [],
+   "rules": [
+    "Former military training"
+   ],
+   "pointsMode": "manual",
+   "points": 32,
+   "priceAs": "",
+   "source": "DUSTLINE v1.0",
+   "notes": "8 per sicario; rifle or SMG."
+  },
+  {
+   "id": "t-dl-cart-gunmen",
+   "name": "Gunmen (recruited)",
+   "side": "enemy",
+   "faction": "f-dl-cartel",
+   "troop": "squad",
+   "size": 6,
+   "level": "",
+   "profile": {
+    "sp": 4,
+    "re": 1,
+    "cs": 0,
+    "t": 3,
+    "kp": 1,
+    "sv": 0,
+    "tr": 0,
+    "save": "6+"
+   },
+   "leader": null,
+   "weapons": [
+    "w-dl-carbine"
+   ],
+   "teamWeapons": [],
+   "leaderWeapons": [],
+   "rules": [
+    "Often impaired"
+   ],
+   "pointsMode": "manual",
+   "points": 18,
+   "priceAs": "",
+   "source": "DUSTLINE v1.0",
+   "notes": "3 per gunman; carbine or shotgun."
+  },
+  {
+   "id": "t-dl-cart-drone",
+   "name": "Dronemaster",
+   "side": "enemy",
+   "faction": "f-dl-cartel",
+   "troop": "individual",
+   "size": 1,
+   "level": "minor",
+   "profile": {
+    "sp": 4,
+    "re": 1,
+    "cs": 0,
+    "t": 3,
+    "kp": 1,
+    "sv": 0,
+    "tr": 0,
+    "save": "6+"
+   },
+   "leader": null,
+   "weapons": [
+    "w-dl-ep-charge",
+    "w-dl-sb-ap"
+   ],
+   "teamWeapons": [],
+   "leaderWeapons": [],
+   "rules": [
+    "Controller",
+    "1 small quadrotor + 1 A/P loitering munition"
+   ],
+   "pointsMode": "manual",
+   "points": 10,
+   "priceAs": "",
+   "source": "DUSTLINE v1.0"
+  },
+  {
+   "id": "t-dl-cart-exo",
+   "name": "Exo Raider",
+   "side": "enemy",
+   "faction": "f-dl-cartel",
+   "troop": "individual",
+   "size": 1,
+   "level": "minor",
+   "profile": {
+    "sp": 5,
+    "re": 2,
+    "cs": 1,
+    "t": 4,
+    "kp": 3,
+    "sv": 0,
+    "tr": 0,
+    "save": "5+"
+   },
+   "leader": null,
+   "weapons": [
+    "w-dl-ar",
+    "w-dl-shotgun"
+   ],
+   "teamWeapons": [],
+   "leaderWeapons": [],
+   "rules": [
+    "Combat Exo",
+    "Aggressive",
+    "Breaching tool"
+   ],
+   "pointsMode": "manual",
+   "points": 14,
+   "priceAs": "",
+   "source": "DUSTLINE v1.0"
+  },
+  {
+   "id": "t-dl-ins-cmdr",
+   "name": "Field Commander",
+   "side": "enemy",
+   "faction": "f-dl-insurgent",
+   "troop": "individual",
+   "size": 1,
+   "level": "minor",
+   "profile": {
+    "sp": 4,
+    "re": 2,
+    "cs": 1,
+    "t": 3,
+    "kp": 2,
+    "sv": 0,
+    "tr": 0,
+    "save": "6+"
+   },
+   "leader": null,
+   "weapons": [
+    "w-dl-ar",
+    "w-dl-pistol"
+   ],
+   "teamWeapons": [],
+   "leaderWeapons": [],
+   "rules": [
+    "Leader",
+    "Inspiring"
+   ],
+   "pointsMode": "manual",
+   "points": 7,
+   "priceAs": "",
+   "source": "DUSTLINE v1.0"
+  },
+  {
+   "id": "t-dl-ins-fighters",
+   "name": "Fighters",
+   "side": "enemy",
+   "faction": "f-dl-insurgent",
+   "troop": "squad",
+   "size": 6,
+   "level": "",
+   "profile": {
+    "sp": 4,
+    "re": 1,
+    "cs": 0,
+    "t": 3,
+    "kp": 1,
+    "sv": 0,
+    "tr": 0,
+    "save": "6+"
+   },
+   "leader": null,
+   "weapons": [
+    "w-dl-ar"
+   ],
+   "teamWeapons": [],
+   "leaderWeapons": [],
+   "rules": [
+    "Home Ground"
+   ],
+   "pointsMode": "manual",
+   "points": 18,
+   "priceAs": "",
+   "source": "DUSTLINE v1.0",
+   "notes": "3 per fighter; rifle or carbine."
+  },
+  {
+   "id": "t-dl-ins-rpg",
+   "name": "RPG Gunner",
+   "side": "enemy",
+   "faction": "f-dl-insurgent",
+   "troop": "individual",
+   "size": 1,
+   "level": "minor",
+   "profile": {
+    "sp": 4,
+    "re": 1,
+    "cs": 0,
+    "t": 3,
+    "kp": 1,
+    "sv": 0,
+    "tr": 0,
+    "save": "6+"
+   },
+   "leader": null,
+   "weapons": [
+    "w-dl-rpg"
+   ],
+   "teamWeapons": [],
+   "leaderWeapons": [],
+   "rules": [
+    "2 reloads"
+   ],
+   "pointsMode": "manual",
+   "points": 7,
+   "priceAs": "",
+   "source": "DUSTLINE v1.0"
+  },
+  {
+   "id": "t-dl-ins-marksman",
+   "name": "Veteran Marksman",
+   "side": "enemy",
+   "faction": "f-dl-insurgent",
+   "troop": "individual",
+   "size": 1,
+   "level": "minor",
+   "profile": {
+    "sp": 4,
+    "re": 2,
+    "cs": 2,
+    "t": 3,
+    "kp": 1,
+    "sv": 0,
+    "tr": 0,
+    "save": "6+"
+   },
+   "leader": null,
+   "weapons": [
+    "w-dl-dmr"
+   ],
+   "teamWeapons": [],
+   "leaderWeapons": [],
+   "rules": [
+    "Marksman"
+   ],
+   "pointsMode": "manual",
+   "points": 8,
+   "priceAs": "",
+   "source": "DUSTLINE v1.0"
+  },
+  {
+   "id": "t-dl-ins-ied",
+   "name": "Suicide IED",
+   "side": "enemy",
+   "faction": "f-dl-insurgent",
+   "troop": "individual",
+   "size": 1,
+   "level": "minor",
+   "profile": {
+    "sp": 4,
+    "re": 1,
+    "cs": 0,
+    "t": 2,
+    "kp": 1,
+    "sv": 0,
+    "tr": 0,
+    "save": "6+"
+   },
+   "leader": null,
+   "weapons": [],
+   "teamWeapons": [],
+   "leaderWeapons": [],
+   "rules": [
+    "Suicide Attack: if killed in close assault, Dmg 2 to all within 2\""
+   ],
+   "pointsMode": "manual",
+   "points": 6,
+   "priceAs": "",
+   "source": "DUSTLINE v1.0"
+  },
+  {
+   "id": "t-dl-ads-turret",
+   "name": "Sentry Turret (fixed)",
+   "side": "enemy",
+   "faction": "f-dl-ads",
+   "troop": "vehicle",
+   "size": 1,
+   "level": "",
+   "profile": {
+    "sp": 0,
+    "re": 2,
+    "cs": 1,
+    "t": 4,
+    "kp": 2,
+    "sv": 0,
+    "tr": 0,
+    "save": "4+"
+   },
+   "leader": null,
+   "weapons": [
+    "w-dl-ugv-lmg"
+   ],
+   "teamWeapons": [],
+   "leaderWeapons": [],
+   "rules": [
+    "Cannot move",
+    "270° arc",
+    "Reacquires in 1 turn"
+   ],
+   "pointsMode": "manual",
+   "points": 12,
+   "priceAs": "",
+   "source": "DUSTLINE v1.0",
+   "notes": "Integral LMG or autocannon."
+  },
+  {
+   "id": "t-dl-ads-hound",
+   "name": "Hound Sentry UGV",
+   "side": "enemy",
+   "faction": "f-dl-ads",
+   "troop": "vehicle",
+   "size": 1,
+   "level": "",
+   "profile": {
+    "sp": 6,
+    "re": 2,
+    "cs": 0,
+    "t": 3,
+    "kp": 1,
+    "sv": 0,
+    "tr": 0,
+    "save": "6+"
+   },
+   "leader": null,
+   "weapons": [
+    "w-dl-ugv-carbine"
+   ],
+   "teamWeapons": [],
+   "leaderWeapons": [],
+   "rules": [
+    "Autonomous patrol"
+   ],
+   "pointsMode": "manual",
+   "points": 10,
+   "priceAs": "",
+   "source": "DUSTLINE v1.0"
+  },
+  {
+   "id": "t-dl-ads-wolf",
+   "name": "Wolf Combat UGV",
+   "side": "enemy",
+   "faction": "f-dl-ads",
+   "troop": "vehicle",
+   "size": 1,
+   "level": "",
+   "profile": {
+    "sp": 6,
+    "re": 2,
+    "cs": 1,
+    "t": 4,
+    "kp": 2,
+    "sv": 0,
+    "tr": 0,
+    "save": "5+"
+   },
+   "leader": null,
+   "weapons": [
+    "w-dl-ugv-lmg"
+   ],
+   "teamWeapons": [],
+   "leaderWeapons": [],
+   "rules": [
+    "High-alert sites"
+   ],
+   "pointsMode": "manual",
+   "points": 18,
+   "priceAs": "",
+   "source": "DUSTLINE v1.0"
+  },
+  {
+   "id": "t-dl-ads-swarm",
+   "name": "Perimeter Drone Swarm",
+   "side": "enemy",
+   "faction": "f-dl-ads",
+   "troop": "vehicle",
+   "size": 1,
+   "level": "",
+   "profile": {
+    "sp": 8,
+    "re": 2,
+    "cs": 0,
+    "t": 1,
+    "kp": 1,
+    "sv": 0,
+    "tr": 0,
+    "save": "—"
+   },
+   "leader": null,
+   "weapons": [
+    "w-dl-ep-charge"
+   ],
+   "teamWeapons": [],
+   "leaderWeapons": [],
+   "rules": [
+    "Three quadrotors; each may drop an EP charge",
+    "Dispersed patrol"
+   ],
+   "pointsMode": "manual",
+   "points": 8,
+   "priceAs": "",
+   "source": "DUSTLINE v1.0"
+  },
+  {
+   "id": "t-dl-ads-node",
+   "name": "Overseer AI Node",
+   "side": "enemy",
+   "faction": "f-dl-ads",
+   "troop": "vehicle",
+   "size": 1,
+   "level": "",
+   "profile": {
+    "sp": 0,
+    "re": 3,
+    "cs": 0,
+    "t": 5,
+    "kp": 3,
+    "sv": 0,
+    "tr": 0,
+    "save": "3+"
+   },
+   "leader": null,
+   "weapons": [],
+   "teamWeapons": [],
+   "leaderWeapons": [],
+   "rules": [
+    "Destroying or capturing it disables ADS within 12\" for 2 rounds"
+   ],
+   "pointsMode": "manual",
+   "points": 20,
+   "priceAs": "",
+   "source": "DUSTLINE v1.0"
+  }
+ ],
+ "factions": [
+  {
+   "id": "f-dl-cadre",
+   "name": "DUSTLINE Cadre",
+   "side": "player",
+   "personality": "Methodical",
+   "source": "DUSTLINE v1.0",
+   "notes": "Separate setting (2045–2060, Post-Treaty dating). Distances are book scale (DUSTLINE's ×1.5 values divided back by 1.5), like the other packs; turn on Independent Action to play at DUSTLINE scale. A cadre is 8 operators plus UAS/UGV; one Team Leader; one optional Tier-1 (+1 to one stat). Archetype points are portal estimates; the book gives none.",
+   "rules": [
+    {
+     "name": "Distances",
+     "text": "Book scale, like the other packs: turn on Independent Action to play at DUSTLINE scale (×1.5). Coherency 4\"; Dash = Speed + 2\"."
+    },
+    {
+     "name": "Advanced medical care",
+     "text": "Trauma table, Stabilize action, Critical Care, long-term and permanent injury tables (DUSTLINE Part II)."
+    },
+    {
+     "name": "Electronic warfare",
+     "text": "EW Phase each round: emissions check, jam/counter-jam, spoof, direction-finding. EWO adds EW Skill."
+    },
+    {
+     "name": "Unmanned systems",
+     "text": "UAS need a Control Link and test Jam Tolerance (JT); UGVs are Autonomous."
+    },
+    {
+     "name": "Silenced / Programmable / Suppressing / Anti-Drone / Focused",
+     "text": "As defined in the DUSTLINE trait glossary."
+    },
+    {
+     "name": "Exosuits",
+     "text": "Assist (6+, +1\" Speed, 3 pts) · Combat (4+, Speed 5\", sealed, Signature; 10 pts) · Siege (3+, Speed 3\", Crewed weapons; 25 pts)."
+    }
+   ],
+   "slots": {}
+  },
+  {
+   "id": "f-dl-sf",
+   "name": "Near-Peer Special Forces",
+   "side": "enemy",
+   "personality": "Aggressive",
+   "noVehicles": true,
+   "source": "DUSTLINE v1.0",
+   "notes": "GRU / MSS / IRGC-successor / RGB employers. TL + 5–7 operators with 1–2 small UAS and a jam-pod. The most dangerous contracts in the book.",
+   "rules": [
+    {
+     "name": "Professional Reserve",
+     "text": "Re-roll natural 1s on Reaction tests. Do not panic, rout, or leave wounded comrades."
+    }
+   ],
+   "slots": {
+    "infantry": "t-dl-sf-ops",
+    "recon": "t-dl-sf-ops",
+    "storm": "t-dl-sf-ops",
+    "weaponsTeam": "t-dl-sf-gunner",
+    "majorChar": "t-dl-sf-lead",
+    "epicChar": "t-dl-sf-lead",
+    "sniper": "t-dl-sf-dmr"
+   }
+  },
+  {
+   "id": "f-dl-corp",
+   "name": "Corporate Security Force",
+   "side": "enemy",
+   "personality": "Methodical",
+   "noVehicles": true,
+   "source": "DUSTLINE v1.0",
+   "notes": "Defending; rarely pursue. They also have lawyers.",
+   "rules": [
+    {
+     "name": "Defensive Posture",
+     "text": "+1 Reaction on home-site terrain; lost off-site."
+    },
+    {
+     "name": "Legal Exposure",
+     "text": "Killing corporate personnel in CRP-signatory territory triggers a post-mission Company Heat test."
+    }
+   ],
+   "slots": {
+    "infantry": "t-dl-corp-guards",
+    "recon": "t-dl-corp-k9",
+    "storm": "t-dl-corp-response",
+    "weaponsTeam": "t-dl-corp-qrf",
+    "majorChar": "t-dl-corp-lead",
+    "epicChar": "t-dl-corp-lead",
+    "sniper": ""
+   }
+  },
+  {
+   "id": "f-dl-cartel",
+   "name": "Cartel Armed Wing",
+   "side": "enemy",
+   "personality": "Raider",
+   "noVehicles": true,
+   "source": "DUSTLINE v1.0",
+   "notes": "Uneven quality; drones and loitering munitions are ubiquitous.",
+   "rules": [
+    {
+     "name": "Shattered Bonds",
+     "text": "When a Jefe/Enforcer falls, cartel units within 8\" test Reaction 4+ or are Pinned for a round."
+    },
+    {
+     "name": "Drone Saturation",
+     "text": "1–3 extra A/P loitering munitions off-table; roll 1D6 each round, on a 6 one arrives."
+    }
+   ],
+   "slots": {
+    "infantry": "t-dl-cart-gunmen",
+    "recon": "t-dl-cart-sicarios",
+    "storm": "t-dl-cart-exo",
+    "weaponsTeam": "t-dl-cart-drone",
+    "majorChar": "t-dl-cart-jefe",
+    "epicChar": "t-dl-cart-jefe",
+    "sniper": ""
+   }
+  },
+  {
+   "id": "f-dl-insurgent",
+   "name": "Insurgent Successor Movement",
+   "side": "enemy",
+   "personality": "Raider",
+   "noVehicles": true,
+   "source": "DUSTLINE v1.0",
+   "notes": "Motivated but uneven; numbers and terrain favor them.",
+   "rules": [
+    {
+     "name": "Home Ground",
+     "text": "+1 Reaction within 4\" of cover; may re-roll failed Stealth-related tests."
+    },
+    {
+     "name": "Numbers",
+     "text": "For each insurgent unit at game start, the GM may reveal 1D3 more Fighters during play."
+    },
+    {
+     "name": "IED Surprise",
+     "text": "One concealed IED per 16\"×16\" zone; first friendly within 1\" triggers Dmg 3, 2\" area."
+    }
+   ],
+   "slots": {
+    "infantry": "t-dl-ins-fighters",
+    "recon": "t-dl-ins-fighters",
+    "storm": "t-dl-ins-fighters",
+    "weaponsTeam": "t-dl-ins-rpg",
+    "majorChar": "t-dl-ins-cmdr",
+    "epicChar": "t-dl-ins-cmdr",
+    "sniper": "t-dl-ins-marksman"
+   }
+  },
+  {
+   "id": "f-dl-ads",
+   "name": "Autonomous Defense Systems",
+   "side": "enemy",
+   "personality": "Methodical",
+   "noVehicles": true,
+   "source": "DUSTLINE v1.0",
+   "notes": "Relentless within ROE, dumb outside it.",
+   "rules": [
+    {
+     "name": "ROE Bound",
+     "text": "Engage only after confirmed hostile ID; a cadre may evade with Savvy 5+ before being spotted."
+    },
+    {
+     "name": "Spoof and Kill",
+     "text": "EWO Difficulty 5 EW test: invisible to ADS for 2 rounds; failure = Priority Threat (+1 to hit for all ADS)."
+    }
+   ],
+   "slots": {
+    "infantry": "t-dl-ads-hound",
+    "recon": "t-dl-ads-swarm",
+    "storm": "t-dl-ads-wolf",
+    "weaponsTeam": "t-dl-ads-turret",
+    "majorChar": "t-dl-ads-node",
+    "epicChar": "t-dl-ads-node",
+    "sniper": "t-dl-ads-turret"
+   }
+  }
+ ]
+}

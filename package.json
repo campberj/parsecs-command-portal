@@ -1,6 +1,6 @@
 {
   "name": "parsecs-command-portal",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "private": true,
   "description": "Parsecs Command: a single-file campaign portal for Five Parsecs From Home: Tactics.",
   "scripts": {

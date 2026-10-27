@@ -1,0 +1,3087 @@
+{
+ "kind": "pcp-bundle",
+ "v": 1,
+ "app": "Parsecs Command 1.0.8",
+ "exported": "2026-10-27T00:00:00.000Z",
+ "from": "BLKOUT (Enemy Spotted Studios) — Steel Lions conversion",
+ "weapons": [
+  {
+   "id": "w-blk-fal32c",
+   "name": "FAL-32C",
+   "base": "Military rifle",
+   "range": 24,
+   "shots": 1,
+   "dmg": "0",
+   "traits": [
+    "CQB"
+   ],
+   "pts": 4,
+   "cat": "Rifle"
+  },
+  {
+   "id": "w-blk-fal32d",
+   "name": "FAL-32D (Springbok)",
+   "base": "Military rifle",
+   "range": 24,
+   "shots": 1,
+   "dmg": "0",
+   "traits": [
+    "CQB",
+    "Sustained 1"
+   ],
+   "pts": 5,
+   "cat": "Rifle"
+  },
+  {
+   "id": "w-blk-carbine",
+   "name": "Carbine",
+   "base": "Military rifle (short)",
+   "range": 18,
+   "shots": 1,
+   "dmg": "0",
+   "traits": [
+    "CQB"
+   ],
+   "pts": 3,
+   "cat": "Rifle"
+  },
+  {
+   "id": "w-blk-m7",
+   "name": "M7 carbine",
+   "base": "Military rifle (short)",
+   "range": 18,
+   "shots": 1,
+   "dmg": "0",
+   "traits": [
+    "CQB"
+   ],
+   "pts": 3,
+   "cat": "Rifle"
+  },
+  {
+   "id": "w-blk-akmz",
+   "name": "AKMZ-2",
+   "base": "Military rifle",
+   "range": 24,
+   "shots": 1,
+   "dmg": "0",
+   "traits": [
+    "Medium"
+   ],
+   "pts": 4,
+   "cat": "Rifle"
+  },
+  {
+   "id": "w-blk-smart-rifle",
+   "name": "Smart rifle",
+   "base": "Military rifle",
+   "range": 24,
+   "shots": 1,
+   "dmg": "0",
+   "traits": [
+    "Medium"
+   ],
+   "pts": 4,
+   "cat": "Rifle"
+  },
+  {
+   "id": "w-blk-rifle",
+   "name": "Service rifle",
+   "base": "Military rifle",
+   "range": 24,
+   "shots": 1,
+   "dmg": "0",
+   "traits": [],
+   "pts": 3,
+   "cat": "Rifle"
+  },
+  {
+   "id": "w-blk-fpr",
+   "name": "FPR Auto (Golem)",
+   "base": "Military rifle",
+   "range": 24,
+   "shots": 1,
+   "dmg": "0",
+   "traits": [
+    "Sustained 1"
+   ],
+   "pts": 4,
+   "cat": "Rifle"
+  },
+  {
+   "id": "w-blk-heavy-rifle-mbg",
+   "name": "Heavy rifle (Ubiytsa)",
+   "base": "Shotgun",
+   "range": 12,
+   "shots": 1,
+   "dmg": "1",
+   "traits": [
+    "AP 3",
+    "Piercing"
+   ],
+   "pts": 4,
+   "cat": "Rifle"
+  },
+  {
+   "id": "w-blk-smg",
+   "name": "SMG",
+   "base": "Military rifle (short)",
+   "range": 12,
+   "shots": 1,
+   "dmg": "0",
+   "traits": [
+    "CQB"
+   ],
+   "pts": 2,
+   "cat": "Rifle"
+  },
+  {
+   "id": "w-blk-heavy-rifle-tfb",
+   "name": "Heavy rifle (Boone)",
+   "base": "Military rifle",
+   "range": 24,
+   "shots": 1,
+   "dmg": "0",
+   "traits": [
+    "AP 1"
+   ],
+   "pts": 4,
+   "cat": "Rifle"
+  },
+  {
+   "id": "w-blk-pdw",
+   "name": "PDW",
+   "base": "Service pistol",
+   "range": 8,
+   "shots": 1,
+   "dmg": "0",
+   "traits": [
+    "Pistol"
+   ],
+   "pts": 1,
+   "cat": "Sidearm"
+  },
+  {
+   "id": "w-blk-pistol",
+   "name": "Combat pistol",
+   "base": "Service pistol",
+   "range": 10,
+   "shots": 1,
+   "dmg": "0",
+   "traits": [
+    "Pistol"
+   ],
+   "pts": 1,
+   "cat": "Sidearm"
+  },
+  {
+   "id": "w-blk-handler-ar",
+   "name": "Assault rifle (Handler)",
+   "base": "Military rifle",
+   "range": 24,
+   "shots": 2,
+   "dmg": "0",
+   "traits": [
+    "Heavy"
+   ],
+   "pts": 6,
+   "cat": "Rifle"
+  },
+  {
+   "id": "w-blk-frag-dispenser",
+   "name": "Frag dispenser",
+   "base": "Military rifle (short)",
+   "range": 18,
+   "shots": 1,
+   "dmg": "0",
+   "traits": [
+    "CQB"
+   ],
+   "pts": 3,
+   "cat": "Rifle"
+  },
+  {
+   "id": "w-blk-p34",
+   "name": "P34 machine gun",
+   "base": "Light machine gun",
+   "range": 24,
+   "shots": 3,
+   "dmg": "0",
+   "traits": [
+    "Heavy",
+    "Team"
+   ],
+   "pts": 10,
+   "cat": "Team"
+  },
+  {
+   "id": "w-blk-syy1",
+   "name": "SYY-1 machine gun",
+   "base": "Light machine gun",
+   "range": 24,
+   "shots": 3,
+   "dmg": "0",
+   "traits": [
+    "Heavy",
+    "Team"
+   ],
+   "pts": 10,
+   "cat": "Team"
+  },
+  {
+   "id": "w-blk-lmg",
+   "name": "LMG",
+   "base": "Light machine gun",
+   "range": 32,
+   "shots": 3,
+   "dmg": "0",
+   "traits": [
+    "Heavy",
+    "Team"
+   ],
+   "pts": 10,
+   "cat": "Team"
+  },
+  {
+   "id": "w-blk-compact-lmg",
+   "name": "Compact LMG",
+   "base": "Light machine gun",
+   "range": 24,
+   "shots": 2,
+   "dmg": "0",
+   "traits": [
+    "CQB",
+    "Team"
+   ],
+   "pts": 8,
+   "cat": "Team"
+  },
+  {
+   "id": "w-blk-gl",
+   "name": "Grenade launcher",
+   "base": "Grenade launcher (frag)",
+   "range": 24,
+   "shots": 1,
+   "dmg": "1",
+   "traits": [
+    "Area",
+    "Heavy",
+    "Team"
+   ],
+   "pts": 10,
+   "cat": "Team"
+  },
+  {
+   "id": "w-blk-hmg-mbg",
+   "name": "HMG (Bratva)",
+   "base": "Light machine gun",
+   "range": 24,
+   "shots": 3,
+   "dmg": "1",
+   "traits": [
+    "Heavy",
+    "Sustained 2",
+    "Minimum Range 4\"",
+    "Team"
+   ],
+   "pts": 12,
+   "cat": "Team"
+  },
+  {
+   "id": "w-blk-at-launcher",
+   "name": "AT launcher",
+   "base": "Fury rifle",
+   "range": 32,
+   "shots": 1,
+   "dmg": "2",
+   "traits": [
+    "AP 2",
+    "Piercing",
+    "Area",
+    "Heavy",
+    "Minimum Range 8\"",
+    "Team"
+   ],
+   "pts": 14,
+   "cat": "Team"
+  },
+  {
+   "id": "w-blk-amr",
+   "name": "Anti-material rifle",
+   "base": "Sniper rifle",
+   "range": 32,
+   "shots": 1,
+   "dmg": "1 (x2)",
+   "traits": [
+    "AP 2",
+    "Piercing",
+    "Heavy",
+    "Sniping",
+    "Team"
+   ],
+   "pts": 10,
+   "cat": "Team"
+  },
+  {
+   "id": "w-blk-screecher",
+   "name": "Screecher",
+   "base": "Plasma rifle",
+   "range": 18,
+   "shots": 1,
+   "dmg": "1",
+   "traits": [
+    "Seeking",
+    "Team"
+   ],
+   "pts": 7,
+   "cat": "Team"
+  },
+  {
+   "id": "w-blk-machetes",
+   "name": "Machetes",
+   "base": "Blade",
+   "range": 0,
+   "shots": 0,
+   "dmg": "0",
+   "traits": [
+    "Melee",
+    "AP 1"
+   ],
+   "pts": 1,
+   "cat": "Melee"
+  },
+  {
+   "id": "w-blk-boarding-axe",
+   "name": "Boarding axe",
+   "base": "Ripper sword",
+   "range": 0,
+   "shots": 0,
+   "dmg": "0",
+   "traits": [
+    "Melee",
+    "AP 3",
+    "Piercing"
+   ],
+   "pts": 2,
+   "cat": "Melee"
+  },
+  {
+   "id": "w-blk-elite-melee",
+   "name": "Elite melee weapons",
+   "base": "Ripper sword",
+   "range": 0,
+   "shots": 0,
+   "dmg": "0",
+   "traits": [
+    "Melee",
+    "AP 2",
+    "Piercing",
+    "Cyclic (2 attacks)"
+   ],
+   "pts": 3,
+   "cat": "Melee"
+  },
+  {
+   "id": "w-blk-self-destruct",
+   "name": "Self-destruct charge",
+   "base": "Contact charge",
+   "range": 4,
+   "shots": 1,
+   "dmg": "3",
+   "traits": [
+    "AP 4",
+    "Piercing",
+    "Area",
+    "Single Use (destroys the drone)"
+   ],
+   "pts": 2,
+   "cat": "Melee"
+  },
+  {
+   "id": "w-blk-micro-grenades",
+   "name": "Micro grenades",
+   "base": "Frag grenade",
+   "range": 6,
+   "shots": 1,
+   "dmg": "0",
+   "traits": [
+    "Area"
+   ],
+   "pts": 1,
+   "cat": "Grenade"
+  },
+  {
+   "id": "w-blk-micro-grenades-h",
+   "name": "Micro grenades (Handler)",
+   "base": "Frag grenade",
+   "range": 8,
+   "shots": 2,
+   "dmg": "0",
+   "traits": [
+    "Area"
+   ],
+   "pts": 2,
+   "cat": "Grenade"
+  },
+  {
+   "id": "w-blk-pulse-grenades",
+   "name": "Pulse grenades",
+   "base": "Frag grenade",
+   "range": 6,
+   "shots": 1,
+   "dmg": "0",
+   "traits": [
+    "Area",
+    "EMP"
+   ],
+   "pts": 1,
+   "cat": "Grenade"
+  },
+  {
+   "id": "w-blk-disposable-launcher",
+   "name": "Disposable launcher",
+   "base": "Fury rifle (single use)",
+   "range": 24,
+   "shots": 1,
+   "dmg": "2",
+   "traits": [
+    "Area",
+    "Single Use",
+    "Minimum Range 8\""
+   ],
+   "pts": 4,
+   "cat": "Grenade"
+  },
+  {
+   "id": "w-blk-verdict",
+   "name": "Custom FAL-32C \"Verdict\"",
+   "base": "Military rifle",
+   "range": 24,
+   "shots": 1,
+   "dmg": "1",
+   "traits": [
+    "CQB",
+    "Medium",
+    "AP 1"
+   ],
+   "pts": 7,
+   "cat": "Rifle"
+  },
+  {
+   "id": "w-blk-genesis",
+   "name": "Custom sidearm \"Genesis\"",
+   "base": "Blast pistol",
+   "range": 10,
+   "shots": 1,
+   "dmg": "1",
+   "traits": [
+    "Pistol",
+    "Snap Shot",
+    "AP 1"
+   ],
+   "pts": 3,
+   "cat": "Sidearm"
+  },
+  {
+   "id": "w-blk-denic-rifle",
+   "name": "Service rifle (custom)",
+   "base": "Military rifle",
+   "range": 24,
+   "shots": 1,
+   "dmg": "1",
+   "traits": [
+    "Medium"
+   ],
+   "pts": 5,
+   "cat": "Rifle"
+  },
+  {
+   "id": "w-blk-okofor-carbine",
+   "name": "Boone tactical carbine",
+   "base": "Military rifle",
+   "range": 24,
+   "shots": 1,
+   "dmg": "1",
+   "traits": [
+    "CQB",
+    "Snap Shot"
+   ],
+   "pts": 6,
+   "cat": "Rifle"
+  },
+  {
+   "id": "w-blk-slug-thrower",
+   "name": "Heavy slug thrower",
+   "base": "Military rifle (heavy)",
+   "range": 16,
+   "shots": 2,
+   "dmg": "1",
+   "traits": [
+    "CQB",
+    "AP 1"
+   ],
+   "pts": 6,
+   "cat": "Rifle"
+  },
+  {
+   "id": "w-blk-maul",
+   "name": "Power maul \"Judgement\"",
+   "base": "Breaching axe",
+   "range": 0,
+   "shots": 0,
+   "dmg": "3",
+   "traits": [
+    "Melee",
+    "AP 3",
+    "Piercing",
+    "Knock Back"
+   ],
+   "pts": 5,
+   "cat": "Melee"
+  },
+  {
+   "id": "w-blk-pm-missiles",
+   "name": "Missile system (Peacemaker)",
+   "base": "Fury rifle",
+   "range": 32,
+   "shots": 1,
+   "dmg": "1",
+   "traits": [
+    "AP 2",
+    "Piercing",
+    "Area",
+    "Minimum Range 8\""
+   ],
+   "pts": 8,
+   "cat": "Vehicle"
+  },
+  {
+   "id": "w-blk-pm-hmg",
+   "name": "HMG (Peacemaker)",
+   "base": "Heavy machine gun",
+   "range": 32,
+   "shots": 2,
+   "dmg": "0",
+   "traits": [
+    "AP 2",
+    "Piercing",
+    "Auto 1",
+    "Minimum Range 6\""
+   ],
+   "pts": 10,
+   "cat": "Vehicle"
+  },
+  {
+   "id": "w-blk-rb-atgm",
+   "name": "ATGM (Razorback)",
+   "base": "Fury rifle",
+   "range": 32,
+   "shots": 1,
+   "dmg": "1",
+   "traits": [
+    "Area",
+    "Indirect",
+    "Minimum Range 6\""
+   ],
+   "pts": 8,
+   "cat": "Vehicle"
+  },
+  {
+   "id": "w-blk-rb-gauss",
+   "name": "Gauss SAW (Razorback)",
+   "base": "Heavy machine gun",
+   "range": 32,
+   "shots": 2,
+   "dmg": "0",
+   "traits": [
+    "AP 2",
+    "Piercing",
+    "Auto 2"
+   ],
+   "pts": 10,
+   "cat": "Vehicle"
+  },
+  {
+   "id": "w-blk-duster-mmg",
+   "name": "MMG (Duster)",
+   "base": "Heavy machine gun",
+   "range": 32,
+   "shots": 2,
+   "dmg": "0",
+   "traits": [
+    "AP 2",
+    "Piercing",
+    "Auto 2",
+    "CQB",
+    "Minimum Range 4\""
+   ],
+   "pts": 12,
+   "cat": "Vehicle"
+  },
+  {
+   "id": "w-blk-duster-sword",
+   "name": "Sword (Duster)",
+   "base": "Duster close-combat arm",
+   "range": 6,
+   "shots": 1,
+   "dmg": "1",
+   "traits": [
+    "Melee",
+    "AP 4",
+    "Piercing",
+    "Auto 2",
+    "CQB"
+   ],
+   "pts": 8,
+   "cat": "Vehicle"
+  },
+  {
+   "id": "w-blk-duster-30mm",
+   "name": "30mm autocannon (Duster)",
+   "base": "Autocannon",
+   "range": 48,
+   "shots": 1,
+   "dmg": "2",
+   "traits": [
+    "AP 4",
+    "Piercing",
+    "Auto 1",
+    "Heavy",
+    "Minimum Range 12\""
+   ],
+   "pts": 15,
+   "cat": "Vehicle"
+  },
+  {
+   "id": "w-blk-duster-axe",
+   "name": "Axe (Duster)",
+   "base": "Duster close-combat arm",
+   "range": 4,
+   "shots": 1,
+   "dmg": "1",
+   "traits": [
+    "Melee",
+    "AP 4",
+    "Piercing",
+    "Auto 2",
+    "CQB"
+   ],
+   "pts": 8,
+   "cat": "Vehicle"
+  },
+  {
+   "id": "w-blk-duster-hmg",
+   "name": "HMG (Aveles)",
+   "base": "Heavy machine gun",
+   "range": 32,
+   "shots": 2,
+   "dmg": "1",
+   "traits": [
+    "AP 4",
+    "Piercing",
+    "Auto 2",
+    "CQB",
+    "Minimum Range 8\""
+   ],
+   "pts": 14,
+   "cat": "Vehicle"
+  },
+  {
+   "id": "w-blk-duster-fist",
+   "name": "Fist (Duster)",
+   "base": "Duster close-combat arm",
+   "range": 2,
+   "shots": 1,
+   "dmg": "0",
+   "traits": [
+    "Melee",
+    "AP 4",
+    "Piercing",
+    "Auto 1",
+    "CQB"
+   ],
+   "pts": 5,
+   "cat": "Vehicle"
+  },
+  {
+   "id": "w-blk-arm-head",
+   "name": "HEAD launcher (Harlow armory)",
+   "base": "Fury rifle",
+   "range": 16,
+   "shots": 1,
+   "dmg": "3",
+   "traits": [
+    "Area",
+    "Piercing",
+    "Armory (Combat Load)"
+   ],
+   "pts": 0,
+   "cat": "Grenade"
+  },
+  {
+   "id": "w-blk-arm-microl",
+   "name": "Micro launcher (armory)",
+   "base": "Grenade launcher (frag)",
+   "range": 16,
+   "shots": 2,
+   "dmg": "1",
+   "traits": [
+    "Area",
+    "Heavy",
+    "Minimum Range 4\"",
+    "Armory (Combat Load)"
+   ],
+   "pts": 0,
+   "cat": "Grenade"
+  },
+  {
+   "id": "w-blk-arm-fragl",
+   "name": "Frag launcher (Harlow armory)",
+   "base": "Military rifle",
+   "range": 24,
+   "shots": 1,
+   "dmg": "0",
+   "traits": [
+    "Sustained 2",
+    "Medium",
+    "Armory (Combat Load)"
+   ],
+   "pts": 0,
+   "cat": "Grenade"
+  },
+  {
+   "id": "w-blk-arm-rpg33",
+   "name": "RPG33 (Manticor armory)",
+   "base": "Fury rifle",
+   "range": 16,
+   "shots": 1,
+   "dmg": "3",
+   "traits": [
+    "Area",
+    "Piercing",
+    "Armory (Combat Load)"
+   ],
+   "pts": 0,
+   "cat": "Grenade"
+  },
+  {
+   "id": "w-blk-arm-airburst",
+   "name": "Air burst rifle (Manticor armory)",
+   "base": "Military rifle",
+   "range": 24,
+   "shots": 1,
+   "dmg": "0",
+   "traits": [
+    "Seeking",
+    "Armory (Combat Load)"
+   ],
+   "pts": 0,
+   "cat": "Grenade"
+  },
+  {
+   "id": "w-blk-arm-thermite",
+   "name": "Thermite launcher (Manticor armory)",
+   "base": "Flame projector",
+   "range": 8,
+   "shots": 1,
+   "dmg": "0",
+   "traits": [
+    "Sustained 6",
+    "Single Use",
+    "Armory (Combat Load)"
+   ],
+   "pts": 0,
+   "cat": "Grenade"
+  },
+  {
+   "id": "w-blk-arm-strip",
+   "name": "Strip grenades (Manticor armory)",
+   "base": "Frag grenade",
+   "range": 6,
+   "shots": 2,
+   "dmg": "0",
+   "traits": [
+    "Area (2\")",
+    "Armory (Combat Load)"
+   ],
+   "pts": 0,
+   "cat": "Grenade"
+  },
+  {
+   "id": "w-blk-arm-surge",
+   "name": "Surge (RFA armory)",
+   "base": "Shock emitter",
+   "range": 16,
+   "shots": 1,
+   "dmg": "1",
+   "traits": [
+    "EMP",
+    "Armory (Combat Load)"
+   ],
+   "pts": 0,
+   "cat": "Grenade"
+  },
+  {
+   "id": "w-blk-arm-lance",
+   "name": "Lance (RFA armory)",
+   "base": "Fusion rifle (light)",
+   "range": 12,
+   "shots": 1,
+   "dmg": "0",
+   "traits": [
+    "AP 3",
+    "Piercing",
+    "Armory (Combat Load)"
+   ],
+   "pts": 0,
+   "cat": "Grenade"
+  },
+  {
+   "id": "w-blk-arm-shotgun",
+   "name": "Shotgun (UN 3rd Bn armory)",
+   "base": "Shotgun",
+   "range": 8,
+   "shots": 1,
+   "dmg": "0",
+   "traits": [
+    "AP 3",
+    "Piercing",
+    "CQB",
+    "Armory (Combat Load)"
+   ],
+   "pts": 0,
+   "cat": "Grenade"
+  },
+  {
+   "id": "w-blk-arm-chasers",
+   "name": "Corner chasers (UN 3rd Bn armory)",
+   "base": "Seeker munitions",
+   "range": 16,
+   "shots": 1,
+   "dmg": "0",
+   "traits": [
+    "CQB",
+    "Indirect",
+    "Armory (Combat Load)"
+   ],
+   "pts": 0,
+   "cat": "Grenade"
+  },
+  {
+   "id": "w-blk-arm-microwave",
+   "name": "Microwave gun (UN 3rd Bn armory)",
+   "base": "Shock emitter",
+   "range": 8,
+   "shots": 1,
+   "dmg": "0",
+   "traits": [
+    "EMP",
+    "Armory (Combat Load)"
+   ],
+   "pts": 0,
+   "cat": "Grenade"
+  },
+  {
+   "id": "w-blk-arm-tracking",
+   "name": "Tracking bombs (Boone armory)",
+   "base": "Seeker munitions",
+   "range": 16,
+   "shots": 1,
+   "dmg": "0",
+   "traits": [
+    "AP 2",
+    "Piercing",
+    "Indirect",
+    "Armory (Combat Load)"
+   ],
+   "pts": 0,
+   "cat": "Grenade"
+  },
+  {
+   "id": "w-blk-arm-tow",
+   "name": "TOW (Duster armory)",
+   "base": "Fury rifle",
+   "range": 32,
+   "shots": 1,
+   "dmg": "2",
+   "traits": [
+    "AP 2",
+    "Piercing",
+    "Minimum Range 8\"",
+    "Armory (Combat Load)"
+   ],
+   "pts": 0,
+   "cat": "Vehicle"
+  },
+  {
+   "id": "w-blk-arm-cluster",
+   "name": "Cluster munitions (Duster armory)",
+   "base": "Grenade launcher (frag)",
+   "range": 32,
+   "shots": 1,
+   "dmg": "0",
+   "traits": [
+    "Area (4\")",
+    "Minimum Range 8\"",
+    "Armory (Combat Load)"
+   ],
+   "pts": 0,
+   "cat": "Vehicle"
+  }
+ ],
+ "gear": [],
+ "templates": [
+  {
+   "id": "t-blk-auth-harlow-control",
+   "name": "Harlow Control Team",
+   "side": "enemy",
+   "faction": "f-blk-authority",
+   "troop": "team",
+   "size": 3,
+   "level": "",
+   "profile": {
+    "sp": 4,
+    "re": 2,
+    "cs": 2,
+    "t": 4,
+    "kp": 1,
+    "sv": 1,
+    "tr": 1,
+    "save": "5+"
+   },
+   "leader": null,
+   "weapons": [
+    "w-blk-fal32c"
+   ],
+   "teamWeapons": [
+    "w-blk-gl"
+   ],
+   "leaderWeapons": [],
+   "rules": [
+    "Harlow 1st Reaction Force",
+    "Controller",
+    "Data Spike (Specialist 1)"
+   ],
+   "pointsMode": "auto",
+   "points": 0,
+   "priceAs": "",
+   "source": "BLKOUT 2nd Ed. (Enemy Spotted Studios), converted for 5P:T",
+   "notes": "Card: Skill 6, Move 4, Armor 1/6, 1 Grunt + Data Spike and Grenade Launcher specialists."
+  },
+  {
+   "id": "t-blk-auth-harlow-assault",
+   "name": "Harlow Assault Team",
+   "side": "enemy",
+   "faction": "f-blk-authority",
+   "troop": "squad",
+   "size": 4,
+   "level": "",
+   "profile": {
+    "sp": 4,
+    "re": 2,
+    "cs": 2,
+    "t": 4,
+    "kp": 1,
+    "sv": 1,
+    "tr": 1,
+    "save": "5+"
+   },
+   "leader": {
+    "sp": 4,
+    "re": 2,
+    "cs": 2,
+    "t": 4,
+    "kp": 1,
+    "sv": 1,
+    "tr": 1,
+    "save": "5+"
+   },
+   "weapons": [
+    "w-blk-fal32c"
+   ],
+   "teamWeapons": [
+    "w-blk-p34"
+   ],
+   "leaderWeapons": [],
+   "rules": [
+    "Harlow 1st Reaction Force",
+    "Team Leader"
+   ],
+   "pointsMode": "auto",
+   "points": 0,
+   "priceAs": "",
+   "source": "BLKOUT 2nd Ed. (Enemy Spotted Studios), converted for 5P:T",
+   "notes": "Card: Skill 6, Move 4, Armor 1/6, 2 Grunts + Machine Gunner and Team Leader specialists."
+  },
+  {
+   "id": "t-blk-auth-harlow-springbok",
+   "name": "Harlow Springbok AI (2 cards)",
+   "side": "enemy",
+   "faction": "f-blk-authority",
+   "troop": "squad",
+   "size": 4,
+   "level": "",
+   "profile": {
+    "sp": 6,
+    "re": 2,
+    "cs": 2,
+    "t": 4,
+    "kp": 2,
+    "sv": 0,
+    "tr": 0,
+    "save": "5+"
+   },
+   "leader": null,
+   "weapons": [
+    "w-blk-fal32d"
+   ],
+   "teamWeapons": [],
+   "leaderWeapons": [],
+   "rules": [
+    "Harlow 1st Reaction Force",
+    "AI",
+    "Chaff Discharge"
+   ],
+   "pointsMode": "auto",
+   "points": 0,
+   "priceAs": "",
+   "source": "BLKOUT 2nd Ed. (Enemy Spotted Studios), converted for 5P:T",
+   "notes": "Card: Skill 6, Move 6, Armor 2/6, 2 Grunts. BLKOUT card fields 2; the portal's squad minimum is 4, so this squad is two cards. Combat inorganics: no leader."
+  },
+  {
+   "id": "t-blk-auth-harlow-crikets",
+   "name": "Harlow Crikets (2 cards)",
+   "side": "enemy",
+   "faction": "f-blk-authority",
+   "troop": "squad",
+   "size": 4,
+   "level": "",
+   "profile": {
+    "sp": 6,
+    "re": 1,
+    "cs": 1,
+    "t": 3,
+    "kp": 1,
+    "sv": 0,
+    "tr": 0,
+    "save": "—"
+   },
+   "leader": null,
+   "weapons": [
+    "w-blk-self-destruct"
+   ],
+   "teamWeapons": [],
+   "leaderWeapons": [],
+   "rules": [
+    "Harlow 1st Reaction Force",
+    "AI",
+    "Drone",
+    "Self-destruct: remove the drone after it attacks; it gives no VP"
+   ],
+   "pointsMode": "auto",
+   "points": 0,
+   "priceAs": "",
+   "source": "BLKOUT 2nd Ed. (Enemy Spotted Studios), converted for 5P:T",
+   "notes": "Card: Skill 7, Move 6, Armor 1/8 (no save), 2 Grunts. BLKOUT card fields 2; the portal's squad minimum is 4, so this squad is two cards. Does not count toward the unit limit when grouped with Harlow Engineers."
+  },
+  {
+   "id": "t-blk-auth-harlow-engineers",
+   "name": "Harlow Engineers",
+   "side": "enemy",
+   "faction": "f-blk-authority",
+   "troop": "team",
+   "size": 3,
+   "level": "",
+   "profile": {
+    "sp": 4,
+    "re": 2,
+    "cs": 2,
+    "t": 4,
+    "kp": 1,
+    "sv": 1,
+    "tr": 1,
+    "save": "5+"
+   },
+   "leader": null,
+   "weapons": [
+    "w-blk-carbine"
+   ],
+   "teamWeapons": [
+    "w-blk-at-launcher"
+   ],
+   "leaderWeapons": [],
+   "rules": [
+    "Harlow 1st Reaction Force",
+    "Engineer (Specialist 1)"
+   ],
+   "pointsMode": "auto",
+   "points": 0,
+   "priceAs": "",
+   "source": "BLKOUT 2nd Ed. (Enemy Spotted Studios), converted for 5P:T",
+   "notes": "Card: Skill 6, Move 4, Armor 1/6, 1 Grunt + Engineer specialist. BLKOUT card fields 2; portal weapon teams are a crew of 3."
+  },
+  {
+   "id": "t-blk-auth-harlow-veterans",
+   "name": "Harlow Veterans",
+   "side": "enemy",
+   "faction": "f-blk-authority",
+   "troop": "squad",
+   "size": 4,
+   "level": "",
+   "profile": {
+    "sp": 6,
+    "re": 3,
+    "cs": 3,
+    "t": 5,
+    "kp": 1,
+    "sv": 2,
+    "tr": 2,
+    "save": "5+"
+   },
+   "leader": {
+    "sp": 6,
+    "re": 3,
+    "cs": 3,
+    "t": 5,
+    "kp": 1,
+    "sv": 2,
+    "tr": 2,
+    "save": "5+"
+   },
+   "weapons": [
+    "w-blk-carbine",
+    "w-blk-machetes",
+    "w-blk-pulse-grenades"
+   ],
+   "teamWeapons": [],
+   "leaderWeapons": [],
+   "rules": [
+    "Harlow 1st Reaction Force",
+    "Jump (4)",
+    "Low Tech"
+   ],
+   "pointsMode": "auto",
+   "points": 0,
+   "priceAs": "",
+   "source": "BLKOUT 2nd Ed. (Enemy Spotted Studios), converted for 5P:T",
+   "notes": "Card: Skill 5, Move 6, Armor 1/6, 3 Grunts. BLKOUT card fields 3; the portal's squad minimum is 4 — field the fourth or leave the slot empty."
+  },
+  {
+   "id": "t-blk-auth-un3-pointmen",
+   "name": "UN Pointmen",
+   "side": "enemy",
+   "faction": "f-blk-authority",
+   "troop": "team",
+   "size": 3,
+   "level": "",
+   "profile": {
+    "sp": 4,
+    "re": 2,
+    "cs": 2,
+    "t": 5,
+    "kp": 3,
+    "sv": 0,
+    "tr": 0,
+    "save": "5+"
+   },
+   "leader": null,
+   "weapons": [
+    "w-blk-smart-rifle"
+   ],
+   "teamWeapons": [
+    "w-blk-lmg"
+   ],
+   "leaderWeapons": [],
+   "rules": [
+    "UN 3rd Battalion",
+    "AI",
+    "Shield"
+   ],
+   "pointsMode": "auto",
+   "points": 0,
+   "priceAs": "",
+   "source": "BLKOUT 2nd Ed. (Enemy Spotted Studios), converted for 5P:T",
+   "notes": "Card: Skill 6, Move 4, Armor 3/6, 1 Grunt + SAW Gunner specialist. BLKOUT card fields 2; portal weapon teams are a crew of 3."
+  },
+  {
+   "id": "t-blk-auth-un3-peacemaker",
+   "name": "UN Peacemaker",
+   "side": "enemy",
+   "faction": "f-blk-authority",
+   "troop": "vehicle",
+   "size": 1,
+   "level": "",
+   "profile": {
+    "sp": 4,
+    "re": 2,
+    "cs": 2,
+    "t": 5,
+    "kp": 4,
+    "sv": 0,
+    "tr": 0,
+    "save": "5+"
+   },
+   "leader": null,
+   "weapons": [
+    "w-blk-pm-missiles",
+    "w-blk-pm-hmg"
+   ],
+   "teamWeapons": [],
+   "leaderWeapons": [],
+   "rules": [
+    "UN 3rd Battalion",
+    "AI",
+    "Drone",
+    "Damage Track",
+    "Jammer (12\")",
+    "One weapon per Shoot action"
+   ],
+   "pointsMode": "manual",
+   "points": 60,
+   "priceAs": "",
+   "source": "BLKOUT 2nd Ed. (Enemy Spotted Studios), converted for 5P:T",
+   "notes": "Card: Skill 6, Move 4, Armor 3/6, 1 model (Supplemental errata). Hand-priced: the Army Builder formula does not cover vehicles."
+  },
+  {
+   "id": "t-blk-auth-un3-reserve",
+   "name": "UN Reserve Fireteam",
+   "side": "enemy",
+   "faction": "f-blk-authority",
+   "troop": "squad",
+   "size": 4,
+   "level": "",
+   "profile": {
+    "sp": 4,
+    "re": 1,
+    "cs": 1,
+    "t": 3,
+    "kp": 1,
+    "sv": 0,
+    "tr": 1,
+    "save": "4+"
+   },
+   "leader": {
+    "sp": 4,
+    "re": 1,
+    "cs": 1,
+    "t": 3,
+    "kp": 1,
+    "sv": 0,
+    "tr": 1,
+    "save": "4+"
+   },
+   "weapons": [
+    "w-blk-rifle",
+    "w-blk-micro-grenades"
+   ],
+   "teamWeapons": [
+    "w-blk-at-launcher"
+   ],
+   "leaderWeapons": [],
+   "rules": [
+    "UN 3rd Battalion",
+    "Data Spike (Specialist 1)"
+   ],
+   "pointsMode": "auto",
+   "points": 0,
+   "priceAs": "",
+   "source": "BLKOUT 2nd Ed. (Enemy Spotted Studios), converted for 5P:T",
+   "notes": "Card: Skill 7, Move 4, Armor 1/5, 2 Grunts + Data Specialist and AT Specialist. The leader is the Data Specialist."
+  },
+  {
+   "id": "t-blk-auth-rfa-assaulters",
+   "name": "UTG Assaulters",
+   "side": "enemy",
+   "faction": "f-blk-authority",
+   "troop": "team",
+   "size": 3,
+   "level": "",
+   "profile": {
+    "sp": 6,
+    "re": 3,
+    "cs": 3,
+    "t": 5,
+    "kp": 1,
+    "sv": 2,
+    "tr": 2,
+    "save": "4+"
+   },
+   "leader": null,
+   "weapons": [
+    "w-blk-m7"
+   ],
+   "teamWeapons": [
+    "w-blk-gl"
+   ],
+   "leaderWeapons": [],
+   "rules": [
+    "UN Raid Force Alpha",
+    "Augmented",
+    "Jump (4)"
+   ],
+   "pointsMode": "auto",
+   "points": 0,
+   "priceAs": "",
+   "source": "BLKOUT 2nd Ed. (Enemy Spotted Studios), converted for 5P:T",
+   "notes": "Card: Skill 5, Move 6, Armor 1/5, 1 Grunt + Grenadier. BLKOUT card fields 2; portal weapon teams are a crew of 3."
+  },
+  {
+   "id": "t-blk-auth-rfa-specialists",
+   "name": "UTG Specialists",
+   "side": "enemy",
+   "faction": "f-blk-authority",
+   "troop": "team",
+   "size": 3,
+   "level": "",
+   "profile": {
+    "sp": 6,
+    "re": 3,
+    "cs": 3,
+    "t": 5,
+    "kp": 1,
+    "sv": 2,
+    "tr": 2,
+    "save": "4+"
+   },
+   "leader": null,
+   "weapons": [
+    "w-blk-m7"
+   ],
+   "teamWeapons": [
+    "w-blk-amr"
+   ],
+   "leaderWeapons": [],
+   "rules": [
+    "UN Raid Force Alpha",
+    "Augmented",
+    "Jump (4)"
+   ],
+   "pointsMode": "auto",
+   "points": 0,
+   "priceAs": "",
+   "source": "BLKOUT 2nd Ed. (Enemy Spotted Studios), converted for 5P:T",
+   "notes": "Card: Skill 5, Move 6, Armor 1/5, 1 Grunt + Marksman. BLKOUT card fields 2; portal weapon teams are a crew of 3. Augmented does not apply to the Marksman if she moved (Supplemental FAQ)."
+  },
+  {
+   "id": "t-blk-auth-rfa-golems",
+   "name": "Golem Unit",
+   "side": "enemy",
+   "faction": "f-blk-authority",
+   "troop": "team",
+   "size": 3,
+   "level": "",
+   "profile": {
+    "sp": 4,
+    "re": 3,
+    "cs": 3,
+    "t": 5,
+    "kp": 3,
+    "sv": 0,
+    "tr": 0,
+    "save": "4+"
+   },
+   "leader": null,
+   "weapons": [
+    "w-blk-fpr"
+   ],
+   "teamWeapons": [
+    "w-blk-screecher"
+   ],
+   "leaderWeapons": [],
+   "rules": [
+    "UN Raid Force Alpha",
+    "AI",
+    "Jump (4)"
+   ],
+   "pointsMode": "auto",
+   "points": 0,
+   "priceAs": "",
+   "source": "BLKOUT 2nd Ed. (Enemy Spotted Studios), converted for 5P:T",
+   "notes": "Card: Skill 5, Move 4, Armor 3/5, 1 Grunt + Fire Support. BLKOUT card fields 2; portal weapon teams are a crew of 3. Skill 5 confirmed by RJ (27 Oct 2026)."
+  },
+  {
+   "id": "t-blk-auth-unf-batcon",
+   "name": "UN Batcon",
+   "side": "enemy",
+   "faction": "f-blk-authority",
+   "troop": "individual",
+   "size": 1,
+   "level": "minor",
+   "profile": {
+    "sp": 4,
+    "re": 3,
+    "cs": 3,
+    "t": 5,
+    "kp": 1,
+    "sv": 2,
+    "tr": 2,
+    "save": "4+"
+   },
+   "leader": null,
+   "weapons": [
+    "w-blk-smart-rifle",
+    "w-blk-micro-grenades"
+   ],
+   "teamWeapons": [],
+   "leaderWeapons": [],
+   "rules": [
+    "UN Forces",
+    "Controller",
+    "Jump (4)",
+    "Comms Bot: AI drone companion (Armor 3/5, Data Spike)"
+   ],
+   "pointsMode": "auto",
+   "points": 0,
+   "priceAs": "",
+   "source": "BLKOUT 2nd Ed. (Enemy Spotted Studios), converted for 5P:T",
+   "notes": "Card: Skill 5, Move 4, Armor 1/5, 1 Grunt + Comms Bot (AI, Data Spike, Armor 3/5). The Comms Bot is a marker that moves with the Batcon and is removed after 3 hits."
+  },
+  {
+   "id": "t-blk-auth-unf-mothers",
+   "name": "UTG Mothers (2 cards)",
+   "side": "enemy",
+   "faction": "f-blk-authority",
+   "troop": "squad",
+   "size": 4,
+   "level": "",
+   "profile": {
+    "sp": 6,
+    "re": 3,
+    "cs": 3,
+    "t": 5,
+    "kp": 2,
+    "sv": 2,
+    "tr": 3,
+    "save": "4+"
+   },
+   "leader": {
+    "sp": 6,
+    "re": 3,
+    "cs": 3,
+    "t": 5,
+    "kp": 2,
+    "sv": 2,
+    "tr": 3,
+    "save": "4+"
+   },
+   "weapons": [
+    "w-blk-elite-melee",
+    "w-blk-pdw"
+   ],
+   "teamWeapons": [],
+   "leaderWeapons": [],
+   "rules": [
+    "UN Forces",
+    "Jump (4)"
+   ],
+   "pointsMode": "auto",
+   "points": 0,
+   "priceAs": "",
+   "source": "BLKOUT 2nd Ed. (Enemy Spotted Studios), converted for 5P:T",
+   "notes": "Card: Skill 4, Move 6, Armor 2/5, 2 Grunts. BLKOUT card fields 2; the portal's squad minimum is 4, so this squad is two cards."
+  },
+  {
+   "id": "t-blk-auth-unf-raid",
+   "name": "UN Raid Team",
+   "side": "enemy",
+   "faction": "f-blk-authority",
+   "troop": "squad",
+   "size": 4,
+   "level": "",
+   "profile": {
+    "sp": 6,
+    "re": 3,
+    "cs": 3,
+    "t": 5,
+    "kp": 1,
+    "sv": 2,
+    "tr": 2,
+    "save": "4+"
+   },
+   "leader": {
+    "sp": 6,
+    "re": 3,
+    "cs": 3,
+    "t": 5,
+    "kp": 1,
+    "sv": 2,
+    "tr": 2,
+    "save": "4+"
+   },
+   "weapons": [
+    "w-blk-carbine",
+    "w-blk-micro-grenades"
+   ],
+   "teamWeapons": [],
+   "leaderWeapons": [],
+   "rules": [
+    "UN Forces",
+    "Jump (4)"
+   ],
+   "pointsMode": "auto",
+   "points": 0,
+   "priceAs": "",
+   "source": "BLKOUT 2nd Ed. (Enemy Spotted Studios), converted for 5P:T",
+   "notes": "Card: Skill 5, Move 6, Armor 1/5, 3 Grunts. BLKOUT card fields 3; the portal's squad minimum is 4 — field the fourth or leave the slot empty."
+  },
+  {
+   "id": "t-blk-mbg-bratva",
+   "name": "Manticor Bratva Team",
+   "side": "enemy",
+   "faction": "f-blk-manticor",
+   "troop": "squad",
+   "size": 4,
+   "level": "",
+   "profile": {
+    "sp": 4,
+    "re": 2,
+    "cs": 2,
+    "t": 4,
+    "kp": 1,
+    "sv": 1,
+    "tr": 1,
+    "save": "3+"
+   },
+   "leader": {
+    "sp": 4,
+    "re": 2,
+    "cs": 2,
+    "t": 4,
+    "kp": 1,
+    "sv": 1,
+    "tr": 1,
+    "save": "3+"
+   },
+   "weapons": [
+    "w-blk-akmz"
+   ],
+   "teamWeapons": [
+    "w-blk-hmg-mbg"
+   ],
+   "leaderWeapons": [],
+   "rules": [
+    "Manticor Borz Group",
+    "Shield",
+    "Data Spike (Specialist 1)",
+    "Pack Initiative: with 2+ models on the table, roll an extra die for Initiative and keep the best"
+   ],
+   "pointsMode": "auto",
+   "points": 0,
+   "priceAs": "",
+   "source": "BLKOUT 2nd Ed. (Enemy Spotted Studios), converted for 5P:T",
+   "notes": "Card: Skill 6, Move 4, Armor 1/4, 2 Grunts + Data Spike and HMG specialists."
+  },
+  {
+   "id": "t-blk-mbg-cyka",
+   "name": "Manticor Cyka Team",
+   "side": "enemy",
+   "faction": "f-blk-manticor",
+   "troop": "individual",
+   "size": 1,
+   "level": "minor",
+   "profile": {
+    "sp": 4,
+    "re": 2,
+    "cs": 2,
+    "t": 4,
+    "kp": 3,
+    "sv": 1,
+    "tr": 1,
+    "save": "3+"
+   },
+   "leader": null,
+   "weapons": [
+    "w-blk-gl",
+    "w-blk-syy1"
+   ],
+   "teamWeapons": [],
+   "leaderWeapons": [],
+   "rules": [
+    "Manticor Borz Group",
+    "Powered",
+    "Damage Track",
+    "One weapon per Shoot action"
+   ],
+   "pointsMode": "auto",
+   "points": 0,
+   "priceAs": "",
+   "source": "BLKOUT 2nd Ed. (Enemy Spotted Studios), converted for 5P:T",
+   "notes": "Card: Skill 6, Move 4, Armor 2/4, 1 model with a Damage Track. Card front lists the Grenade Launcher and SYY-1."
+  },
+  {
+   "id": "t-blk-mbg-insertion",
+   "name": "Manticor Insertion Team",
+   "side": "enemy",
+   "faction": "f-blk-manticor",
+   "troop": "squad",
+   "size": 4,
+   "level": "",
+   "profile": {
+    "sp": 4,
+    "re": 2,
+    "cs": 2,
+    "t": 4,
+    "kp": 1,
+    "sv": 1,
+    "tr": 1,
+    "save": "3+"
+   },
+   "leader": {
+    "sp": 4,
+    "re": 2,
+    "cs": 2,
+    "t": 4,
+    "kp": 1,
+    "sv": 1,
+    "tr": 1,
+    "save": "3+"
+   },
+   "weapons": [
+    "w-blk-akmz"
+   ],
+   "teamWeapons": [
+    "w-blk-syy1"
+   ],
+   "leaderWeapons": [],
+   "rules": [
+    "Manticor Borz Group",
+    "Sidewinder (Specialist 2): limited uses — as its action, a Training test pins a unit within 12\""
+   ],
+   "pointsMode": "auto",
+   "points": 0,
+   "priceAs": "",
+   "source": "BLKOUT 2nd Ed. (Enemy Spotted Studios), converted for 5P:T",
+   "notes": "Card: Skill 6, Move 4, Armor 1/4, 2 Grunts + Machine Gunner and Sidewinder. The leader is the Sidewinder; mark the card's use boxes."
+  },
+  {
+   "id": "t-blk-mbg-cyka-bravo",
+   "name": "Manticor Cyka Bravo (2 cards)",
+   "side": "enemy",
+   "faction": "f-blk-manticor",
+   "troop": "squad",
+   "size": 4,
+   "level": "",
+   "profile": {
+    "sp": 4,
+    "re": 2,
+    "cs": 2,
+    "t": 4,
+    "kp": 2,
+    "sv": 1,
+    "tr": 1,
+    "save": "3+"
+   },
+   "leader": {
+    "sp": 4,
+    "re": 2,
+    "cs": 2,
+    "t": 4,
+    "kp": 2,
+    "sv": 1,
+    "tr": 1,
+    "save": "3+"
+   },
+   "weapons": [
+    "w-blk-smg",
+    "w-blk-boarding-axe"
+   ],
+   "teamWeapons": [],
+   "leaderWeapons": [],
+   "rules": [
+    "Manticor Borz Group",
+    "Powered"
+   ],
+   "pointsMode": "auto",
+   "points": 0,
+   "priceAs": "",
+   "source": "BLKOUT 2nd Ed. (Enemy Spotted Studios), converted for 5P:T",
+   "notes": "Card: Skill 6, Move 4, Armor 2/4, 2 Grunts. BLKOUT card fields 2; the portal's squad minimum is 4, so this squad is two cards."
+  },
+  {
+   "id": "t-blk-mbg-ubiytsa-control",
+   "name": "Ubiytsa Controller",
+   "side": "enemy",
+   "faction": "f-blk-manticor",
+   "troop": "individual",
+   "size": 1,
+   "level": "minor",
+   "profile": {
+    "sp": 6,
+    "re": 2,
+    "cs": 2,
+    "t": 4,
+    "kp": 1,
+    "sv": 1,
+    "tr": 1,
+    "save": "5+"
+   },
+   "leader": null,
+   "weapons": [
+    "w-blk-heavy-rifle-mbg",
+    "w-blk-boarding-axe"
+   ],
+   "teamWeapons": [],
+   "leaderWeapons": [],
+   "rules": [
+    "Manticor Borz Group",
+    "Controller",
+    "Low Tech"
+   ],
+   "pointsMode": "auto",
+   "points": 0,
+   "priceAs": "",
+   "source": "BLKOUT 2nd Ed. (Enemy Spotted Studios), converted for 5P:T",
+   "notes": "Card: Ubiytsa Control Team, Skill 6, Move 6, Armor 1/6, 1 Grunt + Controller. The Grunt fights with an Ubiytsa squad; the Controller is this figure."
+  },
+  {
+   "id": "t-blk-mbg-ubiytsa",
+   "name": "Manticor Ubiytsa",
+   "side": "enemy",
+   "faction": "f-blk-manticor",
+   "troop": "squad",
+   "size": 4,
+   "level": "",
+   "profile": {
+    "sp": 6,
+    "re": 2,
+    "cs": 2,
+    "t": 4,
+    "kp": 1,
+    "sv": 1,
+    "tr": 1,
+    "save": "5+"
+   },
+   "leader": {
+    "sp": 6,
+    "re": 2,
+    "cs": 2,
+    "t": 4,
+    "kp": 1,
+    "sv": 1,
+    "tr": 1,
+    "save": "5+"
+   },
+   "weapons": [
+    "w-blk-heavy-rifle-mbg",
+    "w-blk-boarding-axe"
+   ],
+   "teamWeapons": [],
+   "leaderWeapons": [],
+   "rules": [
+    "Manticor Borz Group",
+    "Low Tech"
+   ],
+   "pointsMode": "auto",
+   "points": 0,
+   "priceAs": "",
+   "source": "BLKOUT 2nd Ed. (Enemy Spotted Studios), converted for 5P:T",
+   "notes": "Card: Skill 6, Move 6, Armor 1/6, 3 Grunts. Manticor's close-combat troops. BLKOUT card fields 3; the portal's squad minimum is 4 — field the fourth or leave the slot empty."
+  },
+  {
+   "id": "t-blk-tfb-recon",
+   "name": "Boone Recon Team",
+   "side": "player",
+   "faction": "f-blk-boone",
+   "troop": "squad",
+   "size": 4,
+   "level": "",
+   "profile": {
+    "sp": 4,
+    "re": 2,
+    "cs": 2,
+    "t": 4,
+    "kp": 1,
+    "sv": 1,
+    "tr": 1,
+    "save": "5+"
+   },
+   "leader": {
+    "sp": 4,
+    "re": 2,
+    "cs": 2,
+    "t": 4,
+    "kp": 1,
+    "sv": 1,
+    "tr": 1,
+    "save": "5+"
+   },
+   "weapons": [
+    "w-blk-heavy-rifle-tfb"
+   ],
+   "teamWeapons": [
+    "w-blk-lmg"
+   ],
+   "leaderWeapons": [],
+   "rules": [
+    "Task Force Boone",
+    "Team Leader"
+   ],
+   "pointsMode": "auto",
+   "points": 0,
+   "priceAs": "",
+   "source": "BLKOUT 2nd Ed. (Enemy Spotted Studios), converted for 5P:T",
+   "notes": "2 Grunts + Team Leader and SAW Gunner (card back). Skill, Move, Armor and weapons from the May 11 conversion (read from the card images; confirmed by RJ, 27 Oct 2026)."
+  },
+  {
+   "id": "t-blk-tfb-vat",
+   "name": "Boone VAT Element",
+   "side": "player",
+   "faction": "f-blk-boone",
+   "troop": "team",
+   "size": 3,
+   "level": "",
+   "profile": {
+    "sp": 6,
+    "re": 2,
+    "cs": 2,
+    "t": 4,
+    "kp": 1,
+    "sv": 1,
+    "tr": 1,
+    "save": "5+"
+   },
+   "leader": null,
+   "weapons": [
+    "w-blk-carbine"
+   ],
+   "teamWeapons": [
+    "w-blk-compact-lmg"
+   ],
+   "leaderWeapons": [],
+   "rules": [
+    "Task Force Boone",
+    "Jump (4)",
+    "Data Specialist (Specialist 1): Jammer (12\") and Data Knife (6\")"
+   ],
+   "pointsMode": "auto",
+   "points": 0,
+   "priceAs": "",
+   "source": "BLKOUT 2nd Ed. (Enemy Spotted Studios), converted for 5P:T",
+   "notes": "1 Grunt + Data Specialist and SAW Gunner (card back). Skill, Move, Armor and weapons from the May 11 conversion (read from the card images; confirmed by RJ, 27 Oct 2026)."
+  },
+  {
+   "id": "t-blk-tfb-razorback",
+   "name": "Boone Razorback",
+   "side": "player",
+   "faction": "f-blk-boone",
+   "troop": "vehicle",
+   "size": 1,
+   "level": "",
+   "profile": {
+    "sp": 4,
+    "re": 3,
+    "cs": 3,
+    "t": 5,
+    "kp": 4,
+    "sv": 0,
+    "tr": 0,
+    "save": "3+"
+   },
+   "leader": null,
+   "weapons": [
+    "w-blk-rb-gauss",
+    "w-blk-rb-atgm"
+   ],
+   "teamWeapons": [],
+   "leaderWeapons": [],
+   "rules": [
+    "Task Force Boone",
+    "AI",
+    "Drone",
+    "Damage Track",
+    "One weapon per Shoot action"
+   ],
+   "pointsMode": "manual",
+   "points": 65,
+   "priceAs": "",
+   "source": "BLKOUT 2nd Ed. (Enemy Spotted Studios), converted for 5P:T",
+   "notes": "1 model (Supplemental errata). Hand-priced: the Army Builder formula does not cover vehicles. Skill, Move, Armor and weapons from the May 11 conversion (read from the card images; confirmed by RJ, 27 Oct 2026)."
+  },
+  {
+   "id": "t-blk-auth-handler-assault",
+   "name": "Assault Handler",
+   "side": "enemy",
+   "faction": "f-blk-authority",
+   "troop": "individual",
+   "size": 1,
+   "level": "major",
+   "profile": {
+    "sp": 6,
+    "re": 3,
+    "cs": 3,
+    "t": 5,
+    "kp": 3,
+    "sv": 2,
+    "tr": 2,
+    "save": "4+"
+   },
+   "leader": null,
+   "weapons": [
+    "w-blk-handler-ar",
+    "w-blk-disposable-launcher"
+   ],
+   "teamWeapons": [],
+   "leaderWeapons": [],
+   "rules": [
+    "Handler",
+    "Damage Track",
+    "Exploding Rounds: the assault rifle gains +1 Damage during its activation",
+    "Jump (4)"
+   ],
+   "pointsMode": "auto",
+   "points": 0,
+   "priceAs": "",
+   "source": "BLKOUT 2nd Ed. (Enemy Spotted Studios), converted for 5P:T",
+   "notes": "Card: Skill 5, Move 6, Armor 2/5."
+  },
+  {
+   "id": "t-blk-auth-handler-covert",
+   "name": "Covert Handler",
+   "side": "enemy",
+   "faction": "f-blk-authority",
+   "troop": "individual",
+   "size": 1,
+   "level": "major",
+   "profile": {
+    "sp": 6,
+    "re": 3,
+    "cs": 3,
+    "t": 5,
+    "kp": 3,
+    "sv": 2,
+    "tr": 2,
+    "save": "5+"
+   },
+   "leader": null,
+   "weapons": [
+    "w-blk-carbine",
+    "w-blk-micro-grenades-h"
+   ],
+   "teamWeapons": [],
+   "leaderWeapons": [],
+   "rules": [
+    "Handler",
+    "Damage Track",
+    "Ghost: may be placed within 2\" of its position before it activates",
+    "Jump (6)"
+   ],
+   "pointsMode": "auto",
+   "points": 0,
+   "priceAs": "",
+   "source": "BLKOUT 2nd Ed. (Enemy Spotted Studios), converted for 5P:T",
+   "notes": "Card: Skill 5, Move 6, Armor 2/6."
+  },
+  {
+   "id": "t-blk-auth-handler-siege",
+   "name": "Siege Handler",
+   "side": "enemy",
+   "faction": "f-blk-authority",
+   "troop": "individual",
+   "size": 1,
+   "level": "major",
+   "profile": {
+    "sp": 4,
+    "re": 3,
+    "cs": 3,
+    "t": 5,
+    "kp": 3,
+    "sv": 2,
+    "tr": 2,
+    "save": "3+"
+   },
+   "leader": null,
+   "weapons": [
+    "w-blk-lmg",
+    "w-blk-frag-dispenser"
+   ],
+   "teamWeapons": [],
+   "leaderWeapons": [],
+   "rules": [
+    "Handler",
+    "Damage Track",
+    "Gun Shield: in an activation in which it fired, its save improves to 2+",
+    "Jump (2)"
+   ],
+   "pointsMode": "auto",
+   "points": 0,
+   "priceAs": "",
+   "source": "BLKOUT 2nd Ed. (Enemy Spotted Studios), converted for 5P:T",
+   "notes": "Card: Skill 5, Move 4, Armor 2/4. LMG carried as a personal weapon."
+  },
+  {
+   "id": "t-blk-mbg-handler-assault",
+   "name": "Assault Handler",
+   "side": "enemy",
+   "faction": "f-blk-manticor",
+   "troop": "individual",
+   "size": 1,
+   "level": "major",
+   "profile": {
+    "sp": 6,
+    "re": 3,
+    "cs": 3,
+    "t": 5,
+    "kp": 3,
+    "sv": 2,
+    "tr": 2,
+    "save": "4+"
+   },
+   "leader": null,
+   "weapons": [
+    "w-blk-handler-ar",
+    "w-blk-disposable-launcher"
+   ],
+   "teamWeapons": [],
+   "leaderWeapons": [],
+   "rules": [
+    "Handler",
+    "Damage Track",
+    "Exploding Rounds: the assault rifle gains +1 Damage during its activation",
+    "Jump (4)"
+   ],
+   "pointsMode": "auto",
+   "points": 0,
+   "priceAs": "",
+   "source": "BLKOUT 2nd Ed. (Enemy Spotted Studios), converted for 5P:T",
+   "notes": "Card: Skill 5, Move 6, Armor 2/5."
+  },
+  {
+   "id": "t-blk-mbg-handler-covert",
+   "name": "Covert Handler",
+   "side": "enemy",
+   "faction": "f-blk-manticor",
+   "troop": "individual",
+   "size": 1,
+   "level": "major",
+   "profile": {
+    "sp": 6,
+    "re": 3,
+    "cs": 3,
+    "t": 5,
+    "kp": 3,
+    "sv": 2,
+    "tr": 2,
+    "save": "5+"
+   },
+   "leader": null,
+   "weapons": [
+    "w-blk-carbine",
+    "w-blk-micro-grenades-h"
+   ],
+   "teamWeapons": [],
+   "leaderWeapons": [],
+   "rules": [
+    "Handler",
+    "Damage Track",
+    "Ghost: may be placed within 2\" of its position before it activates",
+    "Jump (6)"
+   ],
+   "pointsMode": "auto",
+   "points": 0,
+   "priceAs": "",
+   "source": "BLKOUT 2nd Ed. (Enemy Spotted Studios), converted for 5P:T",
+   "notes": "Card: Skill 5, Move 6, Armor 2/6."
+  },
+  {
+   "id": "t-blk-mbg-handler-siege",
+   "name": "Siege Handler",
+   "side": "enemy",
+   "faction": "f-blk-manticor",
+   "troop": "individual",
+   "size": 1,
+   "level": "major",
+   "profile": {
+    "sp": 4,
+    "re": 3,
+    "cs": 3,
+    "t": 5,
+    "kp": 3,
+    "sv": 2,
+    "tr": 2,
+    "save": "3+"
+   },
+   "leader": null,
+   "weapons": [
+    "w-blk-lmg",
+    "w-blk-frag-dispenser"
+   ],
+   "teamWeapons": [],
+   "leaderWeapons": [],
+   "rules": [
+    "Handler",
+    "Damage Track",
+    "Gun Shield: in an activation in which it fired, its save improves to 2+",
+    "Jump (2)"
+   ],
+   "pointsMode": "auto",
+   "points": 0,
+   "priceAs": "",
+   "source": "BLKOUT 2nd Ed. (Enemy Spotted Studios), converted for 5P:T",
+   "notes": "Card: Skill 5, Move 4, Armor 2/4. LMG carried as a personal weapon."
+  },
+  {
+   "id": "t-blk-tfb-handler-assault",
+   "name": "Assault Handler",
+   "side": "player",
+   "faction": "f-blk-boone",
+   "troop": "individual",
+   "size": 1,
+   "level": "major",
+   "profile": {
+    "sp": 6,
+    "re": 3,
+    "cs": 3,
+    "t": 5,
+    "kp": 3,
+    "sv": 2,
+    "tr": 2,
+    "save": "4+"
+   },
+   "leader": null,
+   "weapons": [
+    "w-blk-handler-ar",
+    "w-blk-disposable-launcher"
+   ],
+   "teamWeapons": [],
+   "leaderWeapons": [],
+   "rules": [
+    "Handler",
+    "Damage Track",
+    "Exploding Rounds: the assault rifle gains +1 Damage during its activation",
+    "Jump (4)"
+   ],
+   "pointsMode": "auto",
+   "points": 0,
+   "priceAs": "",
+   "source": "BLKOUT 2nd Ed. (Enemy Spotted Studios), converted for 5P:T",
+   "notes": "Card: Skill 5, Move 6, Armor 2/5."
+  },
+  {
+   "id": "t-blk-tfb-handler-covert",
+   "name": "Covert Handler",
+   "side": "player",
+   "faction": "f-blk-boone",
+   "troop": "individual",
+   "size": 1,
+   "level": "major",
+   "profile": {
+    "sp": 6,
+    "re": 3,
+    "cs": 3,
+    "t": 5,
+    "kp": 3,
+    "sv": 2,
+    "tr": 2,
+    "save": "5+"
+   },
+   "leader": null,
+   "weapons": [
+    "w-blk-carbine",
+    "w-blk-micro-grenades-h"
+   ],
+   "teamWeapons": [],
+   "leaderWeapons": [],
+   "rules": [
+    "Handler",
+    "Damage Track",
+    "Ghost: may be placed within 2\" of its position before it activates",
+    "Jump (6)"
+   ],
+   "pointsMode": "auto",
+   "points": 0,
+   "priceAs": "",
+   "source": "BLKOUT 2nd Ed. (Enemy Spotted Studios), converted for 5P:T",
+   "notes": "Card: Skill 5, Move 6, Armor 2/6."
+  },
+  {
+   "id": "t-blk-tfb-handler-siege",
+   "name": "Siege Handler",
+   "side": "player",
+   "faction": "f-blk-boone",
+   "troop": "individual",
+   "size": 1,
+   "level": "major",
+   "profile": {
+    "sp": 4,
+    "re": 3,
+    "cs": 3,
+    "t": 5,
+    "kp": 3,
+    "sv": 2,
+    "tr": 2,
+    "save": "3+"
+   },
+   "leader": null,
+   "weapons": [
+    "w-blk-lmg",
+    "w-blk-frag-dispenser"
+   ],
+   "teamWeapons": [],
+   "leaderWeapons": [],
+   "rules": [
+    "Handler",
+    "Damage Track",
+    "Gun Shield: in an activation in which it fired, its save improves to 2+",
+    "Jump (2)"
+   ],
+   "pointsMode": "auto",
+   "points": 0,
+   "priceAs": "",
+   "source": "BLKOUT 2nd Ed. (Enemy Spotted Studios), converted for 5P:T",
+   "notes": "Card: Skill 5, Move 4, Armor 2/4. LMG carried as a personal weapon."
+  },
+  {
+   "id": "t-blk-auth-duster-caber",
+   "name": "Duster — Caber",
+   "side": "enemy",
+   "faction": "f-blk-authority",
+   "troop": "vehicle",
+   "size": 1,
+   "level": "",
+   "profile": {
+    "sp": 12,
+    "re": 3,
+    "cs": 3,
+    "t": 6,
+    "kp": 6,
+    "sv": 0,
+    "tr": 0,
+    "save": "3+"
+   },
+   "leader": null,
+   "weapons": [
+    "w-blk-duster-mmg",
+    "w-blk-duster-sword"
+   ],
+   "teamWeapons": [],
+   "leaderWeapons": [],
+   "rules": [
+    "Duster",
+    "Mobility 3",
+    "Weak Points (rear arc)",
+    "Fight!",
+    "One weapon per Shoot action",
+    "Jump (8)"
+   ],
+   "pointsMode": "manual",
+   "points": 110,
+   "priceAs": "",
+   "source": "BLKOUT 2nd Ed. (Enemy Spotted Studios), converted for 5P:T",
+   "notes": "Card: Skill 5, Move 12, Armor 3/4, Chassis 6, Mobility 3. Fast assault frame. Hand-priced against the book's vehicles."
+  },
+  {
+   "id": "t-blk-auth-duster-topor",
+   "name": "Duster — Topor",
+   "side": "enemy",
+   "faction": "f-blk-authority",
+   "troop": "vehicle",
+   "size": 1,
+   "level": "",
+   "profile": {
+    "sp": 8,
+    "re": 3,
+    "cs": 3,
+    "t": 6,
+    "kp": 6,
+    "sv": 0,
+    "tr": 0,
+    "save": "2+"
+   },
+   "leader": null,
+   "weapons": [
+    "w-blk-duster-30mm",
+    "w-blk-duster-mmg"
+   ],
+   "teamWeapons": [],
+   "leaderWeapons": [],
+   "rules": [
+    "Duster",
+    "Mobility 3",
+    "Weak Points (rear arc)",
+    "Fight!",
+    "One weapon per Shoot action"
+   ],
+   "pointsMode": "manual",
+   "points": 130,
+   "priceAs": "",
+   "source": "BLKOUT 2nd Ed. (Enemy Spotted Studios), converted for 5P:T",
+   "notes": "Card: Skill 5, Move 8, Armor 3/2, Chassis 6, Mobility 3. Heavy gun frame. Hand-priced against the book's vehicles."
+  },
+  {
+   "id": "t-blk-auth-duster-mattis",
+   "name": "Duster — Mattis",
+   "side": "enemy",
+   "faction": "f-blk-authority",
+   "troop": "vehicle",
+   "size": 1,
+   "level": "",
+   "profile": {
+    "sp": 8,
+    "re": 3,
+    "cs": 3,
+    "t": 6,
+    "kp": 6,
+    "sv": 0,
+    "tr": 0,
+    "save": "2+"
+   },
+   "leader": null,
+   "weapons": [
+    "w-blk-duster-30mm",
+    "w-blk-duster-axe"
+   ],
+   "teamWeapons": [],
+   "leaderWeapons": [],
+   "rules": [
+    "Duster",
+    "Mobility 3",
+    "Weak Points (rear arc)",
+    "Fight!",
+    "One weapon per Shoot action",
+    "Jump (4)"
+   ],
+   "pointsMode": "manual",
+   "points": 130,
+   "priceAs": "",
+   "source": "BLKOUT 2nd Ed. (Enemy Spotted Studios), converted for 5P:T",
+   "notes": "Card: Skill 5, Move 8, Armor 3/2, Chassis 6, Mobility 3. Gun and close-combat frame. Hand-priced against the book's vehicles."
+  },
+  {
+   "id": "t-blk-auth-duster-aveles",
+   "name": "Duster — Aveles",
+   "side": "enemy",
+   "faction": "f-blk-authority",
+   "troop": "vehicle",
+   "size": 1,
+   "level": "",
+   "profile": {
+    "sp": 10,
+    "re": 3,
+    "cs": 3,
+    "t": 6,
+    "kp": 6,
+    "sv": 0,
+    "tr": 0,
+    "save": "2+"
+   },
+   "leader": null,
+   "weapons": [
+    "w-blk-duster-hmg",
+    "w-blk-duster-fist"
+   ],
+   "teamWeapons": [],
+   "leaderWeapons": [],
+   "rules": [
+    "Duster",
+    "Mobility 3",
+    "Weak Points (rear arc)",
+    "Fight!",
+    "One weapon per Shoot action",
+    "Jump (8)"
+   ],
+   "pointsMode": "manual",
+   "points": 120,
+   "priceAs": "",
+   "source": "BLKOUT 2nd Ed. (Enemy Spotted Studios), converted for 5P:T",
+   "notes": "Card: Skill 5, Move 10, Armor 3/3, Chassis 6, Mobility 3. Mobile fire-support frame. Hand-priced against the book's vehicles."
+  },
+  {
+   "id": "t-blk-mbg-duster-caber",
+   "name": "Duster — Caber",
+   "side": "enemy",
+   "faction": "f-blk-manticor",
+   "troop": "vehicle",
+   "size": 1,
+   "level": "",
+   "profile": {
+    "sp": 12,
+    "re": 3,
+    "cs": 3,
+    "t": 6,
+    "kp": 6,
+    "sv": 0,
+    "tr": 0,
+    "save": "3+"
+   },
+   "leader": null,
+   "weapons": [
+    "w-blk-duster-mmg",
+    "w-blk-duster-sword"
+   ],
+   "teamWeapons": [],
+   "leaderWeapons": [],
+   "rules": [
+    "Duster",
+    "Mobility 3",
+    "Weak Points (rear arc)",
+    "Fight!",
+    "One weapon per Shoot action",
+    "Jump (8)"
+   ],
+   "pointsMode": "manual",
+   "points": 110,
+   "priceAs": "",
+   "source": "BLKOUT 2nd Ed. (Enemy Spotted Studios), converted for 5P:T",
+   "notes": "Card: Skill 5, Move 12, Armor 3/4, Chassis 6, Mobility 3. Fast assault frame. Hand-priced against the book's vehicles."
+  },
+  {
+   "id": "t-blk-mbg-duster-topor",
+   "name": "Duster — Topor",
+   "side": "enemy",
+   "faction": "f-blk-manticor",
+   "troop": "vehicle",
+   "size": 1,
+   "level": "",
+   "profile": {
+    "sp": 8,
+    "re": 3,
+    "cs": 3,
+    "t": 6,
+    "kp": 6,
+    "sv": 0,
+    "tr": 0,
+    "save": "2+"
+   },
+   "leader": null,
+   "weapons": [
+    "w-blk-duster-30mm",
+    "w-blk-duster-mmg"
+   ],
+   "teamWeapons": [],
+   "leaderWeapons": [],
+   "rules": [
+    "Duster",
+    "Mobility 3",
+    "Weak Points (rear arc)",
+    "Fight!",
+    "One weapon per Shoot action"
+   ],
+   "pointsMode": "manual",
+   "points": 130,
+   "priceAs": "",
+   "source": "BLKOUT 2nd Ed. (Enemy Spotted Studios), converted for 5P:T",
+   "notes": "Card: Skill 5, Move 8, Armor 3/2, Chassis 6, Mobility 3. Heavy gun frame. Hand-priced against the book's vehicles."
+  },
+  {
+   "id": "t-blk-mbg-duster-mattis",
+   "name": "Duster — Mattis",
+   "side": "enemy",
+   "faction": "f-blk-manticor",
+   "troop": "vehicle",
+   "size": 1,
+   "level": "",
+   "profile": {
+    "sp": 8,
+    "re": 3,
+    "cs": 3,
+    "t": 6,
+    "kp": 6,
+    "sv": 0,
+    "tr": 0,
+    "save": "2+"
+   },
+   "leader": null,
+   "weapons": [
+    "w-blk-duster-30mm",
+    "w-blk-duster-axe"
+   ],
+   "teamWeapons": [],
+   "leaderWeapons": [],
+   "rules": [
+    "Duster",
+    "Mobility 3",
+    "Weak Points (rear arc)",
+    "Fight!",
+    "One weapon per Shoot action",
+    "Jump (4)"
+   ],
+   "pointsMode": "manual",
+   "points": 130,
+   "priceAs": "",
+   "source": "BLKOUT 2nd Ed. (Enemy Spotted Studios), converted for 5P:T",
+   "notes": "Card: Skill 5, Move 8, Armor 3/2, Chassis 6, Mobility 3. Gun and close-combat frame. Hand-priced against the book's vehicles."
+  },
+  {
+   "id": "t-blk-mbg-duster-aveles",
+   "name": "Duster — Aveles",
+   "side": "enemy",
+   "faction": "f-blk-manticor",
+   "troop": "vehicle",
+   "size": 1,
+   "level": "",
+   "profile": {
+    "sp": 10,
+    "re": 3,
+    "cs": 3,
+    "t": 6,
+    "kp": 6,
+    "sv": 0,
+    "tr": 0,
+    "save": "2+"
+   },
+   "leader": null,
+   "weapons": [
+    "w-blk-duster-hmg",
+    "w-blk-duster-fist"
+   ],
+   "teamWeapons": [],
+   "leaderWeapons": [],
+   "rules": [
+    "Duster",
+    "Mobility 3",
+    "Weak Points (rear arc)",
+    "Fight!",
+    "One weapon per Shoot action",
+    "Jump (8)"
+   ],
+   "pointsMode": "manual",
+   "points": 120,
+   "priceAs": "",
+   "source": "BLKOUT 2nd Ed. (Enemy Spotted Studios), converted for 5P:T",
+   "notes": "Card: Skill 5, Move 10, Armor 3/3, Chassis 6, Mobility 3. Mobile fire-support frame. Hand-priced against the book's vehicles."
+  },
+  {
+   "id": "t-blk-tfb-duster-caber",
+   "name": "Duster — Caber",
+   "side": "player",
+   "faction": "f-blk-boone",
+   "troop": "vehicle",
+   "size": 1,
+   "level": "",
+   "profile": {
+    "sp": 12,
+    "re": 3,
+    "cs": 3,
+    "t": 6,
+    "kp": 6,
+    "sv": 0,
+    "tr": 0,
+    "save": "3+"
+   },
+   "leader": null,
+   "weapons": [
+    "w-blk-duster-mmg",
+    "w-blk-duster-sword"
+   ],
+   "teamWeapons": [],
+   "leaderWeapons": [],
+   "rules": [
+    "Duster",
+    "Mobility 3",
+    "Weak Points (rear arc)",
+    "Fight!",
+    "One weapon per Shoot action",
+    "Jump (8)"
+   ],
+   "pointsMode": "manual",
+   "points": 110,
+   "priceAs": "",
+   "source": "BLKOUT 2nd Ed. (Enemy Spotted Studios), converted for 5P:T",
+   "notes": "Card: Skill 5, Move 12, Armor 3/4, Chassis 6, Mobility 3. Fast assault frame. Hand-priced against the book's vehicles."
+  },
+  {
+   "id": "t-blk-tfb-duster-topor",
+   "name": "Duster — Topor",
+   "side": "player",
+   "faction": "f-blk-boone",
+   "troop": "vehicle",
+   "size": 1,
+   "level": "",
+   "profile": {
+    "sp": 8,
+    "re": 3,
+    "cs": 3,
+    "t": 6,
+    "kp": 6,
+    "sv": 0,
+    "tr": 0,
+    "save": "2+"
+   },
+   "leader": null,
+   "weapons": [
+    "w-blk-duster-30mm",
+    "w-blk-duster-mmg"
+   ],
+   "teamWeapons": [],
+   "leaderWeapons": [],
+   "rules": [
+    "Duster",
+    "Mobility 3",
+    "Weak Points (rear arc)",
+    "Fight!",
+    "One weapon per Shoot action"
+   ],
+   "pointsMode": "manual",
+   "points": 130,
+   "priceAs": "",
+   "source": "BLKOUT 2nd Ed. (Enemy Spotted Studios), converted for 5P:T",
+   "notes": "Card: Skill 5, Move 8, Armor 3/2, Chassis 6, Mobility 3. Heavy gun frame. Hand-priced against the book's vehicles."
+  },
+  {
+   "id": "t-blk-tfb-duster-mattis",
+   "name": "Duster — Mattis",
+   "side": "player",
+   "faction": "f-blk-boone",
+   "troop": "vehicle",
+   "size": 1,
+   "level": "",
+   "profile": {
+    "sp": 8,
+    "re": 3,
+    "cs": 3,
+    "t": 6,
+    "kp": 6,
+    "sv": 0,
+    "tr": 0,
+    "save": "2+"
+   },
+   "leader": null,
+   "weapons": [
+    "w-blk-duster-30mm",
+    "w-blk-duster-axe"
+   ],
+   "teamWeapons": [],
+   "leaderWeapons": [],
+   "rules": [
+    "Duster",
+    "Mobility 3",
+    "Weak Points (rear arc)",
+    "Fight!",
+    "One weapon per Shoot action",
+    "Jump (4)"
+   ],
+   "pointsMode": "manual",
+   "points": 130,
+   "priceAs": "",
+   "source": "BLKOUT 2nd Ed. (Enemy Spotted Studios), converted for 5P:T",
+   "notes": "Card: Skill 5, Move 8, Armor 3/2, Chassis 6, Mobility 3. Gun and close-combat frame. Hand-priced against the book's vehicles."
+  },
+  {
+   "id": "t-blk-tfb-duster-aveles",
+   "name": "Duster — Aveles",
+   "side": "player",
+   "faction": "f-blk-boone",
+   "troop": "vehicle",
+   "size": 1,
+   "level": "",
+   "profile": {
+    "sp": 10,
+    "re": 3,
+    "cs": 3,
+    "t": 6,
+    "kp": 6,
+    "sv": 0,
+    "tr": 0,
+    "save": "2+"
+   },
+   "leader": null,
+   "weapons": [
+    "w-blk-duster-hmg",
+    "w-blk-duster-fist"
+   ],
+   "teamWeapons": [],
+   "leaderWeapons": [],
+   "rules": [
+    "Duster",
+    "Mobility 3",
+    "Weak Points (rear arc)",
+    "Fight!",
+    "One weapon per Shoot action",
+    "Jump (8)"
+   ],
+   "pointsMode": "manual",
+   "points": 120,
+   "priceAs": "",
+   "source": "BLKOUT 2nd Ed. (Enemy Spotted Studios), converted for 5P:T",
+   "notes": "Card: Skill 5, Move 10, Armor 3/3, Chassis 6, Mobility 3. Mobile fire-support frame. Hand-priced against the book's vehicles."
+  },
+  {
+   "id": "t-blk-auth-voss",
+   "name": "Capt. Elara Voss \"Widow Maker\"",
+   "side": "enemy",
+   "faction": "f-blk-authority",
+   "troop": "individual",
+   "size": 1,
+   "level": "epic",
+   "profile": {
+    "sp": 6,
+    "re": 3,
+    "cs": 3,
+    "t": 5,
+    "kp": 3,
+    "sv": 2,
+    "tr": 3,
+    "save": "5+"
+   },
+   "leader": null,
+   "weapons": [
+    "w-blk-verdict",
+    "w-blk-pistol"
+   ],
+   "teamWeapons": [],
+   "leaderWeapons": [],
+   "rules": [
+    "Handler",
+    "Leader",
+    "Hero",
+    "Controller",
+    "Ice Queen: friendly Harlow figures within 8\" are immune to Fear and gain +1 Training; Voss never tests Morale",
+    "Marked for Death: before deployment name one enemy figure; +1 to Hit and +1 Damage against it"
+   ],
+   "pointsMode": "auto",
+   "points": 0,
+   "priceAs": "",
+   "source": "BLKOUT 2nd Ed. (Enemy Spotted Studios), converted for 5P:T",
+   "notes": "Harlow 1st Reaction Force. Named Handler from the May 12 conversion, Skill 4."
+  },
+  {
+   "id": "t-blk-auth-denic",
+   "name": "Maj. Pavel Denic \"The Gray Man\"",
+   "side": "enemy",
+   "faction": "f-blk-authority",
+   "troop": "individual",
+   "size": 1,
+   "level": "epic",
+   "profile": {
+    "sp": 5,
+    "re": 3,
+    "cs": 3,
+    "t": 5,
+    "kp": 3,
+    "sv": 2,
+    "tr": 2,
+    "save": "5+"
+   },
+   "leader": null,
+   "weapons": [
+    "w-blk-denic-rifle",
+    "w-blk-pistol"
+   ],
+   "teamWeapons": [],
+   "leaderWeapons": [],
+   "rules": [
+    "Handler",
+    "Leader",
+    "Hero",
+    "Defensive Doctrine: friendly UN figures within 6\" improve their save by 1 while in cover",
+    "Reluctant Enemy: if his force breaks, the survivors offer a ceasefire instead of routing"
+   ],
+   "pointsMode": "auto",
+   "points": 0,
+   "priceAs": "",
+   "source": "BLKOUT 2nd Ed. (Enemy Spotted Studios), converted for 5P:T",
+   "notes": "UN 3rd Battalion. Named Handler from the May 12 conversion, Skill 5."
+  },
+  {
+   "id": "t-blk-auth-stahl",
+   "name": "Col. Maren Stahl \"Prometheus\"",
+   "side": "enemy",
+   "faction": "f-blk-authority",
+   "troop": "individual",
+   "size": 1,
+   "level": "epic",
+   "profile": {
+    "sp": 6,
+    "re": 3,
+    "cs": 3,
+    "t": 5,
+    "kp": 3,
+    "sv": 3,
+    "tr": 3,
+    "save": "5+"
+   },
+   "leader": null,
+   "weapons": [
+    "w-blk-genesis"
+   ],
+   "teamWeapons": [],
+   "leaderWeapons": [],
+   "rules": [
+    "Handler",
+    "Leader",
+    "Hero",
+    "Data Spike",
+    "Mother of the Program: friendly UTG figures within 12\" gain +1 Training and are immune to Fear",
+    "Golem Override: may activate up to 2 friendly Golems within 12\" during her activation (one action each)",
+    "Data Warfare Suite: +2 to Data Attack tests"
+   ],
+   "pointsMode": "auto",
+   "points": 0,
+   "priceAs": "",
+   "source": "BLKOUT 2nd Ed. (Enemy Spotted Studios), converted for 5P:T",
+   "notes": "UN Raid Force Alpha. Named Handler from the May 12 conversion, Skill 4. Genetic Authority (post-battle booster) is a campaign rule; apply it in the post-battle wizard notes."
+  },
+  {
+   "id": "t-blk-mbg-dragic",
+   "name": "Kova \"The Furnace\" Dragić",
+   "side": "enemy",
+   "faction": "f-blk-manticor",
+   "troop": "individual",
+   "size": 1,
+   "level": "epic",
+   "profile": {
+    "sp": 6,
+    "re": 3,
+    "cs": 3,
+    "t": 6,
+    "kp": 4,
+    "sv": 2,
+    "tr": 3,
+    "save": "3+"
+   },
+   "leader": null,
+   "weapons": [
+    "w-blk-slug-thrower",
+    "w-blk-maul"
+   ],
+   "teamWeapons": [],
+   "leaderWeapons": [],
+   "rules": [
+    "Handler",
+    "Leader",
+    "Hero",
+    "Powered",
+    "Broken Killswitch: immune to Data Attacks, EMP and anything that controls or shuts down Powered figures",
+    "Warleader: friendly Manticor figures within 8\" gain +1 in Brawls and are Fearless",
+    "Unstoppable: once per round, ignore a lost KP on a D6 roll of 5+"
+   ],
+   "pointsMode": "auto",
+   "points": 0,
+   "priceAs": "",
+   "source": "BLKOUT 2nd Ed. (Enemy Spotted Studios), converted for 5P:T",
+   "notes": "Manticor Borz Group. Named Handler from the May 12 conversion: an early Ubiytsa prototype in powered armor, Skill 4, Toughness 6."
+  },
+  {
+   "id": "t-blk-tfb-okofor",
+   "name": "LtCdr Naia Okofor \"Ghost Six\"",
+   "side": "player",
+   "faction": "f-blk-boone",
+   "troop": "individual",
+   "size": 1,
+   "level": "epic",
+   "profile": {
+    "sp": 6,
+    "re": 3,
+    "cs": 3,
+    "t": 5,
+    "kp": 3,
+    "sv": 2,
+    "tr": 3,
+    "save": "5+"
+   },
+   "leader": null,
+   "weapons": [
+    "w-blk-okofor-carbine"
+   ],
+   "teamWeapons": [],
+   "leaderWeapons": [],
+   "rules": [
+    "Handler",
+    "Leader",
+    "Hero",
+    "Data Knife (6\")",
+    "Small Unit Tactics Master: once per battle, every friendly Boone figure within 8\" moves and fires in sequence",
+    "Manned-Unmanned Teaming: may activate one friendly AI or Drone within 12\" as part of her activation"
+   ],
+   "pointsMode": "auto",
+   "points": 0,
+   "priceAs": "",
+   "source": "BLKOUT 2nd Ed. (Enemy Spotted Studios), converted for 5P:T",
+   "notes": "Task Force Boone. Named Handler from the May 12 conversion, Skill 4."
+  }
+ ],
+ "factions": [
+  {
+   "id": "f-blk-authority",
+   "name": "The Authority (BLKOUT)",
+   "side": "enemy",
+   "personality": "Methodical",
+   "source": "BLKOUT 2nd Ed. (Enemy Spotted Studios), converted for 5P:T",
+   "slots": {
+    "infantry": "t-blk-auth-un3-reserve",
+    "recon": "t-blk-auth-unf-raid",
+    "storm": "t-blk-auth-harlow-assault",
+    "weaponsTeam": "t-blk-auth-un3-pointmen",
+    "majorChar": "t-blk-auth-handler-assault",
+    "epicChar": "t-blk-auth-voss",
+    "sniper": "t-blk-auth-rfa-specialists",
+    "transport": "",
+    "armoredCar": "t-blk-auth-un3-peacemaker",
+    "lightTank": "t-blk-auth-duster-caber",
+    "tank": "t-blk-auth-duster-topor",
+    "heavyTank": "t-blk-auth-duster-mattis"
+   },
+   "notes": "ABOL's state power and its contractors, as one alignment bloc: Harlow 1st Reaction Force (Harlow Kinetic Solutions), UN 3rd Battalion, UN Raid Force Alpha and general UN Forces. Hostile in the Steel Lions BLKOUT conversion. Built from the BLKOUT 2nd Ed. unit cards on the locked conversion schema; distances are BLKOUT inches used as book scale (turn on Independent Action to scale them with everyone else). Two-model BLKOUT units are listed as squads of two cards or weapon teams of 3 so they pass the Army Builder; each unit's notes give the card composition. Generic Handlers and the four Dusters are listed in every BLKOUT bloc. BLKOUT has no transport cards, so a rolled transport stays a generic APC line: use a vehicle of your own or skip it. Infantry points come from the Army Builder formula; vehicles and Dusters are hand-priced.",
+   "rules": [
+    {
+     "name": "BLKOUT conversion",
+     "text": "Card Skill sets Reaction, Combat, Toughness, Savvy and Training (Skill 4 epic, 5 Tier 1, 6 Tier 2, 7 trained, 8 militia); KP = armor dice, +1 for a Damage Track; save from the armor number. Skirmish Mode: no cohesion. Casualties use the DUSTLINE Trauma Clock."
+    },
+    {
+     "name": "Control Points",
+     "text": "Each side starts the battle with 3 CP (never regained). Spend 1 to: use a Battle Drill on a unit's activation; reactivate a Handler once per round; or activate a second unit straight after the first."
+    },
+    {
+     "name": "Armory and Combat Loads",
+     "text": "A rank-and-file figure may mark one of its unit's Combat Loads to use one Armory item from its force card for that activation (one Armory weapon per activation)."
+    },
+    {
+     "name": "Data warfare",
+     "text": "Data Spike: action, Savvy test — pin an enemy unit or remove a pin from a friendly unit (no line of sight needed). Data Knife: action, Savvy test — 1 hit with no save on an AI or Powered figure in range. Jammer: friendly figures in range ignore Pinned. Counter-EWar: a Data Spike figure may oppose an enemy Data Attack with its own test."
+    },
+    {
+     "name": "BLKOUT weapon traits",
+     "text": "CQB: re-roll misses within half range. Medium: re-roll one miss per attack. Sustained X: the target re-rolls up to X successful saves. Seeking: ignores the cover penalty. Auto X: after firing, X extra shots at other figures within 4\" of the target. AP X: the target's save is X worse. EMP: only harms AI figures, no save. Armory items are one use per Combat Load."
+    },
+    {
+     "name": "BLKOUT unit traits",
+     "text": "AI: affected by EMP and anti-AI rules. Drone: cannot Brawl, climb or lean out. Powered: affected by Data Knife. Low Tech: cannot be pinned by Data Attacks or targeted by Indirect fire. Shield: this figure and one friend in contact count as in cover. Jump (X): move X\" in any direction over terrain. Controller: after this unit activates, activate another for free. Team Leader: may pass its Ready status to a figure that has already acted. Damage Track: shown as +1 KP."
+    },
+    {
+     "name": "Handlers",
+     "text": "Elite single figures. Once per round, spend 1 CP to let a Handler activate again after it finishes."
+    },
+    {
+     "name": "Dusters",
+     "text": "Walkers that turn freely. Mobility 3: a shooter who can see the whole base may target Mobility instead of Chassis at −1 to Hit; 3 Mobility hits wreck it. +1 Damage from the rear arc. Fight!: may Brawl other Dusters. May Juke. Never Suppressed. Fire one weapon per Shoot action."
+    },
+    {
+     "name": "Harlow — force rule",
+     "text": "+2\" when Dashing. Battle Drills: Assaulters (no Overwatch against its moves), Chaff (smoke within 6\" before activating; clears on a D6 of 6), Stims (+2\" Speed this activation). Armory: HEAD launcher, Micro launcher, Frag launcher, Boost Jump (Jump 4)."
+    },
+    {
+     "name": "UN 3rd Battalion — force rule",
+     "text": "Infantry in base contact with another infantry figure re-roll misses with non-Armory weapons. Battle Drills: Arsenal (one Armory item without a Combat Load), Peel Back (2\" move after activating), Switchback (smoke within 4\" and a 2\" move before activating; no Jump). Armory: Shotgun, Corner chasers, Microwave gun, Boost Jump (Jump 4)."
+    },
+    {
+     "name": "UN Raid Force Alpha — force rule",
+     "text": "Augmented: UTG Assaulters and Specialists re-roll one failed die on every shooting attack, Brawl and test. Battle Drills: Close Assault (2\" move into a Brawl after acting), Cross Fire (+1 Damage when 2+ figures shoot the same target), Switchback. Armory: Surge, Lance, Micro launcher, Boost Jump (Jump 6)."
+    },
+    {
+     "name": "UN Forces",
+     "text": "Batcon, UTG Mothers and the Raid Team use the UN 3rd Battalion or Raid Force Alpha force card, whichever they are fielded with."
+    }
+   ]
+  },
+  {
+   "id": "f-blk-manticor",
+   "name": "Manticor Borz Group",
+   "side": "enemy",
+   "personality": "Aggressive",
+   "source": "BLKOUT 2nd Ed. (Enemy Spotted Studios), converted for 5P:T",
+   "slots": {
+    "infantry": "t-blk-mbg-bratva",
+    "recon": "t-blk-mbg-insertion",
+    "storm": "t-blk-mbg-ubiytsa",
+    "weaponsTeam": "t-blk-mbg-bratva",
+    "majorChar": "t-blk-mbg-handler-siege",
+    "epicChar": "t-blk-mbg-dragic",
+    "sniper": "",
+    "transport": "",
+    "armoredCar": "t-blk-mbg-duster-aveles",
+    "lightTank": "t-blk-mbg-duster-caber",
+    "tank": "t-blk-mbg-duster-topor",
+    "heavyTank": "t-blk-mbg-duster-mattis"
+   },
+   "notes": "Heavily armored Manticor shock troops and their Ubiytsa close-combat arm (the Chimera bloc in the Steel Lions BLKOUT conversion; hostile). Built from the BLKOUT 2nd Ed. unit cards on the locked conversion schema; book-scale distances. Each unit's notes give the card composition. No transport cards: a rolled transport stays a generic APC line. Infantry points come from the Army Builder formula; Dusters are hand-priced.",
+   "rules": [
+    {
+     "name": "BLKOUT conversion",
+     "text": "Card Skill sets Reaction, Combat, Toughness, Savvy and Training (Skill 4 epic, 5 Tier 1, 6 Tier 2, 7 trained, 8 militia); KP = armor dice, +1 for a Damage Track; save from the armor number. Skirmish Mode: no cohesion. Casualties use the DUSTLINE Trauma Clock."
+    },
+    {
+     "name": "Control Points",
+     "text": "Each side starts the battle with 3 CP (never regained). Spend 1 to: use a Battle Drill on a unit's activation; reactivate a Handler once per round; or activate a second unit straight after the first."
+    },
+    {
+     "name": "Armory and Combat Loads",
+     "text": "A rank-and-file figure may mark one of its unit's Combat Loads to use one Armory item from its force card for that activation (one Armory weapon per activation)."
+    },
+    {
+     "name": "Data warfare",
+     "text": "Data Spike: action, Savvy test — pin an enemy unit or remove a pin from a friendly unit (no line of sight needed). Data Knife: action, Savvy test — 1 hit with no save on an AI or Powered figure in range. Jammer: friendly figures in range ignore Pinned. Counter-EWar: a Data Spike figure may oppose an enemy Data Attack with its own test."
+    },
+    {
+     "name": "BLKOUT weapon traits",
+     "text": "CQB: re-roll misses within half range. Medium: re-roll one miss per attack. Sustained X: the target re-rolls up to X successful saves. Seeking: ignores the cover penalty. Auto X: after firing, X extra shots at other figures within 4\" of the target. AP X: the target's save is X worse. EMP: only harms AI figures, no save. Armory items are one use per Combat Load."
+    },
+    {
+     "name": "BLKOUT unit traits",
+     "text": "AI: affected by EMP and anti-AI rules. Drone: cannot Brawl, climb or lean out. Powered: affected by Data Knife. Low Tech: cannot be pinned by Data Attacks or targeted by Indirect fire. Shield: this figure and one friend in contact count as in cover. Jump (X): move X\" in any direction over terrain. Controller: after this unit activates, activate another for free. Team Leader: may pass its Ready status to a figure that has already acted. Damage Track: shown as +1 KP."
+    },
+    {
+     "name": "Handlers",
+     "text": "Elite single figures. Once per round, spend 1 CP to let a Handler activate again after it finishes."
+    },
+    {
+     "name": "Dusters",
+     "text": "Walkers that turn freely. Mobility 3: a shooter who can see the whole base may target Mobility instead of Chassis at −1 to Hit; 3 Mobility hits wreck it. +1 Damage from the rear arc. Fight!: may Brawl other Dusters. May Juke. Never Suppressed. Fire one weapon per Shoot action."
+    },
+    {
+     "name": "Manticor — force rule",
+     "text": "Ignore the first point of damage from each Area attack. Battle Drills: Linked (a figure that Readies may pass it to one that has acted), Targeting Smoke (smoke within 6\" that this unit ignores), Thorax Shields (re-roll one failed save per figure this activation). Armory: RPG33, Air burst rifle, Thermite launcher, Strip grenades."
+    }
+   ]
+  },
+  {
+   "id": "f-blk-boone",
+   "name": "Task Force Boone",
+   "side": "player",
+   "personality": "Raider",
+   "source": "BLKOUT 2nd Ed. (Enemy Spotted Studios), converted for 5P:T",
+   "slots": {
+    "infantry": "t-blk-tfb-recon",
+    "recon": "t-blk-tfb-recon",
+    "storm": "t-blk-tfb-vat",
+    "weaponsTeam": "t-blk-tfb-vat",
+    "majorChar": "t-blk-tfb-handler-covert",
+    "epicChar": "t-blk-tfb-okofor",
+    "sniper": "",
+    "transport": "",
+    "armoredCar": "t-blk-tfb-razorback",
+    "lightTank": "t-blk-tfb-duster-aveles",
+    "tank": "t-blk-tfb-duster-mattis",
+    "heavyTank": "t-blk-tfb-duster-topor"
+   },
+   "notes": "Martian expeditionary task force leading the Headless resistance on ABOL; allied in the Steel Lions BLKOUT conversion. Card fronts for Boone are image-only in the project files; Skill, Move, Armor and weapons come from the May 11 conversion (read from the card images) and were confirmed by RJ on 27 Oct 2026. Book-scale distances. No transport cards: a rolled transport stays a generic APC line. Infantry points come from the Army Builder formula; the Razorback and Dusters are hand-priced.",
+   "rules": [
+    {
+     "name": "BLKOUT conversion",
+     "text": "Card Skill sets Reaction, Combat, Toughness, Savvy and Training (Skill 4 epic, 5 Tier 1, 6 Tier 2, 7 trained, 8 militia); KP = armor dice, +1 for a Damage Track; save from the armor number. Skirmish Mode: no cohesion. Casualties use the DUSTLINE Trauma Clock."
+    },
+    {
+     "name": "Control Points",
+     "text": "Each side starts the battle with 3 CP (never regained). Spend 1 to: use a Battle Drill on a unit's activation; reactivate a Handler once per round; or activate a second unit straight after the first."
+    },
+    {
+     "name": "Armory and Combat Loads",
+     "text": "A rank-and-file figure may mark one of its unit's Combat Loads to use one Armory item from its force card for that activation (one Armory weapon per activation)."
+    },
+    {
+     "name": "Data warfare",
+     "text": "Data Spike: action, Savvy test — pin an enemy unit or remove a pin from a friendly unit (no line of sight needed). Data Knife: action, Savvy test — 1 hit with no save on an AI or Powered figure in range. Jammer: friendly figures in range ignore Pinned. Counter-EWar: a Data Spike figure may oppose an enemy Data Attack with its own test."
+    },
+    {
+     "name": "BLKOUT weapon traits",
+     "text": "CQB: re-roll misses within half range. Medium: re-roll one miss per attack. Sustained X: the target re-rolls up to X successful saves. Seeking: ignores the cover penalty. Auto X: after firing, X extra shots at other figures within 4\" of the target. AP X: the target's save is X worse. EMP: only harms AI figures, no save. Armory items are one use per Combat Load."
+    },
+    {
+     "name": "BLKOUT unit traits",
+     "text": "AI: affected by EMP and anti-AI rules. Drone: cannot Brawl, climb or lean out. Powered: affected by Data Knife. Low Tech: cannot be pinned by Data Attacks or targeted by Indirect fire. Shield: this figure and one friend in contact count as in cover. Jump (X): move X\" in any direction over terrain. Controller: after this unit activates, activate another for free. Team Leader: may pass its Ready status to a figure that has already acted. Damage Track: shown as +1 KP."
+    },
+    {
+     "name": "Handlers",
+     "text": "Elite single figures. Once per round, spend 1 CP to let a Handler activate again after it finishes."
+    },
+    {
+     "name": "Dusters",
+     "text": "Walkers that turn freely. Mobility 3: a shooter who can see the whole base may target Mobility instead of Chassis at −1 to Hit; 3 Mobility hits wreck it. +1 Damage from the rear arc. Fight!: may Brawl other Dusters. May Juke. Never Suppressed. Fire one weapon per Shoot action."
+    },
+    {
+     "name": "Task Force Boone — force rule",
+     "text": "Once per round one non-AI infantry figure may make a Data Attack without a Data Spike. Battle Drills: Overwhelming Fire (Return Fire against this unit's Cyclic weapons rolls 1 die), Small Unit Tactics (up to half the unit fires instead of moving, then the rest move and act), Tactical Positioning (Overwatch against this unit is −1 to Hit). Armory: Pulse grenade, Disposable launcher, Tracking bombs, Smoke grenade (4\")."
+    }
+   ]
+  }
+ ]
+}

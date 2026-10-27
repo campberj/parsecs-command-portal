@@ -5,7 +5,7 @@
 // Source: the BLKOUT unit cards in the Steel Lions project (Harlow, Manticor, UN, Duster Update,
 // Wetwork handlers), the Print-at-Home rulebook and the March 2026 Supplemental. Task Force Boone
 // card fronts are image-only in the project files, so their numbers come from the May 11 conversion
-// (read from the card images) and are flagged in each unit's notes.
+// (read from the card images), confirmed by RJ on 27 Oct 2026.
 //
 // Conversion follows the locked BLKOUT rules decisions:
 //   Skill tier -> Reaction / Combat / Toughness / Savvy / Training (table SK below)
@@ -128,7 +128,7 @@ function T(fac, key, o){
 const twoCards = n => `BLKOUT card fields ${n}; the portal's squad minimum is 4, so this squad is two cards.`;
 const threeCard = 'BLKOUT card fields 3; the portal\'s squad minimum is 4 — field the fourth or leave the slot empty.';
 const teamOf3 = n => `BLKOUT card fields ${n}; portal weapon teams are a crew of 3.`;
-const BOONE_FLAG = 'Boone card fronts are image-only in the project files; Skill, Move, Armor and weapons are taken from the May 11 conversion (read from the card images) — check against your cards.';
+const BOONE_FLAG = 'Skill, Move, Armor and weapons from the May 11 conversion (read from the card images; confirmed by RJ, 27 Oct 2026).';
 
 /* ---------- factions (alignment blocs) ---------- */
 const AUTH = { id:'f-blk-authority', short:'auth', side:'enemy' };
@@ -167,7 +167,7 @@ const rfa = {
   specialists: T(AUTH, 'rfa-specialists', { name:'UTG Specialists', troop:'team', size:3, profile:prof(5, 6, '1/5'), weapons:[w.m7], team:[w.amr],
     rules:['UN Raid Force Alpha', 'Augmented', 'Jump (4)'], notes:'Card: Skill 5, Move 6, Armor 1/5, 1 Grunt + Marksman. ' + teamOf3(2) + ' Augmented does not apply to the Marksman if she moved (Supplemental FAQ).' }),
   golems: T(AUTH, 'rfa-golems', { name:'Golem Unit', troop:'team', size:3, profile:prof(5, 4, '3/5', { ai:5 }), weapons:[w.fpr], team:[w.screech],
-    rules:['UN Raid Force Alpha', 'AI', 'Jump (4)'], notes:'Card: Skill 5, Move 4, Armor 3/5, 1 Grunt + Fire Support. ' + teamOf3(2) + ' Card text gives Skill 5 (Skill 4 was mentioned in May); change Combat/Reaction here if your card differs.' }),
+    rules:['UN Raid Force Alpha', 'AI', 'Jump (4)'], notes:'Card: Skill 5, Move 4, Armor 3/5, 1 Grunt + Fire Support. ' + teamOf3(2) + ' Skill 5 confirmed by RJ (27 Oct 2026).' }),
 };
 /* The Authority — UN Forces (general) */
 const unf = {
@@ -279,12 +279,12 @@ const factions = [
     ] },
   { id:TFB.id, name:'Task Force Boone', side:'player', personality:'Raider', source:SRC,
     slots:{ infantry:tfb.recon, recon:tfb.recon, storm:tfb.vat, weaponsTeam:tfb.vat, majorChar:hTfb.covert, epicChar:named.okofor, sniper:'', transport:'', armoredCar:tfb.razorback, lightTank:dTfb.aveles, tank:dTfb.mattis, heavyTank:dTfb.topor },
-    notes:'Martian expeditionary task force leading the Headless resistance on ABOL; allied in the Steel Lions BLKOUT conversion. Card fronts for Boone are image-only in the project files, so Skill, Move, Armor and weapons come from the May 11 conversion (read from the card images) — check them against your cards. Book-scale distances. No transport cards: a rolled transport stays a generic APC line. Infantry points come from the Army Builder formula; the Razorback and Dusters are hand-priced.',
+    notes:'Martian expeditionary task force leading the Headless resistance on ABOL; allied in the Steel Lions BLKOUT conversion. Card fronts for Boone are image-only in the project files; Skill, Move, Armor and weapons come from the May 11 conversion (read from the card images) and were confirmed by RJ on 27 Oct 2026. Book-scale distances. No transport cards: a rolled transport stays a generic APC line. Infantry points come from the Army Builder formula; the Razorback and Dusters are hand-priced.',
     rules:[...COMMON,
       R('Task Force Boone — force rule', 'Once per round one non-AI infantry figure may make a Data Attack without a Data Spike. Battle Drills: Overwhelming Fire (Return Fire against this unit\'s Cyclic weapons rolls 1 die), Small Unit Tactics (up to half the unit fires instead of moving, then the rest move and act), Tactical Positioning (Overwatch against this unit is −1 to Hit). Armory: Pulse grenade, Disposable launcher, Tracking bombs, Smoke grenade (4").'),
     ] },
 ];
 
-const pack = { kind:'pcp-bundle', v:1, app:'Parsecs Command 1.0.7', exported:new Date().toISOString().slice(0, 10) + 'T00:00:00.000Z', from:'BLKOUT (Enemy Spotted Studios) — Steel Lions conversion', weapons, gear:[], templates, factions };
+const pack = { kind:'pcp-bundle', v:1, app:'Parsecs Command 1.0.8', exported:new Date().toISOString().slice(0, 10) + 'T00:00:00.000Z', from:'BLKOUT (Enemy Spotted Studios) — Steel Lions conversion', weapons, gear:[], templates, factions };
 writeFileSync(join(root, 'packs', 'blkout-pack.json'), JSON.stringify(pack, null, 1) + '\n');
 console.log(`blkout-pack.json: ${factions.length} factions, ${templates.length} units, ${weapons.length} weapons`);
